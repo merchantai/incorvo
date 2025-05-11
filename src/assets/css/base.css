@@ -1,0 +1,13 @@
+:root {
+  --primary-color: #0a1f44;
+  --primary-color-rgb: 10, 31, 68;
+  --primary-light-color: #1c5bc7;
+  --secondary-color: #d8a750;
+  --secondary-light-color: #ffce79;
+  --light-color: #ffffff;
+  --dark-color: #000000;
+  --radius-large: 1rem;
+  --radius-medium: 0.5rem;
+  --radius-small: 0.25rem;
+  --border-thin-primary-light: 1px solid var(--primary-light-color);
+}
