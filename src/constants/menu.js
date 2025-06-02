@@ -45,7 +45,7 @@ export default [
                 items: [
                     {
                         label: 'ISO Registration Online',
-                        url: '/registrations/ISO Registration-Online',
+                        url: '/registrations/ISO-Registration-Online',
                     },
                     {
                         label: 'MSME Registration',
