@@ -3,11 +3,12 @@
   <main class="main">
     <RouterView />
   </main>
-  <footer>this is the footer</footer>
+  <footer-component class="footer"/>
 </template>
 
 <script setup>
 import TopNav from '@/components/TopNav.vue'
+import FooterComponent from '@/components/FooterComponent.vue'
 </script>
 
 <style scoped>
@@ -17,8 +18,14 @@ import TopNav from '@/components/TopNav.vue'
   background-color: var(--light-color);
   width: 100%;
   height: 75px;
+  z-index: 100;
 }
 .main {
   margin-top: 75px;
+  position: relative;
+}
+.footer {
+  position: static;
+  bottom: 0;
 }
 </style>
