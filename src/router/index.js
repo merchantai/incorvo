@@ -46,7 +46,7 @@ const router = createRouter({
       component: PagesView,
     },
     {
-      path: '/registrations/ISO Registration-Online',
+      path: '/registrations/ISO-Registration-Online',
       name: 'ISO Registration-Online',
       component: PagesView,
     },
