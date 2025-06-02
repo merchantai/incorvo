@@ -1,0 +1,1 @@
+const t={header:{title:"",list:[""]},content:[{title:"",descrption:[{subTitle:"",p:[""]},{subTitle:"",ul:[]},{subTitle:"",ol:[]},{subTitle:"",table:{tHead:[],tBody:[[],[]]}}]}],faqs:[{q:"",a:""}]};export{t as default};
