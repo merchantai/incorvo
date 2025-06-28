@@ -59,63 +59,63 @@ import {
         <p class="services-name">Pvt Ltd Company Registration</p>
         <div class="services-link">
           <font-awesome-icon class="services-link-icon" :icon="faCity" />
-          <a class="services-link-name" href="#">Know More</a>
+          <router-link class="services-link-name" to="/startup/Pvt-Ltd-Company-Registration">Know More</router-link>
         </div>
       </div>
       <div class="services-card">
         <p class="services-name">GST Registration Online</p>
         <div class="services-link">
           <font-awesome-icon class="services-link-icon" :icon="faFileSignature" />
-          <a class="services-link-name" href="#">Know More</a>
+          <router-link class="services-link-name" to="/gst/GST-Registration-Online">Know More</router-link>
         </div>
       </div>
       <div class="services-card">
         <p class="services-name">LLP Registration Online</p>
         <div class="services-link">
           <font-awesome-icon class="services-link-icon" :icon="faFileSignature" />
-          <a class="services-link-name" href="#">Know More</a>
+          <router-link class="services-link-name" to="/startup/LLP-Registration-Online">Know More</router-link>
         </div>
       </div>
       <div class="services-card">
         <p class="services-name">One Person Company Registration</p>
         <div class="services-link">
           <font-awesome-icon class="services-link-icon" :icon="faUser" />
-          <a class="services-link-name" href="#">Know More</a>
+          <router-link class="services-link-name" to="/startup/OPC-Registration-Online">Know More</router-link>
         </div>
       </div>
       <div class="services-card">
         <p class="services-name">MSME Registration</p>
         <div class="services-link">
           <font-awesome-icon class="services-link-icon" :icon="faIndustry" />
-          <a class="services-link-name" href="#">Know More</a>
+          <router-link class="services-link-name" to="/registrations/MSME-Registration">Know More</router-link>
         </div>
       </div>
       <div class="services-card">
-        <p class="services-name">ICE Registration</p>
+        <p class="services-name">IEC Registration</p>
         <div class="services-link">
           <font-awesome-icon class="services-link-icon" :icon="faIndustry" />
-          <a class="services-link-name" href="#">Know More</a>
+          <router-link class="services-link-name" to="/registrations/IEC-Registration">Know More</router-link>
         </div>
       </div>
       <div class="services-card">
         <p class="services-name">FSSAI Registration</p>
         <div class="services-link">
           <font-awesome-icon class="services-link-icon" :icon="faBuildingWheat" />
-          <a class="services-link-name" href="#">Know More</a>
+          <router-link class="services-link-name" to="/registrations/FSSAI-Registration">Know More</router-link>
         </div>
       </div>
       <div class="services-card">
         <p class="services-name">Income Tax Return Filing</p>
         <div class="services-link">
           <font-awesome-icon class="services-link-icon" :icon="faFileSignature" />
-          <a class="services-link-name" href="#">Know More</a>
+          <router-link class="services-link-name" to="/income-tax/Income-Tax-Return-Filing">Know More</router-link>
         </div>
       </div>
       <div class="services-card">
         <p class="services-name">Trademark Registration</p>
         <div class="services-link">
           <font-awesome-icon class="services-link-icon" :icon="faTrademark" />
-          <a class="services-link-name" href="#">Know More</a>
+          <router-link class="services-link-name" to="/intellectual-property/Trademark-Registration">Know More</router-link>
         </div>
       </div>
     </div>
