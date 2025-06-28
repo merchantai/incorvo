@@ -20,8 +20,32 @@
                 <h2 class="title">{{ item.title }}</h2>
                 <template v-for="(desc, index) of item.descrption" :key="`desc-${index}`">
                     <h3 v-if="desc.subTitle" class="subtitle">{{ desc.subTitle }}</h3>
-                    <template v-if="desc.p.length">
-                        <p class="text" v-for="(p, index) of desc.p" :key="`p-${index}`">{{ p }}</p>
+                    <template v-if="desc?.p?.length">
+                        <p class="text" v-for="(p, index) of desc.p" :key="`p-${index}`" v-html="p"></p>
+                    </template>
+                    <template v-if="desc?.ul?.length">
+                        <ul class="ulist">
+                            <li class="ulist-item" v-for="(li, index) of desc.ul" :key="`ul-${index}`" v-html="li"></li>
+                        </ul>
+                    </template>
+                    <template v-if="desc?.ol?.length">
+                        <ol class="ulist">
+                            <li class="ulist-item" v-for="(li, index) of desc.ol" :key="`ul-${index}`" v-html="li"></li>
+                        </ol>
+                    </template>
+                    <template v-if="desc?.table">
+                        <table class="table">
+                            <thead class="thead">
+                                <tr class="thead-row" v-for="(tr, index) of desc.table.thead.trow" :key="`thr-${index}`">
+                                    <th class="thead-th" v-for="th of tr" :key="`thead-${th}`">{{ th }}</th>
+                                </tr>
+                            </thead>
+                            <tbody class="tbody">
+                                <tr class="tbody-row" v-for="(tr, index) of desc.table.tbody.trow" :key="`thr-${index}`">
+                                    <td class="tbody-td" v-for="td of tr" :key="`thead-${td}`">{{ td }}</td>
+                                </tr>
+                            </tbody>
+                        </table>
                     </template>
                 </template>
             </template>
@@ -117,6 +141,7 @@ watch(
     display: flex;
     gap: 1rem;
     padding: 1rem;
+    margin-left: 1rem;
 }
 .content-contact-form {
     min-width: 350px;
@@ -136,12 +161,14 @@ watch(
   color: var(--primary-color);
   margin-bottom: 0.5rem;
   font-weight: 700;
+  margin-top: 1.5rem;
 }
 .subtitle {
   font-size: 1.25rem;
   color: var(--primary-color);
   margin-bottom:0.25rem;
   font-weight: 600;
+  margin-top: 0.5rem;
 }
 .text {
     padding: 0.5rem;
@@ -174,5 +201,27 @@ watch(
 .faq-a {
     padding-left: 1rem;
     line-height: 1.75;
+}
+.ulist {
+    margin-left: 2rem;
+    padding: 0.5rem;
+}
+.ulist-item {
+    margin-top: 0.5rem;
+    line-height: 1.75;
+    text-align: justify;
+}
+.table {
+    border-collapse: collapse;
+}
+.thead-th, .tbody-td {
+    text-align: center;
+    border: 1px solid var(--dark-color);
+}
+.thead-th {
+    font-weight: 700;
+}
+.tbody-td {
+    padding: 0.5rem;
 }
 </style>

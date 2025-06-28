@@ -8,6 +8,9 @@
         <input v-model="email" type="Email" class="input" placeholder="Email"/>
       </div>
       <div>
+        <input v-model="message" type="text" class="input" placeholder="Message"/>
+      </div>
+      <div>
         <div class="contact-number">
           <input v-model="countryCode" type="text" class="input code" placeholder="+91"/>
           <input v-model="phoneNumber" type="tel" class="input phone" placeholder="1234567890"/>
@@ -24,6 +27,7 @@ import { useRoute } from 'vue-router';
   const route = useRoute();
   const name = ref('');
   const email = ref('');
+  const message = ref('');
   const countryCode = ref('+91');
   const phoneNumber = ref('');
   
@@ -32,6 +36,7 @@ import { useRoute } from 'vue-router';
       name: name.value,
       email: email.value,
       phone: `${countryCode.value} ${phoneNumber.value}`,
+      message: message.value,
       topic: route.name,
     };
     console.log('Form Submitted:', payload);

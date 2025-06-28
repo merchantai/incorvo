@@ -16,3 +16,6 @@ body {
   scroll-behavior: smooth;
   transition: all 0.2s linear;
 }
+b, strong {
+  font-weight: 700;
+}

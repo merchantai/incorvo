@@ -1,5 +1,6 @@
 <template>
   <top-nav class="top-nav"></top-nav>
+  <WhatsappComponent />
   <main class="main">
     <RouterView />
   </main>
@@ -9,6 +10,7 @@
 <script setup>
 import TopNav from '@/components/TopNav.vue'
 import FooterComponent from '@/components/FooterComponent.vue'
+import WhatsappComponent from './components/WhatsappComponent.vue';
 </script>
 
 <style scoped>
