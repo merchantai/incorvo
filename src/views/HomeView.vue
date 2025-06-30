@@ -25,7 +25,7 @@ import {
       </h2>
     </div>
     <div class="hero-image-wrapper">
-      <img class="hero-image" src="@/assets/images/decoration/hero.png" alt="hero image" />
+      <img class="hero-image" src="@/assets/images/decoration/hero.webp" alt="hero image" />
     </div>
   </div>
   <div class="benifits">
