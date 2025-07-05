@@ -8,6 +8,7 @@
       <!-- Popup with transition -->
       <transition name="slide-fade">
         <div v-if="showPopup" class="wa-popup">
+            <input v-model="name" type="text" placeholder="Type your full name" />
           <input v-model="message" type="text" placeholder="Type your message..." />
           <button @click="sendMessage">Send</button>
         </div>
@@ -21,14 +22,15 @@ import { ref } from 'vue'
   
   const showPopup = ref(false)
   const message = ref('')
-  const phoneNumber = '919999999999' // Replace with your phone number
+  const name = ref('')
+  const phoneNumber = '+919667770727' // Replace with your phone number
   
   function togglePopup() {
     showPopup.value = !showPopup.value
   }
   
   function sendMessage() {
-    const text = message.value.trim()
+    const text = `${message.value.trim()}\n - ${name.value.trim()}`
     if (!text) return
     const waUrl = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(text)}`
     window.open(waUrl, '_blank')

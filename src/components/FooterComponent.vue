@@ -11,19 +11,19 @@
             </div>
         </div>
         <div class="social-container">
-            <a href="#" class="social-link">
+            <a href="https://www.facebook.com/profile.php?id=61577770211178" target="_blank" class="social-link">
                 <font-awesome-icon class="social-icon" :icon="faFacebook" />
             </a>
-            <a href="#" class="social-link">
+            <a href="https://www.instagram.com/incorvo_legal/" target="_blank" class="social-link">
                 <font-awesome-icon class="social-icon" :icon="faInstagram" />
             </a>
-            <a href="#" class="social-link">
+            <a href="https://x.com/Incorvolegals" target="_blank" class="social-link">
                 <font-awesome-icon class="social-icon" :icon="faXTwitter" />
             </a>
-            <a href="#" class="social-link">
+            <a href="https://www.youtube.com/channel/UCw9N8R9Z-1wl2WygOHdXBVA" target="_blank" class="social-link">
                 <font-awesome-icon class="social-icon" :icon="faYoutube" />
             </a>
-            <a href="#" class="social-link">
+            <a href="https://www.linkedin.com/company/incorvo/" target="_blank" class="social-link">
                 <font-awesome-icon class="social-icon" :icon="faLinkedin" />
             </a>
         </div>

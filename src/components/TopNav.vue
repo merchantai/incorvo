@@ -49,7 +49,7 @@
         </li>
       </ul>
     </div>
-    <a href="tel:+911234567890" class="call-us">+91 12345 67890</a>
+    <a href="tel:+919667770727" class="call-us">+91-9667770727</a>
   </nav>
 </template>
 

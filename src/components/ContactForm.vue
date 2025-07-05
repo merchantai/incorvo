@@ -30,6 +30,7 @@ import { useRoute } from 'vue-router';
   const message = ref('');
   const countryCode = ref('+91');
   const phoneNumber = ref('');
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbyX06BzqS7SqC6HnHhc0fm6G5EuK3t-lT6SwdRU57HVftvU_sCxB1iXfoaQvC1oZNZ_/exec'
   
   const submitForm = () => {
     const payload = {
@@ -40,6 +41,23 @@ import { useRoute } from 'vue-router';
       topic: route.name,
     };
     console.log('Form Submitted:', payload);
+    fetch(scriptURL, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify(payload)
+  })
+    .then(res => res.json())
+    .then(data => {
+      alert('Submitted successfully!')
+      console.log(data)
+      email.value = ''
+      phoneNumber.value = ''
+      message.value = ''
+      name.value = ''
+    })
+    .catch(err => {
+      alert('Error: ' + err.message)
+    })
   };
   </script>
   
