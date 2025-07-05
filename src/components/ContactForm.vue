@@ -1,28 +1,39 @@
 <template>
-    <div class="contact-form-container">
-      <h3 class="contact-title">Expert Consultation</h3>
+  <div class="contact-form-container">
+    <h3 class="contact-title">Expert Consultation</h3>
+    <form 
+      :action="scriptURL"
+      method="POST"
+      target="dummyFrame"
+      @submit.prevent="submitForm">
       <div>
-        <input v-model="name" type="text" class="input" placeholder="Name"/>
+        <input v-model="name"  name="name" type="text" class="input" placeholder="Name" />
       </div>
       <div>
-        <input v-model="email" type="Email" class="input" placeholder="Email"/>
+        <input v-model="email"  name="email" type="email" class="input" placeholder="Email" />
       </div>
       <div>
-        <input v-model="message" type="text" class="input" placeholder="Message"/>
+        <input v-model="message"  name="message" type="text" class="input" placeholder="Message" />
       </div>
       <div>
-        <div class="contact-number">
-          <input v-model="countryCode" type="text" class="input code" placeholder="+91"/>
-          <input v-model="phoneNumber" type="tel" class="input phone" placeholder="1234567890"/>
-        </div>
+        <input name="topic" type="hidden" />
       </div>
-      <button @click="submitForm" class="submit">Get Started</button>
-    </div>
-  </template>
+      <div>
+        <input name="phone" type="hidden" />
+      </div>
+      <div class="contact-number">
+        <input v-model="countryCode" type="text" class="input code" placeholder="+91" />
+        <input v-model="phoneNumber"  type="tel" class="input phone" placeholder="1234567890" />
+      </div>
+      <iframe name="dummyFrame" style="display: none;"></iframe>
+      <button type="submit" class="submit">Send</button>
+    </form>
+  </div>
+</template>
   
   <script setup>
   import { ref } from 'vue';
-import { useRoute } from 'vue-router';
+  import { useRoute } from 'vue-router';
 
   const route = useRoute();
   const name = ref('');
@@ -32,33 +43,42 @@ import { useRoute } from 'vue-router';
   const phoneNumber = ref('');
   const scriptURL = 'https://script.google.com/macros/s/AKfycbyX06BzqS7SqC6HnHhc0fm6G5EuK3t-lT6SwdRU57HVftvU_sCxB1iXfoaQvC1oZNZ_/exec'
   
-  const submitForm = () => {
-    const payload = {
+  const resetForm = () => {
+    name.value = '';
+    email.value = '';
+    message.value = '';
+    phoneNumber.value = '';
+  };
+
+  const submitForm = async () => {
+    const form = document.createElement("form");
+    form.method = "POST";
+    form.action = scriptURL;
+    form.target = "dummyFrame";
+
+    const data = {
       name: name.value,
       email: email.value,
-      phone: `${countryCode.value} ${phoneNumber.value}`,
+      phone: `${countryCode.value}${phoneNumber.value}`,
       message: message.value,
       topic: route.name,
     };
-    console.log('Form Submitted:', payload);
-    fetch(scriptURL, {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify(payload)
-  })
-    .then(res => res.json())
-    .then(data => {
-      alert('Submitted successfully!')
-      console.log(data)
-      email.value = ''
-      phoneNumber.value = ''
-      message.value = ''
-      name.value = ''
-    })
-    .catch(err => {
-      alert('Error: ' + err.message)
-    })
-  };
+
+    for (const key in data) {
+      const input = document.createElement("input");
+      input.type = "hidden";
+      input.name = key;
+      input.value = data[key];
+      form.appendChild(input);
+    }
+
+    document.body.appendChild(form);
+    form.submit();
+    document.body.removeChild(form);
+
+    alert("Submitted successfully!");
+    resetForm();
+};
   </script>
   
 <style scoped>
