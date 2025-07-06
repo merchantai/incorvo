@@ -23,7 +23,7 @@ import { ref } from 'vue'
   const showPopup = ref(false)
   const message = ref('')
   const name = ref('')
-  const phoneNumber = '+919667770727' // Replace with your phone number
+  const phoneNumber = import.meta.env.VITE_INC_PHONE; // Replace with your phone number
   
   function togglePopup() {
     showPopup.value = !showPopup.value

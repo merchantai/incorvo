@@ -49,7 +49,7 @@
         </li>
       </ul>
     </div>
-    <a href="tel:+919667770727" class="call-us">+91-9667770727</a>
+    <a :href="`tel:${phone}`" class="call-us">{{ phone }}</a>
   </nav>
 </template>
 
@@ -58,6 +58,7 @@ import { ref } from 'vue'
 import MENU from '@/constants/menu'
 
 const hoveredItem = ref(null)
+const phone = import.meta.env.VITE_INC_PHONE;
 
 const menuItems = MENU
 const menuOpen = ref(false)

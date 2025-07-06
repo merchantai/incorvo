@@ -43,7 +43,7 @@ import { ref } from 'vue';
   const formMessage = ref(false);
   const countryCode = ref('+91');
   const phoneNumber = ref('');
-  const scriptURL = 'https://script.google.com/macros/s/AKfycbyX06BzqS7SqC6HnHhc0fm6G5EuK3t-lT6SwdRU57HVftvU_sCxB1iXfoaQvC1oZNZ_/exec'
+  const scriptURL = import.meta.env.VITE_INC_GOOGLE_SHEET_KEY;
   
   const resetForm = () => {
     name.value = '';
