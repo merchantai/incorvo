@@ -142,6 +142,10 @@ watch(
     gap: 1rem;
     padding: 1rem;
     margin-left: 1rem;
+    @media (max-width: 840px) {
+        margin-left: 0.125rem;
+        padding: 0.5rem;
+    }
 }
 .content-contact-form {
     min-width: 350px;
@@ -162,6 +166,10 @@ watch(
   margin-bottom: 0.5rem;
   font-weight: 700;
   margin-top: 1.5rem;
+  @media (max-width: 840px) {
+        font-size: 1rem;
+        line-height: 1.5;
+    }
 }
 .subtitle {
   font-size: 1.25rem;
@@ -169,11 +177,19 @@ watch(
   margin-bottom:0.25rem;
   font-weight: 600;
   margin-top: 0.5rem;
+  @media (max-width: 840px) {
+        font-size: 0.9rem;
+        line-height: 1.5;
+    }
 }
 .text {
     padding: 0.5rem;
     text-align: justify ;
     line-height: 1.75;
+    @media (max-width: 840px) {
+        font-size: 0.9rem;
+        line-height: 1.5;
+    }
 }
 .faqs {
     padding: 2rem;
@@ -188,6 +204,10 @@ watch(
     color: var(--primary-color);
     font-weight: 600;
     cursor: pointer;
+    @media (max-width: 840px) {
+        font-size: 0.9rem;
+        line-height: 1.5;
+    }
 }
 .faq-q::marker {
     color: var(--primary-light-color);
@@ -201,6 +221,10 @@ watch(
 .faq-a {
     padding-left: 1rem;
     line-height: 1.75;
+    @media (max-width: 840px) {
+        font-size: 0.9rem;
+        line-height: 1.5;
+    }
 }
 .ulist {
     margin-left: 2rem;
@@ -210,6 +234,10 @@ watch(
     margin-top: 0.5rem;
     line-height: 1.75;
     text-align: justify;
+    @media (max-width: 840px) {
+        font-size: 0.9rem;
+        line-height: 1.5;
+    }
 }
 .table {
     border-collapse: collapse;
@@ -217,11 +245,19 @@ watch(
 .thead-th, .tbody-td {
     text-align: center;
     border: 1px solid var(--dark-color);
+    word-break: break-all;
 }
 .thead-th {
     font-weight: 700;
+    @media (max-width: 840px) {
+        font-size: 0.8rem;
+    }
 }
 .tbody-td {
     padding: 0.5rem;
+    @media (max-width: 840px) {
+        padding: 0.125rem;
+        font-size: 0.8rem;
+    }
 }
 </style>
