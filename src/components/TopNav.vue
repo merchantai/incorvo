@@ -110,6 +110,11 @@ const menuOpen = ref(false)
   overflow: auto;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   z-index: 10;
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.menu-item:last-child .submenu {
+  grid-template-columns: auto;
 }
 
 .section {

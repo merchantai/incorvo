@@ -7,7 +7,7 @@
       target="dummyFrame"
       @submit.prevent="submitForm">
       <div>
-        <input v-model="name"  name="name" type="text" class="input" placeholder="Name" />
+        <input v-model="name"  name="name" type="text" class="input" placeholder="Name (required)" />
       </div>
       <div>
         <input v-model="email"  name="email" type="email" class="input" placeholder="Email" />
@@ -23,22 +23,24 @@
       </div>
       <div class="contact-number">
         <input v-model="countryCode" type="text" class="input code" placeholder="+91" />
-        <input v-model="phoneNumber"  type="tel" class="input phone" placeholder="1234567890" />
+        <input v-model="phoneNumber"  type="tel" class="input phone" placeholder="1234567890 (required)" />
       </div>
       <iframe name="dummyFrame" style="display: none;"></iframe>
-      <button type="submit" class="submit">Send</button>
+      <button :disabled="!name || !phoneNumber" type="submit" class="submit">Send</button>
+      <p class="success-messge" v-if="formMessage">Thank you for getting in touch with us. We will get back to you soon.</p>
     </form>
   </div>
 </template>
   
   <script setup>
-  import { ref } from 'vue';
+import { ref } from 'vue';
   import { useRoute } from 'vue-router';
 
   const route = useRoute();
   const name = ref('');
   const email = ref('');
   const message = ref('');
+  const formMessage = ref(false);
   const countryCode = ref('+91');
   const phoneNumber = ref('');
   const scriptURL = 'https://script.google.com/macros/s/AKfycbyX06BzqS7SqC6HnHhc0fm6G5EuK3t-lT6SwdRU57HVftvU_sCxB1iXfoaQvC1oZNZ_/exec'
@@ -76,7 +78,7 @@
     form.submit();
     document.body.removeChild(form);
 
-    alert("Submitted successfully!");
+    formMessage.value = true;
     resetForm();
 };
   </script>
@@ -125,5 +127,15 @@
         margin-top: 0.5rem;
         font-size: 1rem;
         border-radius: 0.5rem;
+    }
+    .submit:disabled {
+      background-color: var(--light-grey);
+      color: var(--dark-color);
+    }
+    .success-messge {
+      font-size: 0.8rem;
+      font-weight: 700;
+      color: var(--success-color);
+      margin-top: 0.5rem;
     }
 </style>
