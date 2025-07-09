@@ -2,6 +2,7 @@
   <top-nav class="top-nav"></top-nav>
   <WhatsappComponent />
   <FloatingContactForm />
+  <FloatingDialer />
   <main class="main">
     <RouterView />
   </main>
@@ -13,6 +14,7 @@ import TopNav from '@/components/TopNav.vue'
 import FooterComponent from '@/components/FooterComponent.vue'
 import WhatsappComponent from './components/WhatsappComponent.vue';
 import FloatingContactForm from './components/FloatingContactForm.vue';
+import FloatingDialer from './components/FloatingDialer.vue';
 </script>
 
 <style scoped>

@@ -58,7 +58,7 @@ import { ref } from 'vue'
 import MENU from '@/constants/menu'
 
 const hoveredItem = ref(null)
-const phone = import.meta.env.VITE_INC_PHONE;
+const phone = import.meta.env.VITE_INC_PHONE
 
 const menuItems = MENU
 const menuOpen = ref(false)
