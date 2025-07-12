@@ -23,7 +23,7 @@ import FloatingDialer from './components/FloatingDialer.vue';
   top: 0;
   background-color: var(--light-color);
   width: 100%;
-  height: 75px;
+  padding: 0.5rem;
   z-index: 100;
 }
 .main {

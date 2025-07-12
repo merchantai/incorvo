@@ -45,10 +45,10 @@ import { faClose } from '@fortawesome/free-solid-svg-icons';
     right: 20px;
     background: white;
     border-radius: 1rem;
-    padding: 1rem;
+    padding: 0.5rem;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
     z-index: 1000;
-    width: 320px;
+    width: 350px;
   }
   
   /* Animation */
@@ -62,5 +62,9 @@ import { faClose } from '@fortawesome/free-solid-svg-icons';
   .close {
     font-size: 1rem;
     margin-left: 90%;
+    color: var(--light-color);
+    background-color: var(--primary-color);
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
   }
   </style>

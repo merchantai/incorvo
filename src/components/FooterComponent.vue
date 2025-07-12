@@ -10,6 +10,11 @@
                 </ul>
             </div>
         </div>
+        <div class="legal-links">
+            <RouterLink to='/about-us' class="link">About Us</RouterLink>
+            <RouterLink to='/privacy-policy' class="link">Privacy Ploicy</RouterLink>
+            <RouterLink to='/disclaimer-policy' class="link">Disclaimer</RouterLink>
+        </div>
         <div class="social-container">
             <a href="https://www.facebook.com/profile.php?id=61577770211178" target="_blank" class="social-link">
                 <font-awesome-icon class="social-icon" :icon="faFacebook" />
@@ -37,7 +42,7 @@ import { faFacebook, faInstagram, faLinkedin, faXTwitter, faYoutube } from '@for
 
 </script>
 
-<style>
+<style scoped>
 .footer {
     background-color: var(--primary-color);
     color: var(--light-color);
@@ -96,5 +101,17 @@ import { faFacebook, faInstagram, faLinkedin, faXTwitter, faYoutube } from '@for
 }
 .copyright {
     text-align: center;
+}
+.legal-links {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-top: 1px solid var(--light-grey);
+    border-bottom: 1px solid var(--light-grey);
+    @media (max-width: 680px) {
+        gap: 1rem;
+    }
 }
 </style>

@@ -100,7 +100,7 @@ watch(
 );
 </script>
 
-<style>
+<style scoped>
 .page {
   display: flex;
   flex-wrap: wrap;

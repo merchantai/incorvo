@@ -1,6 +1,9 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '@/views/HomeView.vue'
 import PagesView from '@/views/PagesView.vue'
+import AboutUs from '@/views/AboutUs.vue'
+import PrivacyPolicy from '@/views/PrivacyPolicy.vue'
+import DisclaimerPolicy from '@/views/DisclaimerPolicy.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -505,6 +508,21 @@ const router = createRouter({
       name: 'Insurance-Self-Network-Platform-ISNP',
       component: PagesView,
     },
+    {
+      path: '/about-us',
+      name: 'about-us',
+      component: AboutUs,
+    },
+    {
+      path: '/privacy-policy',
+      name: 'privacy-policy',
+      component: PrivacyPolicy,
+    },
+    {
+      path: '/disclaimer-policy',
+      name: 'disclaimer-policy',
+      component: DisclaimerPolicy,
+    }
   ],
 })
 

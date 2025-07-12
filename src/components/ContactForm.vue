@@ -22,28 +22,33 @@
         <input name="phone" type="hidden" />
       </div>
       <div class="contact-number">
-        <input v-model="countryCode" type="text" class="input code" placeholder="+91" />
+        <select-country @update:country="onCountrySelected"/>
         <input v-model="phoneNumber"  type="tel" class="input phone" placeholder="1234567890 (required)" />
       </div>
       <iframe name="dummyFrame" style="display: none;"></iframe>
-      <button :disabled="!name || !phoneNumber" type="submit" class="submit">Send</button>
+      <button :disabled="!name || !phoneNumber" type="submit" class="submit">Get in touch</button>
       <p class="success-messge" v-if="formMessage">Thank you for getting in touch with us. We will get back to you soon.</p>
     </form>
   </div>
 </template>
   
   <script setup>
-import { ref } from 'vue';
+  import { ref } from 'vue';
   import { useRoute } from 'vue-router';
+  import SelectCountry from './SelectCountry.vue';
 
   const route = useRoute();
   const name = ref('');
   const email = ref('');
   const message = ref('');
   const formMessage = ref(false);
-  const countryCode = ref('+91');
   const phoneNumber = ref('');
   const scriptURL = import.meta.env.VITE_INC_GOOGLE_SHEET_KEY;
+  const selectedCountry = ref({});
+
+  function onCountrySelected(country) {
+    selectedCountry.value = country;
+  }
   
   const resetForm = () => {
     name.value = '';
@@ -61,11 +66,10 @@ import { ref } from 'vue';
     const data = {
       name: name.value,
       email: email.value,
-      phone: `${countryCode.value}${phoneNumber.value}`,
+      phone: `${selectedCountry.value.dialCode}${phoneNumber.value}`,
       message: message.value,
       topic: route.name,
     };
-
     for (const key in data) {
       const input = document.createElement("input");
       input.type = "hidden";

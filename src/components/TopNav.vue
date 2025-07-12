@@ -2,7 +2,7 @@
   <nav class="navbar">
     <div class="logo">
       <RouterLink to="/">
-        <img src="@/assets/images/decoration/logo.svg" alt="Logo" />
+        <img src="@/assets/images/decoration/logo-cropped.svg" alt="Logo" />
       </RouterLink>
     </div>
 
@@ -81,7 +81,7 @@ const menuOpen = ref(false)
   list-style: none;
   gap: 20px;
   margin: 0;
-  padding: 1rem;
+  padding: 0.5rem;
   @media (max-width: 840px) {
     display: none;
   }
@@ -105,7 +105,7 @@ const menuOpen = ref(false)
   top: 100%;
   left: -100%;
   list-style: none;
-  padding: 0.5rem 0;
+  padding: 1rem 0.5rem;
   margin: 0;
   max-height: 600px;
   overflow: auto;
@@ -148,7 +148,7 @@ const menuOpen = ref(false)
 }
 
 .logo img {
-  height: 70px;
+  height: 50px;
   cursor: pointer;
 }
 
@@ -172,8 +172,8 @@ const menuOpen = ref(false)
 .mobile-menu {
   position: fixed;
   top: 0;
-  right: -300px;
-  width: 300px;
+  right: -350px;
+  width: 350px;
   height: 100vh;
   background-color: white;
   box-shadow: -2px 0 8px rgba(0, 0, 0, 0.2);
@@ -181,6 +181,8 @@ const menuOpen = ref(false)
   padding: 1rem;
   z-index: 1000;
   overflow-y: auto;
+  overflow-x: hidden;
+  text-overflow: clip;
 }
 
 .mobile-menu.open {
