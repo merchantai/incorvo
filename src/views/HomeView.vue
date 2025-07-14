@@ -223,7 +223,7 @@ import {
   </div>
   <div class="about-container">
     <div class="about-left">
-      <img src="@/assets/images/decoration/about_img.webp" alt="Who are we" class="about-img" />
+      <img src="@/assets/images/decoration/about-us.svg" alt="Who are we" class="about-img" />
     </div>
     <div class="about-right">
       <h3 class="about-sub-title">Who We Are?</h3>
@@ -272,7 +272,7 @@ import {
         </div>
       </div>
       <div class="choose-middle">
-        <img src="@/assets/images/decoration/choose.webp" alt="" class="choose-image" />
+        <img src="@/assets/images/decoration/our-usp.svg" alt="" class="choose-image" />
       </div>
       <div class="choose-right">
         <div class="feature-content">
