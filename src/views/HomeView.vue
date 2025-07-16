@@ -227,7 +227,7 @@ import {
     </div>
     <div class="about-right">
       <h3 class="about-sub-title">Who We Are?</h3>
-      <h2 class="about-title">About Incorve</h2>
+      <h2 class="about-title">About Incorvo</h2>
       <p class="about-text">
         Kanakkupillai.com is an online platform of Govche India Private Limited, a virtual
         accountancy company managed by specialized panel of Business Analysts, Company Secretaries,
