@@ -153,7 +153,7 @@ import {
           </div>
         </div>
         <div class="card-cta">
-          <a class="card-apply-cta" href="#">Apply Now</a>
+          <router-link class="card-apply-cta" :to="{name: 'Pvt-Ltd-Company-Registration'}">Apply Now</router-link>
           <p class="card-tc">* T&C Apply</p>
         </div>
       </div>
@@ -194,7 +194,7 @@ import {
           </div>
         </div>
         <div class="card-cta">
-          <a class="card-apply-cta" href="#">Apply Now</a>
+          <router-link class="card-apply-cta" :to="{name: 'LLP-Registration-Online'}">Apply Now</router-link>
           <p class="card-tc">* T&C Apply</p>
         </div>
       </div>
@@ -215,7 +215,7 @@ import {
           </div>
         </div>
         <div class="card-cta">
-          <a class="card-apply-cta" href="#">Apply Now</a>
+          <router-link class="card-apply-cta" :to="{name: 'Sol-Proprietorship-Registration'}">Apply Now</router-link>
           <p class="card-tc">* T&C Apply</p>
         </div>
       </div>
@@ -247,7 +247,7 @@ import {
           <p class="about-icon-text">Expert CA/CS Assistance</p>
         </div>
       </div>
-      <button class="about-cta">Know More Details</button>
+      <router-link :to="{name: 'about-us'}" class="about-cta">Know More Details</router-link>
     </div>
   </div>
   <div class="choose">
@@ -613,6 +613,7 @@ import {
   border-radius: var(--radius-large);
   margin-top: 1rem;
   cursor: pointer;
+  text-decoration: none;
 }
 .about-cta:hover {
   background-color: var(--primary-light-color);

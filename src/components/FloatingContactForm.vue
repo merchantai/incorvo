@@ -1,9 +1,9 @@
 <template>
     <div>
       <!-- Floating Icon/Button -->
-      <div class="contact-toggle" @click="showForm = !showForm">
-        💬
-      </div>
+       <div class="contact-toggle" @click="showForm = !showForm">
+         <font-awesome-icon :icon="faComment"/>
+       </div>
   
       <!-- Popup Form -->
       <Transition name="fade-slide">
@@ -18,7 +18,7 @@
   <script setup>
   import { ref } from 'vue'
   import ContactForm from './ContactForm.vue'
-import { faClose } from '@fortawesome/free-solid-svg-icons';
+import { faClose, faComment } from '@fortawesome/free-solid-svg-icons';
   
   const showForm = ref(false)
   </script>
@@ -35,8 +35,14 @@ import { faClose } from '@fortawesome/free-solid-svg-icons';
     border-radius: 50%;
     text-align: center;
     cursor: pointer;
+    height: 50px;
+    width: 50px;
+    aspect-ratio: 1;
     z-index: 999;
     box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   
   .popup-form {
