@@ -28,7 +28,7 @@ import { faClose, faComment } from '@fortawesome/free-solid-svg-icons';
     position: fixed;
     bottom: 80px;
     right: 20px;
-    background-color: var(--primary-color);
+    background-color: #25d366;
     color: white;
     font-size: 1.5rem;
     padding: 0.5rem 0.9rem;

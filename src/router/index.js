@@ -524,6 +524,9 @@ const router = createRouter({
       component: DisclaimerPolicy,
     }
   ],
+  scrollBehavior() {
+    return { top: 0 };
+  }
 })
 
 export default router

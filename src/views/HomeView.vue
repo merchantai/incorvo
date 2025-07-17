@@ -19,10 +19,7 @@ import {
   <div class="hero">
     <div class="hero-content">
       <h1>The Simplest way to Incorporate your company in India</h1>
-      <h2>
-        Begin your journey as a business owner with us — From business planning to registration, we
-        provide the resources and support you need to turn your vision into a thriving enterprise.
-      </h2>
+      <h2>Start your business journey with Incorvo Legal Services. From initial planning to official registration and compliance, we provide full support to help you build and grow your company. </h2>
     </div>
     <div class="hero-image-wrapper">
       <img class="hero-image" src="@/assets/images/decoration/hero.webp" alt="hero image" />
@@ -32,97 +29,97 @@ import {
     <div class="benifits-card">
       <font-awesome-icon class="benifits-icon" :icon="faWallet" />
       <div class="benifits-content">
-        <h3 class="benifits-title">Reasonable</h3>
-        <p class="benifits-text">Low price with professional service delivery</p>
+        <h3 class="benifits-title">Affordable</h3>
+        <p class="benifits-text">Professional-grade service at competitive prices.</p>
       </div>
     </div>
     <div class="benifits-card">
       <font-awesome-icon class="benifits-icon" :icon="faClockFour" />
       <div class="benifits-content">
-        <h3 class="benifits-title">Support</h3>
-        <p class="benifits-text">99% of services will be delivered on time</p>
+        <h3 class="benifits-title">Reliable</h3>
+        <p class="benifits-text">95 percent of services are delivered on time.</p>
       </div>
     </div>
     <div class="benifits-card">
       <font-awesome-icon class="benifits-icon" :icon="faPeopleGroup" />
       <div class="benifits-content">
-        <h3 class="benifits-title">Ratings</h3>
-        <p class="benifits-text">One of the best rated services from customers</p>
+        <h3 class="benifits-title">Trusted</h3>
+        <p class="benifits-text">Highly rated by satisfied clients across India.</p>
       </div>
     </div>
   </div>
   <div class="services">
     <h2 class="services-sub-title">Our Services</h2>
-    <h3 class="services-main-title">We Provide Best Quality Services</h3>
+    <h3 class="services-main-title">Expert assistance for business setup and regulatory compliance    </h3>
     <div class="services-cards-container">
       <div class="services-card">
         <p class="services-name">Pvt Ltd Company Registration</p>
         <div class="services-link">
           <font-awesome-icon class="services-link-icon" :icon="faCity" />
-          <router-link class="services-link-name" to="/startup/Pvt-Ltd-Company-Registration">Know More</router-link>
+          <router-link class="services-link-name" to="/startup/Pvt-Ltd-Company-Registration">Learn More</router-link>
         </div>
       </div>
       <div class="services-card">
         <p class="services-name">GST Registration Online</p>
         <div class="services-link">
           <font-awesome-icon class="services-link-icon" :icon="faFileSignature" />
-          <router-link class="services-link-name" to="/gst/GST-Registration-Online">Know More</router-link>
+          <router-link class="services-link-name" to="/gst/GST-Registration-Online">Learn More</router-link>
         </div>
       </div>
       <div class="services-card">
         <p class="services-name">LLP Registration Online</p>
         <div class="services-link">
           <font-awesome-icon class="services-link-icon" :icon="faFileSignature" />
-          <router-link class="services-link-name" to="/startup/LLP-Registration-Online">Know More</router-link>
+          <router-link class="services-link-name" to="/startup/LLP-Registration-Online">Learn More</router-link>
         </div>
       </div>
       <div class="services-card">
         <p class="services-name">One Person Company Registration</p>
         <div class="services-link">
           <font-awesome-icon class="services-link-icon" :icon="faUser" />
-          <router-link class="services-link-name" to="/startup/OPC-Registration-Online">Know More</router-link>
+          <router-link class="services-link-name" to="/startup/OPC-Registration-Online">Learn More</router-link>
         </div>
       </div>
       <div class="services-card">
         <p class="services-name">MSME Registration</p>
         <div class="services-link">
           <font-awesome-icon class="services-link-icon" :icon="faIndustry" />
-          <router-link class="services-link-name" to="/registrations/MSME-Registration">Know More</router-link>
+          <router-link class="services-link-name" to="/registrations/MSME-Registration">Learn More</router-link>
         </div>
       </div>
       <div class="services-card">
         <p class="services-name">IEC Registration</p>
         <div class="services-link">
           <font-awesome-icon class="services-link-icon" :icon="faIndustry" />
-          <router-link class="services-link-name" to="/registrations/IEC-Registration">Know More</router-link>
+          <router-link class="services-link-name" to="/registrations/IEC-Registration">Learn More</router-link>
         </div>
       </div>
       <div class="services-card">
         <p class="services-name">FSSAI Registration</p>
         <div class="services-link">
           <font-awesome-icon class="services-link-icon" :icon="faBuildingWheat" />
-          <router-link class="services-link-name" to="/registrations/FSSAI-Registration">Know More</router-link>
+          <router-link class="services-link-name" to="/registrations/FSSAI-Registration">Learn More</router-link>
         </div>
       </div>
       <div class="services-card">
         <p class="services-name">Income Tax Return Filing</p>
         <div class="services-link">
           <font-awesome-icon class="services-link-icon" :icon="faFileSignature" />
-          <router-link class="services-link-name" to="/income-tax/Income-Tax-Return-Filing">Know More</router-link>
+          <router-link class="services-link-name" to="/income-tax/Income-Tax-Return-Filing">Learn More</router-link>
         </div>
       </div>
       <div class="services-card">
         <p class="services-name">Trademark Registration</p>
         <div class="services-link">
           <font-awesome-icon class="services-link-icon" :icon="faTrademark" />
-          <router-link class="services-link-name" to="/intellectual-property/Trademark-Registration">Know More</router-link>
+          <router-link class="services-link-name" to="/intellectual-property/Trademark-Registration">Learn More</router-link>
         </div>
       </div>
     </div>
   </div>
   <div class="price">
-    <h2 class="price-sub-title">Our Plans & Pricing</h2>
-    <h3 class="price-main-title">Choose Our Best Plan</h3>
+    <h2 class="price-sub-title">Plans and Pricing</h2>
+    <h3 class="price-main-title">Select a package that fits your business needs</h3>
     <div class="price-card-container">
       <div class="price-card">
         <div class="card-content">
@@ -227,27 +224,24 @@ import {
     </div>
     <div class="about-right">
       <h3 class="about-sub-title">Who We Are?</h3>
-      <h2 class="about-title">About Incorvo</h2>
+      <h2 class="about-title">About Incorvo Legal Services</h2>
       <p class="about-text">
-        Kanakkupillai.com is an online platform of Govche India Private Limited, a virtual
-        accountancy company managed by specialized panel of Business Analysts, Company Secretaries,
-        Chartered Accountants, Corporate Lawyers and Financial Professionals Headquartered in
-        Chennai, Tamil Nadu. With a group of dedicated and skilled professionals we are uniquely
-        positioned in the established and emerging markets by rendering quality services right from
-        the creation of plan for setting up the business to fulfill all the legal and regulatory
-        requirements.
+        We are a team of experienced professionals including Chartered Accountants, Company Secretaries, Legal Advisors, and Compliance Experts. Our goal is to make business setup and regulatory processes simple, transparent, and efficient.
+      </p>
+      <p class="about-text">
+        We are a team of experienced professionals including Chartered Accountants, Company Secretaries, Legal Advisors, and Compliance Experts. Our goal is to make business setup and regulatory processes simple, transparent, and efficient.
       </p>
       <div class="about-icon-container">
         <div class="about-icon">
           <font-awesome-icon :icon="faFaceSmile" class="about-icon-image" />
-          <p class="about-icon-text">Guaranteed Satisfaction</p>
+          <p class="about-icon-text">Fast and accurate documentation</p>
         </div>
         <div class="about-icon">
           <font-awesome-icon :icon="faUserTie" class="about-icon-image" />
-          <p class="about-icon-text">Expert CA/CS Assistance</p>
+          <p class="about-icon-text">Expert guidance from qualified professionals.</p>
         </div>
       </div>
-      <router-link :to="{name: 'about-us'}" class="about-cta">Know More Details</router-link>
+      <router-link :to="{name: 'about-us'}" class="about-cta">Learn More</router-link>
     </div>
   </div>
   <div class="choose">
@@ -257,18 +251,18 @@ import {
       <div class="choose-left">
         <div class="feature-content">
           <img src="@/assets/images/icons/tax.webp" alt="" class="feature-img" />
-          <h3 class="feature-title">300+ Services</h3>
-          <p class="feature-text">Relax at home, we take care of Tax/Compliance</p>
+          <h3 class="feature-title">500+ Services</h3>
+          <p class="feature-text">Over 500 business and compliance services available</p>
         </div>
         <div class="feature-content">
           <img src="@/assets/images/icons/reasonable.webp" alt="" class="feature-img" />
           <h3 class="feature-title">Reasonable</h3>
-          <p class="feature-text">competitive price with professional service delivery</p>
+          <p class="feature-text">Affordable pricing with no hidden fees</p>
         </div>
         <div class="feature-content">
           <img src="@/assets/images/icons/chat.webp" alt="" class="feature-img" />
           <h3 class="feature-title">Customer Satisfaction</h3>
-          <p class="feature-text">Prioritize client satisfaction and expectations at every step</p>
+          <p class="feature-text">Dedicated to client satisfaction and service quality</p>
         </div>
       </div>
       <div class="choose-middle">
@@ -278,17 +272,17 @@ import {
         <div class="feature-content">
           <img src="@/assets/images/icons/google.webp" alt="" class="feature-img" />
           <h3 class="feature-title">Google Reviews</h3>
-          <p class="feature-text">99% of Customers rated us 5* in Google.</p>
+          <p class="feature-text">Most clients rate us 5 stars for our performance.</p>
         </div>
         <div class="feature-content">
           <img src="@/assets/images/icons/time.webp" alt="" class="feature-img" />
           <h3 class="feature-title">Turn Around Time</h3>
-          <p class="feature-text">99% of services will be delivered on within timeline</p>
+          <p class="feature-text">Consistently meet promised timelines</p>
         </div>
         <div class="feature-content">
           <img src="@/assets/images/icons/compliance.webp" alt="" class="feature-img" />
           <h3 class="feature-title">Compliance</h3>
-          <p class="feature-text">We manage 99.9% of compliance within due date</p>
+          <p class="feature-text">Compliance tasks completed on or before due dates</p>
         </div>
       </div>
     </div>
