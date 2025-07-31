@@ -1,206 +1,252 @@
 export default {
     header: {
-        title: 'LLP Registration Online',
+        title: 'Limited Liability Partnership (LLP) Registration – Incorvo',
         list: [
-            'Register your private limited company in 7 business days with our expert assistance',
-            'Our online company registration service includes the following features',
-            'Obtain 2 Digital Signature Certificates (DSC) with 2 years validity',
-            'Secure 2 Director Identification Numbers (DIN)',
-            'Get unique name approval for your private company',
-            'Acquire PAN and TAN for the company',
-            'Open a current account with ICICI Bank',
-            'Drafting the Memorandum of Association and Articles of Association',
-            'Receive the official Company Incorporation Certificate',
-        ],
+            'Seamless LLP registration in India with Incorvo’s expert legal and compliance support',
+            'Quick online process—digital document management and real-time status tracking',
+            'Dedicated CA/CS assistance for end-to-end compliance and post-registration needs',
+            'Obtain Designated Partner Identification Number (DPIN) and Digital Signature Certificate (DSC)',
+            'Name approval and reservation through the MCA portal',
+            'Drafting and filing of LLP Agreement, incorporation forms, and statutory documents',
+            'PAN, TAN, and GST registration bundled with LLP formation (on request)',
+            'Support for bank account opening and statutory registrations',
+            'Personalized compliance calendar for annual and event-based filings',
+            'Affordable pricing, transparent fees, and strict data confidentiality'
+        ]
     },
     content: [
         {
-            title: 'Private Limited Company Registration in India',
+            title: 'What is a Limited Liability Partnership (LLP)?',
             descrption: [
                 {
                     subTitle: '',
                     p: [
-                        'Currently, Private Limited Companies make upto almost 96% of the total companies in India. Till November 20, 2023, there are 25,99,660 private limited companies registered in India. The huge number of company registrations is a testament to the ease and benefits provided by India. Although registering a company in India is not mandatory, company registration offers significant benefits to founders as well as stakeholders. By the end, you will be able to understand the key legal requirements to register a private limited company in India, along with its compliance obligations and much more.'
-                    ],
-                },
-            ],
+                        'A Limited Liability Partnership (LLP) is a modern business structure that combines the operational flexibility of a partnership with the limited liability protection of a company. Introduced under the Limited Liability Partnership Act, 2008, LLPs are recognized as separate legal entities, distinct from their partners. They offer protection to personal assets, ensure perpetual succession, and have minimal compliance requirements compared to companies, making them ideal for startups, professionals, SMEs, and family-run businesses.',
+                        'LLPs in India must have at least two designated partners (at least one resident in India) and can have unlimited partners. There is no minimum capital requirement, and the LLP agreement governs the rights and duties among partners.'
+                    ]
+                }
+            ]
         },
         {
-            title: 'What is a Private Limited Company?',
+            title: 'Benefits of LLP Registration with Incorvo',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        'In India, there are several companies that can be registered. A Private Limited Company is one of them. A Private Limited Company bearing the suffix of ‘Pvt. Ltd\'. At the end of its name is a separate legal entity registered under the Companies Act, 2013with the Registrar of Companies (ROC). The main feature of this type of company is that it offers limited liability protection to its shareholders; it means that the liability of the shareholders is only up to the extent of shares held by them, and the personal assets of shareholders (owners) are protected from the obligations of the company. The company can be owned by multiple shareholders and managed by appointed directors. It is separated from the owners of the company, and its legal existence continues even if there are changes in the ownership or management, which provides security and stability to the company.',
-                    ],
-                },
-            ],
+                    ul: [
+                        'Limited liability for all partners—personal assets protected from business risks',
+                        'Separate legal entity—LLP can own property, sue, and be sued in its own name',
+                        'Flexible management structure—operational terms set by the LLP Agreement',
+                        'No minimum capital or audit requirement up to a specified turnover',
+                        'Easier compliance and lower statutory costs than private limited companies',
+                        'Perpetual succession—LLP continues even if partners change or exit',
+                        'Attractive for professionals (CA, CS, lawyers, architects), consultants, and joint ventures',
+                        'Easier to add/remove partners and change internal structure compared to a company'
+                    ]
+                }
+            ]
         },
         {
-            title: 'Why Should You Register a Private Limited Company?',
+            title: 'Who Should Choose LLP as a Business Structure?',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        'There are several compelling reasons why forming a Private Limited Company can be beneficial:',
-                    ],
-                },
-                {
-                    subTitle: '1. Limited Liability Protection',
-                    p: [
-                        'As a private limited company, the liability of its shareholders is restricted to the unpaid amount on their shares. This means that if the company faces financial distress or legal liabilities, the personal assets of the shareholders (directors or members) will not be at risk.',
-                    ],
-                },
-                {
-                    subTitle: '2. Separate Legal Entity',
-                    p: [
-                        'A company is a juristic person in the eyes of the law. The legal entity of the company is distinct from its shareholders and directors. The company is capable of entering into contracts in its own name; it can sue and be sued in its own name. The liability and credibility of the company are separated from its stakeholders.',
-                    ],
-                },
-                {
-                    subTitle: '3. Perpetual Succession',
-                    p: [
-                        'The existence of the company is independent of the existence of its shareholders or directors. Unlike a partnership or sole proprietorship, the private limited company enjoys perpetual succession, which means that the existence of the company is not affected by the death, insolvency, or retirement of any shareholder or director. This perpetual succession guarantees the continuity of the business even if one of the company\'s stakeholders leaves the company.',
-                    ],
-                },
-                {
-                    subTitle: '4. Easy Transferability of Shares',
-                    p: [
-                        'Registering a company in India offers easy transferability of shares, which means that shares of the company can be transferred from one shareholder to another. The leverage smoothens out the transaction in the management of the company and later enhances the flexibility in the business operations of the company.',
-                    ],
-                },
-                {
-                    subTitle: '5. Access to Investments and Funding',
-                    p: [
-                        'Capital can be easily raised in a registered Private Limited Company, as Equity shares can be easily issued by the company to raise funds. Issuing equity shares attracts potential investors and venture capital to invest in the company.',
-                    ],
-                },
-                {
-                    subTitle: '6. Increased Trustworthiness',
-                    p: [
-                        'Registering a Private Limited Company enjoys greater market credibility as compared to other business structures. The greater credibility leads to increased trustworthiness among investors. The advantage is gained by the company due to its registration. Registering a company makes the company legally recognizable and shows that it meets the regulatory standards.',
-                    ],
-                },
-            ],
+                    ul: [
+                        'Startups seeking limited liability with flexible structure',
+                        'Professional firms—CAs, CS, law, consulting, architects, etc.',
+                        'Joint ventures between Indian and foreign entities',
+                        'SMEs, family businesses, and new ventures requiring less compliance',
+                        'Businesses where equity investment is not the immediate priority',
+                        'Partnerships looking to formalize structure without heavy company compliance'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Eligibility and Legal Requirements for LLP Registration',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    ul: [
+                        'Minimum 2 designated partners (at least one resident in India)',
+                        'Designated partners must obtain DPIN and DSC',
+                        'Unique LLP name, not similar to existing entities or trademarks',
+                        'Registered office address in India (rented/owned)',
+                        'LLP Agreement signed and notarized by all partners',
+                        'No minimum capital required; capital contribution can be in any form (cash, asset, etc.)',
+                        'All partners must be major (18+ years), of sound mind, and not declared insolvent'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Step-by-Step LLP Registration Process with Incorvo',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    ol: [
+                        'Free consultation and eligibility assessment by Incorvo’s experts',
+                        'Obtain Digital Signature Certificate (DSC) for all designated partners',
+                        'Apply for Designated Partner Identification Number (DPIN) via MCA portal',
+                        'Reserve unique LLP name (RUN-LLP service on MCA portal)',
+                        'Draft and finalize LLP Agreement (detailing capital, profit-sharing, duties, etc.)',
+                        'Prepare and submit incorporation documents (FiLLiP form and supporting docs)',
+                        'Verification and approval by Registrar of Companies (ROC)',
+                        'Issuance of Certificate of Incorporation (COI) and LLP Identification Number (LLPIN)',
+                        'Apply for PAN and TAN (and GST, as needed)',
+                        'Open current bank account and commence business operations',
+                        'Onboarding session for post-registration compliance and filings'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Documents Required for LLP Registration',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    ul: [
+                        'PAN card and address proof of all partners (Aadhaar, passport, driver’s license, voter ID)',
+                        'Passport (mandatory for foreign nationals/NRIs)',
+                        'Proof of registered office (rent agreement/ownership deed, utility bill not older than 2 months)',
+                        'Photographs of all partners',
+                        'No Objection Certificate (NOC) from property owner, if applicable',
+                        'Digital Signature Certificate (DSC) for all designated partners',
+                        'LLP Agreement (drafted and signed post name approval)',
+                        'Other entity-specific licenses/registrations if required'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Statutory and Ongoing Compliance for LLPs',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    ul: [
+                        'Annual filing of Form 11 (Statement of Accounts & Solvency) and Form 8 (Annual Return) with ROC',
+                        'Maintain proper books of account on cash or accrual basis',
+                        'Filing of Income Tax Return (ITR-5) annually',
+                        'GST, TDS, and other tax registrations and filings (if applicable)',
+                        'Audit not mandatory unless turnover exceeds ₹40 lakh or capital exceeds ₹25 lakh',
+                        'Timely changes/updates for partners, registered office, and LLP agreement (Form 3, Form 4, etc.)',
+                        'Compliance with FEMA, FDI, and sector-specific regulations for foreign partners',
+                        'Maintenance of statutory registers, resolutions, and minutes as per LLP Act'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Common Pitfalls and Mistakes to Avoid in LLP Registration',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    ul: [
+                        'Selecting a name too similar to existing companies or registered trademarks',
+                        'Incomplete or incorrect documentation leading to ROC rejection',
+                        'Not drafting a comprehensive LLP Agreement (rights, profit sharing, dispute resolution, etc.)',
+                        'Missing deadlines for filing annual forms or changing partner/office details',
+                        'Non-maintenance of books of account or statutory registers',
+                        'Unclear roles and responsibilities among partners',
+                        'Ignoring sectoral/FEMA restrictions for foreign investment'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Best Practices for LLP Management & Compliance',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    ul: [
+                        'Draft a detailed and future-proof LLP Agreement',
+                        'Appoint a compliance manager or engage Incorvo for regular compliance support',
+                        'Keep all partners’ KYC, DPIN, and DSC up-to-date',
+                        'Reconcile all capital contributions and profit-sharing records annually',
+                        'Maintain digital and physical copies of all filings, resolutions, and agreements',
+                        'Use Incorvo’s compliance calendar for timely reminders',
+                        'Seek legal or CA advice before major changes (admission/retirement of partners, capital structure, etc.)'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Why Choose Incorvo for LLP Registration?',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    ul: [
+                        'Dedicated CA/CS professionals for every stage—from consultation to compliance',
+                        'Transparent pricing with no hidden charges or “surprise” costs',
+                        'Digital document management and secure client portal',
+                        'Customized LLP Agreement drafting and legal vetting',
+                        'Post-registration support for GST, PAN/TAN, and banking',
+                        'Annual compliance management and event-based filings handled in one place',
+                        'Legal advisory, partnership dispute support, and partner exit/entry guidance'
+                    ]
+                }
+            ]
         },
+        {
+            title: 'LLP Registration: Extended FAQs',
+            descrption: [
+                {
+                    subTitle: '',
+                    ul: [
+                        'Who can be a partner in an LLP? – Any individual (resident or NRI) or corporate entity, provided at least one designated partner is resident in India.',
+                        'Is there a minimum capital requirement for LLP? – No, LLPs can be formed with any capital contribution as agreed by partners.',
+                        'Can an LLP convert into a private limited company? – Yes, through a prescribed process and with regulatory approvals.',
+                        'Is audit mandatory for LLP? – Only if turnover exceeds ₹40 lakh or capital exceeds ₹25 lakh.',
+                        'What is the LLP Identification Number (LLPIN)? – Unique registration number for every LLP issued by the ROC.',
+                        'Can foreign nationals/NRIs be partners in an LLP? – Yes, subject to FEMA and sectoral guidelines.',
+                        'What are the annual compliance requirements? – Form 11, Form 8, Income Tax Return (ITR-5), and other tax filings as applicable.',
+                        'How long does it take to register an LLP? – Usually 10–15 working days with complete documents and timely approvals.',
+                        'Is an LLP suitable for startups? – Yes, especially for those valuing limited liability, flexible management, and easier compliance.',
+                        'Can an LLP buy property or open bank accounts in its name? – Yes, as a separate legal entity, it can own property and operate accounts.'
+                    ]
+                }
+            ]
+        }
     ],
     faqs: [
         {
-            q: 'What is the minimum capital required to register a Private Limited Company?',
-            a: 'There is no minimum paid-up capital requirement for registering a Private Limited Company in India.',
+            q: 'What is an LLP?',
+            a: 'A Limited Liability Partnership is a unique business structure combining the benefits of a partnership and limited liability company. It offers a separate legal entity, limited liability for all partners, and flexibility in management.'
         },
         {
-            q: 'Can a foreigner be a director in a Private Limited Company?',
-            a: 'Yes, foreigners can be directors, but at least one director must be a resident of India, as per Section 149 of the Companies Act, 2013.',
+            q: 'How many partners are required to start an LLP?',
+            a: 'Minimum 2 designated partners are required, with at least one resident in India.'
         },
         {
-            q: 'How long does it take to register a Private Limited Company in India?',
-            a: 'The registration process generally takes between 7-15 business days, depending on the speed of document verification and approvals.',
+            q: 'Do I need a physical office for LLP registration?',
+            a: 'Yes, you must have a registered office in India. It can be rented or owned; relevant proof is required.'
         },
         {
-            q: 'What are the legal standards for Private Limited Companies?',
-            a: 'Compliance Requirements: Private Limited Companies must stick to several compliance requirements under the Companies Act, 2013, including having yearly general meetings, filing annual reports, hiring accountants, and more.',
+            q: 'Is foreign investment allowed in LLP?',
+            a: 'Yes, subject to sectoral regulations and FEMA guidelines. Prior approval may be needed for certain sectors.'
         },
         {
-            q: 'Do I need a physical office for registration?',
-            a: 'Yes, a registered office in India is mandatory. This office must be in a location where official correspondence and notices from the ROC can be sent.',
+            q: 'What are the main annual compliances for LLP?',
+            a: 'Filing of Form 11 (Annual Return), Form 8 (Statement of Accounts & Solvency), and ITR-5, along with other applicable statutory returns.'
         },
         {
-            q: 'What are the perks of choosing a Private Limited Company structure?',
-            a: 'Advantages of Private Limited Company: Benefits include limited liability protection, ease of getting capital via shares, constant succession, reliability, and agreement with regulatory norms.',
+            q: 'How is profit shared in an LLP?',
+            a: 'Profit and loss sharing ratios are as per the LLP Agreement signed by all partners.'
         },
         {
-            q: 'Can a Private Limited Company change to a Public Limited Company?',
-            a: 'Conversion to Public Limited Company: Yes, a Private Limited Company may change to a Public Limited Company.',
+            q: 'Can I convert my existing partnership firm to LLP?',
+            a: 'Yes, conversion is possible under the LLP Act through a specified procedure.'
         },
         {
-            q: 'What is the difference between a Private Limited Company and a Limited Liability Partnership (LLP)?',
-            a: 'Difference from LLP: The basic difference between a Private Limited Company and a Limited liability Partnership (LLP) rests in their structure and responsibility features. A Private Limited Company has owners and limited liability protection, whereas an LLP has partners with limited liability but without shares.',
+            q: 'Is the LLP Agreement mandatory?',
+            a: 'Yes, it is the foundational document that sets out the rights, duties, and profit-sharing terms between partners.'
         },
         {
-            q: 'How can I change the name of my Private Limited Company?',
-            a: 'Changing Company Name: To change the name of a Private Limited Company, you need to follow the way given by the Ministry of Corporate Affairs in India.',
+            q: 'How can Incorvo help with LLP compliance post-registration?',
+            a: 'Incorvo provides annual, event-based, and ad-hoc compliance support, including partner changes, capital amendments, dispute resolution, and regulatory filings.'
         },
         {
-            q: 'What are the penalties for non-compliance with legal duties for Private Limited Companies?',
-            a: 'Penalties for Non-Compliance: Punishments for non-compliance with regulatory requirements for Private Limited Companies might change depending on the individual infringement and may include fines or other legal punishments as per the Companies Act, 2013.',
+            q: 'How do I get started with LLP registration?',
+            a: 'Contact Incorvo for a free consultation, document checklist, and step-by-step registration plan tailored to your business.'
         }
-    ],
-}
+    ]
+};

@@ -1,206 +1,481 @@
 export default {
     header: {
-        title: 'Private Limited Company Registration',
+        title: 'GST Revocation of Cancelled Registration (Online)',
         list: [
-            'Register your private limited company in 7 business days with our expert assistance',
-            'Our online company registration service includes the following features',
-            'Obtain 2 Digital Signature Certificates (DSC) with 2 years validity',
-            'Secure 2 Director Identification Numbers (DIN)',
-            'Get unique name approval for your private company',
-            'Acquire PAN and TAN for the company',
-            'Open a current account with ICICI Bank',
-            'Drafting the Memorandum of Association and Articles of Association',
-            'Receive the official Company Incorporation Certificate',
-        ],
+            'Expert support for online revocation of cancelled GST registration under Section 30 of the CGST Act',
+            'Eligibility assessment and review of cancellation order and grounds',
+            'Preparation and filing of revocation application (Form GST REG-21) on GST portal',
+            'Document checklist, reconciliations, and evidence collation for supporting the application',
+            'Reply drafting to GST department\'s queries, notices, or show-cause orders',
+            'Resolution of pending GST returns, dues, and interest for a successful revocation',
+            'Representation in e-hearings, clarifications, and further compliance if required',
+            'Assistance with restoration of business operations and GST compliance post-revocation',
+            'Guidance on avoiding future cancellation risks and best practices',
+            'Dedicated Incorvo GST manager for status tracking, reminders, and secure document handling',
+            'Emergency revocation support for urgent business continuity requirements',
+            'Comprehensive compliance restoration and business rehabilitation services',
+            'Multi-GSTIN revocation coordination for businesses with multiple registrations',
+            'Advanced legal support for complex cases and appellate proceedings',
+            'Post-revocation monitoring and preventive compliance management systems'
+        ]
     },
     content: [
         {
-            title: 'Private Limited Company Registration in India',
+            title: 'What is GST Revocation of Cancelled Registration?',
             descrption: [
                 {
                     subTitle: '',
                     p: [
-                        'Currently, Private Limited Companies make upto almost 96% of the total companies in India. Till November 20, 2023, there are 25,99,660 private limited companies registered in India. The huge number of company registrations is a testament to the ease and benefits provided by India. Although registering a company in India is not mandatory, company registration offers significant benefits to founders as well as stakeholders. By the end, you will be able to understand the key legal requirements to register a private limited company in India, along with its compliance obligations and much more.'
-                    ],
-                },
-            ],
+                        'GST revocation of cancelled registration is a comprehensive legal remedy available under Section 30 of the Central Goods and Services Tax Act, 2017, enabling taxpayers to challenge and reverse departmental cancellation orders that have terminated their GST registration. This critical provision serves as a safeguard against arbitrary or unjustified cancellations, providing businesses with an opportunity to restore their tax credentials and resume lawful commercial operations under the GST framework.',
+                        'The revocation mechanism recognizes that businesses may face temporary compliance challenges due to various operational, financial, or administrative difficulties that do not necessarily warrant permanent exclusion from the GST system. By providing a structured pathway for registration restoration, the law balances the need for compliance enforcement with the principle of business continuity and economic growth.',
+                        'Successful revocation reinstates the original GSTIN, preserving business identity, compliance history, and stakeholder relationships while avoiding the complexity and time involved in obtaining fresh registration. This restoration enables immediate resumption of GST-compliant operations, collection of output tax, claiming of input tax credits, and participation in the formal economy without interruption.',
+                        'The revocation process is strictly time-bound and evidence-based, requiring comprehensive compliance clearance, detailed justification, and often extensive documentation to demonstrate the business\'s commitment to future compliance. Professional expertise becomes essential to navigate the legal requirements, procedural complexities, and authority interactions necessary for successful registration restoration.'
+                    ]
+                }
+            ]
         },
         {
-            title: 'What is a Private Limited Company?',
+            title: 'Comprehensive Eligibility Framework for GST Revocation',
             descrption: [
                 {
-                    subTitle: '',
-                    p: [
-                        'In India, there are several companies that can be registered. A Private Limited Company is one of them. A Private Limited Company bearing the suffix of ‘Pvt. Ltd\'. At the end of its name is a separate legal entity registered under the Companies Act, 2013with the Registrar of Companies (ROC). The main feature of this type of company is that it offers limited liability protection to its shareholders; it means that the liability of the shareholders is only up to the extent of shares held by them, and the personal assets of shareholders (owners) are protected from the obligations of the company. The company can be owned by multiple shareholders and managed by appointed directors. It is separated from the owners of the company, and its legal existence continues even if there are changes in the ownership or management, which provides security and stability to the company.',
-                    ],
+                    subTitle: 'Eligible Cancellation Categories',
+                    ul: [
+                        'Departmental cancellation orders issued for non-filing of mandatory GST returns beyond prescribed periods',
+                        'Cancellations due to non-payment of accumulated GST dues, interest, and penalties',
+                        'Registration termination based on address verification failures or business premise issues',
+                        'Cancellations arising from input tax credit mismatches or supplier default impacts',
+                        'Orders issued for technical non-compliance or procedural violations without fraudulent intent'
+                    ]
                 },
-            ],
+                {
+                    subTitle: 'Business Continuity Scenarios',
+                    ul: [
+                        'Active businesses with genuine commercial operations seeking immediate registration restoration',
+                        'Companies undergoing temporary financial difficulties but committed to compliance revival',
+                        'Enterprises with pending contracts, orders, or commitments requiring urgent GSTIN restoration',
+                        'Businesses with significant investment in infrastructure, inventory, or ongoing projects',
+                        'Organizations with employment obligations and stakeholder commitments requiring operational continuity'
+                    ]
+                },
+                {
+                    subTitle: 'Compliance Restoration Readiness',
+                    ul: [
+                        'Businesses demonstrating willingness and capability to clear all outstanding compliance obligations',
+                        'Entities with adequate financial resources to settle accumulated dues, interest, and penalties',
+                        'Organizations prepared to implement robust compliance systems for future obligation management',
+                        'Companies with properly trained personnel and infrastructure for sustained GST compliance',
+                        'Businesses committed to maintaining regular return filing and tax payment schedules'
+                    ]
+                },
+                {
+                    subTitle: 'Excluded Scenarios',
+                    ul: [
+                        'Voluntary cancellation applications submitted by taxpayers through Form GST REG-16',
+                        'Cancellations confirmed after completion of revocation application rejection and appeal processes',
+                        'Cases involving confirmed fraudulent activities, tax evasion, or criminal violations',
+                        'Businesses that have ceased operations permanently with no intention of revival',
+                        'Entities that have obtained fresh GST registration under different legal structure or PAN'
+                    ]
+                }
+            ]
         },
         {
-            title: 'Why Should You Register a Private Limited Company?',
+            title: 'Detailed Analysis of Common Cancellation Grounds',
             descrption: [
                 {
-                    subTitle: '',
-                    p: [
-                        'There are several compelling reasons why forming a Private Limited Company can be beneficial:',
-                    ],
+                    subTitle: 'Return Filing Defaults and Non-Compliance',
+                    ul: [
+                        'Continuous non-filing of GSTR-1, GSTR-3B, or other mandatory returns for prescribed consecutive periods',
+                        'Failure to respond to system-generated notices and compliance alerts from GST portal',
+                        'Non-submission of annual returns (GSTR-9) or audit reports (GSTR-9C) within statutory deadlines',
+                        'Chronic delays in return filing leading to accumulated late fees and compliance deterioration',
+                        'Incomplete or incorrect return submissions resulting in persistent data quality issues'
+                    ]
                 },
                 {
-                    subTitle: '1. Limited Liability Protection',
-                    p: [
-                        'As a private limited company, the liability of its shareholders is restricted to the unpaid amount on their shares. This means that if the company faces financial distress or legal liabilities, the personal assets of the shareholders (directors or members) will not be at risk.',
-                    ],
+                    subTitle: 'Financial Default and Payment Issues',
+                    ul: [
+                        'Non-payment of accumulated GST liabilities exceeding prescribed thresholds and time limits',
+                        'Failure to clear late fees, interest, and penalty amounts within specified grace periods',
+                        'Persistent short payments or tax computation errors affecting government revenue collection',
+                        'Non-compliance with demand orders, assessment notifications, or recovery proceedings',
+                        'Inability to maintain adequate financial arrangements for ongoing tax obligation discharge'
+                    ]
                 },
                 {
-                    subTitle: '2. Separate Legal Entity',
-                    p: [
-                        'A company is a juristic person in the eyes of the law. The legal entity of the company is distinct from its shareholders and directors. The company is capable of entering into contracts in its own name; it can sue and be sued in its own name. The liability and credibility of the company are separated from its stakeholders.',
-                    ],
+                    subTitle: 'Operational and Address-Related Issues',
+                    ul: [
+                        'Non-existent, inaccessible, or fake business addresses discovered during verification processes',
+                        'Failure to update registration details for business relocations or structural changes',
+                        'Inability to produce business records, infrastructure, or evidence of genuine commercial activities',
+                        'Non-response to departmental summons, notices, or physical verification requirements',
+                        'Mismatch between declared business activities and actual operations or infrastructure'
+                    ]
                 },
                 {
-                    subTitle: '3. Perpetual Succession',
-                    p: [
-                        'The existence of the company is independent of the existence of its shareholders or directors. Unlike a partnership or sole proprietorship, the private limited company enjoys perpetual succession, which means that the existence of the company is not affected by the death, insolvency, or retirement of any shareholder or director. This perpetual succession guarantees the continuity of the business even if one of the company\'s stakeholders leaves the company.',
-                    ],
-                },
-                {
-                    subTitle: '4. Easy Transferability of Shares',
-                    p: [
-                        'Registering a company in India offers easy transferability of shares, which means that shares of the company can be transferred from one shareholder to another. The leverage smoothens out the transaction in the management of the company and later enhances the flexibility in the business operations of the company.',
-                    ],
-                },
-                {
-                    subTitle: '5. Access to Investments and Funding',
-                    p: [
-                        'Capital can be easily raised in a registered Private Limited Company, as Equity shares can be easily issued by the company to raise funds. Issuing equity shares attracts potential investors and venture capital to invest in the company.',
-                    ],
-                },
-                {
-                    subTitle: '6. Increased Trustworthiness',
-                    p: [
-                        'Registering a Private Limited Company enjoys greater market credibility as compared to other business structures. The greater credibility leads to increased trustworthiness among investors. The advantage is gained by the company due to its registration. Registering a company makes the company legally recognizable and shows that it meets the regulatory standards.',
-                    ],
-                },
-            ],
+                    subTitle: 'Input Tax Credit and Transaction Issues',
+                    ul: [
+                        'Systematic misuse of input tax credit through fake invoices or ineligible claims',
+                        'Participation in fraudulent invoice networks or accommodation entry schemes',
+                        'Persistent mismatches between claimed credits and supplier return filings',
+                        'Failure to reverse ineligible credits or comply with credit utilization rules',
+                        'Non-compliance with job work, consignment, or special transaction documentation requirements'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Comprehensive GST Revocation Process and Timeline',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    table: {
+                        thead: {
+                            trow: [
+                                ['Step', 'Detailed Activity', 'Documentation', 'Timeline', 'Responsibility']
+                            ]
+                        },
+                        tbody: {
+                            trow: [
+                                ['1', 'Comprehensive cancellation order analysis and legal review', 'Cancellation order study', '1-2 days', 'Incorvo Legal Team'],
+                                ['2', 'Eligibility assessment and revocation strategy development', 'Eligibility report', '1 day', 'Incorvo/Client'],
+                                ['3', 'Outstanding compliance obligation identification and quantification', 'Dues calculation', '1-2 days', 'Incorvo Technical Team'],
+                                ['4', 'Pending GST return preparation and filing for all outstanding periods', 'Return filings', '3-7 days', 'Client/Incorvo'],
+                                ['5', 'Complete payment of dues, interest, penalties, and late fees', 'Payment confirmations', '1-3 days', 'Client/Incorvo'],
+                                ['6', 'Form GST REG-21 preparation with detailed justification and evidence', 'Revocation application', '2-3 days', 'Incorvo'],
+                                ['7', 'Supporting document compilation and legal evidence preparation', 'Document portfolio', '1-2 days', 'Client/Incorvo'],
+                                ['8', 'Online application submission through GST portal with DSC/EVC', 'Submitted application', 'Same day', 'Incorvo'],
+                                ['9', 'Departmental query response and clarification submission if required', 'Query responses', '3-7 days', 'Incorvo'],
+                                ['10', 'Hearing representation and additional evidence presentation', 'Hearing documentation', '1-2 days', 'Incorvo'],
+                                ['11', 'Revocation order receipt (REG-22) and GSTIN restoration confirmation', 'Approval order', '15-30 days', 'GST Department'],
+                                ['12', 'Business operations resumption and compliance framework establishment', 'Compliance setup', '1-2 days', 'Client/Incorvo']
+                            ]
+                        }
+                    }
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Comprehensive Documentation and Evidence Requirements',
             descrption: [
                 {
-                    subTitle: '',
-                    p: [
-                        '',
-                    ],
+                    subTitle: 'Legal and Procedural Documents',
+                    ul: [
+                        'Original cancellation order with detailed analysis of grounds and legal provisions cited',
+                        'GSTIN login credentials with proper authorization for portal access and application submission',
+                        'Digital Signature Certificate or Electronic Verification Code setup for application authentication',
+                        'Power of attorney or board resolution authorizing revocation application and representation',
+                        'Previous correspondence history with GST department including notices and responses'
+                    ]
                 },
-            ],
+                {
+                    subTitle: 'Compliance Restoration Evidence',
+                    ul: [
+                        'Complete set of filed GST returns for all outstanding periods with portal acknowledgments',
+                        'Comprehensive payment proof for all GST dues, late fees, interest, and penalties',
+                        'Electronic cash and credit ledger statements showing current balance and transaction history',
+                        'Input tax credit reconciliation statements demonstrating proper credit management',
+                        'Return filing certificates and compliance summary for restoration period'
+                    ]
+                },
+                {
+                    subTitle: 'Business Justification and Supporting Documentation',
+                    ul: [
+                        'Detailed justification letter explaining circumstances leading to non-compliance',
+                        'Evidence of genuine business operations including contracts, orders, and commercial activities',
+                        'Financial statements and bank records demonstrating business viability and continuity',
+                        'Infrastructure evidence including premises photos, equipment details, and operational setup',
+                        'Employee records and statutory compliance certificates showing active business operations'
+                    ]
+                },
+                {
+                    subTitle: 'Address and Operational Verification',
+                    ul: [
+                        'Current business address proof with recent utility bills and municipal certificates',
+                        'Property ownership or lease documents with No Objection Certificate from property owner',
+                        'Business license renewals and regulatory compliance certificates from other authorities',
+                        'Photographs of business premises with clear signage and operational evidence',
+                        'Vendor and customer confirmations supporting ongoing business relationships'
+                    ]
+                },
+                {
+                    subTitle: 'Future Compliance Commitment',
+                    ul: [
+                        'Comprehensive compliance plan outlining future return filing and payment schedules',
+                        'Internal control system documentation for sustained compliance management',
+                        'Staff training records and competency certificates for GST compliance personnel',
+                        'Technology implementation plan for automated compliance monitoring and alerts',
+                        'Undertaking for maintaining regular compliance and prompt response to future notices'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Critical Timeline Management and Deadline Compliance',
             descrption: [
                 {
-                    subTitle: '',
-                    p: [
-                        '',
-                    ],
+                    subTitle: 'Statutory Timeline Requirements',
+                    ul: [
+                        'Primary revocation application deadline: 30 days from date of cancellation order receipt',
+                        'Extension possibilities available through jurisdictional commissioner with proper justification',
+                        'Post-deadline applications require compelling reasons and may face rejection or enhanced scrutiny',
+                        'Department processing timeline: typically 15-30 days from complete application submission',
+                        'Appeal timeline for rejection: prescribed periods under GST appellate framework'
+                    ]
                 },
-            ],
+                {
+                    subTitle: 'Strategic Timeline Optimization',
+                    ul: [
+                        'Immediate action initiation upon cancellation order receipt to maximize success probability',
+                        'Parallel processing of compliance clearance and application preparation for time efficiency',
+                        'Proactive department liaison for extension requests in complex cases requiring additional time',
+                        'Expedited documentation collection and verification to meet critical deadlines',
+                        'Buffer time allocation for unexpected queries, clarifications, or additional requirements'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Advanced Legal Strategies and Representation',
             descrption: [
                 {
-                    subTitle: '',
-                    p: [
-                        '',
-                    ],
+                    subTitle: 'Justification Strategy Development',
+                    ul: [
+                        'Comprehensive legal analysis of cancellation grounds with counter-argument development',
+                        'Factual demonstration of bona fide business operations and genuine compliance intent',
+                        'Procedural challenge identification for any violations of natural justice or due process',
+                        'Precedent research and citation of favorable departmental decisions and court rulings',
+                        'Proportionality arguments for penalty mitigation and expedited restoration consideration'
+                    ]
                 },
-            ],
+                {
+                    subTitle: 'Evidence Presentation and Documentation',
+                    ul: [
+                        'Professional preparation of compelling justification narratives with legal and factual support',
+                        'Systematic evidence organization with indexed documentation and logical flow',
+                        'Expert witness coordination and professional testimony arrangement where beneficial',
+                        'Visual evidence compilation including photographs, charts, and supporting graphics',
+                        'Independent verification and third-party confirmation of business operations and compliance efforts'
+                    ]
+                },
+                {
+                    subTitle: 'Departmental Interaction and Negotiation',
+                    ul: [
+                        'Professional representation during hearings with technical and legal expertise',
+                        'Strategic communication with jurisdictional officers for favorable consideration',
+                        'Negotiation for expedited processing and reduced compliance requirements where permissible',
+                        'Settlement discussions for penalty reduction and compliance arrangement flexibility',
+                        'Appeal preparation and higher authority representation if initial application faces adverse decision'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Severe Consequences of Non-Revocation and Business Impact',
             descrption: [
                 {
-                    subTitle: '',
-                    p: [
-                        '',
-                    ],
+                    subTitle: 'Immediate Operational Consequences',
+                    ul: [
+                        'Complete prohibition on GST collection, invoice issuance, and formal tax compliance activities',
+                        'Immediate loss of input tax credit eligibility on existing stock and future business purchases',
+                        'Termination of e-way bill generation capabilities affecting goods movement and transportation',
+                        'Exclusion from government tenders, contracts, and institutional business opportunities',
+                        'Banking relationship complications affecting credit facilities and financial transaction processing'
+                    ]
                 },
-            ],
+                {
+                    subTitle: 'Financial and Commercial Impact',
+                    ul: [
+                        'Significant working capital blockage through foregone input tax credit on inventory and assets',
+                        'Customer relationship deterioration due to inability to provide GST-compliant invoices',
+                        'Supplier payment complications affecting procurement and supply chain relationships',
+                        'Competitive disadvantage in pricing due to lack of input tax credit benefits',
+                        'Potential contractual defaults and legal liabilities due to compliance inability'
+                    ]
+                },
+                {
+                    subTitle: 'Legal and Regulatory Consequences',
+                    ul: [
+                        'Enhanced risk of prosecution and criminal action for continued non-compliant operations',
+                        'Penalty accumulation and recovery action by authorities for outstanding dues',
+                        'Difficulty in obtaining fresh GST registration with previous cancellation history',
+                        'Increased scrutiny and compliance burden for any future registration applications',
+                        'Reputational damage affecting stakeholder confidence and business credibility'
+                    ]
+                },
+                {
+                    subTitle: 'Long-term Strategic Implications',
+                    ul: [
+                        'Market share erosion due to competitive disadvantage and operational limitations',
+                        'Business model constraints affecting growth plans and expansion strategies',
+                        'Investment and funding challenges due to compromised regulatory compliance status',
+                        'Talent retention issues due to business uncertainty and operational restrictions',
+                        'Strategic partnership limitations affecting collaboration and business development opportunities'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Why Choose Incorvo for GST Revocation Excellence?',
             descrption: [
                 {
-                    subTitle: '',
-                    p: [
-                        '',
-                    ],
+                    subTitle: 'Specialized Legal and Technical Expertise',
+                    ul: [
+                        'Comprehensive team of GST law specialists, chartered accountants, and compliance experts',
+                        'Deep understanding of revocation procedures, departmental practices, and success strategies',
+                        'Proven track record with successful revocation cases across diverse business sectors and complexity levels',
+                        'Advanced knowledge of appellate procedures and higher authority representation capabilities',
+                        'Continuous professional development on evolving GST law and departmental interpretations'
+                    ]
                 },
-            ],
+                {
+                    subTitle: 'Comprehensive Service Excellence',
+                    ul: [
+                        'End-to-end revocation management from eligibility assessment to final restoration and beyond',
+                        'Emergency revocation support for urgent business continuity and deadline-critical situations',
+                        'Multi-GSTIN coordination for businesses with complex structures and multiple registrations',
+                        'Comprehensive compliance restoration including return filing, payment management, and system setup',
+                        'Post-revocation monitoring and preventive compliance management to avoid future cancellations'
+                    ]
+                },
+                {
+                    subTitle: 'Strategic Advisory and Risk Management',
+                    ul: [
+                        'Comprehensive risk assessment and mitigation strategies for complex cancellation scenarios',
+                        'Advanced legal strategy development with precedent research and argument optimization',
+                        'Settlement negotiation expertise for expedited resolution and penalty mitigation',
+                        'Business rehabilitation planning for sustainable post-revocation operations and growth',
+                        'Preventive compliance framework implementation to eliminate future cancellation risks'
+                    ]
+                },
+                {
+                    subTitle: 'Client-Centric Excellence and Support',
+                    ul: [
+                        'Dedicated relationship management with personalized attention and regular communication',
+                        'Transparent progress tracking with milestone updates and realistic timeline expectations',
+                        'Confidential and secure handling of sensitive business information throughout the process',
+                        'Flexible engagement models accommodating urgent requirements and budget constraints',
+                        'Comprehensive documentation and training for sustained post-revocation compliance success'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Post-Revocation Compliance Excellence and Best Practices',
             descrption: [
                 {
-                    subTitle: '',
-                    p: [
-                        '',
-                    ],
+                    subTitle: 'Immediate Post-Revocation Actions',
+                    ul: [
+                        'Immediate GSTIN reactivation verification and portal functionality testing',
+                        'Business operation resumption with proper GST compliance framework implementation',
+                        'Stakeholder notification including customers, suppliers, and banking relationships',
+                        'Inventory and asset verification for input tax credit restoration and optimization',
+                        'Compliance calendar establishment with automated alerts and monitoring systems'
+                    ]
                 },
-            ],
+                {
+                    subTitle: 'Systematic Compliance Framework Implementation',
+                    ul: [
+                        'Robust return filing schedule with buffer periods and quality control measures',
+                        'Automated tax payment systems with adequate liquidity management and scheduling',
+                        'Regular reconciliation protocols between books of accounts and GST portal data',
+                        'Input tax credit optimization through systematic GSTR-2A/2B monitoring and supplier management',
+                        'Document management systems ensuring proper record keeping and audit trail maintenance'
+                    ]
+                },
+                {
+                    subTitle: 'Risk Prevention and Monitoring Systems',
+                    ul: [
+                        'Continuous compliance health monitoring with early warning indicators and corrective actions',
+                        'Regular internal audits and compliance assessments to prevent future default scenarios',
+                        'Staff training and competency development for sustained compliance capability',
+                        'Technology integration for automated compliance monitoring and error prevention',
+                        'Professional advisory engagement for ongoing support and strategic compliance optimization'
+                    ]
+                }
+            ]
         },
+        {
+            title: 'GST Revocation: Comprehensive FAQ Guide',
+            descrption: [
+                {
+                    subTitle: 'Eligibility and Process Requirements',
+                    ul: [
+                        'Who is eligible to apply for GST registration revocation? – Any taxpayer whose registration was cancelled by department (not voluntary surrender) can apply within prescribed timelines.',
+                        'What is the mandatory timeline for filing revocation application? – 30 days from cancellation order date; extensions possible with proper justification through jurisdictional commissioner.',
+                        'Are there any pre-conditions that must be fulfilled before applying for revocation? – Yes, all pending returns must be filed and outstanding dues, interest, and penalties must be cleared completely.',
+                        'Can revocation be sought for voluntary cancellation applications? – No, revocation is available only for departmental cancellation orders, not for voluntary surrender cases.'
+                    ]
+                },
+                {
+                    subTitle: 'Documentation and Legal Aspects',
+                    ul: [
+                        'What happens to input tax credit on stock after registration cancellation? – ITC becomes unavailable until revocation; successful restoration enables credit reclaim on remaining eligible stock.',
+                        'Can business operations continue during the revocation application process? – No, GST collection and compliant operations must cease until revocation approval and GSTIN restoration.',
+                        'What legal consequences arise from operating without valid registration during revocation process? – Illegal operations attract penalties, prosecution risk, and may negatively impact revocation application success.',
+                        'How does revocation affect the original GSTIN and business compliance history? – Successful revocation restores original GSTIN with full compliance history preservation and continuity.'
+                    ]
+                },
+                {
+                    subTitle: 'Professional Support and Success Strategies',
+                    ul: [
+                        'Does Incorvo provide emergency revocation support for urgent business requirements? – Yes, expedited services with dedicated resources for time-critical applications and urgent business continuity needs.',
+                        'Can Incorvo handle complex revocation cases involving multiple jurisdictions or legal issues? – Absolutely, specialized expertise in multi-state operations, appellate procedures, and complex legal scenarios.',
+                        'What post-revocation support does Incorvo provide for sustained compliance? – Comprehensive compliance framework, monitoring systems, training programs, and ongoing advisory for long-term success.',
+                        'How does Incorvo ensure the highest probability of revocation application success? – Through expert legal strategy, comprehensive documentation, professional representation, and proven methodologies developed through extensive experience.'
+                    ]
+                }
+            ]
+        }
     ],
     faqs: [
         {
-            q: 'What is the minimum capital required to register a Private Limited Company?',
-            a: 'There is no minimum paid-up capital requirement for registering a Private Limited Company in India.',
+            q: 'What is GST revocation and when is it applicable?',
+            a: 'GST revocation is the legal process to restore departmentally cancelled GST registration, enabling businesses to resume lawful GST operations and maintain commercial continuity.'
         },
         {
-            q: 'Can a foreigner be a director in a Private Limited Company?',
-            a: 'Yes, foreigners can be directors, but at least one director must be a resident of India, as per Section 149 of the Companies Act, 2013.',
+            q: 'How quickly must I apply for revocation after receiving cancellation order?',
+            a: 'Within 30 days of cancellation order receipt; delayed applications risk rejection unless extension is granted by commissioner with proper justification.'
         },
         {
-            q: 'How long does it take to register a Private Limited Company in India?',
-            a: 'The registration process generally takes between 7-15 business days, depending on the speed of document verification and approvals.',
+            q: 'What are the mandatory requirements for successful revocation application?',
+            a: 'Complete clearance of all pending returns, tax dues, interest, and penalties, plus compelling justification and evidence of genuine business operations.'
         },
         {
-            q: 'What are the legal standards for Private Limited Companies?',
-            a: 'Compliance Requirements: Private Limited Companies must stick to several compliance requirements under the Companies Act, 2013, including having yearly general meetings, filing annual reports, hiring accountants, and more.',
+            q: 'Can I continue business operations while revocation application is pending?',
+            a: 'No, GST collection and compliant operations must cease until revocation approval; illegal operations may negatively impact application success.'
         },
         {
-            q: 'Do I need a physical office for registration?',
-            a: 'Yes, a registered office in India is mandatory. This office must be in a location where official correspondence and notices from the ROC can be sent.',
+            q: 'Will Incorvo represent me during departmental hearings and proceedings?',
+            a: 'Yes, comprehensive representation including application preparation, hearing attendance, query responses, and appeal procedures if required.'
         },
         {
-            q: 'What are the perks of choosing a Private Limited Company structure?',
-            a: 'Advantages of Private Limited Company: Benefits include limited liability protection, ease of getting capital via shares, constant succession, reliability, and agreement with regulatory norms.',
+            q: 'Is revocation possible for registrations I voluntarily cancelled?',
+            a: 'No, revocation applies only to departmental cancellations; voluntary cancellations require fresh registration application through standard procedures.'
         },
         {
-            q: 'Can a Private Limited Company change to a Public Limited Company?',
-            a: 'Conversion to Public Limited Company: Yes, a Private Limited Company may change to a Public Limited Company.',
+            q: 'Will I receive the same GSTIN after successful revocation?',
+            a: 'Yes, revocation restores the original GSTIN with full compliance history, maintaining business identity and stakeholder relationships.'
         },
         {
-            q: 'What is the difference between a Private Limited Company and a Limited Liability Partnership (LLP)?',
-            a: 'Difference from LLP: The basic difference between a Private Limited Company and a Limited liability Partnership (LLP) rests in their structure and responsibility features. A Private Limited Company has owners and limited liability protection, whereas an LLP has partners with limited liability but without shares.',
+            q: 'What happens if my revocation application is rejected by authorities?',
+            a: 'Appeal options available through GST appellate framework; Incorvo provides comprehensive appellate support and alternative strategy development.'
         },
         {
-            q: 'How can I change the name of my Private Limited Company?',
-            a: 'Changing Company Name: To change the name of a Private Limited Company, you need to follow the way given by the Ministry of Corporate Affairs in India.',
+            q: 'How can I prevent future GST registration cancellation?',
+            a: 'Maintain consistent compliance through timely return filing, regular payments, prompt notice responses, and robust internal control systems.'
         },
         {
-            q: 'What are the penalties for non-compliance with legal duties for Private Limited Companies?',
-            a: 'Penalties for Non-Compliance: Punishments for non-compliance with regulatory requirements for Private Limited Companies might change depending on the individual infringement and may include fines or other legal punishments as per the Companies Act, 2013.',
+            q: 'How can I engage Incorvo for expert GST revocation assistance?',
+            a: 'Contact our specialized revocation team for urgent assessment, strategic planning, and comprehensive support ensuring maximum success probability.'
+        },
+        {
+            q: 'Does Incorvo provide ongoing compliance support after successful revocation?',
+            a: 'Yes, comprehensive post-revocation services including compliance monitoring, training programs, and preventive systems to avoid future cancellation risks.'
+        },
+        {
+            q: 'What makes Incorvo\'s revocation service superior to other providers?',
+            a: 'Our combination of specialized legal expertise, proven success methodologies, emergency support capabilities, and comprehensive post-restoration compliance ensures superior outcomes.'
         }
-    ],
-}
+    ]
+};

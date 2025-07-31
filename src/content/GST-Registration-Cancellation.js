@@ -1,206 +1,446 @@
 export default {
     header: {
-        title: 'Private Limited Company Registration',
+        title: 'GST Registration Cancellation',
         list: [
-            'Register your private limited company in 7 business days with our expert assistance',
-            'Our online company registration service includes the following features',
-            'Obtain 2 Digital Signature Certificates (DSC) with 2 years validity',
-            'Secure 2 Director Identification Numbers (DIN)',
-            'Get unique name approval for your private company',
-            'Acquire PAN and TAN for the company',
-            'Open a current account with ICICI Bank',
-            'Drafting the Memorandum of Association and Articles of Association',
-            'Receive the official Company Incorporation Certificate',
-        ],
+            'End-to-end GST registration cancellation services for proprietors, companies, LLPs, and partnerships',
+            'Expert eligibility assessment and step-by-step advisory',
+            'Drafting and filing of cancellation application (GST REG-16) on the GST portal',
+            'Preparation of required documents and reconciliation of GST returns, dues, and liabilities',
+            'Closure of business, transfer, merger, or change in business constitution – all scenarios covered',
+            'Departmental cancellation or voluntary cancellation support',
+            'Assistance with pending GST return filings and tax payments before cancellation',
+            'Representation in case of departmental queries, show cause notices, or hearings',
+            'Support for revocation of cancelled GST registration where eligible',
+            'Personalized Incorvo compliance manager and secure documentation handling',
+            'Multi-GSTIN cancellation support for businesses with multiple registrations',
+            'Emergency cancellation services for urgent business closure situations',
+            'Comprehensive asset and liability reconciliation for complex business structures',
+            'Legal heir assistance for cancellation in case of proprietor death',
+            'Post-cancellation compliance monitoring and final return filing support'
+        ]
     },
     content: [
         {
-            title: 'Private Limited Company Registration in India',
+            title: 'What is GST Registration Cancellation?',
             descrption: [
                 {
                     subTitle: '',
                     p: [
-                        'Currently, Private Limited Companies make upto almost 96% of the total companies in India. Till November 20, 2023, there are 25,99,660 private limited companies registered in India. The huge number of company registrations is a testament to the ease and benefits provided by India. Although registering a company in India is not mandatory, company registration offers significant benefits to founders as well as stakeholders. By the end, you will be able to understand the key legal requirements to register a private limited company in India, along with its compliance obligations and much more.'
-                    ],
-                },
-            ],
+                        'GST registration cancellation is a comprehensive legal and administrative process under the Goods and Services Tax framework that formally terminates a taxpayer\'s registration status and associated GSTIN (Goods and Services Tax Identification Number). This process marks the official cessation of the taxpayer\'s obligations and rights under the GST regime, including the authority to collect tax, issue GST-compliant invoices, and claim input tax credits.',
+                        'The cancellation mechanism serves multiple purposes within the GST ecosystem: it ensures proper closure of tax obligations, prevents misuse of inactive registrations, maintains database integrity, and provides legal closure for businesses that have genuinely ceased operations or are no longer liable for GST registration under the prescribed thresholds.',
+                        'Under the GST law, cancellation can be initiated either voluntarily by the taxpayer through proper application procedures or mandatorily by the tax authorities in cases of non-compliance, violations, or systematic defaults. The process involves comprehensive reconciliation of all outstanding obligations, clearance of pending dues, and submission of final compliance documents to ensure complete legal closure.',
+                        'Proper cancellation is crucial for avoiding future complications, as it legally absolves the business from ongoing GST obligations while ensuring that all past liabilities are appropriately settled. Without formal cancellation, businesses may continue to face compliance requirements, penalty accumulation, and potential legal action even after cessation of operations, making professional guidance essential for effective closure.'
+                    ]
+                }
+            ]
         },
         {
-            title: 'What is a Private Limited Company?',
+            title: 'Comprehensive Eligibility Framework for GST Cancellation',
             descrption: [
                 {
-                    subTitle: '',
-                    p: [
-                        'In India, there are several companies that can be registered. A Private Limited Company is one of them. A Private Limited Company bearing the suffix of ‘Pvt. Ltd\'. At the end of its name is a separate legal entity registered under the Companies Act, 2013with the Registrar of Companies (ROC). The main feature of this type of company is that it offers limited liability protection to its shareholders; it means that the liability of the shareholders is only up to the extent of shares held by them, and the personal assets of shareholders (owners) are protected from the obligations of the company. The company can be owned by multiple shareholders and managed by appointed directors. It is separated from the owners of the company, and its legal existence continues even if there are changes in the ownership or management, which provides security and stability to the company.',
-                    ],
+                    subTitle: 'Business Cessation and Closure Scenarios',
+                    ul: [
+                        'Complete business discontinuation due to commercial failure, market conditions, or strategic decisions',
+                        'Permanent cessation of all taxable activities and supplies under GST',
+                        'Winding up of company operations, partnership dissolution, or proprietorship closure',
+                        'Retirement of proprietor or partners with no succession planning for business continuation',
+                        'Liquidation proceedings under insolvency and bankruptcy code with court-ordered closure'
+                    ]
                 },
-            ],
+                {
+                    subTitle: 'Business Transfer and Restructuring',
+                    ul: [
+                        'Sale of entire business undertaking to another legal entity with different PAN',
+                        'Merger, amalgamation, or demerger resulting in change of legal identity',
+                        'Asset transfer under scheme of arrangement approved by competent authorities',
+                        'Conversion of business structure requiring new registration (e.g., proprietorship to company)',
+                        'Acquisition by another entity leading to consolidation of operations'
+                    ]
+                },
+                {
+                    subTitle: 'Threshold and Liability Changes',
+                    ul: [
+                        'Annual turnover falling below mandatory registration threshold (Rs. 40 lakh/Rs. 20 lakh for services)',
+                        'Change in nature of supplies to exclusively exempt or non-taxable activities',
+                        'Shift to composition scheme with subsequent decision to cancel regular registration',
+                        'Voluntary registration holders seeking cancellation after minimum one-year period',
+                        'Inter-state supply cessation for businesses registered solely for cross-border transactions'
+                    ]
+                },
+                {
+                    subTitle: 'Legal and Succession Matters',
+                    ul: [
+                        'Death of sole proprietor with legal heirs not wishing to continue business operations',
+                        'Change in partnership composition requiring fresh registration under new constitution',
+                        'Trust or society dissolution with distribution of assets to beneficiaries',
+                        'Court-ordered closure or prohibition from conducting business activities',
+                        'Regulatory license cancellation making continued business operations impossible'
+                    ]
+                },
+                {
+                    subTitle: 'Departmental Action Scenarios',
+                    ul: [
+                        'Chronic non-filing of mandatory GST returns despite multiple notices and opportunities',
+                        'Fraudulent activities, tax evasion, or systematic compliance violations',
+                        'Failure to pay accumulated GST dues and penalties within prescribed timelines',
+                        'Non-response to departmental notices, summons, or audit requirements',
+                        'Operating without valid registration or misuse of cancelled registration numbers'
+                    ]
+                }
+            ]
         },
         {
-            title: 'Why Should You Register a Private Limited Company?',
+            title: 'Detailed GST Cancellation Process and Timeline',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        'There are several compelling reasons why forming a Private Limited Company can be beneficial:',
-                    ],
-                },
-                {
-                    subTitle: '1. Limited Liability Protection',
-                    p: [
-                        'As a private limited company, the liability of its shareholders is restricted to the unpaid amount on their shares. This means that if the company faces financial distress or legal liabilities, the personal assets of the shareholders (directors or members) will not be at risk.',
-                    ],
-                },
-                {
-                    subTitle: '2. Separate Legal Entity',
-                    p: [
-                        'A company is a juristic person in the eyes of the law. The legal entity of the company is distinct from its shareholders and directors. The company is capable of entering into contracts in its own name; it can sue and be sued in its own name. The liability and credibility of the company are separated from its stakeholders.',
-                    ],
-                },
-                {
-                    subTitle: '3. Perpetual Succession',
-                    p: [
-                        'The existence of the company is independent of the existence of its shareholders or directors. Unlike a partnership or sole proprietorship, the private limited company enjoys perpetual succession, which means that the existence of the company is not affected by the death, insolvency, or retirement of any shareholder or director. This perpetual succession guarantees the continuity of the business even if one of the company\'s stakeholders leaves the company.',
-                    ],
-                },
-                {
-                    subTitle: '4. Easy Transferability of Shares',
-                    p: [
-                        'Registering a company in India offers easy transferability of shares, which means that shares of the company can be transferred from one shareholder to another. The leverage smoothens out the transaction in the management of the company and later enhances the flexibility in the business operations of the company.',
-                    ],
-                },
-                {
-                    subTitle: '5. Access to Investments and Funding',
-                    p: [
-                        'Capital can be easily raised in a registered Private Limited Company, as Equity shares can be easily issued by the company to raise funds. Issuing equity shares attracts potential investors and venture capital to invest in the company.',
-                    ],
-                },
-                {
-                    subTitle: '6. Increased Trustworthiness',
-                    p: [
-                        'Registering a Private Limited Company enjoys greater market credibility as compared to other business structures. The greater credibility leads to increased trustworthiness among investors. The advantage is gained by the company due to its registration. Registering a company makes the company legally recognizable and shows that it meets the regulatory standards.',
-                    ],
-                },
-            ],
+                    table: {
+                        thead: {
+                            trow: [
+                                ['Step', 'Detailed Activity', 'Documentation', 'Timeline', 'Responsibility']
+                            ]
+                        },
+                        tbody: {
+                            trow: [
+                                ['1', 'Comprehensive eligibility assessment and cancellation strategy planning', 'Business analysis report', '1-2 days', 'Incorvo/Client'],
+                                ['2', 'Pre-cancellation compliance review and pending obligation clearance', 'Compliance checklist', '3-5 days', 'Client/Incorvo'],
+                                ['3', 'Document compilation and supporting evidence preparation', 'Document checklist', '2-3 days', 'Client/Incorvo'],
+                                ['4', 'Form REG-16 preparation with detailed cancellation application', 'GST Portal application', '1 day', 'Incorvo'],
+                                ['5', 'Outstanding GST return filing and liability settlement', 'GSTR filings, payments', '3-7 days', 'Client/Incorvo'],
+                                ['6', 'Asset and liability reconciliation with closing stock valuation', 'Reconciliation statements', '2-3 days', 'Client/Incorvo'],
+                                ['7', 'Online application submission through GST portal with DSC/EVC', 'Submitted application', 'Same day', 'Incorvo'],
+                                ['8', 'Departmental scrutiny and processing of cancellation request', 'Portal monitoring', '15-30 days', 'GST Department'],
+                                ['9', 'Response to departmental queries or show cause notices if issued', 'Reply documents', '7-15 days', 'Incorvo/Client'],
+                                ['10', 'Receipt of cancellation order (REG-19) and official registration closure', 'Cancellation certificate', '1-2 days', 'GST Department'],
+                                ['11', 'Final return (GSTR-10) preparation and submission within statutory timeline', 'Final return filing', '3 months', 'Client/Incorvo'],
+                                ['12', 'Post-cancellation compliance monitoring and record maintenance', 'Ongoing compliance', 'Ongoing', 'Incorvo']
+                            ]
+                        }
+                    }
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Comprehensive Documentation and Evidence Requirements',
             descrption: [
                 {
-                    subTitle: '',
-                    p: [
-                        '',
-                    ],
+                    subTitle: 'Identity and Registration Documents',
+                    ul: [
+                        'Current GST registration certificate with all amendments and modifications',
+                        'PAN card, Aadhaar card, and photographs of proprietor, partners, or directors',
+                        'Company incorporation certificate, partnership deed, or trust registration documents',
+                        'Power of attorney or board resolution authorizing cancellation application',
+                        'Digital signature certificate or electronic verification credentials for portal access'
+                    ]
                 },
-            ],
+                {
+                    subTitle: 'Business Closure and Transfer Documentation',
+                    ul: [
+                        'Board resolution or partnership decision documenting business closure or transfer',
+                        'Business transfer deed, sale agreement, or merger documentation (if applicable)',
+                        'Death certificate and legal heir documents in case of proprietor demise',
+                        'Court orders, liquidation documents, or regulatory closure notifications',
+                        'Cessation of business operations certificate from local authorities'
+                    ]
+                },
+                {
+                    subTitle: 'Financial and Compliance Records',
+                    ul: [
+                        'Complete set of GST returns filed during the registration period (GSTR-1, 3B, annual)',
+                        'Books of accounts including sales, purchase, and general ledgers for relevant periods',
+                        'Bank statements showing GST payments, refunds, and business transaction history',
+                        'Input tax credit reconciliation statements and utilization records',
+                        'Outstanding liability statements and payment confirmation documents'
+                    ]
+                },
+                {
+                    subTitle: 'Asset and Inventory Documentation',
+                    ul: [
+                        'Detailed inventory of closing stock with valuation and HSN/SAC classification',
+                        'Fixed asset register with depreciation and disposal details',
+                        'Input tax credit reversal calculations for capital goods and common credits',
+                        'Consignment stock, job work material, and branch transfer reconciliation',
+                        'Third-party liability and creditor confirmation statements'
+                    ]
+                },
+                {
+                    subTitle: 'Supporting Business Documents',
+                    ul: [
+                        'Customer and supplier contract termination or transfer documentation',
+                        'Lease termination certificates and premises handover documents',
+                        'Employee termination and statutory dues clearance certificates',
+                        'License cancellation from other regulatory authorities (FSSAI, pollution board, etc.)',
+                        'Insurance policy cancellation and claim settlement documents'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Specialized Cancellation Categories and Procedures',
             descrption: [
                 {
-                    subTitle: '',
-                    p: [
-                        '',
-                    ],
+                    subTitle: 'Voluntary Cancellation by Taxpayer',
+                    ul: [
+                        'Self-initiated cancellation due to business closure, sale, or restructuring decisions',
+                        'Minimum one-year waiting period for voluntary registrations before cancellation eligibility',
+                        'Comprehensive compliance verification and clearance of all outstanding obligations',
+                        'Proactive communication with department regarding cancellation intentions and timelines',
+                        'Strategic timing to minimize disruption and optimize tax implications'
+                    ]
                 },
-            ],
+                {
+                    subTitle: 'Departmental Cancellation Proceedings',
+                    ul: [
+                        'Show cause notice issuance with specific allegations and compliance failures',
+                        'Opportunity for hearing and representation before final cancellation decision',
+                        'Automatic cancellation triggers for chronic non-filing beyond specified periods',
+                        'Suspension preceding cancellation for serious violations or fraudulent activities',
+                        'Appeal and revocation options available within prescribed timelines'
+                    ]
+                },
+                {
+                    subTitle: 'Legal Heir and Succession Cancellation',
+                    ul: [
+                        'Death certificate submission with legal heir identification and documentation',
+                        'Succession certificate or legal heir certificate from competent court',
+                        'Asset and liability transfer documentation to legal heirs or estate',
+                        'Option for legal heirs to continue business or proceed with cancellation',
+                        'Simplified procedures for small businesses with minimal outstanding obligations'
+                    ]
+                },
+                {
+                    subTitle: 'Corporate Restructuring Cancellation',
+                    ul: [
+                        'Merger, amalgamation, and demerger scenarios with court-approved schemes',
+                        'Asset and liability transfer to successor entities with GST registration',
+                        'Employee and contract novation to acquiring or successor companies',
+                        'Compliance transfer and pending matter resolution between entities',
+                        'Coordinated cancellation and fresh registration for restructured entities'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Final Return (GSTR-10) and Post-Cancellation Compliance',
             descrption: [
                 {
-                    subTitle: '',
-                    p: [
-                        '',
-                    ],
+                    subTitle: 'GSTR-10 Filing Requirements and Content',
+                    ul: [
+                        'Mandatory filing within three months from the date of cancellation order receipt',
+                        'Detailed disclosure of closing stock, work-in-progress, and capital goods inventory',
+                        'Input tax credit reversal calculations for ineligible credits and capital goods',
+                        'Final reconciliation of output tax liability and input tax credit utilization',
+                        'Declaration of asset disposal, transfer, or retention post-business closure'
+                    ]
                 },
-            ],
+                {
+                    subTitle: 'Financial Settlement and Liability Closure',
+                    ul: [
+                        'Payment of differential tax liability arising from final reconciliation',
+                        'Interest and penalty settlement for any delayed payments or compliance failures',
+                        'Refund claims for excess tax paid or unutilized input tax credit balances',
+                        'Bank account closure coordination with final tax payment and refund procedures',
+                        'Third-party liability settlement and creditor notification processes'
+                    ]
+                },
+                {
+                    subTitle: 'Record Maintenance and Documentation',
+                    ul: [
+                        'Retention of all GST-related documents for statutory period (6 years) post-cancellation',
+                        'Digital backup and secure storage of cancellation-related correspondence',
+                        'Handover documentation for asset transfer or business succession scenarios',
+                        'Compliance certificate generation for future reference and legal requirements',
+                        'Notification to banks, creditors, and other stakeholders regarding GST closure'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Common Challenges and Professional Solutions',
             descrption: [
                 {
-                    subTitle: '',
-                    p: [
-                        '',
-                    ],
+                    subTitle: 'Pre-Cancellation Compliance Issues',
+                    ul: [
+                        'Pending GST return filings for multiple periods requiring urgent completion',
+                        'Outstanding tax liabilities, interest, and penalties requiring settlement before cancellation',
+                        'Input tax credit mismatches and reconciliation requirements with GSTR-2A/2B',
+                        'Complex asset valuation and closing stock determination for manufacturing businesses',
+                        'Multiple GSTIN coordination for businesses operating across different states'
+                    ]
                 },
-            ],
+                {
+                    subTitle: 'Documentation and Process Challenges',
+                    ul: [
+                        'Incomplete or missing business closure documentation affecting application processing',
+                        'Digital signature issues preventing online application submission through GST portal',
+                        'Asset and liability quantification complexity in large-scale business operations',
+                        'Legal heir identification and documentation challenges in succession cases',
+                        'Coordination with other regulatory authorities for comprehensive business closure'
+                    ]
+                },
+                {
+                    subTitle: 'Departmental Interaction and Resolution',
+                    ul: [
+                        'Show cause notice responses requiring detailed legal and factual submissions',
+                        'Hearing preparation and representation before GST officers for complex cases',
+                        'Appeal filing and representation in cases of adverse cancellation orders',
+                        'Revocation applications for cases where cancellation may have been inappropriate',
+                        'Settlement negotiation for penalty reduction and expedited closure processes'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Revocation and Re-registration Possibilities',
             descrption: [
                 {
-                    subTitle: '',
-                    p: [
-                        '',
-                    ],
+                    subTitle: 'Revocation of Cancellation',
+                    ul: [
+                        'Application for revocation within prescribed timeline (typically 30 days from cancellation)',
+                        'Demonstration of compliance restoration and rectification of default reasons',
+                        'Payment of accumulated dues, penalties, and fulfillment of outstanding obligations',
+                        'Justification for continued business necessity and future compliance commitment',
+                        'Court intervention possibilities for cases involving procedural irregularities'
+                    ]
                 },
-            ],
+                {
+                    subTitle: 'Fresh Registration After Cancellation',
+                    ul: [
+                        'Eligibility for fresh registration after voluntary cancellation without restrictions',
+                        'Cooling-off period or restrictions for cases involving fraudulent cancellation',
+                        'Enhanced scrutiny and documentation requirements for fresh registration applications',
+                        'Previous compliance history consideration in new registration processing',
+                        'Clearance certificates and undertakings required for repeat registration scenarios'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Why Choose Incorvo for GST Registration Cancellation Excellence?',
             descrption: [
                 {
-                    subTitle: '',
-                    p: [
-                        '',
-                    ],
+                    subTitle: 'Comprehensive Expertise and Experience',
+                    ul: [
+                        'Specialized team of GST professionals with extensive experience in all cancellation scenarios',
+                        'Deep understanding of legal requirements, procedural nuances, and compliance obligations',
+                        'Proven track record in handling complex cases including corporate restructuring and succession',
+                        'Industry-specific knowledge for manufacturing, trading, and service sector cancellations',
+                        'Continuous training and updates on evolving GST law and departmental practices'
+                    ]
                 },
-            ],
+                {
+                    subTitle: 'End-to-End Service Excellence',
+                    ul: [
+                        'Complete pre-cancellation compliance review and outstanding obligation clearance',
+                        'Professional documentation preparation with legal and technical accuracy',
+                        'Multi-GSTIN cancellation coordination for businesses with complex structures',
+                        'Emergency cancellation services for urgent business closure requirements',
+                        'Post-cancellation compliance monitoring and final return filing support'
+                    ]
+                },
+                {
+                    subTitle: 'Strategic Advisory and Risk Management',
+                    ul: [
+                        'Cancellation timing optimization to minimize tax implications and business disruption',
+                        'Asset and liability structuring advice for favorable cancellation outcomes',
+                        'Alternative solution evaluation including composition scheme migration options',
+                        'Risk assessment and mitigation strategies for potential departmental actions',
+                        'Comprehensive business closure planning with regulatory coordination'
+                    ]
+                },
+                {
+                    subTitle: 'Client-Centric Service Delivery',
+                    ul: [
+                        'Dedicated relationship management with personalized attention and regular updates',
+                        'Confidential and secure handling of sensitive business and financial information',
+                        'Transparent pricing with no hidden costs and milestone-based billing options',
+                        'Emergency support availability for urgent cancellation and compliance requirements',
+                        'Comprehensive documentation and training for smooth transition management'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'GST Registration Cancellation: Comprehensive FAQ Guide',
             descrption: [
                 {
-                    subTitle: '',
-                    p: [
-                        '',
-                    ],
+                    subTitle: 'Eligibility and Process Requirements',
+                    ul: [
+                        'Can I cancel my GST registration at any time during the year? – Yes, provided valid reasons exist such as business closure, transfer, or falling below threshold limits.',
+                        'What is the typical timeline for GST registration cancellation processing? – Usually 15-30 days if all documentation is complete and no departmental queries arise.',
+                        'Do I need to clear all pending GST dues and returns before applying for cancellation? – Yes, all outstanding obligations including returns, payments, and penalties must be cleared for successful cancellation.',
+                        'Can the GST department cancel my registration without my consent? – Yes, for non-compliance, chronic defaults, or fraudulent activities, but with prior notice and opportunity for hearing.'
+                    ]
                 },
-            ],
-        },
+                {
+                    subTitle: 'Documentation and Compliance Matters',
+                    ul: [
+                        'What is GSTR-10 and when must it be filed after cancellation? – Final return due within 3 months of cancellation order, detailing closing stock, assets, and final liability settlement.',
+                        'Can I re-register for GST after voluntary cancellation? – Yes, unless barred by department for violations; fresh registration follows normal procedures with enhanced scrutiny.',
+                        'Is cancellation possible for voluntary registrations taken below threshold? – Yes, after completing minimum one year from registration date with proper compliance clearance.',
+                        'What happens to my input tax credit balances upon cancellation? – Must be reversed as per prescribed rules or refund claimed through proper procedures before cancellation.'
+                    ]
+                },
+                {
+                    subTitle: 'Special Scenarios and Professional Support',
+                    ul: [
+                        'Can Incorvo handle multiple GSTIN cancellations for complex business structures? – Yes, coordinated cancellation services for multi-location businesses with comprehensive compliance management.',
+                        'How does Incorvo assist with departmental notices and show cause proceedings during cancellation? – Complete representation including response drafting, hearing attendance, and appeal filing if required.',
+                        'What support does Incorvo provide for legal heir cancellations in case of proprietor death? – Specialized assistance with succession documentation, legal formalities, and simplified cancellation procedures.',
+                        'Can Incorvo help with emergency cancellations for urgent business closure situations? – Yes, expedited services with dedicated resources for time-critical cancellation requirements and compliance clearance.'
+                    ]
+                }
+            ]
+        }
     ],
     faqs: [
         {
-            q: 'What is the minimum capital required to register a Private Limited Company?',
-            a: 'There is no minimum paid-up capital requirement for registering a Private Limited Company in India.',
+            q: 'When should I apply for GST registration cancellation?',
+            a: 'Apply when business operations cease, are transferred to another entity, fall below registration threshold, or undergo structural changes requiring new registration.'
         },
         {
-            q: 'Can a foreigner be a director in a Private Limited Company?',
-            a: 'Yes, foreigners can be directors, but at least one director must be a resident of India, as per Section 149 of the Companies Act, 2013.',
+            q: 'How do I initiate the GST cancellation process?',
+            a: 'File Form REG-16 through GST portal after clearing all pending returns and dues. Incorvo provides complete assistance from eligibility assessment to final closure.'
         },
         {
-            q: 'How long does it take to register a Private Limited Company in India?',
-            a: 'The registration process generally takes between 7-15 business days, depending on the speed of document verification and approvals.',
+            q: 'What is required after receiving the GST cancellation order?',
+            a: 'File GSTR-10 final return within 3 months of cancellation order receipt to complete statutory closure and legal termination of GST obligations.'
         },
         {
-            q: 'What are the legal standards for Private Limited Companies?',
-            a: 'Compliance Requirements: Private Limited Companies must stick to several compliance requirements under the Companies Act, 2013, including having yearly general meetings, filing annual reports, hiring accountants, and more.',
+            q: 'Can GST registration be cancelled by the department without my consent?',
+            a: 'Yes, for non-compliance, chronic defaults, or violations, but you receive prior notice and hearing opportunity before final cancellation decision.'
         },
         {
-            q: 'Do I need a physical office for registration?',
-            a: 'Yes, a registered office in India is mandatory. This office must be in a location where official correspondence and notices from the ROC can be sent.',
+            q: 'Must I clear all outstanding GST dues before cancellation approval?',
+            a: 'Yes, all pending returns, tax payments, interest, and penalties must be settled for successful cancellation processing and legal closure.'
         },
         {
-            q: 'What are the perks of choosing a Private Limited Company structure?',
-            a: 'Advantages of Private Limited Company: Benefits include limited liability protection, ease of getting capital via shares, constant succession, reliability, and agreement with regulatory norms.',
+            q: 'Is it possible to revive a cancelled GST registration?',
+            a: 'Yes, revocation applications can be filed within prescribed timelines with proper justification and compliance restoration. Incorvo assists with revocation procedures.'
         },
         {
-            q: 'Can a Private Limited Company change to a Public Limited Company?',
-            a: 'Conversion to Public Limited Company: Yes, a Private Limited Company may change to a Public Limited Company.',
+            q: 'What are the legal consequences of continuing business after cancellation?',
+            a: 'Illegal to issue GST invoices or collect tax; attracts penalties, prosecution, and recovery actions. Immediate cessation of GST-related activities required.'
         },
         {
-            q: 'What is the difference between a Private Limited Company and a Limited Liability Partnership (LLP)?',
-            a: 'Difference from LLP: The basic difference between a Private Limited Company and a Limited liability Partnership (LLP) rests in their structure and responsibility features. A Private Limited Company has owners and limited liability protection, whereas an LLP has partners with limited liability but without shares.',
+            q: 'Does Incorvo provide representation for departmental proceedings during cancellation?',
+            a: 'Yes, complete support including notice responses, hearing representation, documentation, appeals, and settlement negotiations for favorable outcomes.'
         },
         {
-            q: 'How can I change the name of my Private Limited Company?',
-            a: 'Changing Company Name: To change the name of a Private Limited Company, you need to follow the way given by the Ministry of Corporate Affairs in India.',
+            q: 'Can voluntary GST registrations be cancelled before the minimum period?',
+            a: 'Generally no, minimum one-year period required for voluntary registrations unless exceptional circumstances justify earlier cancellation with departmental approval.'
         },
         {
-            q: 'What are the penalties for non-compliance with legal duties for Private Limited Companies?',
-            a: 'Penalties for Non-Compliance: Punishments for non-compliance with regulatory requirements for Private Limited Companies might change depending on the individual infringement and may include fines or other legal punishments as per the Companies Act, 2013.',
+            q: 'How can I engage Incorvo for comprehensive GST cancellation services?',
+            a: 'Contact our compliance team for detailed consultation, eligibility assessment, documentation checklist, and end-to-end cancellation process management with dedicated support.'
+        },
+        {
+            q: 'Does Incorvo handle complex cancellation scenarios like mergers and acquisitions?',
+            a: 'Yes, specialized expertise in corporate restructuring, succession planning, multi-entity coordination, and complex business closure scenarios with regulatory compliance.'
+        },
+        {
+            q: 'What post-cancellation support does Incorvo provide for compliance monitoring?',
+            a: 'Comprehensive post-closure services including final return filing, record maintenance guidance, refund processing, and ongoing consultation for any related matters.'
         }
-    ],
-}
+    ]
+};

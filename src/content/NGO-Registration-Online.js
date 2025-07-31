@@ -1,206 +1,342 @@
 export default {
     header: {
-        title: 'Private Limited Company Registration',
+        title: 'NGO Registration Services – Incorvo',
         list: [
-            'Register your private limited company in 7 business days with our expert assistance',
-            'Our online company registration service includes the following features',
-            'Obtain 2 Digital Signature Certificates (DSC) with 2 years validity',
-            'Secure 2 Director Identification Numbers (DIN)',
-            'Get unique name approval for your private company',
-            'Acquire PAN and TAN for the company',
-            'Open a current account with ICICI Bank',
-            'Drafting the Memorandum of Association and Articles of Association',
-            'Receive the official Company Incorporation Certificate',
-        ],
+            'Expert guidance for end-to-end NGO registration in India',
+            'Choice of Trust, Society, or Section 8 Company as per your mission and vision',
+            'Consultation for legal structure, eligibility, and state-specific requirements',
+            'Drafting of founding documents: Trust Deed, Memorandum of Association (MOA), and Articles of Association (AOA)',
+            'Support for obtaining digital signatures, DIN, and name approval for Section 8 Companies',
+            'Online and offline application filing with Registrar/Sub-Registrar/ROC',
+            'Advisory on PAN, TAN, 12A, 80G, FCRA, and bank account setup',
+            'Assistance with post-registration compliance, annual filings, and renewal',
+            'Dedicated Incorvo compliance manager and transparent pricing',
+            'Ongoing support for grants, CSR funding, and legal/statutory changes'
+        ]
     },
     content: [
         {
-            title: 'Private Limited Company Registration in India',
+            title: 'What is an NGO?',
             descrption: [
                 {
                     subTitle: '',
                     p: [
-                        'Currently, Private Limited Companies make upto almost 96% of the total companies in India. Till November 20, 2023, there are 25,99,660 private limited companies registered in India. The huge number of company registrations is a testament to the ease and benefits provided by India. Although registering a company in India is not mandatory, company registration offers significant benefits to founders as well as stakeholders. By the end, you will be able to understand the key legal requirements to register a private limited company in India, along with its compliance obligations and much more.'
-                    ],
-                },
-            ],
+                        'An NGO (Non-Governmental Organization) is a not-for-profit, voluntary entity set up to advance social, educational, charitable, religious, or cultural objectives. NGOs operate independently of government and use surplus funds to further their objectives, not for distribution among members. Registration gives an NGO legal recognition, makes it eligible for grants, government schemes, tax benefits, and enables it to operate a bank account in its name.'
+                    ]
+                }
+            ]
         },
         {
-            title: 'What is a Private Limited Company?',
+            title: 'Types of NGO Registration in India',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        'In India, there are several companies that can be registered. A Private Limited Company is one of them. A Private Limited Company bearing the suffix of ‘Pvt. Ltd\'. At the end of its name is a separate legal entity registered under the Companies Act, 2013with the Registrar of Companies (ROC). The main feature of this type of company is that it offers limited liability protection to its shareholders; it means that the liability of the shareholders is only up to the extent of shares held by them, and the personal assets of shareholders (owners) are protected from the obligations of the company. The company can be owned by multiple shareholders and managed by appointed directors. It is separated from the owners of the company, and its legal existence continues even if there are changes in the ownership or management, which provides security and stability to the company.',
-                    ],
-                },
-            ],
+                    table: {
+                        thead: {
+                            trow: [
+                                ['Type', 'Governing Law', 'Members', 'Best For', 'Key Document']
+                            ]
+                        },
+                        tbody: {
+                            trow: [
+                                [
+                                    'Trust',
+                                    'Indian Trusts Act, 1882 (or state-specific Trust Acts)',
+                                    'Minimum 2 Trustees',
+                                    'Charitable/religious/social service projects',
+                                    'Trust Deed'
+                                ],
+                                [
+                                    'Society',
+                                    'Societies Registration Act, 1860 (or state-specific Societies Acts)',
+                                    'Minimum 7 Members',
+                                    'Community groups, clubs, cultural, educational NGOs',
+                                    'Memorandum of Association (MOA) & Rules/Regulations'
+                                ],
+                                [
+                                    'Section 8 Company',
+                                    'Companies Act, 2013',
+                                    'Minimum 2 Directors/Shareholders',
+                                    'Professional NGOs, those seeking FCRA, CSR, foreign funding',
+                                    'MOA & AOA'
+                                ]
+                            ]
+                        }
+                    }
+                }
+            ]
         },
         {
-            title: 'Why Should You Register a Private Limited Company?',
+            title: 'Who Should Register an NGO?',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        'There are several compelling reasons why forming a Private Limited Company can be beneficial:',
-                    ],
-                },
-                {
-                    subTitle: '1. Limited Liability Protection',
-                    p: [
-                        'As a private limited company, the liability of its shareholders is restricted to the unpaid amount on their shares. This means that if the company faces financial distress or legal liabilities, the personal assets of the shareholders (directors or members) will not be at risk.',
-                    ],
-                },
-                {
-                    subTitle: '2. Separate Legal Entity',
-                    p: [
-                        'A company is a juristic person in the eyes of the law. The legal entity of the company is distinct from its shareholders and directors. The company is capable of entering into contracts in its own name; it can sue and be sued in its own name. The liability and credibility of the company are separated from its stakeholders.',
-                    ],
-                },
-                {
-                    subTitle: '3. Perpetual Succession',
-                    p: [
-                        'The existence of the company is independent of the existence of its shareholders or directors. Unlike a partnership or sole proprietorship, the private limited company enjoys perpetual succession, which means that the existence of the company is not affected by the death, insolvency, or retirement of any shareholder or director. This perpetual succession guarantees the continuity of the business even if one of the company\'s stakeholders leaves the company.',
-                    ],
-                },
-                {
-                    subTitle: '4. Easy Transferability of Shares',
-                    p: [
-                        'Registering a company in India offers easy transferability of shares, which means that shares of the company can be transferred from one shareholder to another. The leverage smoothens out the transaction in the management of the company and later enhances the flexibility in the business operations of the company.',
-                    ],
-                },
-                {
-                    subTitle: '5. Access to Investments and Funding',
-                    p: [
-                        'Capital can be easily raised in a registered Private Limited Company, as Equity shares can be easily issued by the company to raise funds. Issuing equity shares attracts potential investors and venture capital to invest in the company.',
-                    ],
-                },
-                {
-                    subTitle: '6. Increased Trustworthiness',
-                    p: [
-                        'Registering a Private Limited Company enjoys greater market credibility as compared to other business structures. The greater credibility leads to increased trustworthiness among investors. The advantage is gained by the company due to its registration. Registering a company makes the company legally recognizable and shows that it meets the regulatory standards.',
-                    ],
-                },
-            ],
+                    ul: [
+                        'Individuals, social activists, philanthropists, or founders seeking legal recognition for their charitable work',
+                        'Groups/clubs working for social, educational, medical, cultural, or environmental causes',
+                        'CSR arms of companies looking to implement projects transparently',
+                        'Professionals or entrepreneurs planning to create a platform for social impact, research, or advocacy'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Step-by-Step NGO Registration Process with Incorvo',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    ol: [
+                        'Consultation to select the right NGO structure: Trust, Society, or Section 8 Company',
+                        'Drafting of founding documents: Trust Deed, MOA, AOA, Rules, and Regulations',
+                        'Preparation of ID/address proof, photographs, and NOC for registered office',
+                        'Obtaining Digital Signature Certificates (DSC) and Director Identification Numbers (DIN) for Section 8',
+                        'Filing online/offline registration with Registrar/Sub-Registrar/Registrar of Companies (ROC)',
+                        'Scrutiny and queries by the registrar; reply and resubmission if needed',
+                        'Certificate of Registration/Certificate of Incorporation issued',
+                        'PAN, TAN application, and opening NGO bank account',
+                        'Post-registration support: 12A, 80G, FCRA (if required), and compliance advisory'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Key Documents Required for NGO Registration',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    ul: [
+                        'Draft Trust Deed/MOA & AOA/Rules and Regulations',
+                        'ID and address proof of all founders/trustees/directors',
+                        'Passport-size photographs of all members',
+                        'Registered office address proof (rent agreement, NOC from owner, or property papers)',
+                        'Proposed name and objectives of NGO',
+                        'Digital Signature Certificate (DSC) and DIN (for Section 8 only)',
+                        'Affidavits and consent letters from members/trustees (where needed)',
+                        'List of executive committee/board members (for societies/Section 8)',
+                        'Declaration of assets (for trusts in some states)',
+                        'Additional documents as per state or ROC requirements'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Advantages of NGO Registration with Incorvo',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    ul: [
+                        'Legal recognition and ability to open bank accounts and own property',
+                        'Eligibility for government grants, CSR, and international funding',
+                        'Tax exemption benefits under 12A & 80G for donors and the NGO',
+                        'Credibility and transparency for funders, donors, and the public',
+                        'Limited liability and perpetual succession for Section 8 Companies',
+                        'Professional drafting of founding and compliance documents',
+                        'Guidance on compliance, statutory filings, and regulatory changes'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Post-Registration Compliance for NGOs',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    ul: [
+                        'PAN, TAN, and NGO bank account opening',
+                        'Application for 12A (income tax exemption) and 80G (donor benefit) registrations',
+                        'Annual filings and renewals with Registrar/ROC/Charity Commissioner',
+                        'Board meetings and maintenance of minutes/registers',
+                        'Filing of audited financial statements and annual returns',
+                        'FCRA registration for foreign funding (if required)',
+                        'Updating changes in address, trustees, or objectives with Registrar/ROC'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Funding and Tax Benefits for NGOs',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    ul: [
+                        'Access to domestic and international grants and donations',
+                        'Government schemes, CSR funding, and project grants',
+                        'Donors eligible for tax deduction under 80G (if registered)',
+                        'NGO income exempt under 12A (if registered) subject to usage for charitable purposes',
+                        'Eligibility for FCRA to receive foreign funds (for Section 8, Society, or large Trusts)'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Key Differences: Trust vs Society vs Section 8 Company',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    table: {
+                        thead: {
+                            trow: [
+                                ['Criteria', 'Trust', 'Society', 'Section 8 Company']
+                            ]
+                        },
+                        tbody: {
+                            trow: [
+                                [
+                                    'Governing Law',
+                                    'Trusts Act, 1882/State Acts',
+                                    'Societies Act, 1860/State Acts',
+                                    'Companies Act, 2013'
+                                ],
+                                [
+                                    'Minimum Members',
+                                    '2 Trustees',
+                                    '7 Members',
+                                    '2 Directors/shareholders'
+                                ],
+                                [
+                                    'Geographical Scope',
+                                    'Typically local/state',
+                                    'Can be state or pan-India',
+                                    'Pan-India'
+                                ],
+                                [
+                                    'Management',
+                                    'Trustees',
+                                    'Governing Body/Executive Committee',
+                                    'Board of Directors'
+                                ],
+                                [
+                                    'Tax Benefits',
+                                    '12A/80G after separate registration',
+                                    '12A/80G after separate registration',
+                                    '12A/80G with ROC support'
+                                ],
+                                [
+                                    'Preferred For',
+                                    'Religious, charitable, small NGOs',
+                                    'Clubs, societies, cultural/educational bodies',
+                                    'Professional, large, or international NGOs'
+                                ]
+                            ]
+                        }
+                    }
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Common Pitfalls to Avoid in NGO Registration',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    ul: [
+                        'Choosing the wrong NGO structure for your objectives or funding plans',
+                        'Unclear or conflicting objectives in founding documents',
+                        'Incomplete documentation or improper execution of trust deed/MOA/AOA',
+                        'Failure to update address or governing body details after registration',
+                        'Not applying for 12A/80G/FCRA on time, missing out on funding',
+                        'Non-compliance with annual filings or audit requirements',
+                        'Mismanagement of funds, leading to regulatory penalties'
+                    ]
+                }
+            ]
         },
+        {
+            title: 'Best Practices for Successful NGO Registration & Operations',
+            descrption: [
+                {
+                    subTitle: '',
+                    ul: [
+                        'Get expert legal, CA/CS, and compliance advice from the start (like Incorvo provides)',
+                        'Define your mission, objectives, and beneficiaries clearly',
+                        'Choose the structure (Trust, Society, Section 8) that fits your funding, geography, and management style',
+                        'Draft founding documents in line with legal requirements and your project goals',
+                        'Ensure transparent and up-to-date accounting and governance',
+                        'Stay updated with state-specific or ROC filing rules',
+                        'Apply early for 12A/80G and FCRA if you plan to raise funds',
+                        'Maintain regular board/committee meetings and keep all records/audits updated',
+                        'Build strong partnerships with donors, government, and CSR sponsors'
+                    ]
+                }
+            ]
+        },
+        {
+            title: 'Why Choose Incorvo for NGO Registration?',
+            descrption: [
+                {
+                    subTitle: '',
+                    ul: [
+                        'Personalized legal and compliance advice for Trust, Society, or Section 8 setup',
+                        'End-to-end documentation, filing, and reply to registrar queries',
+                        'Professional drafting of Trust Deed, MOA, AOA, and rules',
+                        'Support for DSC, DIN, PAN, TAN, and post-registration compliance',
+                        'Guidance on 12A, 80G, FCRA registration and renewal',
+                        'Ongoing help for grants, funding, and annual filings',
+                        'Transparent pricing and dedicated compliance manager'
+                    ]
+                }
+            ]
+        },
+        {
+            title: 'NGO Registration: Extended FAQs',
+            descrption: [
+                {
+                    subTitle: '',
+                    ul: [
+                        'Which NGO structure should I choose? – Section 8 is ideal for large or pan-India NGOs, Trust/Society for local projects.',
+                        'What is the minimum capital required for NGO registration? – No minimum capital, but a small corpus is suggested for credibility.',
+                        'Can NRIs or foreigners be trustees or members? – Yes, for Section 8 and Societies, subject to KYC and regulatory checks.',
+                        'Can one person register an NGO? – No, minimum two (Trust), seven (Society), or two (Section 8 Company) required.',
+                        'Is registration mandatory for NGOs? – Not legally required, but highly recommended for legal status and funding eligibility.',
+                        'How long does registration take? – 1–2 weeks for Trusts/Societies, 2–4 weeks for Section 8 Company (can vary by state/ROC).',
+                        'Is tax exemption automatic for NGOs? – No, separate application for 12A/80G after registration.',
+                        'Can NGOs accept foreign donations? – Only after FCRA registration.',
+                        'What annual compliances must NGOs follow? – Annual returns, board meetings, financial audit, and compliance with Registrar/ROC.',
+                        'How do I get started? – Contact Incorvo for a free consultation and checklist for your preferred NGO structure.'
+                    ]
+                }
+            ]
+        }
     ],
     faqs: [
         {
-            q: 'What is the minimum capital required to register a Private Limited Company?',
-            a: 'There is no minimum paid-up capital requirement for registering a Private Limited Company in India.',
+            q: 'What is the difference between Trust, Society, and Section 8 Company?',
+            a: 'Trusts are governed by Trusts Act and best for small/religious NGOs; Societies by Societies Act for community/cultural bodies; Section 8 Company by Companies Act, ideal for professional, pan-India NGOs and those seeking FCRA/CSR funds.'
         },
         {
-            q: 'Can a foreigner be a director in a Private Limited Company?',
-            a: 'Yes, foreigners can be directors, but at least one director must be a resident of India, as per Section 149 of the Companies Act, 2013.',
+            q: 'Can I register an NGO as a single person?',
+            a: 'No, you need at least two (Trust/Section 8) or seven (Society) members/founders.'
         },
         {
-            q: 'How long does it take to register a Private Limited Company in India?',
-            a: 'The registration process generally takes between 7-15 business days, depending on the speed of document verification and approvals.',
+            q: 'What is 12A and 80G registration?',
+            a: '12A exempts NGO income from tax; 80G gives tax benefits to donors. Both are applied for after NGO registration.'
         },
         {
-            q: 'What are the legal standards for Private Limited Companies?',
-            a: 'Compliance Requirements: Private Limited Companies must stick to several compliance requirements under the Companies Act, 2013, including having yearly general meetings, filing annual reports, hiring accountants, and more.',
+            q: 'How much time does NGO registration take?',
+            a: 'Typically 1–2 weeks for Trust/Society and 2–4 weeks for Section 8 Company, subject to registrar process.'
         },
         {
-            q: 'Do I need a physical office for registration?',
-            a: 'Yes, a registered office in India is mandatory. This office must be in a location where official correspondence and notices from the ROC can be sent.',
+            q: 'Can my NGO receive foreign funding?',
+            a: 'Yes, but only after obtaining FCRA registration from the Ministry of Home Affairs.'
         },
         {
-            q: 'What are the perks of choosing a Private Limited Company structure?',
-            a: 'Advantages of Private Limited Company: Benefits include limited liability protection, ease of getting capital via shares, constant succession, reliability, and agreement with regulatory norms.',
+            q: 'Is annual audit mandatory for NGOs?',
+            a: 'Yes, audited financial statements and annual returns are mandatory for registered NGOs.'
         },
         {
-            q: 'Can a Private Limited Company change to a Public Limited Company?',
-            a: 'Conversion to Public Limited Company: Yes, a Private Limited Company may change to a Public Limited Company.',
+            q: 'Can Incorvo help with 12A/80G/FCRA applications?',
+            a: 'Absolutely. Incorvo provides full support for these registrations and renewals.'
         },
         {
-            q: 'What is the difference between a Private Limited Company and a Limited Liability Partnership (LLP)?',
-            a: 'Difference from LLP: The basic difference between a Private Limited Company and a Limited liability Partnership (LLP) rests in their structure and responsibility features. A Private Limited Company has owners and limited liability protection, whereas an LLP has partners with limited liability but without shares.',
+            q: 'What post-registration compliances are required?',
+            a: 'Annual filings, meetings, board minutes, and renewals as per Trust/Society/Section 8 regulations.'
         },
         {
-            q: 'How can I change the name of my Private Limited Company?',
-            a: 'Changing Company Name: To change the name of a Private Limited Company, you need to follow the way given by the Ministry of Corporate Affairs in India.',
+            q: 'Can my NGO get government or CSR funding?',
+            a: 'Yes, after registration, 12A, 80G, and proper project documentation.'
         },
         {
-            q: 'What are the penalties for non-compliance with legal duties for Private Limited Companies?',
-            a: 'Penalties for Non-Compliance: Punishments for non-compliance with regulatory requirements for Private Limited Companies might change depending on the individual infringement and may include fines or other legal punishments as per the Companies Act, 2013.',
+            q: 'How do I start the registration process?',
+            a: 'Contact Incorvo for a free eligibility check and stepwise registration plan.'
         }
-    ],
-}
+    ]
+};

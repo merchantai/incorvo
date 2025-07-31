@@ -1,206 +1,313 @@
 export default {
     header: {
-        title: 'Private Limited Company Registration',
+        title: 'Payment Bank License Registration – Incorvo',
         list: [
-            'Register your private limited company in 7 business days with our expert assistance',
-            'Our online company registration service includes the following features',
-            'Obtain 2 Digital Signature Certificates (DSC) with 2 years validity',
-            'Secure 2 Director Identification Numbers (DIN)',
-            'Get unique name approval for your private company',
-            'Acquire PAN and TAN for the company',
-            'Open a current account with ICICI Bank',
-            'Drafting the Memorandum of Association and Articles of Association',
-            'Receive the official Company Incorporation Certificate',
-        ],
+            'Expert guidance for obtaining RBI Payment Bank License in India',
+            'Step-by-step support for business plan, documentation, and RBI liaison',
+            'Eligibility check for promoters, net worth, and FDI requirements',
+            'Drafting and vetting of policy documents, compliance framework, and board constitution',
+            'Assistance with application to RBI’s Department of Regulation',
+            'Post-approval support: capital raising, technology setup, and operational readiness',
+            'Advisory on KYC, AML, cybersecurity, and customer grievance redressal',
+            'End-to-end compliance for annual filings and audit',
+            'Transparent, milestone-based pricing with digital document workflow',
+            'Dedicated Incorvo relationship manager and ongoing compliance alerts'
+        ]
     },
     content: [
         {
-            title: 'Private Limited Company Registration in India',
+            title: 'What is a Payment Bank?',
             descrption: [
                 {
                     subTitle: '',
                     p: [
-                        'Currently, Private Limited Companies make upto almost 96% of the total companies in India. Till November 20, 2023, there are 25,99,660 private limited companies registered in India. The huge number of company registrations is a testament to the ease and benefits provided by India. Although registering a company in India is not mandatory, company registration offers significant benefits to founders as well as stakeholders. By the end, you will be able to understand the key legal requirements to register a private limited company in India, along with its compliance obligations and much more.'
-                    ],
-                },
-            ],
+                        'A Payment Bank is a special category of bank licensed by the Reserve Bank of India (RBI) to further financial inclusion by offering basic banking services such as deposits (up to a prescribed limit), payments, remittances, and utility bill payments. Payment Banks cannot issue credit or loans but can offer debit cards, mobile banking, and domestic money transfers. They serve the unbanked and underbanked population, facilitate digital transactions, and provide a secure platform for small savings.'
+                    ]
+                }
+            ]
         },
         {
-            title: 'What is a Private Limited Company?',
+            title: 'Who Should Apply for a Payment Bank License?',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        'In India, there are several companies that can be registered. A Private Limited Company is one of them. A Private Limited Company bearing the suffix of ‘Pvt. Ltd\'. At the end of its name is a separate legal entity registered under the Companies Act, 2013with the Registrar of Companies (ROC). The main feature of this type of company is that it offers limited liability protection to its shareholders; it means that the liability of the shareholders is only up to the extent of shares held by them, and the personal assets of shareholders (owners) are protected from the obligations of the company. The company can be owned by multiple shareholders and managed by appointed directors. It is separated from the owners of the company, and its legal existence continues even if there are changes in the ownership or management, which provides security and stability to the company.',
-                    ],
-                },
-            ],
+                    ul: [
+                        'Companies and business groups seeking to enter the fintech and digital banking sector',
+                        'Telecom, supermarket, retail, or NBFC businesses with large customer bases',
+                        'Entrepreneurs and startups aiming to promote financial inclusion and digital payments',
+                        'Existing prepaid instrument providers, corporates, or individuals with strong digital infrastructure',
+                        'Applicants with capability to meet stringent RBI fit-and-proper and capital norms'
+                    ]
+                }
+            ]
         },
         {
-            title: 'Why Should You Register a Private Limited Company?',
+            title: 'Key Features and Activities of Payment Banks',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        'There are several compelling reasons why forming a Private Limited Company can be beneficial:',
-                    ],
-                },
-                {
-                    subTitle: '1. Limited Liability Protection',
-                    p: [
-                        'As a private limited company, the liability of its shareholders is restricted to the unpaid amount on their shares. This means that if the company faces financial distress or legal liabilities, the personal assets of the shareholders (directors or members) will not be at risk.',
-                    ],
-                },
-                {
-                    subTitle: '2. Separate Legal Entity',
-                    p: [
-                        'A company is a juristic person in the eyes of the law. The legal entity of the company is distinct from its shareholders and directors. The company is capable of entering into contracts in its own name; it can sue and be sued in its own name. The liability and credibility of the company are separated from its stakeholders.',
-                    ],
-                },
-                {
-                    subTitle: '3. Perpetual Succession',
-                    p: [
-                        'The existence of the company is independent of the existence of its shareholders or directors. Unlike a partnership or sole proprietorship, the private limited company enjoys perpetual succession, which means that the existence of the company is not affected by the death, insolvency, or retirement of any shareholder or director. This perpetual succession guarantees the continuity of the business even if one of the company\'s stakeholders leaves the company.',
-                    ],
-                },
-                {
-                    subTitle: '4. Easy Transferability of Shares',
-                    p: [
-                        'Registering a company in India offers easy transferability of shares, which means that shares of the company can be transferred from one shareholder to another. The leverage smoothens out the transaction in the management of the company and later enhances the flexibility in the business operations of the company.',
-                    ],
-                },
-                {
-                    subTitle: '5. Access to Investments and Funding',
-                    p: [
-                        'Capital can be easily raised in a registered Private Limited Company, as Equity shares can be easily issued by the company to raise funds. Issuing equity shares attracts potential investors and venture capital to invest in the company.',
-                    ],
-                },
-                {
-                    subTitle: '6. Increased Trustworthiness',
-                    p: [
-                        'Registering a Private Limited Company enjoys greater market credibility as compared to other business structures. The greater credibility leads to increased trustworthiness among investors. The advantage is gained by the company due to its registration. Registering a company makes the company legally recognizable and shows that it meets the regulatory standards.',
-                    ],
-                },
-            ],
+                    ul: [
+                        'Accept demand deposits (up to ₹2 lakh per customer as per latest RBI guidelines)',
+                        'Issue ATM/debit cards, offer net banking and mobile banking',
+                        'Enable domestic money transfers, utility and bill payments, and recharges',
+                        'Distribute mutual funds, insurance, pension products as permitted',
+                        'No credit or loan business (no lending of any form allowed)',
+                        'Must maintain a minimum CRR (Cash Reserve Ratio) with RBI',
+                        'Mandatory KYC/AML compliance and robust cybersecurity measures'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Eligibility Criteria for Payment Bank License',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    ul: [
+                        'Promoter/promoter group should be resident Indian entities or owned and controlled by residents',
+                        'Minimum paid-up equity capital: ₹100 crore',
+                        'Promoter’s minimum initial contribution: at least 40% (locked for first 5 years)',
+                        'Fit-and-proper status as per RBI guidelines (track record, integrity, financial soundness)',
+                        'Past experience in banking, payments, technology, or financial services preferred',
+                        'Foreign shareholding permitted as per FDI policy for private sector banks',
+                        'Business plan for at least 5 years with detailed product, risk, and compliance framework'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Step-by-Step Payment Bank License Application Process with Incorvo',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    ol: [
+                        'Eligibility check and strategic consultation with Incorvo experts',
+                        'Drafting of comprehensive business plan, capital structure, and policy documents',
+                        'Preparation of KYC, promoter background, net worth, and FDI compliance documentation',
+                        'Board constitution with at least 51% independent directors and regulatory expertise',
+                        'Online application submission to RBI’s Department of Regulation (Banking) with all annexures',
+                        'RBI review, interaction, and additional information/clarifications if required',
+                        'Grant of In-Principle Approval (IPA) valid for 18 months for setting up bank infrastructure',
+                        'Operational readiness: capital infusion, IT, staffing, and compliance system setup',
+                        'Final license issuance and commencement of payment banking business',
+                        'Ongoing RBI compliance, annual audit, and reporting with support from Incorvo'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Documents Required for Payment Bank License Application',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    ul: [
+                        'Application form as per RBI guidelines',
+                        'Detailed business plan (5 years) with projected financials and risk assessment',
+                        'KYC documents and background checks of promoters and directors',
+                        'Net worth certificate and source of funds proof',
+                        'Memorandum and Articles of Association (MOA/AOA)',
+                        'Board resolution and proposed management structure',
+                        'Drafts of key operational policies: KYC/AML, cybersecurity, customer grievance, internal audit',
+                        'Technology platform and digital security architecture details',
+                        'Details of group companies, holding, subsidiaries, or any cross-holdings',
+                        'FDI compliance documents if foreign investment involved',
+                        'Any additional documents sought by RBI during review'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Advantages of Registering a Payment Bank with Incorvo',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    ul: [
+                        'Unlocks new business avenues in digital banking and payments',
+                        'Enhances financial inclusion and customer reach',
+                        'Builds trust and brand authority with regulated status',
+                        'Access to technology-driven banking and large-scale distribution',
+                        'Ability to partner with fintech, NBFCs, and ecosystem players',
+                        'Expert support for documentation, compliance, and RBI interface'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Post-Licensing Compliance & Operational Requirements',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    ul: [
+                        'Ongoing compliance with RBI Master Directions for Payment Banks',
+                        'Annual submission of audited financial statements and returns',
+                        'Robust KYC, AML, and transaction monitoring systems',
+                        'Appointment of internal auditor and statutory auditor',
+                        'Periodic IT/cybersecurity audits and compliance certifications',
+                        'Maintenance of CRR and SLR as per RBI norms',
+                        'Regular updating of customer protection, grievance redressal, and business continuity plans',
+                        'Prompt reporting of frauds, suspicious transactions, and cyber incidents to RBI'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Comparison: Payment Bank vs Small Finance Bank vs NBFC',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    table: {
+                        thead: {
+                            trow: [
+                                ['Criteria', 'Payment Bank', 'Small Finance Bank', 'NBFC']
+                            ]
+                        },
+                        tbody: {
+                            trow: [
+                                [
+                                    'Deposit Limit',
+                                    '₹2 lakh per customer',
+                                    'No such cap',
+                                    'Not allowed to accept demand deposits'
+                                ],
+                                [
+                                    'Lending/Loans',
+                                    'Not allowed',
+                                    'Permitted (priority sector lending focus)',
+                                    'Permitted'
+                                ],
+                                [
+                                    'Foreign Remittance',
+                                    'Permitted (domestic only)',
+                                    'Permitted',
+                                    'Permitted (subject to license)'
+                                ],
+                                [
+                                    'ATM/Debit Cards',
+                                    'Allowed',
+                                    'Allowed',
+                                    'Allowed (via partner banks)'
+                                ],
+                                [
+                                    'Regulator',
+                                    'RBI (Banking Regulation Act)',
+                                    'RBI',
+                                    'RBI (NBFC guidelines)'
+                                ]
+                            ]
+                        }
+                    }
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Common Mistakes to Avoid in Payment Bank Application',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    ul: [
+                        'Incomplete or non-compliant documentation leading to application rejection',
+                        'Underestimating capital and technology investment requirements',
+                        'Weak KYC, AML, or IT security frameworks',
+                        'Lack of experience or credibility in promoter group',
+                        'Inadequate business plan or unrealistic projections',
+                        'Delayed response to RBI queries or clarification requests'
+                    ]
+                }
+            ]
         },
+        {
+            title: 'Best Practices for Payment Bank Licensing & Operation',
+            descrption: [
+                {
+                    subTitle: '',
+                    ul: [
+                        'Engage experienced CA/CS, legal, and banking experts (like Incorvo)',
+                        'Draft a detailed, realistic business plan with compliance roadmap',
+                        'Invest in best-in-class IT, cybersecurity, and KYC/AML infrastructure',
+                        'Ensure robust governance: independent directors and regulatory experience on the board',
+                        'Maintain transparent, regular communication with RBI and auditors',
+                        'Plan for scaling, customer support, and regular compliance audits'
+                    ]
+                }
+            ]
+        },
+        {
+            title: 'Why Choose Incorvo for Payment Bank License Services?',
+            descrption: [
+                {
+                    subTitle: '',
+                    ul: [
+                        'In-depth expertise in RBI licensing and digital banking regulations',
+                        'Dedicated project manager for document preparation and compliance',
+                        'Support from planning to operational launch, and ongoing compliance',
+                        'Transparent fee structure and digital document workflow',
+                        'Strong success record for NBFC, SFB, and fintech licenses',
+                        'End-to-end liaison with RBI, auditors, and regulatory bodies'
+                    ]
+                }
+            ]
+        },
+        {
+            title: 'Payment Bank License: Extended FAQs',
+            descrption: [
+                {
+                    subTitle: '',
+                    ul: [
+                        'What is the minimum capital required for a Payment Bank? – ₹100 crore paid-up equity capital.',
+                        'Can Payment Banks offer loans or credit cards? – No, only deposit and payments/remittance services.',
+                        'Are Payment Banks allowed to distribute mutual funds/insurance? – Yes, subject to RBI and sectoral regulator approval.',
+                        'How long does the RBI application process take? – 6–12 months or more, depending on document completeness and RBI review.',
+                        'What is the validity of the license? – Valid as long as all RBI conditions and compliance are met; subject to regular reviews.',
+                        'Can foreign investors hold stake in Payment Banks? – Yes, as per current FDI guidelines for private sector banks.',
+                        'Is technology infrastructure mandatory before license grant? – No, but must be in place before operational launch.',
+                        'Do Payment Banks need to be listed on stock exchanges? – Not mandatory, but can do so for capital raising.',
+                        'Can an NBFC or telecom company apply? – Yes, with fit-and-proper criteria and ring-fencing of activities as per RBI.',
+                        'How do I get started? – Contact Incorvo for a free eligibility check, checklist, and application roadmap.'
+                    ]
+                }
+            ]
+        }
     ],
     faqs: [
         {
-            q: 'What is the minimum capital required to register a Private Limited Company?',
-            a: 'There is no minimum paid-up capital requirement for registering a Private Limited Company in India.',
+            q: 'What is the role of Payment Banks in India’s financial system?',
+            a: 'They drive financial inclusion by offering digital banking and payments to the unbanked/underbanked, supporting government DBT, and reducing cash dependency.'
         },
         {
-            q: 'Can a foreigner be a director in a Private Limited Company?',
-            a: 'Yes, foreigners can be directors, but at least one director must be a resident of India, as per Section 149 of the Companies Act, 2013.',
+            q: 'Can Payment Banks open accounts for businesses and MSMEs?',
+            a: 'Yes, they can open current and savings accounts for individuals, small businesses, and MSMEs, subject to deposit limits.'
         },
         {
-            q: 'How long does it take to register a Private Limited Company in India?',
-            a: 'The registration process generally takes between 7-15 business days, depending on the speed of document verification and approvals.',
+            q: 'What is the CRR requirement for Payment Banks?',
+            a: 'Payment Banks must maintain a certain portion of deposits as CRR with RBI, as notified periodically.'
         },
         {
-            q: 'What are the legal standards for Private Limited Companies?',
-            a: 'Compliance Requirements: Private Limited Companies must stick to several compliance requirements under the Companies Act, 2013, including having yearly general meetings, filing annual reports, hiring accountants, and more.',
+            q: 'Are Payment Banks subject to audit?',
+            a: 'Yes, annual statutory and internal audits, IT/cybersecurity audits, and RBI inspections are mandatory.'
         },
         {
-            q: 'Do I need a physical office for registration?',
-            a: 'Yes, a registered office in India is mandatory. This office must be in a location where official correspondence and notices from the ROC can be sent.',
+            q: 'Can a Payment Bank convert into a Small Finance Bank?',
+            a: 'Yes, after 5 years of operations and meeting RBI criteria, conversion may be permitted subject to RBI approval.'
         },
         {
-            q: 'What are the perks of choosing a Private Limited Company structure?',
-            a: 'Advantages of Private Limited Company: Benefits include limited liability protection, ease of getting capital via shares, constant succession, reliability, and agreement with regulatory norms.',
+            q: 'How does Incorvo ensure application success?',
+            a: 'By providing expert guidance, complete documentation, compliance checks, and direct liaison with RBI at every stage.'
         },
         {
-            q: 'Can a Private Limited Company change to a Public Limited Company?',
-            a: 'Conversion to Public Limited Company: Yes, a Private Limited Company may change to a Public Limited Company.',
+            q: 'How are Payment Banks regulated?',
+            a: 'They are regulated by RBI under the Banking Regulation Act and Payment Banks guidelines.'
         },
         {
-            q: 'What is the difference between a Private Limited Company and a Limited Liability Partnership (LLP)?',
-            a: 'Difference from LLP: The basic difference between a Private Limited Company and a Limited liability Partnership (LLP) rests in their structure and responsibility features. A Private Limited Company has owners and limited liability protection, whereas an LLP has partners with limited liability but without shares.',
+            q: 'What happens if compliance norms are violated?',
+            a: 'RBI may impose penalties, restrictions, or revoke license in cases of non-compliance or systemic risks.'
         },
         {
-            q: 'How can I change the name of my Private Limited Company?',
-            a: 'Changing Company Name: To change the name of a Private Limited Company, you need to follow the way given by the Ministry of Corporate Affairs in India.',
+            q: 'How soon can a Payment Bank start operations after approval?',
+            a: 'Typically within 18 months after In-Principle Approval, subject to infrastructure, compliance, and final RBI clearance.'
         },
         {
-            q: 'What are the penalties for non-compliance with legal duties for Private Limited Companies?',
-            a: 'Penalties for Non-Compliance: Punishments for non-compliance with regulatory requirements for Private Limited Companies might change depending on the individual infringement and may include fines or other legal punishments as per the Companies Act, 2013.',
+            q: 'How do I get started with Incorvo?',
+            a: 'Schedule a consultation for eligibility, document checklist, and customized roadmap for Payment Bank licensing.'
         }
-    ],
-}
+    ]
+};

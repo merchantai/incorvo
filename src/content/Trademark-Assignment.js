@@ -1,206 +1,242 @@
 export default {
     header: {
-        title: 'Private Limited Company Registration',
+        title: 'Trademark Assignment – Incorvo',
         list: [
-            'Register your private limited company in 7 business days with our expert assistance',
-            'Our online company registration service includes the following features',
-            'Obtain 2 Digital Signature Certificates (DSC) with 2 years validity',
-            'Secure 2 Director Identification Numbers (DIN)',
-            'Get unique name approval for your private company',
-            'Acquire PAN and TAN for the company',
-            'Open a current account with ICICI Bank',
-            'Drafting the Memorandum of Association and Articles of Association',
-            'Receive the official Company Incorporation Certificate',
-        ],
+            'End-to-end legal support for assignment and transfer of registered or pending trademarks in India',
+            'Advisory for voluntary, merger, demerger, inheritance, or goodwill-based assignments',
+            'Drafting and vetting of Trademark Assignment Deed/Agreement',
+            'Preparation and filing of required forms with IP India (Form TM-P) and follow-up',
+            'Assistance with both complete and partial assignment of rights',
+            'Expert guidance on transfer of associated and unassociated trademarks',
+            'Transparent milestone-based pricing and digital document management',
+            'Support for assignment to individual, business entity, or legal heir',
+            'Consultation on tax, stamp duty, and consideration issues',
+            'Dedicated Incorvo relationship manager for seamless coordination'
+        ]
     },
     content: [
         {
-            title: 'Private Limited Company Registration in India',
+            title: 'What is Trademark Assignment?',
             descrption: [
                 {
                     subTitle: '',
                     p: [
-                        'Currently, Private Limited Companies make upto almost 96% of the total companies in India. Till November 20, 2023, there are 25,99,660 private limited companies registered in India. The huge number of company registrations is a testament to the ease and benefits provided by India. Although registering a company in India is not mandatory, company registration offers significant benefits to founders as well as stakeholders. By the end, you will be able to understand the key legal requirements to register a private limited company in India, along with its compliance obligations and much more.'
-                    ],
-                },
-            ],
+                        'Trademark assignment refers to the process by which ownership rights in a registered or applied-for trademark are transferred from one party (the assignor) to another (the assignee). The transfer may be full or partial and can occur by sale, inheritance, merger, amalgamation, or even through contractual agreement. Under Indian law, assignment must be recorded with the Trademark Registry for it to be legally recognized.',
+                        'Incorvo assists clients at every step of trademark assignment, from legal vetting and agreement drafting to regulatory filings and post-assignment compliance.'
+                    ]
+                }
+            ]
         },
         {
-            title: 'What is a Private Limited Company?',
+            title: 'Why Assign a Trademark?',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        'In India, there are several companies that can be registered. A Private Limited Company is one of them. A Private Limited Company bearing the suffix of ‘Pvt. Ltd\'. At the end of its name is a separate legal entity registered under the Companies Act, 2013with the Registrar of Companies (ROC). The main feature of this type of company is that it offers limited liability protection to its shareholders; it means that the liability of the shareholders is only up to the extent of shares held by them, and the personal assets of shareholders (owners) are protected from the obligations of the company. The company can be owned by multiple shareholders and managed by appointed directors. It is separated from the owners of the company, and its legal existence continues even if there are changes in the ownership or management, which provides security and stability to the company.',
-                    ],
-                },
-            ],
+                    ul: [
+                        'Enable sale or purchase of brand value, business goodwill, or intellectual property',
+                        'Facilitate merger, demerger, franchising, licensing, or business restructuring',
+                        'Allow transfer to legal heirs or successors in the event of inheritance',
+                        'Leverage brand assets for funding, joint ventures, or strategic alliances',
+                        'Resolve disputes or streamline group company brand management',
+                        'Comply with regulatory requirements for change in ownership or management'
+                    ]
+                }
+            ]
         },
         {
-            title: 'Why Should You Register a Private Limited Company?',
+            title: 'Types of Trademark Assignment',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        'There are several compelling reasons why forming a Private Limited Company can be beneficial:',
-                    ],
-                },
-                {
-                    subTitle: '1. Limited Liability Protection',
-                    p: [
-                        'As a private limited company, the liability of its shareholders is restricted to the unpaid amount on their shares. This means that if the company faces financial distress or legal liabilities, the personal assets of the shareholders (directors or members) will not be at risk.',
-                    ],
-                },
-                {
-                    subTitle: '2. Separate Legal Entity',
-                    p: [
-                        'A company is a juristic person in the eyes of the law. The legal entity of the company is distinct from its shareholders and directors. The company is capable of entering into contracts in its own name; it can sue and be sued in its own name. The liability and credibility of the company are separated from its stakeholders.',
-                    ],
-                },
-                {
-                    subTitle: '3. Perpetual Succession',
-                    p: [
-                        'The existence of the company is independent of the existence of its shareholders or directors. Unlike a partnership or sole proprietorship, the private limited company enjoys perpetual succession, which means that the existence of the company is not affected by the death, insolvency, or retirement of any shareholder or director. This perpetual succession guarantees the continuity of the business even if one of the company\'s stakeholders leaves the company.',
-                    ],
-                },
-                {
-                    subTitle: '4. Easy Transferability of Shares',
-                    p: [
-                        'Registering a company in India offers easy transferability of shares, which means that shares of the company can be transferred from one shareholder to another. The leverage smoothens out the transaction in the management of the company and later enhances the flexibility in the business operations of the company.',
-                    ],
-                },
-                {
-                    subTitle: '5. Access to Investments and Funding',
-                    p: [
-                        'Capital can be easily raised in a registered Private Limited Company, as Equity shares can be easily issued by the company to raise funds. Issuing equity shares attracts potential investors and venture capital to invest in the company.',
-                    ],
-                },
-                {
-                    subTitle: '6. Increased Trustworthiness',
-                    p: [
-                        'Registering a Private Limited Company enjoys greater market credibility as compared to other business structures. The greater credibility leads to increased trustworthiness among investors. The advantage is gained by the company due to its registration. Registering a company makes the company legally recognizable and shows that it meets the regulatory standards.',
-                    ],
-                },
-            ],
+                    table: {
+                        thead: {
+                            trow: [
+                                ['Type', 'Description', 'Example']
+                            ]
+                        },
+                        tbody: {
+                            trow: [
+                                ['Complete Assignment', 'All rights and title in the trademark are transferred to the assignee', 'Sale of trademark along with all associated goods/services'],
+                                ['Partial Assignment', 'Transfer of rights limited to certain goods/services or territories', 'Assigning trademark only for apparel, not for footwear'],
+                                ['Assignment with Goodwill', 'Trademark along with business reputation and customer base', 'Brand sale to another entity along with its goodwill'],
+                                ['Assignment without Goodwill', 'Trademark transferred, but assignor retains right to use for some goods/services', 'Assigning for new product line, but retaining existing lines']
+                            ]
+                        }
+                    }
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Legal Provisions and Regulatory Aspects',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    ul: [
+                        'Trademark assignments are governed by Sections 37 to 45 of the Trade Marks Act, 1999',
+                        'Assignment must be in writing (Assignment Deed or Agreement), stamped as per state laws',
+                        'Assignment of registered or pending marks must be recorded with the Trademark Registry by filing Form TM-P',
+                        'Registrar may refuse assignment if it creates confusion or multiple exclusive rights',
+                        'Assignment can be with or without goodwill, and must specify scope and consideration clearly',
+                        'Notice of assignment to be given to all concerned parties, licensees, and authorities'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Step-by-Step Trademark Assignment Process with Incorvo',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    ol: [
+                        'Initial consultation and assessment of assignment type and legal requirements',
+                        'Collection and review of trademark registration certificate/application, ownership documents, and identification proofs',
+                        'Drafting and vetting of Trademark Assignment Deed, specifying scope, consideration, and parties',
+                        'Stamping and execution of Assignment Deed as per state stamp law',
+                        'Preparation and filing of Form TM-P with the Trademark Registry along with necessary documents and government fee',
+                        'Responding to queries or objections from Trademark Registry (if any)',
+                        'Publication of assignment (if required by Registrar) and follow-up until formal recordal',
+                        'Issuance of updated registration certificate or entry in the register in assignee’s name',
+                        'Assistance with IP portfolio update and third-party/intellectual property disclosures'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Documents Required for Trademark Assignment',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    ul: [
+                        'Duly executed and stamped Trademark Assignment Deed/Agreement',
+                        'Copy of trademark registration certificate or application details',
+                        'Proof of identity and address of assignor and assignee (PAN, Aadhaar, etc.)',
+                        'Board/company resolution (if assignor/assignee is a company or LLP)',
+                        'No-objection certificate (NOC) from third parties (if required)',
+                        'Power of Attorney (if filing through an agent or attorney)',
+                        'Proof of payment of government fees (TM-P filing receipt)'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Why Choose Incorvo for Trademark Assignment?',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    ul: [
+                        'Experienced IP attorneys, CAs, and company secretaries for complete legal support',
+                        'Customized Assignment Deed drafting and review—ensuring clarity and enforceability',
+                        'Thorough check for associated/unassociated marks, pending disputes, or encumbrances',
+                        'Pan-India online documentation and Trademark Registry filings',
+                        'End-to-end process: drafting, stamping, filing, follow-up, and post-assignment advice',
+                        'Digital record management and secure data handling',
+                        'Transparent, milestone-based pricing and compliance calendar'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Sample Scenarios & Solutions',
             descrption: [
                 {
-                    subTitle: '',
+                    subTitle: 'Case: Startup Selling Its Brand to Another Company',
                     p: [
-                        '',
-                    ],
+                        'Incorvo drafts a complete Assignment Deed, files TM-P, and assists both parties in regulatory and tax compliance for seamless transfer.'
+                    ]
                 },
-            ],
+                {
+                    subTitle: 'Case: Family Business Passing Trademark to Legal Heir',
+                    p: [
+                        'Our team prepares inheritance-based assignment documentation, NOCs, and ensures regulatory acceptance without dispute.'
+                    ]
+                },
+                {
+                    subTitle: 'Case: Brand Expansion by Partial Assignment',
+                    p: [
+                        'We structure a partial assignment (certain products/geographies), ensuring both assignor and assignee rights are legally secure.'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Best Practices and Common Issues',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    ul: [
+                        'Always execute a written Assignment Deed, not just an oral agreement',
+                        'Use clear, unambiguous language for scope and consideration',
+                        'Check for existing licenses, encumbrances, or pending litigations on the trademark',
+                        'Pay applicable stamp duty to avoid enforceability issues',
+                        'File TM-P within prescribed time limit (6 months from date of assignment)',
+                        'Respond to Trademark Registry objections or deficiencies promptly',
+                        'Update all relevant contracts, packaging, and third-party disclosures after assignment',
+                        'Consult with IP and tax professionals for cross-border or high-value assignments'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Extended FAQs – Trademark Assignment',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
-        },
+                    ul: [
+                        'Can a pending (unregistered) trademark be assigned? – Yes, both registered and unregistered marks can be assigned.',
+                        'Is stamp duty payable on assignment? – Yes, as per state stamp act where deed is executed.',
+                        'Can assignment be limited to certain goods/services or geography? – Yes, through partial assignment.',
+                        'Is assignment possible without goodwill? – Yes, but restrictions apply and Registrar may require clarification.',
+                        'What if the trademark is under dispute? – Assignment possible, but subject to outcome of dispute/litigation.',
+                        'How long does it take for the assignment to be recorded? – Typically 3–6 months after TM-P filing, subject to Registry clearance.',
+                        'Can assignment be revoked? – Only by mutual agreement or if not yet registered; once recorded, rights vest in assignee.',
+                        'Is assignment same as licensing? – No, assignment transfers ownership; license grants only usage rights.',
+                        'What if multiple parties claim assignment? – Registrar may call for evidence and decide after hearing all parties.',
+                        'Can Incorvo assist with international trademark assignment? – Yes, we can coordinate with foreign associates for cross-border assignments.'
+                    ]
+                }
+            ]
+        }
     ],
     faqs: [
         {
-            q: 'What is the minimum capital required to register a Private Limited Company?',
-            a: 'There is no minimum paid-up capital requirement for registering a Private Limited Company in India.',
+            q: 'Who can assign a trademark in India?',
+            a: 'Any owner (individual, company, LLP, partnership) with legal rights over a trademark can assign it, subject to statutory restrictions.'
         },
         {
-            q: 'Can a foreigner be a director in a Private Limited Company?',
-            a: 'Yes, foreigners can be directors, but at least one director must be a resident of India, as per Section 149 of the Companies Act, 2013.',
+            q: 'What is the fee for trademark assignment filing?',
+            a: 'The government fee for Form TM-P filing varies based on applicant type; Incorvo will advise total cost including legal/documentation charges.'
         },
         {
-            q: 'How long does it take to register a Private Limited Company in India?',
-            a: 'The registration process generally takes between 7-15 business days, depending on the speed of document verification and approvals.',
+            q: 'Is physical presence required for assignment?',
+            a: 'No, all steps—drafting, execution, and TM-P filing—can be completed digitally with scanned and signed documents.'
         },
         {
-            q: 'What are the legal standards for Private Limited Companies?',
-            a: 'Compliance Requirements: Private Limited Companies must stick to several compliance requirements under the Companies Act, 2013, including having yearly general meetings, filing annual reports, hiring accountants, and more.',
+            q: 'How do I know if a trademark can be assigned?',
+            a: 'Check for registration status, existing licenses, and any Registry-imposed restrictions before initiating assignment.'
         },
         {
-            q: 'Do I need a physical office for registration?',
-            a: 'Yes, a registered office in India is mandatory. This office must be in a location where official correspondence and notices from the ROC can be sent.',
+            q: 'What happens if assignment is not recorded with the Registry?',
+            a: 'The assignment is not legally effective against third parties; only the recorded assignee is recognized by the Trademark Office.'
         },
         {
-            q: 'What are the perks of choosing a Private Limited Company structure?',
-            a: 'Advantages of Private Limited Company: Benefits include limited liability protection, ease of getting capital via shares, constant succession, reliability, and agreement with regulatory norms.',
+            q: 'Can assignment happen between group companies or related parties?',
+            a: 'Yes, subject to proper documentation and compliance with the law.'
         },
         {
-            q: 'Can a Private Limited Company change to a Public Limited Company?',
-            a: 'Conversion to Public Limited Company: Yes, a Private Limited Company may change to a Public Limited Company.',
+            q: 'Can Incorvo help with trademark assignment disputes?',
+            a: 'Absolutely! We provide legal support for negotiation, documentation, and Registry proceedings if disputes arise.'
         },
         {
-            q: 'What is the difference between a Private Limited Company and a Limited Liability Partnership (LLP)?',
-            a: 'Difference from LLP: The basic difference between a Private Limited Company and a Limited liability Partnership (LLP) rests in their structure and responsibility features. A Private Limited Company has owners and limited liability protection, whereas an LLP has partners with limited liability but without shares.',
+            q: 'Does assignment affect existing licensees or users?',
+            a: 'All affected parties should be notified; assignment does not nullify existing licenses unless specifically agreed.'
         },
         {
-            q: 'How can I change the name of my Private Limited Company?',
-            a: 'Changing Company Name: To change the name of a Private Limited Company, you need to follow the way given by the Ministry of Corporate Affairs in India.',
+            q: 'What if assignment is cross-border (foreign party)?',
+            a: 'Cross-border assignments are permitted with additional documentation and possible RBI/FEMA compliance. Incorvo can guide you.'
         },
         {
-            q: 'What are the penalties for non-compliance with legal duties for Private Limited Companies?',
-            a: 'Penalties for Non-Compliance: Punishments for non-compliance with regulatory requirements for Private Limited Companies might change depending on the individual infringement and may include fines or other legal punishments as per the Companies Act, 2013.',
+            q: 'How do I get started with Incorvo for trademark assignment?',
+            a: 'Contact us for a free assessment, document checklist, and a seamless assignment process with legal support at every step.'
         }
-    ],
-}
+    ]
+};

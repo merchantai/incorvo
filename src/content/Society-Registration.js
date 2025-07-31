@@ -1,206 +1,271 @@
 export default {
     header: {
-        title: 'Private Limited Company Registration',
+        title: 'Society Registration – Incorvo',
         list: [
-            'Register your private limited company in 7 business days with our expert assistance',
-            'Our online company registration service includes the following features',
-            'Obtain 2 Digital Signature Certificates (DSC) with 2 years validity',
-            'Secure 2 Director Identification Numbers (DIN)',
-            'Get unique name approval for your private company',
-            'Acquire PAN and TAN for the company',
-            'Open a current account with ICICI Bank',
-            'Drafting the Memorandum of Association and Articles of Association',
-            'Receive the official Company Incorporation Certificate',
-        ],
+            'End-to-end society registration services for NGOs, cultural, welfare, and charitable organizations',
+            'Expert legal advisory for documentation, state authority liaison, and digital record management',
+            'Process compliant with the Societies Registration Act, 1860 and respective state amendments',
+            'Assistance with name selection, memorandum drafting, and bye-laws',
+            'Support for PAN, TAN, 12A, 80G, and FCRA eligibility post-registration',
+            'Transparent pricing, milestone-based billing, and zero hidden charges',
+            'Guidance for managing multi-state, national, and international societies',
+            'Dedicated Incorvo relationship manager and compliance reminders',
+            'Compliance calendar, annual filing support, and member onboarding included',
+            'Ideal for educational, religious, literary, research, welfare, and social causes'
+        ]
     },
     content: [
         {
-            title: 'Private Limited Company Registration in India',
+            title: 'What is Society Registration?',
             descrption: [
                 {
                     subTitle: '',
                     p: [
-                        'Currently, Private Limited Companies make upto almost 96% of the total companies in India. Till November 20, 2023, there are 25,99,660 private limited companies registered in India. The huge number of company registrations is a testament to the ease and benefits provided by India. Although registering a company in India is not mandatory, company registration offers significant benefits to founders as well as stakeholders. By the end, you will be able to understand the key legal requirements to register a private limited company in India, along with its compliance obligations and much more.'
-                    ],
-                },
-            ],
+                        'Society registration is the legal process by which a group of individuals come together to form an association for promoting charitable, literary, scientific, religious, or social objectives. Registration under the Societies Registration Act, 1860 (and respective state acts) gives the society legal status, allowing it to hold property, open bank accounts, enter contracts, and obtain government grants or donor funds.',
+                        'Societies are widely used for NGOs, clubs, resident welfare associations, educational institutions, and more. Incorvo ensures a compliant, quick, and smooth registration process, followed by post-registration advisory and support.'
+                    ]
+                }
+            ]
         },
         {
-            title: 'What is a Private Limited Company?',
+            title: 'Key Features and Benefits of Society Registration',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        'In India, there are several companies that can be registered. A Private Limited Company is one of them. A Private Limited Company bearing the suffix of ‘Pvt. Ltd\'. At the end of its name is a separate legal entity registered under the Companies Act, 2013with the Registrar of Companies (ROC). The main feature of this type of company is that it offers limited liability protection to its shareholders; it means that the liability of the shareholders is only up to the extent of shares held by them, and the personal assets of shareholders (owners) are protected from the obligations of the company. The company can be owned by multiple shareholders and managed by appointed directors. It is separated from the owners of the company, and its legal existence continues even if there are changes in the ownership or management, which provides security and stability to the company.',
-                    ],
-                },
-            ],
+                    ul: [
+                        'Separate legal entity with perpetual succession',
+                        'Eligible for tax exemptions, government grants, and FCRA registration',
+                        'Limited liability for members',
+                        'Ability to hold property, enter contracts, and sue/be sued in society name',
+                        'Structured governance through a managing committee and bye-laws',
+                        'Transparent, democratic functioning through annual elections and meetings',
+                        'Pan-India recognition for national societies (if registered in Delhi/central jurisdictions)',
+                        'Easier to open current bank accounts and receive public/CSR funds'
+                    ]
+                }
+            ]
         },
         {
-            title: 'Why Should You Register a Private Limited Company?',
+            title: 'Who Can Register a Society?',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        'There are several compelling reasons why forming a Private Limited Company can be beneficial:',
-                    ],
-                },
-                {
-                    subTitle: '1. Limited Liability Protection',
-                    p: [
-                        'As a private limited company, the liability of its shareholders is restricted to the unpaid amount on their shares. This means that if the company faces financial distress or legal liabilities, the personal assets of the shareholders (directors or members) will not be at risk.',
-                    ],
-                },
-                {
-                    subTitle: '2. Separate Legal Entity',
-                    p: [
-                        'A company is a juristic person in the eyes of the law. The legal entity of the company is distinct from its shareholders and directors. The company is capable of entering into contracts in its own name; it can sue and be sued in its own name. The liability and credibility of the company are separated from its stakeholders.',
-                    ],
-                },
-                {
-                    subTitle: '3. Perpetual Succession',
-                    p: [
-                        'The existence of the company is independent of the existence of its shareholders or directors. Unlike a partnership or sole proprietorship, the private limited company enjoys perpetual succession, which means that the existence of the company is not affected by the death, insolvency, or retirement of any shareholder or director. This perpetual succession guarantees the continuity of the business even if one of the company\'s stakeholders leaves the company.',
-                    ],
-                },
-                {
-                    subTitle: '4. Easy Transferability of Shares',
-                    p: [
-                        'Registering a company in India offers easy transferability of shares, which means that shares of the company can be transferred from one shareholder to another. The leverage smoothens out the transaction in the management of the company and later enhances the flexibility in the business operations of the company.',
-                    ],
-                },
-                {
-                    subTitle: '5. Access to Investments and Funding',
-                    p: [
-                        'Capital can be easily raised in a registered Private Limited Company, as Equity shares can be easily issued by the company to raise funds. Issuing equity shares attracts potential investors and venture capital to invest in the company.',
-                    ],
-                },
-                {
-                    subTitle: '6. Increased Trustworthiness',
-                    p: [
-                        'Registering a Private Limited Company enjoys greater market credibility as compared to other business structures. The greater credibility leads to increased trustworthiness among investors. The advantage is gained by the company due to its registration. Registering a company makes the company legally recognizable and shows that it meets the regulatory standards.',
-                    ],
-                },
-            ],
+                    ul: [
+                        'Any group of 7 or more individuals (Indian or foreign nationals)',
+                        'Partnership firms, companies, and other registered bodies (as members)',
+                        'Founders must have a common charitable, scientific, literary, or welfare objective',
+                        'At least one member with Indian residence/address proof for local registration',
+                        'Welfare associations, alumni groups, social clubs, and RWAs'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Step-by-Step Society Registration Process with Incorvo',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    ol: [
+                        'Free eligibility check and document briefing by Incorvo',
+                        'Finalization of name (check for uniqueness and local objections)',
+                        'Drafting Memorandum of Association (MOA) and Rules & Regulations (bye-laws)',
+                        'Collection of KYC (ID/address proof) and photographs of all founding members',
+                        'Preparation and notarization of affidavits/declarations from the president/secretary',
+                        'Submission of application, MOA, bye-laws, and affidavit to Registrar of Societies (RoS)',
+                        'Payment of government fees (varies by state)',
+                        'Physical or digital verification, and follow-up for queries/clarifications',
+                        'Receipt of Registration Certificate and official Society Registration Number',
+                        'Post-registration support: PAN, TAN, 12A, 80G, FCRA, and bank account opening'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Documents Required for Society Registration',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    ul: [
+                        'PAN, Aadhaar/passport/voter ID of all founding members (minimum 7)',
+                        'Passport-size photographs of all members',
+                        'Proof of registered office address (rent agreement, NOC from owner, latest utility bill)',
+                        'Memorandum of Association (objectives and list of members)',
+                        'Rules & Regulations/Bye-laws (signed by all members)',
+                        'Affidavit/declaration by the president/secretary (format provided by Incorvo)',
+                        'Authority letter or power of attorney (if application filed by agent/CA/CS)',
+                        'No Objection Certificate (NOC) from landlord for using premises as registered office',
+                        'Name approval/No objection certificate from Registrar (if similar name exists)'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Table: Comparison – Society, Trust, Section 8 Company',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    table: {
+                        thead: {
+                            trow: [
+                                ['Criteria', 'Society', 'Trust', 'Section 8 Company']
+                            ]
+                        },
+                        tbody: {
+                            trow: [
+                                ['Minimum Members', '7 (statewise, sometimes 9)', '2', '2 (private), 3 (public)'],
+                                ['Governing Document', 'MOA + Bye-laws', 'Trust Deed', 'MOA + AOA'],
+                                ['Legal Authority', 'Registrar of Societies', 'Sub-registrar/Charity Commissioner', 'Registrar of Companies (ROC)'],
+                                ['Management', 'Governing Council/Committee', 'Trustees', 'Board of Directors'],
+                                ['Area Validity', 'Usually state; can be pan-India with proper drafting', 'Usually state', 'Pan-India'],
+                                ['Audit Requirement', 'As per bye-laws and tax laws', 'As per trust deed/law', 'Mandatory annual audit'],
+                                ['Suitable for', 'NGOs, clubs, associations', 'Family trusts, charitable funds', 'Large NGOs, donor agencies'],
+                                ['Name Suffix', 'Society', 'Trust', 'No "Ltd"/"Pvt Ltd"'],
+                                ['Regulatory Burden', 'Medium', 'Low/medium', 'High']
+                            ]
+                        }
+                    }
+                }
+            ]
         },
         {
-            title: '',
+            title: 'After Registration: Compliance and Annual Requirements',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    ul: [
+                        'Opening a current account in the society’s name',
+                        'PAN application for society (mandatory for donations/grants)',
+                        'Apply for 12A and 80G tax exemptions (recommended for donor eligibility)',
+                        'Annual meetings: General Body and Executive Committee/Managing Committee',
+                        'Maintain minutes book, member register, and financial records',
+                        'Annual audit by a Chartered Accountant (if applicable/statewise)',
+                        'Annual filing of returns with Registrar (varies by state and turnover)',
+                        'Renewal of registration or submission of activity report (in some states)',
+                        'Amendments in bye-laws or governing body to be notified to Registrar',
+                        'FCRA registration for receiving foreign grants (if needed)'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Why Choose Incorvo for Society Registration?',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    ul: [
+                        'Pan-India presence and local expertise in all major states and UTs',
+                        'Customized MOA/bye-laws drafting for your objectives and state law',
+                        'Personalized compliance calendar and documentation tracker',
+                        'Transparent process, milestone-based billing, and digital document support',
+                        'Legal advisory for tax exemption, FCRA, donor, and government compliance',
+                        'End-to-end assistance from application to bank account and post-registration services',
+                        'Dedicated Incorvo relationship manager for multi-year support'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Best Practices and Common Issues',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    ul: [
+                        'Ensure unique name and objectives to avoid Registrar rejection',
+                        'Have clear membership criteria, committee structure, and dispute resolution clauses',
+                        'Notarize all affidavits and declarations as per state requirement',
+                        'Conduct annual general meetings and keep detailed minutes',
+                        'Apply for 12A, 80G, and PAN/TAN immediately after registration',
+                        'Maintain compliance calendar for returns, renewals, and audit',
+                        'Do not mix society funds with personal accounts; open a dedicated bank account',
+                        'Keep up-to-date records of members, assets, grants, and financials'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Sample Scenarios & Solutions',
+            descrption: [
+                {
+                    subTitle: 'Case: Cross-State Operation',
+                    p: [
+                        'Incorvo drafts national-scope MOA and ensures inclusion of at least one member from each state for pan-India registration validity.'
+                    ]
+                },
+                {
+                    subTitle: 'Case: Educational or Religious Society',
+                    p: [
+                        'Our legal team drafts objects and bye-laws to align with state and central laws for smooth FCRA or 80G eligibility.'
+                    ]
+                },
+                {
+                    subTitle: 'Case: Annual Compliance Lapses',
+                    p: [
+                        'Incorvo assists in rectifying past lapses, filing overdue annual returns, and establishing a compliance calendar to avoid future penalties.'
+                    ]
+                }
+            ]
+        },
+        {
+            title: 'Extended FAQs – Society Registration',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
-        },
+                    ul: [
+                        'Can foreigners be founding members of a society? – Yes, but at least one Indian resident is usually required for registration and bank account.',
+                        'Is physical presence needed for registration? – Usually not; Incorvo handles the process digitally and via courier.',
+                        'Can we convert a society to a trust or Section 8 company? – No direct conversion; new entity registration is required.',
+                        'How long does the registration take? – Typically 2–4 weeks depending on state, documentation, and Registrar’s workload.',
+                        'What if Registrar rejects the application? – Incorvo reviews, revises, and resubmits documents until successful registration.',
+                        'Is society registration valid across India? – National societies are valid pan-India; state societies are state-bound.',
+                        'How are annual meetings conducted? – As per bye-laws; minutes and member attendance must be documented.',
+                        'Can societies own property or receive grants? – Yes, as a legal entity, societies can own, buy/sell property, and receive grants or donations.',
+                        'Do societies have tax exemption by default? – No, 12A and 80G must be separately applied for post-registration.',
+                        'Is audit mandatory every year? – In most states and for tax purposes, yes, especially if turnover exceeds statutory limits.'
+                    ]
+                }
+            ]
+        }
     ],
     faqs: [
         {
-            q: 'What is the minimum capital required to register a Private Limited Company?',
-            a: 'There is no minimum paid-up capital requirement for registering a Private Limited Company in India.',
+            q: 'What is the minimum number of members required to register a society?',
+            a: 'At least 7 founding members are required; for pan-India societies, one from each state is recommended.'
         },
         {
-            q: 'Can a foreigner be a director in a Private Limited Company?',
-            a: 'Yes, foreigners can be directors, but at least one director must be a resident of India, as per Section 149 of the Companies Act, 2013.',
+            q: 'Can a family or firm register a society?',
+            a: 'Yes, but the objects must be charitable, not private or profit-motive.'
         },
         {
-            q: 'How long does it take to register a Private Limited Company in India?',
-            a: 'The registration process generally takes between 7-15 business days, depending on the speed of document verification and approvals.',
+            q: 'What documents are needed for registration?',
+            a: 'MOA, bye-laws, ID/address proofs, photos, registered office proof, affidavits, and NOC from landlord.'
         },
         {
-            q: 'What are the legal standards for Private Limited Companies?',
-            a: 'Compliance Requirements: Private Limited Companies must stick to several compliance requirements under the Companies Act, 2013, including having yearly general meetings, filing annual reports, hiring accountants, and more.',
+            q: 'Is society registration valid pan-India?',
+            a: 'Yes, if properly structured with national objectives and members from multiple states; otherwise, it is state-specific.'
         },
         {
-            q: 'Do I need a physical office for registration?',
-            a: 'Yes, a registered office in India is mandatory. This office must be in a location where official correspondence and notices from the ROC can be sent.',
+            q: 'How soon can we open a bank account?',
+            a: 'Immediately after getting the Registration Certificate and PAN; most banks require these for KYC.'
         },
         {
-            q: 'What are the perks of choosing a Private Limited Company structure?',
-            a: 'Advantages of Private Limited Company: Benefits include limited liability protection, ease of getting capital via shares, constant succession, reliability, and agreement with regulatory norms.',
+            q: 'Can Incorvo help with 12A, 80G, and FCRA registration?',
+            a: 'Absolutely, we provide post-registration support for all tax exemptions and foreign funding eligibility.'
         },
         {
-            q: 'Can a Private Limited Company change to a Public Limited Company?',
-            a: 'Conversion to Public Limited Company: Yes, a Private Limited Company may change to a Public Limited Company.',
+            q: 'Do we need to renew the society registration?',
+            a: 'Some states require periodic renewal or activity reports; Incorvo provides compliance reminders and filing support.'
         },
         {
-            q: 'What is the difference between a Private Limited Company and a Limited Liability Partnership (LLP)?',
-            a: 'Difference from LLP: The basic difference between a Private Limited Company and a Limited liability Partnership (LLP) rests in their structure and responsibility features. A Private Limited Company has owners and limited liability protection, whereas an LLP has partners with limited liability but without shares.',
+            q: 'What is the penalty for non-compliance?',
+            a: 'Late or non-filing can result in fines, suspension of registration, or loss of eligibility for government and donor funds.'
         },
         {
-            q: 'How can I change the name of my Private Limited Company?',
-            a: 'Changing Company Name: To change the name of a Private Limited Company, you need to follow the way given by the Ministry of Corporate Affairs in India.',
+            q: 'Can a society be dissolved?',
+            a: 'Yes, via member resolution and compliance with Societies Act provisions for asset distribution and closure.'
         },
         {
-            q: 'What are the penalties for non-compliance with legal duties for Private Limited Companies?',
-            a: 'Penalties for Non-Compliance: Punishments for non-compliance with regulatory requirements for Private Limited Companies might change depending on the individual infringement and may include fines or other legal punishments as per the Companies Act, 2013.',
+            q: 'How do we get started with Incorvo?',
+            a: 'Contact us for a document checklist, process timeline, and dedicated onboarding support.'
         }
-    ],
-}
+    ]
+};

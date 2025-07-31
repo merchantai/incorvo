@@ -1,206 +1,353 @@
 export default {
     header: {
-        title: 'Private Limited Company Registration',
+        title: 'Partnership Firm Registration – Incorvo',
         list: [
-            'Register your private limited company in 7 business days with our expert assistance',
-            'Our online company registration service includes the following features',
-            'Obtain 2 Digital Signature Certificates (DSC) with 2 years validity',
-            'Secure 2 Director Identification Numbers (DIN)',
-            'Get unique name approval for your private company',
-            'Acquire PAN and TAN for the company',
-            'Open a current account with ICICI Bank',
-            'Drafting the Memorandum of Association and Articles of Association',
-            'Receive the official Company Incorporation Certificate',
-        ],
+            'Expert end-to-end registration of partnership firms across India',
+            'Drafting and notarization of customized partnership deeds',
+            'Guidance on partner selection, profit sharing, and business roles',
+            'Assistance with PAN, TAN, and bank account opening for the firm',
+            'Support for state-wise registrar filings and legal recognition',
+            'Affordable, transparent pricing with zero hidden charges',
+            'Ongoing support for GST, MSME, and business licenses',
+            'Advice on compliance, annual filings, and partnership changes',
+            'Dedicated Incorvo relationship manager for hassle-free onboarding',
+            'Confidential, digital workflow for document management'
+        ]
     },
     content: [
         {
-            title: 'Private Limited Company Registration in India',
+            title: 'What is a Partnership Firm?',
             descrption: [
                 {
                     subTitle: '',
                     p: [
-                        'Currently, Private Limited Companies make upto almost 96% of the total companies in India. Till November 20, 2023, there are 25,99,660 private limited companies registered in India. The huge number of company registrations is a testament to the ease and benefits provided by India. Although registering a company in India is not mandatory, company registration offers significant benefits to founders as well as stakeholders. By the end, you will be able to understand the key legal requirements to register a private limited company in India, along with its compliance obligations and much more.'
-                    ],
-                },
-            ],
+                        'A partnership firm is a business structure where two or more persons join together to carry on a business and share its profits as per a mutually agreed partnership deed. It is governed by the Indian Partnership Act, 1932. Registration is not mandatory but strongly advised for legal recognition, dispute resolution, and banking convenience.'
+                    ]
+                }
+            ]
         },
         {
-            title: 'What is a Private Limited Company?',
+            title: 'Who Should Register a Partnership Firm?',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        'In India, there are several companies that can be registered. A Private Limited Company is one of them. A Private Limited Company bearing the suffix of ‘Pvt. Ltd\'. At the end of its name is a separate legal entity registered under the Companies Act, 2013with the Registrar of Companies (ROC). The main feature of this type of company is that it offers limited liability protection to its shareholders; it means that the liability of the shareholders is only up to the extent of shares held by them, and the personal assets of shareholders (owners) are protected from the obligations of the company. The company can be owned by multiple shareholders and managed by appointed directors. It is separated from the owners of the company, and its legal existence continues even if there are changes in the ownership or management, which provides security and stability to the company.',
-                    ],
-                },
-            ],
+                    ul: [
+                        'Small businesses with 2 or more founders/owners',
+                        'Family businesses, traders, and service providers',
+                        'Professionals seeking joint operations with shared liability',
+                        'Startups and firms wanting a simple legal structure with shared decision making',
+                        'Groups aiming for pooled capital and expertise'
+                    ]
+                }
+            ]
         },
         {
-            title: 'Why Should You Register a Private Limited Company?',
+            title: 'Key Benefits of Registering a Partnership Firm with Incorvo',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        'There are several compelling reasons why forming a Private Limited Company can be beneficial:',
-                    ],
-                },
-                {
-                    subTitle: '1. Limited Liability Protection',
-                    p: [
-                        'As a private limited company, the liability of its shareholders is restricted to the unpaid amount on their shares. This means that if the company faces financial distress or legal liabilities, the personal assets of the shareholders (directors or members) will not be at risk.',
-                    ],
-                },
-                {
-                    subTitle: '2. Separate Legal Entity',
-                    p: [
-                        'A company is a juristic person in the eyes of the law. The legal entity of the company is distinct from its shareholders and directors. The company is capable of entering into contracts in its own name; it can sue and be sued in its own name. The liability and credibility of the company are separated from its stakeholders.',
-                    ],
-                },
-                {
-                    subTitle: '3. Perpetual Succession',
-                    p: [
-                        'The existence of the company is independent of the existence of its shareholders or directors. Unlike a partnership or sole proprietorship, the private limited company enjoys perpetual succession, which means that the existence of the company is not affected by the death, insolvency, or retirement of any shareholder or director. This perpetual succession guarantees the continuity of the business even if one of the company\'s stakeholders leaves the company.',
-                    ],
-                },
-                {
-                    subTitle: '4. Easy Transferability of Shares',
-                    p: [
-                        'Registering a company in India offers easy transferability of shares, which means that shares of the company can be transferred from one shareholder to another. The leverage smoothens out the transaction in the management of the company and later enhances the flexibility in the business operations of the company.',
-                    ],
-                },
-                {
-                    subTitle: '5. Access to Investments and Funding',
-                    p: [
-                        'Capital can be easily raised in a registered Private Limited Company, as Equity shares can be easily issued by the company to raise funds. Issuing equity shares attracts potential investors and venture capital to invest in the company.',
-                    ],
-                },
-                {
-                    subTitle: '6. Increased Trustworthiness',
-                    p: [
-                        'Registering a Private Limited Company enjoys greater market credibility as compared to other business structures. The greater credibility leads to increased trustworthiness among investors. The advantage is gained by the company due to its registration. Registering a company makes the company legally recognizable and shows that it meets the regulatory standards.',
-                    ],
-                },
-            ],
+                    ul: [
+                        'Easy and fast setup compared to companies and LLPs',
+                        'Flexible management and minimal regulatory burden',
+                        'No mandatory audit (unless turnover exceeds threshold)',
+                        'Pooled resources, skills, and networks of all partners',
+                        'Lower compliance costs and simplified tax filing',
+                        'Easy access to business loans and bank accounts',
+                        'Expert drafting of partnership deed to avoid future disputes'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Types of Partnership Firms in India',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    table: {
+                        thead: {
+                            trow: [
+                                ['Type', 'Description', 'Legal Status', 'Ideal For']
+                            ]
+                        },
+                        tbody: {
+                            trow: [
+                                [
+                                    'Registered Partnership Firm',
+                                    'Firm registered with the Registrar of Firms as per Indian Partnership Act',
+                                    'Has legal recognition and can enforce contract in court',
+                                    'Businesses seeking credibility, bank accounts, and legal protection'
+                                ],
+                                [
+                                    'Unregistered Partnership Firm',
+                                    'Firm without registration under Registrar of Firms',
+                                    'No legal recognition for dispute resolution in court',
+                                    'Very small/local businesses, not recommended for scaling'
+                                ]
+                            ]
+                        }
+                    }
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Step-by-Step Partnership Firm Registration Process with Incorvo',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    ol: [
+                        'Free consultation with Incorvo expert to understand business needs',
+                        'Drafting a customized partnership deed covering profit sharing, rights, duties, and business terms',
+                        'Execution and notarization of partnership deed by all partners',
+                        'Filing application for registration with Registrar of Firms (state-specific)',
+                        'Submission of identity/address proof, photographs, and deed copy',
+                        'Registrar scrutiny and approval; issuance of Certificate of Registration',
+                        'PAN application and opening of partnership firm bank account',
+                        'Post-registration support for GST/MSME/license registration as required'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Contents of a Partnership Deed',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    ul: [
+                        'Firm name and business address',
+                        'Names, addresses, and details of all partners',
+                        'Nature and scope of business',
+                        'Capital contribution by each partner',
+                        'Profit/loss sharing ratio',
+                        'Duties, rights, and responsibilities of partners',
+                        'Admission, retirement, and expulsion of partners',
+                        'Bank account operation and signing authority',
+                        'Dispute resolution and arbitration clause',
+                        'Duration of partnership (if any)',
+                        'Rules for dissolution of the firm',
+                        'Other mutually agreed terms'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Documents Required for Partnership Firm Registration',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    ul: [
+                        'Duly executed and notarized partnership deed',
+                        'PAN cards and address proofs of all partners',
+                        'Passport-size photographs of partners',
+                        'Proof of principal place of business (utility bill/rent agreement/NOC)',
+                        'Affidavit and application form (as per state rules)',
+                        'Additional documents if required by Registrar (state-specific)'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Post-Registration Compliance and Annual Filing',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    ul: [
+                        'Apply for PAN and open a current bank account in the firm’s name',
+                        'GST registration if turnover exceeds threshold or required by client/vendor',
+                        'MSME registration for small businesses (optional but beneficial)',
+                        'File annual income tax returns for the firm and partners',
+                        'Renewal of licenses, if any, and updating changes in the deed with Registrar',
+                        'Maintain books of accounts and supporting invoices/bills',
+                        'Comply with local/state regulations and labor laws as applicable'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Taxation of Partnership Firms in India',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    ul: [
+                        'Taxed as a separate entity (flat 30% + surcharge + cess on firm profits)',
+                        'Remuneration and interest paid to partners allowed as deductible expense (subject to Income Tax Act limits)',
+                        'Partners taxed on income received from firm as share of profit (exempt) or remuneration/interest (taxable)',
+                        'No Dividend Distribution Tax (DDT) as in companies',
+                        'Firms must file ITR-5 annually'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Comparison: Partnership Firm vs LLP vs Private Limited Company',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    table: {
+                        thead: {
+                            trow: [
+                                ['Criteria', 'Partnership Firm', 'LLP', 'Private Limited Company']
+                            ]
+                        },
+                        tbody: {
+                            trow: [
+                                [
+                                    'Legal Status',
+                                    'Not a separate legal entity',
+                                    'Separate legal entity',
+                                    'Separate legal entity'
+                                ],
+                                [
+                                    'Minimum Members',
+                                    '2',
+                                    '2',
+                                    '2'
+                                ],
+                                [
+                                    'Liability',
+                                    'Unlimited',
+                                    'Limited',
+                                    'Limited'
+                                ],
+                                [
+                                    'Audit Requirement',
+                                    'Not mandatory unless turnover > ₹1 crore',
+                                    'Mandatory if turnover > ₹40 lakh',
+                                    'Mandatory'
+                                ],
+                                [
+                                    'Taxation',
+                                    'Flat 30% + surcharge/cess',
+                                    'Flat 30% + surcharge/cess',
+                                    'As per corporate tax slab'
+                                ],
+                                [
+                                    'Compliance',
+                                    'Low',
+                                    'Moderate',
+                                    'High'
+                                ],
+                                [
+                                    'Conversion/Easy Exit',
+                                    'Simple',
+                                    'Requires ROC approval',
+                                    'More complex'
+                                ]
+                            ]
+                        }
+                    }
+                }
+            ]
         },
+        {
+            title: 'Common Mistakes to Avoid in Partnership Firm Registration',
+            descrption: [
+                {
+                    subTitle: '',
+                    ul: [
+                        'Not registering the partnership—limits legal protection and bankability',
+                        'Ambiguous or missing terms in partnership deed',
+                        'Ignoring tax and annual compliance obligations',
+                        'Failure to update the deed for partner changes or address change',
+                        'Improper profit sharing or dispute resolution clauses',
+                        'Delay in PAN/GST registration impacting business operations'
+                    ]
+                }
+            ]
+        },
+        {
+            title: 'Best Practices for Partnership Firms',
+            descrption: [
+                {
+                    subTitle: '',
+                    ul: [
+                        'Draft a detailed, customized partnership deed with expert help (like Incorvo)',
+                        'Register the firm with the Registrar of Firms for legal benefits',
+                        'Clearly define profit-sharing, capital contribution, and partner roles',
+                        'Keep all KYC and business documents up to date',
+                        'Maintain books of accounts and regularly file tax returns',
+                        'Update Registrar on any change in partners or firm details',
+                        'Consult CA/CS for annual filings and legal compliance'
+                    ]
+                }
+            ]
+        },
+        {
+            title: 'Why Choose Incorvo for Partnership Registration?',
+            descrption: [
+                {
+                    subTitle: '',
+                    ul: [
+                        'End-to-end registration, document drafting, and legal guidance',
+                        'State-specific filing and compliance expertise',
+                        'Transparent, affordable pricing and quick turnaround',
+                        'Digital workflow and document storage',
+                        'Post-registration advisory for GST, MSME, licenses, and annual filing',
+                        'Dedicated relationship manager for all queries'
+                    ]
+                }
+            ]
+        },
+        {
+            title: 'Partnership Registration: Extended FAQs',
+            descrption: [
+                {
+                    subTitle: '',
+                    ul: [
+                        'How many people are required to form a partnership firm? – Minimum two, maximum 20 partners.',
+                        'Is registration of partnership firm mandatory? – Not legally, but highly recommended for legal enforceability and bank accounts.',
+                        'Can a company or LLP be a partner? – Only individuals and legal entities allowed as per deed and state laws.',
+                        'What is the minimum capital to start a partnership firm? – No minimum capital prescribed.',
+                        'How are profits taxed in partnership firms? – Flat 30% + surcharge/cess at firm level; profit share exempt in hands of partners.',
+                        'What documents are needed for registration? – Executed partnership deed, KYC, address proof, and application form.',
+                        'Can a partnership firm convert to LLP or Pvt Ltd? – Yes, with proper legal process and government approval.',
+                        'What is the process to change/add partners? – Amend deed, file with Registrar, and update PAN/bank details.',
+                        'Is GST registration mandatory? – Only if turnover exceeds threshold or required by business nature.',
+                        'How do I get started? – Contact Incorvo for a free consultation and registration checklist.'
+                    ]
+                }
+            ]
+        }
     ],
     faqs: [
         {
-            q: 'What is the minimum capital required to register a Private Limited Company?',
-            a: 'There is no minimum paid-up capital requirement for registering a Private Limited Company in India.',
+            q: 'Is partnership firm registration mandatory?',
+            a: 'It is not mandatory, but registration provides legal recognition, dispute protection, and banking benefits.'
         },
         {
-            q: 'Can a foreigner be a director in a Private Limited Company?',
-            a: 'Yes, foreigners can be directors, but at least one director must be a resident of India, as per Section 149 of the Companies Act, 2013.',
+            q: 'How many partners are required to start a partnership firm?',
+            a: 'At least two partners are required. Maximum is 20 for most businesses.'
         },
         {
-            q: 'How long does it take to register a Private Limited Company in India?',
-            a: 'The registration process generally takes between 7-15 business days, depending on the speed of document verification and approvals.',
+            q: 'What is a partnership deed?',
+            a: 'A legal document outlining the roles, rights, duties, capital, and profit-sharing of all partners. Incorvo drafts it as per your business needs.'
         },
         {
-            q: 'What are the legal standards for Private Limited Companies?',
-            a: 'Compliance Requirements: Private Limited Companies must stick to several compliance requirements under the Companies Act, 2013, including having yearly general meetings, filing annual reports, hiring accountants, and more.',
+            q: 'Can a partnership firm get a PAN and open a bank account?',
+            a: 'Yes, PAN application is part of registration and enables bank account opening.'
         },
         {
-            q: 'Do I need a physical office for registration?',
-            a: 'Yes, a registered office in India is mandatory. This office must be in a location where official correspondence and notices from the ROC can be sent.',
+            q: 'Is GST mandatory for partnership firms?',
+            a: 'GST is required if annual turnover crosses threshold or for inter-state supply, e-commerce, etc.'
         },
         {
-            q: 'What are the perks of choosing a Private Limited Company structure?',
-            a: 'Advantages of Private Limited Company: Benefits include limited liability protection, ease of getting capital via shares, constant succession, reliability, and agreement with regulatory norms.',
+            q: 'Can a partnership firm be converted to LLP or company?',
+            a: 'Yes, conversion is possible through a legal process and necessary filings.'
         },
         {
-            q: 'Can a Private Limited Company change to a Public Limited Company?',
-            a: 'Conversion to Public Limited Company: Yes, a Private Limited Company may change to a Public Limited Company.',
+            q: 'How are partnership firms taxed?',
+            a: 'Firm is taxed at flat 30% + surcharge/cess; partners’ profit share is exempt from personal tax.'
         },
         {
-            q: 'What is the difference between a Private Limited Company and a Limited Liability Partnership (LLP)?',
-            a: 'Difference from LLP: The basic difference between a Private Limited Company and a Limited liability Partnership (LLP) rests in their structure and responsibility features. A Private Limited Company has owners and limited liability protection, whereas an LLP has partners with limited liability but without shares.',
+            q: 'What is the validity of partnership registration?',
+            a: 'Registration is valid till the deed is dissolved or amended; must be updated on major changes.'
         },
         {
-            q: 'How can I change the name of my Private Limited Company?',
-            a: 'Changing Company Name: To change the name of a Private Limited Company, you need to follow the way given by the Ministry of Corporate Affairs in India.',
+            q: 'How long does registration take?',
+            a: 'Typically 7–12 business days, subject to documentation and registrar timeline.'
         },
         {
-            q: 'What are the penalties for non-compliance with legal duties for Private Limited Companies?',
-            a: 'Penalties for Non-Compliance: Punishments for non-compliance with regulatory requirements for Private Limited Companies might change depending on the individual infringement and may include fines or other legal punishments as per the Companies Act, 2013.',
+            q: 'How do I get started with Incorvo?',
+            a: 'Contact Incorvo for a free eligibility check, deed drafting, and end-to-end filing.'
         }
-    ],
-}
+    ]
+};

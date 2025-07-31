@@ -1,206 +1,259 @@
 export default {
     header: {
-        title: 'Private Limited Company Registration',
+        title: 'Tax Audit – Incorvo',
         list: [
-            'Register your private limited company in 7 business days with our expert assistance',
-            'Our online company registration service includes the following features',
-            'Obtain 2 Digital Signature Certificates (DSC) with 2 years validity',
-            'Secure 2 Director Identification Numbers (DIN)',
-            'Get unique name approval for your private company',
-            'Acquire PAN and TAN for the company',
-            'Open a current account with ICICI Bank',
-            'Drafting the Memorandum of Association and Articles of Association',
-            'Receive the official Company Incorporation Certificate',
-        ],
+            'Comprehensive Tax Audit services under Section 44AB of the Income Tax Act, 1961',
+            'Expert Chartered Accountants and tax professionals for hassle-free audit compliance',
+            'Applicable to businesses, professionals, LLPs, companies, trusts, societies, and more',
+            'Digital document collection, analysis, and e-filing of audit report (Form 3CA/3CB & 3CD)',
+            'Personalized audit planning and milestone-based process tracking',
+            'Support for direct, presumptive, and special tax audit requirements',
+            'Review of financial statements, books of account, and tax positions',
+            'Rectification of past non-compliances and preparation for future scrutiny',
+            'Guidance for turnover calculation, threshold analysis, and applicability check',
+            'Transparent pricing and confidential, secure handling of all financial data'
+        ]
     },
     content: [
         {
-            title: 'Private Limited Company Registration in India',
+            title: 'What is a Tax Audit?',
             descrption: [
                 {
                     subTitle: '',
                     p: [
-                        'Currently, Private Limited Companies make upto almost 96% of the total companies in India. Till November 20, 2023, there are 25,99,660 private limited companies registered in India. The huge number of company registrations is a testament to the ease and benefits provided by India. Although registering a company in India is not mandatory, company registration offers significant benefits to founders as well as stakeholders. By the end, you will be able to understand the key legal requirements to register a private limited company in India, along with its compliance obligations and much more.'
-                    ],
-                },
-            ],
+                        'A Tax Audit is a mandatory review and verification of the books of account of an entity, performed by a Chartered Accountant (CA), to ensure accurate computation of income, correct claim of deductions, and compliance with the Income Tax Act, 1961. The audit ensures that taxpayers maintain proper records and report their income and expenses accurately.',
+                        'Tax Audit under Section 44AB applies to businesses and professionals that cross specified turnover/gross receipts thresholds, as well as certain other prescribed cases. Incorvo provides complete assistance for audit execution, compliance, and timely e-filing.'
+                    ]
+                }
+            ]
         },
         {
-            title: 'What is a Private Limited Company?',
+            title: 'Objectives & Benefits of Tax Audit',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        'In India, there are several companies that can be registered. A Private Limited Company is one of them. A Private Limited Company bearing the suffix of ‘Pvt. Ltd\'. At the end of its name is a separate legal entity registered under the Companies Act, 2013with the Registrar of Companies (ROC). The main feature of this type of company is that it offers limited liability protection to its shareholders; it means that the liability of the shareholders is only up to the extent of shares held by them, and the personal assets of shareholders (owners) are protected from the obligations of the company. The company can be owned by multiple shareholders and managed by appointed directors. It is separated from the owners of the company, and its legal existence continues even if there are changes in the ownership or management, which provides security and stability to the company.',
-                    ],
-                },
-            ],
+                    ul: [
+                        'Verify the correctness of income, deductions, and claims in the tax return',
+                        'Detect and prevent tax evasion and misreporting',
+                        'Ensure compliance with prescribed accounting standards and tax laws',
+                        'Identify disallowances and non-compliances for rectification',
+                        'Facilitate ease of assessment by tax authorities and reduce litigation risk',
+                        'Enhance credibility with banks, investors, and government authorities',
+                        'Useful for loan applications and statutory compliance audits'
+                    ]
+                }
+            ]
         },
         {
-            title: 'Why Should You Register a Private Limited Company?',
+            title: 'Who is Required to Get a Tax Audit?',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        'There are several compelling reasons why forming a Private Limited Company can be beneficial:',
-                    ],
-                },
-                {
-                    subTitle: '1. Limited Liability Protection',
-                    p: [
-                        'As a private limited company, the liability of its shareholders is restricted to the unpaid amount on their shares. This means that if the company faces financial distress or legal liabilities, the personal assets of the shareholders (directors or members) will not be at risk.',
-                    ],
-                },
-                {
-                    subTitle: '2. Separate Legal Entity',
-                    p: [
-                        'A company is a juristic person in the eyes of the law. The legal entity of the company is distinct from its shareholders and directors. The company is capable of entering into contracts in its own name; it can sue and be sued in its own name. The liability and credibility of the company are separated from its stakeholders.',
-                    ],
-                },
-                {
-                    subTitle: '3. Perpetual Succession',
-                    p: [
-                        'The existence of the company is independent of the existence of its shareholders or directors. Unlike a partnership or sole proprietorship, the private limited company enjoys perpetual succession, which means that the existence of the company is not affected by the death, insolvency, or retirement of any shareholder or director. This perpetual succession guarantees the continuity of the business even if one of the company\'s stakeholders leaves the company.',
-                    ],
-                },
-                {
-                    subTitle: '4. Easy Transferability of Shares',
-                    p: [
-                        'Registering a company in India offers easy transferability of shares, which means that shares of the company can be transferred from one shareholder to another. The leverage smoothens out the transaction in the management of the company and later enhances the flexibility in the business operations of the company.',
-                    ],
-                },
-                {
-                    subTitle: '5. Access to Investments and Funding',
-                    p: [
-                        'Capital can be easily raised in a registered Private Limited Company, as Equity shares can be easily issued by the company to raise funds. Issuing equity shares attracts potential investors and venture capital to invest in the company.',
-                    ],
-                },
-                {
-                    subTitle: '6. Increased Trustworthiness',
-                    p: [
-                        'Registering a Private Limited Company enjoys greater market credibility as compared to other business structures. The greater credibility leads to increased trustworthiness among investors. The advantage is gained by the company due to its registration. Registering a company makes the company legally recognizable and shows that it meets the regulatory standards.',
-                    ],
-                },
-            ],
+                    ul: [
+                        'Any business with total sales, turnover, or gross receipts exceeding ₹1 crore in a financial year',
+                        'Professionals with gross receipts exceeding ₹50 lakh in a financial year',
+                        'Entities opting for presumptive taxation under Sections 44AD, 44ADA, or 44AE but declaring income lower than the presumptive rate and whose income exceeds the basic exemption limit',
+                        'Companies, LLPs, partnerships, and other entities as notified by the Income Tax Act',
+                        'Any taxpayer required by any other law (such as Companies Act) to get accounts audited'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Types of Tax Audit and Applicable Forms',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    table: {
+                        thead: {
+                            trow: [
+                                ['Type of Entity / Audit', 'Applicable Form(s)', 'Key Provisions']
+                            ]
+                        },
+                        tbody: {
+                            trow: [
+                                ['Business (Regular)', 'Form 3CA + 3CD', 'Where accounts are also audited under any other law (e.g., Companies Act)'],
+                                ['Business (Not Audited Elsewhere)', 'Form 3CB + 3CD', 'Where accounts are not audited under any other law'],
+                                ['Professionals', 'Form 3CB + 3CD', 'If gross receipts exceed ₹50 lakh'],
+                                ['Presumptive Tax (44AD, 44ADA, 44AE)', 'Form 3CB + 3CD', 'If declaring income below prescribed limit and above basic exemption'],
+                                ['Special Audit (Sec 142(2A))', 'Form 6B', 'Ordered by Assessing Officer for complex cases']
+                            ]
+                        }
+                    }
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Step-by-Step Tax Audit Process with Incorvo',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    ol: [
+                        'Eligibility check and turnover/threshold assessment by Incorvo tax advisor',
+                        'Collection and review of financial statements, ledgers, vouchers, and supporting documents',
+                        'Verification of books of account, tax computations, TDS, and statutory registers',
+                        'Preparation of working papers and schedules for audit',
+                        'Review of GST, TDS, and other regulatory compliance',
+                        'Identification of non-compliance, disallowances, and rectification opportunities',
+                        'Drafting and finalization of audit report (Form 3CA/3CB and Form 3CD)',
+                        'Sharing draft report with client for review and queries',
+                        'Filing of audit report with Income Tax Department using CA’s digital signature',
+                        'Assistance in responding to any tax notices or queries post-audit'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Documents Required for Tax Audit',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    ul: [
+                        'Audited financial statements (balance sheet, profit & loss, cash flow)',
+                        'Books of account: ledgers, cash book, sales/purchase register, bank statements',
+                        'GST returns and reconciliation statements',
+                        'TDS returns and challans',
+                        'Invoices, bills, and supporting vouchers',
+                        'Fixed asset register and depreciation schedule',
+                        'Bank and loan statements',
+                        'Previous year’s audit reports and tax returns',
+                        'Details of related party transactions, if any',
+                        'Shareholding, capital account, and statutory registers (as applicable)'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Compliance Calendar & Due Dates for Tax Audit',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    ul: [
+                        'Tax audit report must be filed on or before the due date for filing income tax returns (generally 30th September for non-corporates, 31st October for companies and certain cases, unless extended by CBDT)',
+                        'Delay in filing attracts penalty of 0.5% of turnover/gross receipts or ₹1,50,000, whichever is lower',
+                        'Plan early and maintain up-to-date books to avoid last-minute rush'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Best Practices and Common Issues',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    ul: [
+                        'Maintain all books and supporting records on a real-time basis',
+                        'Reconcile GST, TDS, and income tax data before audit',
+                        'Identify and rectify non-allowable expenses and non-compliances early',
+                        'Retain all invoices and contracts for at least 8 years',
+                        'Cross-verify related party transactions and capital account entries',
+                        'Use digital tools or accounting software to streamline record-keeping',
+                        'Engage experienced CA and tax professionals for seamless audit'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Why Choose Incorvo for Tax Audit?',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    ul: [
+                        'Experienced CA and audit teams with in-depth industry knowledge',
+                        'Pan-India digital audit process—secure and efficient',
+                        'End-to-end service: eligibility check, audit, e-filing, and post-audit support',
+                        'Review of past years’ compliance and proactive rectification advice',
+                        'Dedicated relationship manager and compliance tracker for clients',
+                        'Transparent pricing and strict data confidentiality',
+                        'Regular compliance reminders and deadline alerts'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Sample Scenarios & Solutions',
+            descrption: [
+                {
+                    subTitle: 'Case: MSME with Crossed Turnover',
+                    p: [
+                        'Incorvo helps the business assess applicability, organize financials, and complete audit report e-filing well before the due date, ensuring no penalty.'
+                    ]
+                },
+                {
+                    subTitle: 'Case: Professional with Lower Presumptive Income',
+                    p: [
+                        'Our team clarifies the presumptive taxation norms, documents actual income, and files the correct audit form for smooth compliance.'
+                    ]
+                },
+                {
+                    subTitle: 'Case: Past Non-Compliance or Missed Audit',
+                    p: [
+                        'Incorvo reviews prior years, recommends penalty mitigation, and helps file pending audits and returns to regularize tax status.'
+                    ]
+                }
+            ]
+        },
+        {
+            title: 'Extended FAQs – Tax Audit',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
-        },
+                    ul: [
+                        'Is tax audit mandatory for all businesses? – Only if turnover/receipts cross specified thresholds or as per presumptive tax norms.',
+                        'What is the penalty for missing tax audit? – 0.5% of turnover or ₹1,50,000 (whichever is less), unless reasonable cause is proven.',
+                        'Can I get tax audit done by any CA? – Yes, but must have a valid CA membership and digital signature.',
+                        'Are online/digital audits valid? – Absolutely, provided proper digital record-keeping and e-filing protocols are followed.',
+                        'Can a tax audit and statutory audit be done by the same CA? – Yes, but auditor must not be disqualified under Companies Act.',
+                        'Is audit required for loss-making businesses? – If turnover threshold is crossed, audit is mandatory, regardless of profit or loss.',
+                        'What if audit is not filed by the due date? – Returns may be treated as defective; penalty and further action may apply.',
+                        'Does GST audit replace tax audit? – No, both are separate; GST audit is required for higher thresholds and specific cases.',
+                        'Can I revise my audit report? – Yes, but only in case of bonafide errors; revised report must be clearly marked and e-filed.',
+                        'Does Incorvo help with other statutory audits? – Yes! We offer statutory, GST, internal, and forensic audit services.'
+                    ]
+                }
+            ]
+        }
     ],
     faqs: [
         {
-            q: 'What is the minimum capital required to register a Private Limited Company?',
-            a: 'There is no minimum paid-up capital requirement for registering a Private Limited Company in India.',
+            q: 'Who can conduct a tax audit in India?',
+            a: 'Only a Chartered Accountant (CA) with valid membership and digital signature can conduct and e-file a tax audit report.'
         },
         {
-            q: 'Can a foreigner be a director in a Private Limited Company?',
-            a: 'Yes, foreigners can be directors, but at least one director must be a resident of India, as per Section 149 of the Companies Act, 2013.',
+            q: 'What is the tax audit turnover limit for businesses?',
+            a: '₹1 crore for businesses, ₹50 lakh for professionals (with some exceptions for digital transactions and presumptive schemes).'
         },
         {
-            q: 'How long does it take to register a Private Limited Company in India?',
-            a: 'The registration process generally takes between 7-15 business days, depending on the speed of document verification and approvals.',
+            q: 'Which forms are used for filing a tax audit?',
+            a: 'Form 3CA/3CB and Form 3CD for regular audits; Form 6B for special audits under Section 142(2A).'
         },
         {
-            q: 'What are the legal standards for Private Limited Companies?',
-            a: 'Compliance Requirements: Private Limited Companies must stick to several compliance requirements under the Companies Act, 2013, including having yearly general meetings, filing annual reports, hiring accountants, and more.',
+            q: 'Can a partnership firm be required to get tax audit?',
+            a: 'Yes, if its turnover/gross receipts exceed the specified threshold.'
         },
         {
-            q: 'Do I need a physical office for registration?',
-            a: 'Yes, a registered office in India is mandatory. This office must be in a location where official correspondence and notices from the ROC can be sent.',
+            q: 'Is tax audit required for a company already audited under Companies Act?',
+            a: 'Yes, tax audit is still required, but Form 3CA is used (since statutory audit also applies).'
         },
         {
-            q: 'What are the perks of choosing a Private Limited Company structure?',
-            a: 'Advantages of Private Limited Company: Benefits include limited liability protection, ease of getting capital via shares, constant succession, reliability, and agreement with regulatory norms.',
+            q: 'Can presumptive taxation scheme filers need tax audit?',
+            a: 'Yes, if they declare lower income than prescribed and their income exceeds the basic exemption limit.'
         },
         {
-            q: 'Can a Private Limited Company change to a Public Limited Company?',
-            a: 'Conversion to Public Limited Company: Yes, a Private Limited Company may change to a Public Limited Company.',
+            q: 'How does Incorvo ensure data confidentiality?',
+            a: 'All records are handled securely, with digital encryption, and CAs sign confidentiality agreements for every engagement.'
         },
         {
-            q: 'What is the difference between a Private Limited Company and a Limited Liability Partnership (LLP)?',
-            a: 'Difference from LLP: The basic difference between a Private Limited Company and a Limited liability Partnership (LLP) rests in their structure and responsibility features. A Private Limited Company has owners and limited liability protection, whereas an LLP has partners with limited liability but without shares.',
+            q: 'What is the due date for tax audit filing?',
+            a: 'Usually 30th September (non-corporates) or 31st October (companies), unless extended by CBDT.'
         },
         {
-            q: 'How can I change the name of my Private Limited Company?',
-            a: 'Changing Company Name: To change the name of a Private Limited Company, you need to follow the way given by the Ministry of Corporate Affairs in India.',
+            q: 'How do I get started with Incorvo for tax audit?',
+            a: 'Contact us for a free eligibility assessment, document checklist, and full-service tax audit plan tailored to your needs.'
         },
         {
-            q: 'What are the penalties for non-compliance with legal duties for Private Limited Companies?',
-            a: 'Penalties for Non-Compliance: Punishments for non-compliance with regulatory requirements for Private Limited Companies might change depending on the individual infringement and may include fines or other legal punishments as per the Companies Act, 2013.',
+            q: 'Does Incorvo offer support for tax notices and post-audit queries?',
+            a: 'Absolutely! We provide representation, notice response, and ongoing advisory after audit filing.'
         }
-    ],
-}
+    ]
+};

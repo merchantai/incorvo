@@ -1,206 +1,260 @@
 export default {
     header: {
-        title: 'Private Limited Company Registration',
+        title: 'ITR-3 Form Filing Services – Incorvo',
         list: [
-            'Register your private limited company in 7 business days with our expert assistance',
-            'Our online company registration service includes the following features',
-            'Obtain 2 Digital Signature Certificates (DSC) with 2 years validity',
-            'Secure 2 Director Identification Numbers (DIN)',
-            'Get unique name approval for your private company',
-            'Acquire PAN and TAN for the company',
-            'Open a current account with ICICI Bank',
-            'Drafting the Memorandum of Association and Articles of Association',
-            'Receive the official Company Incorporation Certificate',
-        ],
+            'Comprehensive ITR-3 filing support for professionals, business owners, and partners',
+            'Eligibility check for all business/profession income earners and partnership firm partners',
+            'Income computation under all relevant heads (business, profession, capital gains, etc.)',
+            'Specialized handling for presumptive and normal accounting (44AD, 44ADA, 44AE excluded)',
+            'Review and adjustment for brought forward losses, depreciation, and tax reliefs',
+            'End-to-end documentation support: books of accounts, tax audit, balance sheet, P&L',
+            'Clubbing of income, foreign assets, and directorship/unlisted shares reporting',
+            'Assistance in e-filing, e-verification, and notice response',
+            'Confidential, accurate, and hassle-free compliance',
+            'Dedicated Incorvo CA manager from document collection to assessment closure'
+        ]
     },
     content: [
         {
-            title: 'Private Limited Company Registration in India',
+            title: 'What is ITR-3 and Who Should File It?',
             descrption: [
                 {
                     subTitle: '',
                     p: [
-                        'Currently, Private Limited Companies make upto almost 96% of the total companies in India. Till November 20, 2023, there are 25,99,660 private limited companies registered in India. The huge number of company registrations is a testament to the ease and benefits provided by India. Although registering a company in India is not mandatory, company registration offers significant benefits to founders as well as stakeholders. By the end, you will be able to understand the key legal requirements to register a private limited company in India, along with its compliance obligations and much more.'
-                    ],
-                },
-            ],
+                        'ITR-3 is the Income Tax Return form for individuals and Hindu Undivided Families (HUFs) **having income from proprietary business or profession** (not opting for presumptive taxation) and for **partners in partnership firms**. It covers a wide range of incomes including business/professional receipts, capital gains, multiple house properties, foreign assets, and other sources.',
+                        'Incorvo ensures that complex income sources, adjustments, and tax benefits are reported accurately for timely, penalty-free compliance.'
+                    ]
+                }
+            ]
         },
         {
-            title: 'What is a Private Limited Company?',
+            title: 'Who is Eligible to File ITR-3?',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        'In India, there are several companies that can be registered. A Private Limited Company is one of them. A Private Limited Company bearing the suffix of ‘Pvt. Ltd\'. At the end of its name is a separate legal entity registered under the Companies Act, 2013with the Registrar of Companies (ROC). The main feature of this type of company is that it offers limited liability protection to its shareholders; it means that the liability of the shareholders is only up to the extent of shares held by them, and the personal assets of shareholders (owners) are protected from the obligations of the company. The company can be owned by multiple shareholders and managed by appointed directors. It is separated from the owners of the company, and its legal existence continues even if there are changes in the ownership or management, which provides security and stability to the company.',
-                    ],
-                },
-            ],
+                    ul: [
+                        'Individuals and HUFs **carrying on business or profession** (other than presumptive scheme)',
+                        'Partners in a partnership firm (including LLPs), but **not the firm itself**',
+                        'Income from proprietary business, consultancy, freelancing, or professional services (CA, doctor, lawyer, architect, etc.)',
+                        'Income from house property, capital gains, and other sources (alongside business/professional income)',
+                        'Having foreign income/assets, being director in a company, or holding unlisted equity shares'
+                    ]
+                }
+            ]
         },
         {
-            title: 'Why Should You Register a Private Limited Company?',
+            title: 'Who Should NOT Use ITR-3?',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        'There are several compelling reasons why forming a Private Limited Company can be beneficial:',
-                    ],
-                },
-                {
-                    subTitle: '1. Limited Liability Protection',
-                    p: [
-                        'As a private limited company, the liability of its shareholders is restricted to the unpaid amount on their shares. This means that if the company faces financial distress or legal liabilities, the personal assets of the shareholders (directors or members) will not be at risk.',
-                    ],
-                },
-                {
-                    subTitle: '2. Separate Legal Entity',
-                    p: [
-                        'A company is a juristic person in the eyes of the law. The legal entity of the company is distinct from its shareholders and directors. The company is capable of entering into contracts in its own name; it can sue and be sued in its own name. The liability and credibility of the company are separated from its stakeholders.',
-                    ],
-                },
-                {
-                    subTitle: '3. Perpetual Succession',
-                    p: [
-                        'The existence of the company is independent of the existence of its shareholders or directors. Unlike a partnership or sole proprietorship, the private limited company enjoys perpetual succession, which means that the existence of the company is not affected by the death, insolvency, or retirement of any shareholder or director. This perpetual succession guarantees the continuity of the business even if one of the company\'s stakeholders leaves the company.',
-                    ],
-                },
-                {
-                    subTitle: '4. Easy Transferability of Shares',
-                    p: [
-                        'Registering a company in India offers easy transferability of shares, which means that shares of the company can be transferred from one shareholder to another. The leverage smoothens out the transaction in the management of the company and later enhances the flexibility in the business operations of the company.',
-                    ],
-                },
-                {
-                    subTitle: '5. Access to Investments and Funding',
-                    p: [
-                        'Capital can be easily raised in a registered Private Limited Company, as Equity shares can be easily issued by the company to raise funds. Issuing equity shares attracts potential investors and venture capital to invest in the company.',
-                    ],
-                },
-                {
-                    subTitle: '6. Increased Trustworthiness',
-                    p: [
-                        'Registering a Private Limited Company enjoys greater market credibility as compared to other business structures. The greater credibility leads to increased trustworthiness among investors. The advantage is gained by the company due to its registration. Registering a company makes the company legally recognizable and shows that it meets the regulatory standards.',
-                    ],
-                },
-            ],
+                    ul: [
+                        'Individuals/HUFs with **only salary, house property, capital gains, or other sources** (no business/profession) – use ITR-1/2',
+                        'Individuals/HUFs opting for presumptive taxation under 44AD, 44ADA, or 44AE – use ITR-4',
+                        'Partnership firms and LLPs – must use ITR-5'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Key Income Heads in ITR-3',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    table: {
+                        thead: {
+                            trow: [
+                                ['Income Head', 'Description', 'Examples']
+                            ]
+                        },
+                        tbody: {
+                            trow: [
+                                ['Business Income', 'Profits from business/trade', 'Retail, manufacturing, consultancy, trading, online business'],
+                                ['Professional Income', 'Receipts from independent professions', 'CA, doctor, architect, lawyer, engineer, freelancer'],
+                                ['Partnership Share', 'Share in profit from partnership (exempt)', 'Remuneration, interest, profit share'],
+                                ['Capital Gains', 'Sale of assets, property, shares, etc.', 'Sale of house, land, shares, mutual funds'],
+                                ['House Property', 'Rental/deemed let-out/self-occupied income', 'Rent from multiple properties'],
+                                ['Other Sources', 'Income not covered elsewhere', 'Interest, dividends, lottery, family pension'],
+                                ['Foreign Assets', 'Overseas holdings, bank accounts, shares', 'NRI or global business assets'],
+                                ['Agricultural Income', 'Income from agriculture above ₹5,000', 'Farming, plantations, allied activities']
+                            ]
+                        }
+                    }
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Step-by-Step ITR-3 Filing Process with Incorvo',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    ol: [
+                        'Eligibility check for ITR-3 based on income sources and business structure',
+                        'Collection of required documents and books of account',
+                        'Preparation and reconciliation of income, expenses, assets, and liabilities',
+                        'Computation of taxable business/professional income, depreciation, and allowable deductions',
+                        'Preparation of balance sheet, P&L account, and other schedules',
+                        'Reporting of capital gains, foreign assets, clubbed income, and directorship details',
+                        'Review and adjustment for tax audit applicability and compliance',
+                        'Online filling of ITR-3 with all supporting schedules',
+                        'E-verification using Aadhaar OTP, EVC, or digital signature (DSC)',
+                        'Post-filing support: rectification, refund tracking, and notice response'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Documents Required for ITR-3 Filing',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    ul: [
+                        'PAN, Aadhaar, and contact details',
+                        'Balance sheet and P&L account for the year',
+                        'Bank statements and cash book',
+                        'Details of sundry debtors/creditors, stock, and loans',
+                        'Purchase/sale invoices, bills, and receipts',
+                        'Details of fixed assets and depreciation schedule',
+                        'Form 16A (TDS on professional/business receipts), Form 26AS, AIS/TIS',
+                        'Investment and capital gain statements',
+                        'Rental income, property tax receipts, and home loan interest proofs',
+                        'Foreign asset/income details, directorship/unlisted shares info',
+                        'Challan of advance tax/self-assessment tax paid',
+                        'Proofs for deductions (80C, 80D, etc.) and exemptions claimed'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Mistakes to Avoid in ITR-3 Filing',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    ul: [
+                        'Incorrect selection of ITR form (business/professional income must use ITR-3 or ITR-4 as applicable)',
+                        'Not maintaining books of account as per Section 44AA (if applicable)',
+                        'Missing audit requirements under Section 44AB when turnover crosses threshold',
+                        'Improper reporting of partner’s remuneration/interest from firm',
+                        'Omission of cash transactions, unsecured loans, or undisclosed income',
+                        'Failure to match TDS/TCS with Form 26AS and AIS',
+                        'Non-disclosure of foreign assets, directorship, or unlisted shares',
+                        'Forgetting to e-verify the return within 30 days',
+                        'Late filing resulting in penalties, interest, and disallowance of losses'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Best Practices for Hassle-Free ITR-3 Filing',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    ul: [
+                        'Maintain clear and up-to-date books of account throughout the year',
+                        'Track business expenses and segregate personal outlays',
+                        'Reconcile all TDS credits and tax payments before filing',
+                        'Check applicability of audit and have CA certificate if needed',
+                        'Review all clubbed incomes and asset schedules for full disclosure',
+                        'File well before the due date and ensure prompt e-verification',
+                        'Use professional help from Incorvo for complex or high-value cases'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'What Happens After Filing ITR-3?',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    ul: [
+                        'E-verification is mandatory within 30 days of filing',
+                        'Return is processed by IT Department and intimation issued under Section 143(1)',
+                        'Refunds, if any, are directly credited to pre-validated bank account',
+                        'IT scrutiny or notices may be issued for mismatches or clarifications',
+                        'Rectification or revised return can be filed in case of mistakes',
+                        'Maintain all supporting documents for up to 6 years for scrutiny'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Why Choose Incorvo for ITR-3 Filing?',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    ul: [
+                        'Expert CA/CS and tax professionals with business specialization',
+                        'Automated data reconciliation and document management',
+                        'Compliance with all business/profession accounting and tax audit standards',
+                        'Support for capital gains, foreign asset, and clubbing income complexities',
+                        'Prompt handling of notices, refunds, and e-verification',
+                        'End-to-end security, privacy, and clear communication',
+                        'No hidden charges—transparent pricing for all services',
+                        'Dedicated Incorvo manager for personalized, year-round support'
+                    ]
+                }
+            ]
         },
+        {
+            title: 'ITR-3 Filing: Extended FAQs',
+            descrption: [
+                {
+                    subTitle: '',
+                    ul: [
+                        'What is the due date for ITR-3 filing? – July 31st for non-audit, October 31st for tax audit cases (subject to annual CBDT updates).',
+                        'When is a tax audit under Section 44AB required? – If turnover exceeds ₹1 crore (business) or ₹50 lakh (profession); lower in some cases.',
+                        'Is balance sheet and P&L mandatory for ITR-3? – Yes, for business/professional income and partnership firm partners.',
+                        'Can ITR-3 be filed if there is a loss? – Yes, and losses can be carried forward if filed on time.',
+                        'Do partners need to show salary/remuneration from firm? – Yes, in Schedule IF and other appropriate sections.',
+                        'Is TDS mandatory on professional or contractor payments? – Yes, as per Section 194J/194C thresholds.',
+                        'How do I disclose foreign assets in ITR-3? – In the FA schedule; include all overseas bank accounts, property, shares, etc.',
+                        'Can presumptive income (44AD/ADA/AE) be filed in ITR-3? – No, use ITR-4 for presumptive taxation.',
+                        'What if I miss e-verification? – Return is invalid, must e-verify or refile promptly.',
+                        'Does Incorvo help with IT notices and assessment? – Yes, full support for responses, clarifications, and representation.'
+                    ]
+                }
+            ]
+        }
     ],
     faqs: [
         {
-            q: 'What is the minimum capital required to register a Private Limited Company?',
-            a: 'There is no minimum paid-up capital requirement for registering a Private Limited Company in India.',
+            q: 'Who should file ITR-3?',
+            a: 'Individuals and HUFs having income from proprietary business, profession, or as partners in a firm (but not the firm itself).'
         },
         {
-            q: 'Can a foreigner be a director in a Private Limited Company?',
-            a: 'Yes, foreigners can be directors, but at least one director must be a resident of India, as per Section 149 of the Companies Act, 2013.',
+            q: 'Is balance sheet mandatory for all ITR-3 filers?',
+            a: 'Yes, for those with business/professional income and all partners in firms—even if profit share is exempt.'
         },
         {
-            q: 'How long does it take to register a Private Limited Company in India?',
-            a: 'The registration process generally takes between 7-15 business days, depending on the speed of document verification and approvals.',
+            q: 'Can business losses be carried forward in ITR-3?',
+            a: 'Yes, if the return is filed before the due date. Specify details in the loss schedules.'
         },
         {
-            q: 'What are the legal standards for Private Limited Companies?',
-            a: 'Compliance Requirements: Private Limited Companies must stick to several compliance requirements under the Companies Act, 2013, including having yearly general meetings, filing annual reports, hiring accountants, and more.',
+            q: 'Do I need to get a tax audit done?',
+            a: 'If turnover exceeds specified limits or certain other criteria are met. Incorvo advises and assists with all audit compliance.'
         },
         {
-            q: 'Do I need a physical office for registration?',
-            a: 'Yes, a registered office in India is mandatory. This office must be in a location where official correspondence and notices from the ROC can be sent.',
+            q: 'Can capital gains be shown in ITR-3?',
+            a: 'Yes, all types of capital gains must be declared and supported with computation statements.'
         },
         {
-            q: 'What are the perks of choosing a Private Limited Company structure?',
-            a: 'Advantages of Private Limited Company: Benefits include limited liability protection, ease of getting capital via shares, constant succession, reliability, and agreement with regulatory norms.',
+            q: 'How do I show share of profit from a partnership firm?',
+            a: 'Enter in the appropriate schedule; exempt share of profit, but remuneration and interest are taxable.'
         },
         {
-            q: 'Can a Private Limited Company change to a Public Limited Company?',
-            a: 'Conversion to Public Limited Company: Yes, a Private Limited Company may change to a Public Limited Company.',
+            q: 'Are refunds faster if I file with Incorvo?',
+            a: 'Our compliance ensures fewer errors and faster processing; refund speed depends on IT department timelines and pre-validation of bank account.'
         },
         {
-            q: 'What is the difference between a Private Limited Company and a Limited Liability Partnership (LLP)?',
-            a: 'Difference from LLP: The basic difference between a Private Limited Company and a Limited liability Partnership (LLP) rests in their structure and responsibility features. A Private Limited Company has owners and limited liability protection, whereas an LLP has partners with limited liability but without shares.',
+            q: 'Can I revise ITR-3 after filing?',
+            a: 'Yes, within the due date as per the Income Tax Act. Contact Incorvo for error correction and revision.'
         },
         {
-            q: 'How can I change the name of my Private Limited Company?',
-            a: 'Changing Company Name: To change the name of a Private Limited Company, you need to follow the way given by the Ministry of Corporate Affairs in India.',
+            q: 'What is Schedule AL in ITR-3?',
+            a: 'It’s the asset and liability schedule—mandatory if total income exceeds ₹50 lakh in the year.'
         },
         {
-            q: 'What are the penalties for non-compliance with legal duties for Private Limited Companies?',
-            a: 'Penalties for Non-Compliance: Punishments for non-compliance with regulatory requirements for Private Limited Companies might change depending on the individual infringement and may include fines or other legal punishments as per the Companies Act, 2013.',
+            q: 'How do I get started with Incorvo?',
+            a: 'Contact our business tax specialists for a checklist, eligibility review, and secure document sharing link.'
         }
-    ],
-}
+    ]
+};

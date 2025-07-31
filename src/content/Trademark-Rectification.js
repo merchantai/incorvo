@@ -1,206 +1,239 @@
 export default {
     header: {
-        title: 'Private Limited Company Registration',
+        title: 'Trademark Rectification – Incorvo',
         list: [
-            'Register your private limited company in 7 business days with our expert assistance',
-            'Our online company registration service includes the following features',
-            'Obtain 2 Digital Signature Certificates (DSC) with 2 years validity',
-            'Secure 2 Director Identification Numbers (DIN)',
-            'Get unique name approval for your private company',
-            'Acquire PAN and TAN for the company',
-            'Open a current account with ICICI Bank',
-            'Drafting the Memorandum of Association and Articles of Association',
-            'Receive the official Company Incorporation Certificate',
-        ],
+            'Comprehensive legal support for trademark rectification and cancellation proceedings in India',
+            'Expert drafting and filing of rectification petitions (Form TM-O) before Trademark Registry',
+            'Advisory for aggrieved parties, trademark owners, and interested third parties',
+            'Analysis of improper registration, wrongful entry, or non-use of marks',
+            'Strategic guidance for defending against rectification/cancellation applications',
+            'Digital document handling and status tracking at every stage',
+            'Representation before Registrar of Trademarks and High Court (if needed)',
+            'Resolution of disputes arising out of non-use, bad faith, or procedural defects',
+            'Transparent milestone-based pricing and secure, confidential service',
+            'Dedicated Incorvo relationship manager for each rectification case'
+        ]
     },
     content: [
         {
-            title: 'Private Limited Company Registration in India',
+            title: 'What is Trademark Rectification?',
             descrption: [
                 {
                     subTitle: '',
                     p: [
-                        'Currently, Private Limited Companies make upto almost 96% of the total companies in India. Till November 20, 2023, there are 25,99,660 private limited companies registered in India. The huge number of company registrations is a testament to the ease and benefits provided by India. Although registering a company in India is not mandatory, company registration offers significant benefits to founders as well as stakeholders. By the end, you will be able to understand the key legal requirements to register a private limited company in India, along with its compliance obligations and much more.'
-                    ],
-                },
-            ],
+                        'Trademark rectification refers to the legal process of correcting or removing an entry in the register of trademarks. Any aggrieved person—including trademark owners, competitors, or third parties—may apply for rectification or cancellation of a registered trademark due to improper registration, subsequent non-use, error, fraud, or other valid grounds as defined in law.',
+                        'Rectification proceedings can result in removal, variation, or modification of trademark entries, and are vital for upholding the integrity of the trademark register.'
+                    ]
+                }
+            ]
         },
         {
-            title: 'What is a Private Limited Company?',
+            title: 'Who Can File for Rectification?',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        'In India, there are several companies that can be registered. A Private Limited Company is one of them. A Private Limited Company bearing the suffix of ‘Pvt. Ltd\'. At the end of its name is a separate legal entity registered under the Companies Act, 2013with the Registrar of Companies (ROC). The main feature of this type of company is that it offers limited liability protection to its shareholders; it means that the liability of the shareholders is only up to the extent of shares held by them, and the personal assets of shareholders (owners) are protected from the obligations of the company. The company can be owned by multiple shareholders and managed by appointed directors. It is separated from the owners of the company, and its legal existence continues even if there are changes in the ownership or management, which provides security and stability to the company.',
-                    ],
-                },
-            ],
+                    ul: [
+                        'Any aggrieved party: businesses, individuals, or associations affected by improper registration',
+                        'Trademark owners seeking correction of their own registration',
+                        'Competitors or third parties affected by wrongful entry or continued presence of a mark',
+                        'Parties to a legal dispute, court order, or Registry directive'
+                    ]
+                }
+            ]
         },
         {
-            title: 'Why Should You Register a Private Limited Company?',
+            title: 'Grounds for Trademark Rectification',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        'There are several compelling reasons why forming a Private Limited Company can be beneficial:',
-                    ],
-                },
-                {
-                    subTitle: '1. Limited Liability Protection',
-                    p: [
-                        'As a private limited company, the liability of its shareholders is restricted to the unpaid amount on their shares. This means that if the company faces financial distress or legal liabilities, the personal assets of the shareholders (directors or members) will not be at risk.',
-                    ],
-                },
-                {
-                    subTitle: '2. Separate Legal Entity',
-                    p: [
-                        'A company is a juristic person in the eyes of the law. The legal entity of the company is distinct from its shareholders and directors. The company is capable of entering into contracts in its own name; it can sue and be sued in its own name. The liability and credibility of the company are separated from its stakeholders.',
-                    ],
-                },
-                {
-                    subTitle: '3. Perpetual Succession',
-                    p: [
-                        'The existence of the company is independent of the existence of its shareholders or directors. Unlike a partnership or sole proprietorship, the private limited company enjoys perpetual succession, which means that the existence of the company is not affected by the death, insolvency, or retirement of any shareholder or director. This perpetual succession guarantees the continuity of the business even if one of the company\'s stakeholders leaves the company.',
-                    ],
-                },
-                {
-                    subTitle: '4. Easy Transferability of Shares',
-                    p: [
-                        'Registering a company in India offers easy transferability of shares, which means that shares of the company can be transferred from one shareholder to another. The leverage smoothens out the transaction in the management of the company and later enhances the flexibility in the business operations of the company.',
-                    ],
-                },
-                {
-                    subTitle: '5. Access to Investments and Funding',
-                    p: [
-                        'Capital can be easily raised in a registered Private Limited Company, as Equity shares can be easily issued by the company to raise funds. Issuing equity shares attracts potential investors and venture capital to invest in the company.',
-                    ],
-                },
-                {
-                    subTitle: '6. Increased Trustworthiness',
-                    p: [
-                        'Registering a Private Limited Company enjoys greater market credibility as compared to other business structures. The greater credibility leads to increased trustworthiness among investors. The advantage is gained by the company due to its registration. Registering a company makes the company legally recognizable and shows that it meets the regulatory standards.',
-                    ],
-                },
-            ],
+                    table: {
+                        thead: {
+                            trow: [
+                                ['Ground', 'Explanation', 'Example']
+                            ]
+                        },
+                        tbody: {
+                            trow: [
+                                ['Non-use', 'Registered mark not used for 5 consecutive years', 'Trademark squatting, dormant registrations'],
+                                ['Improper registration', 'Mark registered contrary to law (e.g., generic/descriptive mark)', 'Registration without genuine intention to use'],
+                                ['Incorrect details', 'Errors in proprietor’s name, address, or class of goods/services', 'Typographical mistakes, misclassification'],
+                                ['Entry made without sufficient cause', 'Wrongful registration or material misrepresentation', 'Fraudulent application or non-disclosure'],
+                                ['Contravention of conditions', 'Violation of any condition entered in the register', 'Use in a manner contrary to granted scope'],
+                                ['Order of court/authority', 'Rectification as per High Court or Tribunal directive', 'Dispute settlement, settlement agreement']
+                            ]
+                        }
+                    }
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Legal Provisions & Authorities',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    ul: [
+                        'Sections 47, 57, and 125 of the Trade Marks Act, 1999 govern rectification and cancellation',
+                        'Application made using Form TM-O before the Registrar or High Court',
+                        'Rectification can be sought for both registered and pending marks',
+                        'Registrar and High Court have concurrent jurisdiction; IPAB is now merged with High Court for appeals',
+                        'Court or Registrar may order removal, variation, or correction of register as justice requires'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Step-by-Step Rectification Process with Incorvo',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    ol: [
+                        'Initial assessment of grounds for rectification or defense',
+                        'Collection of evidence: non-use, prior use, improper registration, or error',
+                        'Drafting of rectification/cancellation petition with detailed grounds and supporting documents',
+                        'Filing of Form TM-O before Trademark Registry or High Court',
+                        'Service of petition on concerned parties (registered proprietor, assignee, etc.)',
+                        'Submission of counter statements and reply evidence (if defending against rectification)',
+                        'Hearings before the Registrar; presentation of evidence, oral and written arguments',
+                        'Order of the Registrar/High Court: rectification, cancellation, or modification of entry',
+                        'Update and correction of the trademark register as per final order'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Documents Required for Trademark Rectification',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    ul: [
+                        'Rectification/cancellation petition (Form TM-O)',
+                        'Power of Attorney to Incorvo or your attorney/agent',
+                        'Supporting evidence: proof of non-use, prior use, public records, invoices, advertisements',
+                        'Copy of trademark registration certificate or relevant Registry extract',
+                        'Court orders or previous legal correspondence (if applicable)',
+                        'Affidavits, statutory declarations, and supporting legal documents'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Why Choose Incorvo for Trademark Rectification?',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    ul: [
+                        'Experienced trademark attorneys and IPR litigators for both prosecution and defense',
+                        'Strategic case analysis and evidence gathering',
+                        'Drafting of robust rectification petitions or counter-statements',
+                        'Digital document handling and real-time status tracking',
+                        'Representation at all Registry hearings and High Court appeals',
+                        'Proactive communication, deadline reminders, and updates',
+                        'Transparent fee structure and full confidentiality'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Sample Scenarios & Solutions',
             descrption: [
                 {
-                    subTitle: '',
+                    subTitle: 'Case: Removal for Non-Use',
                     p: [
-                        '',
-                    ],
+                        'Incorvo assists a business in proving a competitor’s mark has not been used for 5 years and secures removal to clear the path for the client’s new application.'
+                    ]
                 },
-            ],
+                {
+                    subTitle: 'Case: Rectification of Proprietor Details',
+                    p: [
+                        'A trademark owner identifies errors in the registered address/name. Incorvo drafts and files the correction petition, ensuring proper update on the register.'
+                    ]
+                },
+                {
+                    subTitle: 'Case: Defense Against Bad-Faith Rectification',
+                    p: [
+                        'A brand owner faces a rectification petition by a competitor. Incorvo prepares evidence of genuine use and secures dismissal of the petition at Registry.'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Best Practices & Common Mistakes',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    ul: [
+                        'Monitor the trademark register regularly for conflicting or dormant marks',
+                        'Maintain thorough usage records, sales invoices, advertisements, and brand presence',
+                        'Act promptly on non-use or improper registrations to secure your brand rights',
+                        'Prepare robust evidence before filing rectification/cancellation petition',
+                        'Respond to all Registry notices, counter-statements, and hearing dates',
+                        'Update the register for all relevant changes (ownership, address, class, etc.)',
+                        'Engage IP professionals for complex or contentious matters'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Extended FAQs – Trademark Rectification',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
-        },
+                    ul: [
+                        'Can I file rectification against any registered trademark? – Yes, if valid legal grounds exist (non-use, improper registration, error, fraud, etc.)',
+                        'Is there a time limit for filing rectification? – No fixed limit, but prompt action is advisable for best results.',
+                        'Can I rectify a pending (not registered) mark? – Correction can be sought via the Registry for pending applications as well.',
+                        'What if the trademark is being used overseas, but not in India? – Non-use in India for 5 years is a ground for rectification in India.',
+                        'Is hearing mandatory in all rectification cases? – Usually yes, for both parties to present their evidence and arguments.',
+                        'What is the cost of rectification proceedings? – Varies by complexity and forum; Incorvo offers transparent, milestone-based pricing.',
+                        'Does rectification mean permanent removal? – Not always; it can result in variation, partial removal, or correction of specific errors.',
+                        'Who has the final authority—Registrar or Court? – Both have concurrent jurisdiction, but High Court can overrule Registrar.',
+                        'Can rectification proceedings be settled amicably? – Yes, parties may enter compromise and inform the Registry for order as per settlement.',
+                        'How long does a typical rectification proceeding take? – 6–18 months, depending on complexity, forum, and whether evidence/hearings are contested.'
+                    ]
+                }
+            ]
+        }
     ],
     faqs: [
         {
-            q: 'What is the minimum capital required to register a Private Limited Company?',
-            a: 'There is no minimum paid-up capital requirement for registering a Private Limited Company in India.',
+            q: 'What is the primary purpose of trademark rectification?',
+            a: 'To correct or remove wrongful entries in the register and maintain the integrity of the trademark register.'
         },
         {
-            q: 'Can a foreigner be a director in a Private Limited Company?',
-            a: 'Yes, foreigners can be directors, but at least one director must be a resident of India, as per Section 149 of the Companies Act, 2013.',
+            q: 'Who can apply for trademark rectification?',
+            a: 'Any aggrieved party—including owners, competitors, or third parties affected by wrongful registration or continued entry.'
         },
         {
-            q: 'How long does it take to register a Private Limited Company in India?',
-            a: 'The registration process generally takes between 7-15 business days, depending on the speed of document verification and approvals.',
+            q: 'What is the procedure for filing rectification?',
+            a: 'File a petition (Form TM-O) with the Registrar or High Court, stating grounds and submitting supporting evidence.'
         },
         {
-            q: 'What are the legal standards for Private Limited Companies?',
-            a: 'Compliance Requirements: Private Limited Companies must stick to several compliance requirements under the Companies Act, 2013, including having yearly general meetings, filing annual reports, hiring accountants, and more.',
+            q: 'Is legal representation necessary for rectification?',
+            a: 'Strongly advised, as legal arguments, evidence, and hearings are involved. Incorvo offers complete representation.'
         },
         {
-            q: 'Do I need a physical office for registration?',
-            a: 'Yes, a registered office in India is mandatory. This office must be in a location where official correspondence and notices from the ROC can be sent.',
+            q: 'Can rectification be used to cancel non-used marks?',
+            a: 'Yes, non-use for 5 years post-registration is a valid ground for removal from the register.'
         },
         {
-            q: 'What are the perks of choosing a Private Limited Company structure?',
-            a: 'Advantages of Private Limited Company: Benefits include limited liability protection, ease of getting capital via shares, constant succession, reliability, and agreement with regulatory norms.',
+            q: 'Does Registry automatically remove non-used trademarks?',
+            a: 'No, it must be initiated by an interested party through a formal petition.'
         },
         {
-            q: 'Can a Private Limited Company change to a Public Limited Company?',
-            a: 'Conversion to Public Limited Company: Yes, a Private Limited Company may change to a Public Limited Company.',
+            q: 'What happens if a rectification petition is successful?',
+            a: 'The Registry updates, removes, or corrects the register as per the final order; rights are modified accordingly.'
         },
         {
-            q: 'What is the difference between a Private Limited Company and a Limited Liability Partnership (LLP)?',
-            a: 'Difference from LLP: The basic difference between a Private Limited Company and a Limited liability Partnership (LLP) rests in their structure and responsibility features. A Private Limited Company has owners and limited liability protection, whereas an LLP has partners with limited liability but without shares.',
+            q: 'Can errors in name or address be corrected by rectification?',
+            a: 'Yes, rectification can be used for correction of proprietor details and other register entries.'
         },
         {
-            q: 'How can I change the name of my Private Limited Company?',
-            a: 'Changing Company Name: To change the name of a Private Limited Company, you need to follow the way given by the Ministry of Corporate Affairs in India.',
+            q: 'What is the role of the High Court in rectification?',
+            a: 'High Court has appellate and original jurisdiction in certain cases, especially in disputes or complex matters.'
         },
         {
-            q: 'What are the penalties for non-compliance with legal duties for Private Limited Companies?',
-            a: 'Penalties for Non-Compliance: Punishments for non-compliance with regulatory requirements for Private Limited Companies might change depending on the individual infringement and may include fines or other legal punishments as per the Companies Act, 2013.',
+            q: 'How do I get started with Incorvo for trademark rectification?',
+            a: 'Contact us for a free case assessment, strategy discussion, and a transparent, end-to-end rectification process.'
         }
-    ],
-}
+    ]
+};

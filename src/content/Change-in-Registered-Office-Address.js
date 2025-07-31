@@ -1,206 +1,252 @@
 export default {
     header: {
-        title: 'Private Limited Company Registration',
+        title: 'Change of Registered Office',
         list: [
-            'Register your private limited company in 7 business days with our expert assistance',
-            'Our online company registration service includes the following features',
-            'Obtain 2 Digital Signature Certificates (DSC) with 2 years validity',
-            'Secure 2 Director Identification Numbers (DIN)',
-            'Get unique name approval for your private company',
-            'Acquire PAN and TAN for the company',
-            'Open a current account with ICICI Bank',
-            'Drafting the Memorandum of Association and Articles of Association',
-            'Receive the official Company Incorporation Certificate',
-        ],
+            'Expert assistance for changing your company’s registered office address',
+            'Applicable to Private Ltd, Public Ltd, OPC, LLP, and Section 8 companies',
+            'Complete support: board/EGM resolutions, drafting & filing ROC forms',
+            'Guidance for address change within city, within state, or between states',
+            'Preparation of all documents: NOC, utility bills, altered MOA, and public notice',
+            'ROC liaison for speedy approval and new Certificate of Incorporation',
+            'Advisory on updates to PAN, GST, licenses, banks, and all stakeholders',
+            'Transparent, affordable pricing and digital workflow',
+            'Dedicated Incorvo compliance manager for reminders and handholding',
+            'Catch-up compliance and penalty mitigation for previous missed filings'
+        ]
     },
     content: [
         {
-            title: 'Private Limited Company Registration in India',
+            title: 'What is a Change of Registered Office?',
             descrption: [
                 {
                     subTitle: '',
                     p: [
-                        'Currently, Private Limited Companies make upto almost 96% of the total companies in India. Till November 20, 2023, there are 25,99,660 private limited companies registered in India. The huge number of company registrations is a testament to the ease and benefits provided by India. Although registering a company in India is not mandatory, company registration offers significant benefits to founders as well as stakeholders. By the end, you will be able to understand the key legal requirements to register a private limited company in India, along with its compliance obligations and much more.'
-                    ],
-                },
-            ],
+                        'The registered office is the official address of a company as per government records and is used for all legal and statutory communications. Companies may need to change their registered office due to business expansion, lease expiry, new branch setup, state incentives, or logistical convenience. This process is governed by the Companies Act, 2013 and involves mandatory filings and approvals.',
+                        'A change in registered office address must be properly documented, approved by the board/shareholders, and intimated to the Registrar of Companies (ROC) for legal validity. Incorvo ensures your office change is 100% compliant and recognized by all authorities and stakeholders.'
+                    ]
+                }
+            ]
         },
         {
-            title: 'What is a Private Limited Company?',
+            title: 'Types of Registered Office Change & Legal Routes',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        'In India, there are several companies that can be registered. A Private Limited Company is one of them. A Private Limited Company bearing the suffix of ‘Pvt. Ltd\'. At the end of its name is a separate legal entity registered under the Companies Act, 2013with the Registrar of Companies (ROC). The main feature of this type of company is that it offers limited liability protection to its shareholders; it means that the liability of the shareholders is only up to the extent of shares held by them, and the personal assets of shareholders (owners) are protected from the obligations of the company. The company can be owned by multiple shareholders and managed by appointed directors. It is separated from the owners of the company, and its legal existence continues even if there are changes in the ownership or management, which provides security and stability to the company.',
-                    ],
-                },
-            ],
+                    ul: [
+                        'Within the same city, town, or village (local change)',
+                        'From one city/town/village to another within the same state and ROC jurisdiction',
+                        'From one ROC jurisdiction to another within the same state',
+                        'From one state to another state (inter-state change – requires Central Government approval)'
+                    ]
+                }
+            ]
         },
         {
-            title: 'Why Should You Register a Private Limited Company?',
+            title: 'Step-by-Step Process for Change of Registered Office',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        'There are several compelling reasons why forming a Private Limited Company can be beneficial:',
-                    ],
-                },
-                {
-                    subTitle: '1. Limited Liability Protection',
-                    p: [
-                        'As a private limited company, the liability of its shareholders is restricted to the unpaid amount on their shares. This means that if the company faces financial distress or legal liabilities, the personal assets of the shareholders (directors or members) will not be at risk.',
-                    ],
-                },
-                {
-                    subTitle: '2. Separate Legal Entity',
-                    p: [
-                        'A company is a juristic person in the eyes of the law. The legal entity of the company is distinct from its shareholders and directors. The company is capable of entering into contracts in its own name; it can sue and be sued in its own name. The liability and credibility of the company are separated from its stakeholders.',
-                    ],
-                },
-                {
-                    subTitle: '3. Perpetual Succession',
-                    p: [
-                        'The existence of the company is independent of the existence of its shareholders or directors. Unlike a partnership or sole proprietorship, the private limited company enjoys perpetual succession, which means that the existence of the company is not affected by the death, insolvency, or retirement of any shareholder or director. This perpetual succession guarantees the continuity of the business even if one of the company\'s stakeholders leaves the company.',
-                    ],
-                },
-                {
-                    subTitle: '4. Easy Transferability of Shares',
-                    p: [
-                        'Registering a company in India offers easy transferability of shares, which means that shares of the company can be transferred from one shareholder to another. The leverage smoothens out the transaction in the management of the company and later enhances the flexibility in the business operations of the company.',
-                    ],
-                },
-                {
-                    subTitle: '5. Access to Investments and Funding',
-                    p: [
-                        'Capital can be easily raised in a registered Private Limited Company, as Equity shares can be easily issued by the company to raise funds. Issuing equity shares attracts potential investors and venture capital to invest in the company.',
-                    ],
-                },
-                {
-                    subTitle: '6. Increased Trustworthiness',
-                    p: [
-                        'Registering a Private Limited Company enjoys greater market credibility as compared to other business structures. The greater credibility leads to increased trustworthiness among investors. The advantage is gained by the company due to its registration. Registering a company makes the company legally recognizable and shows that it meets the regulatory standards.',
-                    ],
-                },
-            ],
+                    table: {
+                        thead: {
+                            trow: [
+                                ['Step', 'Activity', 'Form / Document', 'Who Files']
+                            ]
+                        },
+                        tbody: {
+                            trow: [
+                                ['1', 'Hold Board Meeting to approve proposal', 'Board Resolution', 'Board/CS'],
+                                ['2', 'For non-local/state/inter-state change: Hold EGM & pass special resolution', 'Special Resolution', 'Members/CS'],
+                                ['3', 'Apply for name/address availability (for inter-state cases)', 'INC-23', 'CS/Company'],
+                                ['4', 'File notice of change with ROC', 'INC-22', 'CS/Company'],
+                                ['5', 'Publish public notice (for inter-state)', 'Newspaper ad', 'Company/CS'],
+                                ['6', 'Get ROC/Central Government approval & new COI', 'Revised COI', 'ROC/MCA'],
+                                ['7', 'Update MOA (if state change)', 'Altered MOA', 'CS/Company'],
+                                ['8', 'Update all stakeholders, banks, licenses, GST, etc.', 'Intimation letters', 'Company/CS']
+                            ]
+                        }
+                    }
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Required Documents for Registered Office Change',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    ul: [
+                        'Copy of board and (if needed) special resolutions',
+                        'Notice and minutes of EGM (if applicable)',
+                        'Latest utility bill (electricity, gas, water – not older than 2 months)',
+                        'NOC from owner/landlord (if office is on rent/lease)',
+                        'Proof of ownership/lease/rent agreement',
+                        'Altered MOA (for inter-state change)',
+                        'Public notice in newspaper (inter-state)',
+                        'List of directors/shareholders',
+                        'Filing receipts of INC-22, MGT-14, INC-23 (as applicable)',
+                        'Revised COI (after ROC approval)'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Key ROC Forms & Timelines for Registered Office Change',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    table: {
+                        thead: {
+                            trow: [
+                                ['Form', 'Purpose', 'When Filed', 'Applicable For']
+                            ]
+                        },
+                        tbody: {
+                            trow: [
+                                ['INC-22', 'Intimation of registered office change to ROC', 'Within 30 days of change', 'All companies/LLPs'],
+                                ['MGT-14', 'Filing special resolution for address/state change', 'Within 30 days of EGM', 'State/inter-state cases'],
+                                ['INC-23', 'Application to Central Govt for inter-state move', 'Before INC-22', 'Inter-state cases'],
+                                ['Public Notice', 'Newspaper ad (vernacular & English)', 'At least 14 days before application', 'Inter-state cases'],
+                                ['Altered MOA', 'Reflects new state in company documents', 'After approval', 'State/inter-state cases']
+                            ]
+                        }
+                    }
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Legal Provisions and Restrictions',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    ul: [
+                        'Section 12 & 13 of Companies Act, 2013: Procedures for change of office and MOA',
+                        'Special resolution of shareholders needed for address change outside local limits or between states',
+                        'Central Government (Regional Director) approval for inter-state changes',
+                        'No change allowed if company is in default of annual filings or under legal proceedings'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Post-Approval Compliance',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    ul: [
+                        'Update PAN, TAN, GST, PF, ESI, Shops & Establishment, and all other licenses with new address',
+                        'Intimate change to all banks, financial institutions, and stakeholders',
+                        'Update website, letterhead, invoices, contracts, and statutory registers',
+                        'Notify relevant industry regulators (FSSAI, SEBI, etc.) if applicable'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Common Mistakes to Avoid',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    ul: [
+                        'Using new office address before ROC approval and revised COI',
+                        'Not submitting complete or correct address proofs (utility bill/NOC)',
+                        'Failing to hold proper board/EGM meetings and pass required resolutions',
+                        'Missing public notice or Central Govt approval (for inter-state)',
+                        'Not updating all statutory registrations after approval',
+                        'Assuming address change is only internal – must be notified to ROC!'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Penalties for Non-Compliance',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    ul: [
+                        'Late filing fees (Rs. 100 per day) for delayed INC-22/MGT-14',
+                        'Company and officers liable for further penalties for non-intimation',
+                        'Inability to receive legal notices or maintain legal standing',
+                        'Banking/funding problems if address not updated in time'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Why Choose Incorvo for Registered Office Change?',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    ul: [
+                        'Full legal guidance and documentation for all address change scenarios',
+                        'Drafting of resolutions, NOC, newspaper ads, and e-filing of all forms',
+                        'Direct ROC/Central Govt liaison for smooth, quick approval',
+                        'Catch-up compliance for prior missed filings or address changes',
+                        'Personalized reminders and compliance calendar',
+                        'Affordable fixed pricing and digital, paperless process'
+                    ]
+                }
+            ]
         },
+        {
+            title: 'Change of Registered Office: Extended FAQs',
+            descrption: [
+                {
+                    subTitle: '',
+                    ul: [
+                        'Is board approval enough for changing registered office? – Only for local change within same city/town. Else, special resolution needed.',
+                        'How long does the process take? – 3–7 days (local), 10–21 days (state/inter-state) post complete documents.',
+                        'Is Central Government approval always required? – Only for inter-state address change.',
+                        'Can I use new address immediately after board approval? – No, wait until ROC approves and issues new COI.',
+                        'What if my company is not compliant with annual filings? – Must complete all filings before applying for address change.',
+                        'Do I need to update PAN, GST, and licenses after address change? – Yes, all statutory registrations must reflect new address.',
+                        'What documents are valid as address proof? – Utility bill (not older than 2 months), rent agreement, NOC from owner.',
+                        'Does Incorvo handle all types of office address change? – Yes, including local, state, and inter-state with full support.',
+                        'Can LLPs also change registered office using this process? – Yes, with similar compliance; Incorvo manages LLP cases too.',
+                        'How do I start with Incorvo? – Contact us for a free checklist and consult; we manage the process end-to-end.'
+                    ]
+                }
+            ]
+        }
     ],
     faqs: [
         {
-            q: 'What is the minimum capital required to register a Private Limited Company?',
-            a: 'There is no minimum paid-up capital requirement for registering a Private Limited Company in India.',
+            q: 'What is the most common mistake in office address change?',
+            a: 'Failing to file INC-22 on time or using the new address before official ROC approval and revised COI.'
         },
         {
-            q: 'Can a foreigner be a director in a Private Limited Company?',
-            a: 'Yes, foreigners can be directors, but at least one director must be a resident of India, as per Section 149 of the Companies Act, 2013.',
+            q: 'Is EGM needed for every address change?',
+            a: 'Not for local changes within the same city/town/village. For state or inter-state moves, EGM and special resolution are required.'
         },
         {
-            q: 'How long does it take to register a Private Limited Company in India?',
-            a: 'The registration process generally takes between 7-15 business days, depending on the speed of document verification and approvals.',
+            q: 'How soon after ROC approval must all authorities be notified?',
+            a: 'PAN, GST, bank, and license updates should be completed within 30–60 days of approval.'
         },
         {
-            q: 'What are the legal standards for Private Limited Companies?',
-            a: 'Compliance Requirements: Private Limited Companies must stick to several compliance requirements under the Companies Act, 2013, including having yearly general meetings, filing annual reports, hiring accountants, and more.',
+            q: 'Are there extra steps for inter-state address change?',
+            a: 'Yes, public notice in two newspapers, Central Government approval, and alteration of MOA.'
         },
         {
-            q: 'Do I need a physical office for registration?',
-            a: 'Yes, a registered office in India is mandatory. This office must be in a location where official correspondence and notices from the ROC can be sent.',
+            q: 'Can I move my office if company is not active or filings are pending?',
+            a: 'No, all annual filings and statutory dues must be cleared before address change.'
         },
         {
-            q: 'What are the perks of choosing a Private Limited Company structure?',
-            a: 'Advantages of Private Limited Company: Benefits include limited liability protection, ease of getting capital via shares, constant succession, reliability, and agreement with regulatory norms.',
+            q: 'What is the penalty for late intimation of address change?',
+            a: 'Rs. 100 per day for delay; further penalties if address is not updated in records.'
         },
         {
-            q: 'Can a Private Limited Company change to a Public Limited Company?',
-            a: 'Conversion to Public Limited Company: Yes, a Private Limited Company may change to a Public Limited Company.',
+            q: 'Does Incorvo provide follow-up support after address change?',
+            a: 'Yes, we assist in updating all statutory registrations and notifying stakeholders.'
         },
         {
-            q: 'What is the difference between a Private Limited Company and a Limited Liability Partnership (LLP)?',
-            a: 'Difference from LLP: The basic difference between a Private Limited Company and a Limited liability Partnership (LLP) rests in their structure and responsibility features. A Private Limited Company has owners and limited liability protection, whereas an LLP has partners with limited liability but without shares.',
+            q: 'How can I get started with Incorvo’s address change service?',
+            a: 'Contact us for a free consultation and checklist. We handle all resolutions, filings, and follow-up compliance.'
         },
         {
-            q: 'How can I change the name of my Private Limited Company?',
-            a: 'Changing Company Name: To change the name of a Private Limited Company, you need to follow the way given by the Ministry of Corporate Affairs in India.',
+            q: 'Is the process digital or do I need to visit the office?',
+            a: 'The process is 100% digital and paperless with Incorvo; no office visits required.'
         },
         {
-            q: 'What are the penalties for non-compliance with legal duties for Private Limited Companies?',
-            a: 'Penalties for Non-Compliance: Punishments for non-compliance with regulatory requirements for Private Limited Companies might change depending on the individual infringement and may include fines or other legal punishments as per the Companies Act, 2013.',
+            q: 'Does this process cover Section 8 and LLPs as well?',
+            a: 'Yes, Incorvo manages address changes for all entity types: Pvt Ltd, Public Ltd, OPC, LLP, Section 8, etc.'
         }
-    ],
-}
+    ]
+};

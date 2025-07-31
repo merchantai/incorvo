@@ -1,206 +1,198 @@
 export default {
     header: {
-        title: 'Private Limited Company Registration',
+        title: 'ADT-1 Filing – Appointment of Auditor (Incorvo Expert Service)',
         list: [
-            'Register your private limited company in 7 business days with our expert assistance',
-            'Our online company registration service includes the following features',
-            'Obtain 2 Digital Signature Certificates (DSC) with 2 years validity',
-            'Secure 2 Director Identification Numbers (DIN)',
-            'Get unique name approval for your private company',
-            'Acquire PAN and TAN for the company',
-            'Open a current account with ICICI Bank',
-            'Drafting the Memorandum of Association and Articles of Association',
-            'Receive the official Company Incorporation Certificate',
-        ],
+            'Seamless ADT-1 filing for appointment of auditors with MCA compliance',
+            'End-to-end digital process: board resolution, consent, and e-filing',
+            'Applicable for Private Limited, Public Limited, OPCs, and Section 8 Companies',
+            'Preparation and vetting of all required documentation by CA/CS experts',
+            'Assured statutory compliance to avoid late fees and penalties',
+            'Amendment and re-filing support if previous filing was defective',
+            'Dedicated relationship manager for all compliance queries',
+            'Affordable fixed pricing – no hidden charges',
+            'Guidance on auditor resignation/removal and subsequent appointments',
+            'Advisory on Companies Act 2013 and latest MCA/ROC notifications'
+        ]
     },
     content: [
         {
-            title: 'Private Limited Company Registration in India',
+            title: 'What is ADT-1 Filing?',
             descrption: [
                 {
                     subTitle: '',
                     p: [
-                        'Currently, Private Limited Companies make upto almost 96% of the total companies in India. Till November 20, 2023, there are 25,99,660 private limited companies registered in India. The huge number of company registrations is a testament to the ease and benefits provided by India. Although registering a company in India is not mandatory, company registration offers significant benefits to founders as well as stakeholders. By the end, you will be able to understand the key legal requirements to register a private limited company in India, along with its compliance obligations and much more.'
-                    ],
-                },
-            ],
+                        'ADT-1 is the statutory form required to be filed with the Ministry of Corporate Affairs (MCA) to intimate the appointment of an auditor for a company. It is mandatory under Section 139 of the Companies Act, 2013 and must be filed within 15 days from the date of appointment at the company’s AGM or Board Meeting.',
+                        'Failure to file ADT-1 can lead to penalties, non-compliance status, and future problems in annual ROC filings. Incorvo offers a professional, CA-supervised process to ensure every appointment is recorded on time, with full documentation and legal support.'
+                    ]
+                }
+            ]
         },
         {
-            title: 'What is a Private Limited Company?',
+            title: 'When is ADT-1 Filing Required?',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        'In India, there are several companies that can be registered. A Private Limited Company is one of them. A Private Limited Company bearing the suffix of ‘Pvt. Ltd\'. At the end of its name is a separate legal entity registered under the Companies Act, 2013with the Registrar of Companies (ROC). The main feature of this type of company is that it offers limited liability protection to its shareholders; it means that the liability of the shareholders is only up to the extent of shares held by them, and the personal assets of shareholders (owners) are protected from the obligations of the company. The company can be owned by multiple shareholders and managed by appointed directors. It is separated from the owners of the company, and its legal existence continues even if there are changes in the ownership or management, which provides security and stability to the company.',
-                    ],
-                },
-            ],
+                    ul: [
+                        'On appointment of first auditor by the Board within 30 days of company incorporation',
+                        'On appointment/reappointment of auditor at every Annual General Meeting (AGM)',
+                        'On appointment after resignation or removal of previous auditor',
+                        'On conversion of company type or as directed by the Tribunal/ROC',
+                        'For all company types: Private, Public, OPCs, Section 8 Companies'
+                    ]
+                }
+            ]
         },
         {
-            title: 'Why Should You Register a Private Limited Company?',
+            title: 'Step-by-Step ADT-1 Filing Process (Table)',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        'There are several compelling reasons why forming a Private Limited Company can be beneficial:',
-                    ],
-                },
-                {
-                    subTitle: '1. Limited Liability Protection',
-                    p: [
-                        'As a private limited company, the liability of its shareholders is restricted to the unpaid amount on their shares. This means that if the company faces financial distress or legal liabilities, the personal assets of the shareholders (directors or members) will not be at risk.',
-                    ],
-                },
-                {
-                    subTitle: '2. Separate Legal Entity',
-                    p: [
-                        'A company is a juristic person in the eyes of the law. The legal entity of the company is distinct from its shareholders and directors. The company is capable of entering into contracts in its own name; it can sue and be sued in its own name. The liability and credibility of the company are separated from its stakeholders.',
-                    ],
-                },
-                {
-                    subTitle: '3. Perpetual Succession',
-                    p: [
-                        'The existence of the company is independent of the existence of its shareholders or directors. Unlike a partnership or sole proprietorship, the private limited company enjoys perpetual succession, which means that the existence of the company is not affected by the death, insolvency, or retirement of any shareholder or director. This perpetual succession guarantees the continuity of the business even if one of the company\'s stakeholders leaves the company.',
-                    ],
-                },
-                {
-                    subTitle: '4. Easy Transferability of Shares',
-                    p: [
-                        'Registering a company in India offers easy transferability of shares, which means that shares of the company can be transferred from one shareholder to another. The leverage smoothens out the transaction in the management of the company and later enhances the flexibility in the business operations of the company.',
-                    ],
-                },
-                {
-                    subTitle: '5. Access to Investments and Funding',
-                    p: [
-                        'Capital can be easily raised in a registered Private Limited Company, as Equity shares can be easily issued by the company to raise funds. Issuing equity shares attracts potential investors and venture capital to invest in the company.',
-                    ],
-                },
-                {
-                    subTitle: '6. Increased Trustworthiness',
-                    p: [
-                        'Registering a Private Limited Company enjoys greater market credibility as compared to other business structures. The greater credibility leads to increased trustworthiness among investors. The advantage is gained by the company due to its registration. Registering a company makes the company legally recognizable and shows that it meets the regulatory standards.',
-                    ],
-                },
-            ],
+                    table: {
+                        thead: {
+                            trow: [
+                                ['Step', 'Activity', 'Responsibility']
+                            ]
+                        },
+                        tbody: {
+                            trow: [
+                                ['1', 'Obtain consent letter from auditor', 'Company/Proposed Auditor'],
+                                ['2', 'Hold board meeting to recommend appointment', 'Board/Directors'],
+                                ['3', 'Pass resolution at AGM/EGM for auditor appointment', 'Shareholders/Board'],
+                                ['4', 'Preparation of appointment letter and necessary documents', 'Company Secretary'],
+                                ['5', 'Filing of Form ADT-1 with MCA (within 15 days)', 'Incorvo/Compliance'],
+                                ['6', 'Pay ROC filing fees as per authorized capital', 'Company/Finance'],
+                                ['7', 'Maintain acknowledgment and update company records', 'Company Secretary']
+                            ]
+                        }
+                    }
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Key Documents Required for ADT-1 Filing',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    ul: [
+                        'Certified copy of Board/Shareholder Resolution for auditor appointment',
+                        'Consent letter from appointed auditor (in writing)',
+                        'Intimation letter to auditor by company',
+                        'Certificate from auditor on eligibility & non-disqualification under Section 141',
+                        'Company incorporation documents (for first-time appointment)',
+                        'PAN, DSC of director/CS for digital filing'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Filing Fees & Timelines',
             descrption: [
                 {
                     subTitle: '',
                     p: [
-                        '',
-                    ],
-                },
-            ],
+                        'ADT-1 filing fees depend on the authorized capital of the company and are paid online to ROC during the e-filing. Delayed filings attract additional fees (Rs. 100 per day, with no upper cap), so timely compliance is crucial. Incorvo ensures that all filings are completed within 2-3 working days after document collection.'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'What If ADT-1 Is Not Filed?',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    ul: [
+                        'Company and officers in default are liable for penalties as per Section 450 of Companies Act',
+                        'Company status may become non-compliant, blocking other ROC filings',
+                        'Difficulties in appointing/removing auditors or getting bank/NBFC approvals',
+                        'Directors may face disqualification for repeated non-compliance'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Common Scenarios Requiring ADT-1 Filing',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    ul: [
+                        'First auditor appointment post incorporation',
+                        'Change of auditor due to resignation, removal, or expiry of term',
+                        'Reappointment at each AGM (mandatory, even if same auditor continues)',
+                        'Appointment of new auditor after company conversion (e.g., Pvt Ltd to Public)',
+                        'Court/Tribunal-directed appointment or in case of auditor’s death'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'ADT-1 & Companies Act 2013: Legal Provisions',
             descrption: [
                 {
                     subTitle: '',
                     p: [
-                        '',
-                    ],
-                },
-            ],
+                        'Section 139 of Companies Act, 2013 mandates that every company must appoint an auditor and intimate ROC in prescribed form ADT-1. Rule 4 of Companies (Audit and Auditors) Rules, 2014 specifies the form, documents, and timelines. Incorvo keeps you updated on all amendments and compliance changes notified by MCA.'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Why Choose Incorvo for ADT-1 Filing?',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
-        },
-        {
-            title: '',
-            descrption: [
-                {
-                    subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
-        },
+                    ul: [
+                        'Complete support from consent to ROC acknowledgment',
+                        'All drafting by CA/CS professionals as per latest legal norms',
+                        'Digital and remote process – no need for physical paperwork',
+                        'Dedicated expert to answer your auditor or compliance queries',
+                        'Free re-filing support in case of MCA rejections or resubmissions',
+                        'Year-round reminders for AGM and auditor compliance deadlines',
+                        'Best-practice templates for resolutions, letters, and declarations'
+                    ]
+                }
+            ]
+        }
     ],
     faqs: [
         {
-            q: 'What is the minimum capital required to register a Private Limited Company?',
-            a: 'There is no minimum paid-up capital requirement for registering a Private Limited Company in India.',
+            q: 'Who is required to file ADT-1?',
+            a: 'All companies (private, public, OPCs, Section 8) must file ADT-1 whenever a new auditor is appointed or re-appointed, except for the first auditor appointed by the Board.'
         },
         {
-            q: 'Can a foreigner be a director in a Private Limited Company?',
-            a: 'Yes, foreigners can be directors, but at least one director must be a resident of India, as per Section 149 of the Companies Act, 2013.',
+            q: 'What is the timeline for ADT-1 filing?',
+            a: 'ADT-1 must be filed within 15 days from the date of auditor appointment at AGM or Board Meeting.'
         },
         {
-            q: 'How long does it take to register a Private Limited Company in India?',
-            a: 'The registration process generally takes between 7-15 business days, depending on the speed of document verification and approvals.',
+            q: 'Can ADT-1 be filed late? What are the penalties?',
+            a: 'Late filing attracts a penalty of Rs. 100 per day (no maximum cap). Timely compliance is strongly advised.'
         },
         {
-            q: 'What are the legal standards for Private Limited Companies?',
-            a: 'Compliance Requirements: Private Limited Companies must stick to several compliance requirements under the Companies Act, 2013, including having yearly general meetings, filing annual reports, hiring accountants, and more.',
+            q: 'Is ADT-1 filing needed for the first auditor appointment?',
+            a: 'Yes, but for the first auditor, ADT-1 is not mandatory if appointed by Board; it is required when appointed at AGM.'
         },
         {
-            q: 'Do I need a physical office for registration?',
-            a: 'Yes, a registered office in India is mandatory. This office must be in a location where official correspondence and notices from the ROC can be sent.',
+            q: 'Is physical presence needed for ADT-1 filing?',
+            a: 'No, the process is fully digital. All documents and filings are handled online by Incorvo’s experts.'
         },
         {
-            q: 'What are the perks of choosing a Private Limited Company structure?',
-            a: 'Advantages of Private Limited Company: Benefits include limited liability protection, ease of getting capital via shares, constant succession, reliability, and agreement with regulatory norms.',
+            q: 'Can Incorvo assist if previous ADT-1 was rejected?',
+            a: 'Yes, we review, rectify, and re-file defective or rejected ADT-1s for seamless compliance.'
         },
         {
-            q: 'Can a Private Limited Company change to a Public Limited Company?',
-            a: 'Conversion to Public Limited Company: Yes, a Private Limited Company may change to a Public Limited Company.',
+            q: 'What documents are needed from the auditor for ADT-1?',
+            a: 'Consent letter, eligibility certificate (under Section 141), and a copy of the appointment resolution are required.'
         },
         {
-            q: 'What is the difference between a Private Limited Company and a Limited Liability Partnership (LLP)?',
-            a: 'Difference from LLP: The basic difference between a Private Limited Company and a Limited liability Partnership (LLP) rests in their structure and responsibility features. A Private Limited Company has owners and limited liability protection, whereas an LLP has partners with limited liability but without shares.',
+            q: 'Can ADT-1 be revised if an error was made in the original filing?',
+            a: 'Yes, a new ADT-1 with correct information can be filed. Incorvo will handle necessary steps and correspondence with MCA.'
         },
         {
-            q: 'How can I change the name of my Private Limited Company?',
-            a: 'Changing Company Name: To change the name of a Private Limited Company, you need to follow the way given by the Ministry of Corporate Affairs in India.',
+            q: 'Does Incorvo provide annual ROC and compliance reminders?',
+            a: 'Yes, our service includes compliance calendar and reminders for all key company filings and appointments.'
         },
         {
-            q: 'What are the penalties for non-compliance with legal duties for Private Limited Companies?',
-            a: 'Penalties for Non-Compliance: Punishments for non-compliance with regulatory requirements for Private Limited Companies might change depending on the individual infringement and may include fines or other legal punishments as per the Companies Act, 2013.',
+            q: 'How do I start the ADT-1 filing process with Incorvo?',
+            a: 'Contact us for a checklist and quote. We collect documents, draft resolutions, and handle MCA filings from start to finish.'
         }
-    ],
-}
+    ]
+};

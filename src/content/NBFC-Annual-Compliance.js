@@ -1,206 +1,254 @@
 export default {
     header: {
-        title: 'Private Limited Company Registration',
+        title: 'NBFC Compliance Services – Incorvo',
         list: [
-            'Register your private limited company in 7 business days with our expert assistance',
-            'Our online company registration service includes the following features',
-            'Obtain 2 Digital Signature Certificates (DSC) with 2 years validity',
-            'Secure 2 Director Identification Numbers (DIN)',
-            'Get unique name approval for your private company',
-            'Acquire PAN and TAN for the company',
-            'Open a current account with ICICI Bank',
-            'Drafting the Memorandum of Association and Articles of Association',
-            'Receive the official Company Incorporation Certificate',
-        ],
+            'Expert end-to-end support for all RBI and statutory NBFC compliance',
+            'Comprehensive calendar for annual, quarterly, and event-based returns',
+            'Preparation and e-filing of all RBI returns and statutory documents',
+            'Assistance with KYC/AML, asset classification, provisioning, and risk management',
+            'Statutory audit, tax audit, and audit of financial statements',
+            'Drafting and maintenance of compliance policies and registers',
+            'Board meeting, AGM, and minute book management',
+            'Timely alerts for new RBI circulars, Master Directions, and compliance changes',
+            'Dedicated Incorvo compliance manager for ongoing support',
+            'Digital workflow, document storage, and confidential data management'
+        ]
     },
     content: [
         {
-            title: 'Private Limited Company Registration in India',
+            title: 'Overview of NBFC Compliance in India',
             descrption: [
                 {
                     subTitle: '',
                     p: [
-                        'Currently, Private Limited Companies make upto almost 96% of the total companies in India. Till November 20, 2023, there are 25,99,660 private limited companies registered in India. The huge number of company registrations is a testament to the ease and benefits provided by India. Although registering a company in India is not mandatory, company registration offers significant benefits to founders as well as stakeholders. By the end, you will be able to understand the key legal requirements to register a private limited company in India, along with its compliance obligations and much more.'
-                    ],
-                },
-            ],
+                        'Non-Banking Financial Companies (NBFCs) are subject to a stringent regulatory and compliance regime under the Reserve Bank of India (RBI) and Companies Act, 2013. Compliance includes regular filings, returns, asset and risk management, statutory audits, board governance, KYC/AML controls, and timely disclosures. Non-compliance can result in heavy penalties, license cancellation, and reputational risk. Incorvo’s NBFC compliance team ensures your business stays up-to-date and penalty-free.'
+                    ]
+                }
+            ]
         },
         {
-            title: 'What is a Private Limited Company?',
+            title: 'Key Categories of NBFC Compliance',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        'In India, there are several companies that can be registered. A Private Limited Company is one of them. A Private Limited Company bearing the suffix of ‘Pvt. Ltd\'. At the end of its name is a separate legal entity registered under the Companies Act, 2013with the Registrar of Companies (ROC). The main feature of this type of company is that it offers limited liability protection to its shareholders; it means that the liability of the shareholders is only up to the extent of shares held by them, and the personal assets of shareholders (owners) are protected from the obligations of the company. The company can be owned by multiple shareholders and managed by appointed directors. It is separated from the owners of the company, and its legal existence continues even if there are changes in the ownership or management, which provides security and stability to the company.',
-                    ],
-                },
-            ],
+                    ul: [
+                        'Annual and quarterly returns to RBI (COSMOS and CERSAI portals)',
+                        'Maintenance of minimum Net Owned Funds (NOF) and Capital Adequacy Ratio (CRAR)',
+                        'Asset classification and provisioning as per RBI guidelines',
+                        'KYC, Anti-Money Laundering (AML), and customer due diligence checks',
+                        'Statutory audit and tax audit of books and accounts',
+                        'Disclosure of board meetings, AGM, and management changes',
+                        'Maintenance of statutory registers and records',
+                        'Reporting of related party transactions, group exposures, and risk concentration',
+                        'Timely response to RBI circulars and event-based compliances'
+                    ]
+                }
+            ]
         },
         {
-            title: 'Why Should You Register a Private Limited Company?',
+            title: 'Annual and Periodic NBFC Returns to RBI',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        'There are several compelling reasons why forming a Private Limited Company can be beneficial:',
-                    ],
-                },
-                {
-                    subTitle: '1. Limited Liability Protection',
-                    p: [
-                        'As a private limited company, the liability of its shareholders is restricted to the unpaid amount on their shares. This means that if the company faces financial distress or legal liabilities, the personal assets of the shareholders (directors or members) will not be at risk.',
-                    ],
-                },
-                {
-                    subTitle: '2. Separate Legal Entity',
-                    p: [
-                        'A company is a juristic person in the eyes of the law. The legal entity of the company is distinct from its shareholders and directors. The company is capable of entering into contracts in its own name; it can sue and be sued in its own name. The liability and credibility of the company are separated from its stakeholders.',
-                    ],
-                },
-                {
-                    subTitle: '3. Perpetual Succession',
-                    p: [
-                        'The existence of the company is independent of the existence of its shareholders or directors. Unlike a partnership or sole proprietorship, the private limited company enjoys perpetual succession, which means that the existence of the company is not affected by the death, insolvency, or retirement of any shareholder or director. This perpetual succession guarantees the continuity of the business even if one of the company\'s stakeholders leaves the company.',
-                    ],
-                },
-                {
-                    subTitle: '4. Easy Transferability of Shares',
-                    p: [
-                        'Registering a company in India offers easy transferability of shares, which means that shares of the company can be transferred from one shareholder to another. The leverage smoothens out the transaction in the management of the company and later enhances the flexibility in the business operations of the company.',
-                    ],
-                },
-                {
-                    subTitle: '5. Access to Investments and Funding',
-                    p: [
-                        'Capital can be easily raised in a registered Private Limited Company, as Equity shares can be easily issued by the company to raise funds. Issuing equity shares attracts potential investors and venture capital to invest in the company.',
-                    ],
-                },
-                {
-                    subTitle: '6. Increased Trustworthiness',
-                    p: [
-                        'Registering a Private Limited Company enjoys greater market credibility as compared to other business structures. The greater credibility leads to increased trustworthiness among investors. The advantage is gained by the company due to its registration. Registering a company makes the company legally recognizable and shows that it meets the regulatory standards.',
-                    ],
-                },
-            ],
+                    table: {
+                        thead: {
+                            trow: [
+                                ['Return Name', 'Frequency', 'Purpose/Details']
+                            ]
+                        },
+                        tbody: {
+                            trow: [
+                                ['NBS-1', 'Quarterly', 'Financial details: balance sheet, P&L, asset classification'],
+                                ['NBS-2', 'Quarterly', 'Prudential norms: CRAR, asset quality, provisions'],
+                                ['NBS-3', 'Quarterly', 'Liquid assets statement'],
+                                ['NBS-4', 'Annual', 'For NBFCs not accepting public deposits'],
+                                ['NBS-9', 'Annual', 'For NBFCs with assets < ₹100 crore'],
+                                ['ALM Returns', 'Half-yearly/Quarterly', 'Asset Liability Management details'],
+                                ['Statutory Auditors Certificate (SAC)', 'Annual', 'CA certificate for NOF, asset quality, compliance'],
+                                ['Filing of audited financials', 'Annual', 'Submission of balance sheet, P&L, and notes to accounts'],
+                                ['CKYC (Central KYC Registry)', 'Ongoing', 'Regular upload of customer KYC data'],
+                                ['Event-based returns', 'As needed', 'Change in management, address, capital, or business activity']
+                            ]
+                        }
+                    }
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Major Compliance Requirements for NBFCs',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    ul: [
+                        'Maintain minimum NOF and Capital Adequacy Ratio as per NBFC category',
+                        'Classify and provide for NPAs (Non-Performing Assets) as per RBI norms',
+                        'Board-approved KYC, AML, and Fair Practice Codes',
+                        'Asset-Liability Management (ALM) and liquidity coverage',
+                        'Regular audit of IT/cybersecurity for digital NBFCs',
+                        'Submission of statutory auditor’s report and SAC to RBI',
+                        'Filing of returns and financials within deadlines to avoid late fees',
+                        'Disclosure of any litigation, regulatory action, or material changes to RBI'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'KYC, AML, and Fair Practice Compliance',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    ul: [
+                        'Mandatory customer identification and KYC checks at onboarding and periodic intervals',
+                        'Ongoing transaction monitoring for suspicious activity',
+                        'Reporting to FIU-IND for any suspicious transactions',
+                        'Periodic update of AML and customer due diligence policy',
+                        'Regular staff training on compliance and customer protection',
+                        'Disclosure of customer grievance mechanisms'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Board Governance, Statutory Registers, and Event-Based Filings',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    ul: [
+                        'Holding minimum four board meetings per year and at least one AGM',
+                        'Drafting and recording minutes of all board/AGM meetings',
+                        'Maintenance of statutory registers: members, loans, directors, charges, etc.',
+                        'Filing DIR-12, MGT-14, and other forms for change in directors or management',
+                        'Timely communication to RBI for changes in shareholding, registered office, or group companies',
+                        'Disclosure of all related party transactions in board and financial statements'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Statutory Audit, Tax Audit, and Compliance Reporting',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    ul: [
+                        'Appointment of statutory auditor within 30 days of incorporation',
+                        'Annual audit of financial statements by an eligible CA',
+                        'Tax audit under Income Tax Act if turnover exceeds prescribed limit',
+                        'Statutory Auditors Certificate (SAC) on asset classification, provisioning, NOF, etc.',
+                        'Filing of audited financials and tax returns within prescribed deadlines'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Penalties for NBFC Non-Compliance',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    ul: [
+                        'Late filing fines for missing RBI return deadlines',
+                        'Hefty penalties and license suspension for CRAR/NOF shortfall',
+                        'Reputational and financial risk for non-compliance with KYC, AML, or asset quality norms',
+                        'Personal liability of directors for fraudulent or negligent compliance',
+                        'Blacklisting from future RBI approvals and regulatory actions'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Best Practices for Smooth NBFC Compliance Management',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    ul: [
+                        'Maintain a compliance calendar with all statutory and RBI deadlines',
+                        'Engage a professional CA/CS or compliance consultant (like Incorvo) for routine and event-based filings',
+                        'Invest in digital record-keeping and secure document storage',
+                        'Train your team regularly on new RBI guidelines, AML, and customer redressal',
+                        'Audit compliance and statutory registers at least quarterly',
+                        'Review and update KYC/AML and risk policies annually or on RBI circulars',
+                        'Appoint a dedicated compliance officer and regular board review of compliance status'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Why Choose Incorvo for NBFC Compliance?',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    ul: [
+                        'Specialized NBFC compliance team with experience across all RBI categories',
+                        'Personalized compliance dashboard and alerts for every client',
+                        'Full-cycle support for annual, quarterly, and event-based compliance',
+                        'Audit preparation, return filing, and digital document management',
+                        'Post-registration legal and regulatory updates with actionable alerts',
+                        'Affordable packages with transparent pricing and milestone tracking',
+                        'Dedicated compliance manager and board advisory support'
+                    ]
+                }
+            ]
         },
+        {
+            title: 'NBFC Compliance: Extended FAQs',
+            descrption: [
+                {
+                    subTitle: '',
+                    ul: [
+                        'What are the most important annual NBFC compliances? – RBI returns (NBS-1/2/3/4/9), SAC, audited financials, KYC/AML, asset classification.',
+                        'What happens if I miss an RBI return deadline? – Late fees, penalties, and reputational risk; repeated defaults can risk license.',
+                        'Do all NBFCs have to file the same returns? – Some returns are specific to NBFC type, size, or activity. Incorvo customizes your compliance calendar.',
+                        'How often are statutory audits required? – Every year. Auditor’s certificate also to be filed annually.',
+                        'Can NBFCs outsource compliance? – Yes, to qualified CA/CS or firms like Incorvo for efficiency and peace of mind.',
+                        'Is board meeting and AGM compliance necessary? – Absolutely. RBI reviews board governance and statutory records.',
+                        'What are event-based compliances? – Any change in directors, shareholding, address, registered office, capital, or key business activity.',
+                        'How can Incorvo help my NBFC stay compliant? – Automated reminders, expert filings, real-time RBI/CERSAI updates, and audit-ready documentation.',
+                        'What are the penalties for repeated non-compliance? – RBI may impose fines, restrict business, suspend or cancel registration, and hold directors liable.',
+                        'How do I get started with Incorvo? – Contact us for a compliance audit, personalized plan, and digital onboarding.'
+                    ]
+                }
+            ]
+        }
     ],
     faqs: [
         {
-            q: 'What is the minimum capital required to register a Private Limited Company?',
-            a: 'There is no minimum paid-up capital requirement for registering a Private Limited Company in India.',
+            q: 'What is the most important NBFC compliance each year?',
+            a: 'Timely RBI return filings, statutory audit, maintenance of CRAR/NOF, asset classification, and annual KYC/AML checks.'
         },
         {
-            q: 'Can a foreigner be a director in a Private Limited Company?',
-            a: 'Yes, foreigners can be directors, but at least one director must be a resident of India, as per Section 149 of the Companies Act, 2013.',
+            q: 'How do I know which RBI returns to file?',
+            a: 'It depends on your NBFC type, asset size, and business model. Incorvo creates a custom calendar and checklist for you.'
         },
         {
-            q: 'How long does it take to register a Private Limited Company in India?',
-            a: 'The registration process generally takes between 7-15 business days, depending on the speed of document verification and approvals.',
+            q: 'What are the consequences of missing a compliance deadline?',
+            a: 'Penalties, fines, potential license suspension, and reputational damage. Chronic non-compliance can invite RBI sanctions.'
         },
         {
-            q: 'What are the legal standards for Private Limited Companies?',
-            a: 'Compliance Requirements: Private Limited Companies must stick to several compliance requirements under the Companies Act, 2013, including having yearly general meetings, filing annual reports, hiring accountants, and more.',
+            q: 'Can Incorvo handle my NBFC’s compliance end-to-end?',
+            a: 'Yes, we offer full-cycle compliance: calendar, filing, audit prep, return submissions, and regulatory updates.'
         },
         {
-            q: 'Do I need a physical office for registration?',
-            a: 'Yes, a registered office in India is mandatory. This office must be in a location where official correspondence and notices from the ROC can be sent.',
+            q: 'What is event-based NBFC compliance?',
+            a: 'Mandatory filings for any change in directors, share capital, address, management, or group structure. Immediate reporting is required.'
         },
         {
-            q: 'What are the perks of choosing a Private Limited Company structure?',
-            a: 'Advantages of Private Limited Company: Benefits include limited liability protection, ease of getting capital via shares, constant succession, reliability, and agreement with regulatory norms.',
+            q: 'Is digital record-keeping mandatory for NBFCs?',
+            a: 'Digital records are highly recommended for audit-readiness and efficient compliance, though not always mandatory.'
         },
         {
-            q: 'Can a Private Limited Company change to a Public Limited Company?',
-            a: 'Conversion to Public Limited Company: Yes, a Private Limited Company may change to a Public Limited Company.',
+            q: 'Can you assist with statutory audit and RBI inspections?',
+            a: 'Absolutely! Incorvo prepares your accounts, records, and statutory files for any audit or inspection.'
         },
         {
-            q: 'What is the difference between a Private Limited Company and a Limited Liability Partnership (LLP)?',
-            a: 'Difference from LLP: The basic difference between a Private Limited Company and a Limited liability Partnership (LLP) rests in their structure and responsibility features. A Private Limited Company has owners and limited liability protection, whereas an LLP has partners with limited liability but without shares.',
+            q: 'How often must KYC and AML policies be updated?',
+            a: 'At least annually, or immediately on RBI circulars or regulatory changes.'
         },
         {
-            q: 'How can I change the name of my Private Limited Company?',
-            a: 'Changing Company Name: To change the name of a Private Limited Company, you need to follow the way given by the Ministry of Corporate Affairs in India.',
+            q: 'How do I get started with Incorvo compliance?',
+            a: 'Contact Incorvo for a free compliance health check and a custom onboarding plan.'
         },
         {
-            q: 'What are the penalties for non-compliance with legal duties for Private Limited Companies?',
-            a: 'Penalties for Non-Compliance: Punishments for non-compliance with regulatory requirements for Private Limited Companies might change depending on the individual infringement and may include fines or other legal punishments as per the Companies Act, 2013.',
+            q: 'What are the key risks of NBFC non-compliance?',
+            a: 'Loss of license, heavy fines, management liability, reputational loss, and restricted business operations.'
         }
-    ],
-}
+    ]
+};

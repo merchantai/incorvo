@@ -1,206 +1,290 @@
 export default {
     header: {
-        title: 'Private Limited Company Registration',
+        title: 'Trust Registration – Incorvo',
         list: [
-            'Register your private limited company in 7 business days with our expert assistance',
-            'Our online company registration service includes the following features',
-            'Obtain 2 Digital Signature Certificates (DSC) with 2 years validity',
-            'Secure 2 Director Identification Numbers (DIN)',
-            'Get unique name approval for your private company',
-            'Acquire PAN and TAN for the company',
-            'Open a current account with ICICI Bank',
-            'Drafting the Memorandum of Association and Articles of Association',
-            'Receive the official Company Incorporation Certificate',
-        ],
+            'Comprehensive trust registration services for NGOs, charitable, religious, and private trusts across India',
+            'Expert advisory on trust formation, deed drafting, and registration under Indian Trusts Act, 1882 or relevant State Acts',
+            'Digital document preparation, e-filing, and Registry liaison for seamless experience',
+            'Legal support for obtaining PAN, 12A, 80G, and FCRA approvals',
+            'Assistance with bank account opening, compliance, and ongoing management',
+            'Transparent, affordable pricing with milestone-based billing',
+            'Personalized Incorvo relationship manager for each trust registration',
+            'Support for all types: Charitable, Religious, Family, and Private trusts',
+            'Drafting of robust, customized Trust Deeds and bye-laws',
+            'Post-registration compliance, advisory, and legal opinion services'
+        ]
     },
     content: [
         {
-            title: 'Private Limited Company Registration in India',
+            title: 'What is a Trust?',
             descrption: [
                 {
                     subTitle: '',
                     p: [
-                        'Currently, Private Limited Companies make upto almost 96% of the total companies in India. Till November 20, 2023, there are 25,99,660 private limited companies registered in India. The huge number of company registrations is a testament to the ease and benefits provided by India. Although registering a company in India is not mandatory, company registration offers significant benefits to founders as well as stakeholders. By the end, you will be able to understand the key legal requirements to register a private limited company in India, along with its compliance obligations and much more.'
-                    ],
-                },
-            ],
+                        'A trust is a legal arrangement where the author (settlor) transfers property or assets to trustees, who manage the assets for the benefit of specified beneficiaries or for a charitable/religious cause. Trusts are governed by the Indian Trusts Act, 1882 (for private trusts) and relevant state-specific Public Trusts Acts (for charitable/public trusts).',
+                        'Trusts are popular for setting up NGOs, educational institutions, religious organizations, and for succession planning in families.'
+                    ]
+                }
+            ]
         },
         {
-            title: 'What is a Private Limited Company?',
+            title: 'Types of Trusts in India',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        'In India, there are several companies that can be registered. A Private Limited Company is one of them. A Private Limited Company bearing the suffix of ‘Pvt. Ltd\'. At the end of its name is a separate legal entity registered under the Companies Act, 2013with the Registrar of Companies (ROC). The main feature of this type of company is that it offers limited liability protection to its shareholders; it means that the liability of the shareholders is only up to the extent of shares held by them, and the personal assets of shareholders (owners) are protected from the obligations of the company. The company can be owned by multiple shareholders and managed by appointed directors. It is separated from the owners of the company, and its legal existence continues even if there are changes in the ownership or management, which provides security and stability to the company.',
-                    ],
-                },
-            ],
+                    table: {
+                        thead: {
+                            trow: [
+                                ['Type', 'Purpose', 'Governing Law']
+                            ]
+                        },
+                        tbody: {
+                            trow: [
+                                ['Public Charitable Trust', 'Charity, social welfare, education, health', 'Indian Trusts Act 1882 / State Trust Acts'],
+                                ['Public Religious Trust', 'Religious promotion, worship, spiritual activities', 'Religious Endowments Acts/State Acts'],
+                                ['Private/Family Trust', 'Succession, asset protection, family benefit', 'Indian Trusts Act 1882'],
+                                ['Composite Trust', 'Both charitable and religious activities', 'Depends on primary objectives']
+                            ]
+                        }
+                    }
+                }
+            ]
         },
         {
-            title: 'Why Should You Register a Private Limited Company?',
+            title: 'Benefits of Trust Registration',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        'There are several compelling reasons why forming a Private Limited Company can be beneficial:',
-                    ],
-                },
-                {
-                    subTitle: '1. Limited Liability Protection',
-                    p: [
-                        'As a private limited company, the liability of its shareholders is restricted to the unpaid amount on their shares. This means that if the company faces financial distress or legal liabilities, the personal assets of the shareholders (directors or members) will not be at risk.',
-                    ],
-                },
-                {
-                    subTitle: '2. Separate Legal Entity',
-                    p: [
-                        'A company is a juristic person in the eyes of the law. The legal entity of the company is distinct from its shareholders and directors. The company is capable of entering into contracts in its own name; it can sue and be sued in its own name. The liability and credibility of the company are separated from its stakeholders.',
-                    ],
-                },
-                {
-                    subTitle: '3. Perpetual Succession',
-                    p: [
-                        'The existence of the company is independent of the existence of its shareholders or directors. Unlike a partnership or sole proprietorship, the private limited company enjoys perpetual succession, which means that the existence of the company is not affected by the death, insolvency, or retirement of any shareholder or director. This perpetual succession guarantees the continuity of the business even if one of the company\'s stakeholders leaves the company.',
-                    ],
-                },
-                {
-                    subTitle: '4. Easy Transferability of Shares',
-                    p: [
-                        'Registering a company in India offers easy transferability of shares, which means that shares of the company can be transferred from one shareholder to another. The leverage smoothens out the transaction in the management of the company and later enhances the flexibility in the business operations of the company.',
-                    ],
-                },
-                {
-                    subTitle: '5. Access to Investments and Funding',
-                    p: [
-                        'Capital can be easily raised in a registered Private Limited Company, as Equity shares can be easily issued by the company to raise funds. Issuing equity shares attracts potential investors and venture capital to invest in the company.',
-                    ],
-                },
-                {
-                    subTitle: '6. Increased Trustworthiness',
-                    p: [
-                        'Registering a Private Limited Company enjoys greater market credibility as compared to other business structures. The greater credibility leads to increased trustworthiness among investors. The advantage is gained by the company due to its registration. Registering a company makes the company legally recognizable and shows that it meets the regulatory standards.',
-                    ],
-                },
-            ],
+                    ul: [
+                        'Legal recognition and enforceability of trust’s objectives',
+                        'Eligibility for tax exemptions under 12A, 80G, and FCRA (for charitable trusts)',
+                        'Facilitates donations, grants, and funding from institutions and donors',
+                        'Ensures smooth succession and asset transfer for family/private trusts',
+                        'Prevents disputes and misuse by clearly laying down roles and rules',
+                        'Establishes credibility with government, banks, and the public'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Who Can Register a Trust?',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    ul: [
+                        'Any individual (Indian national or NRI), Hindu Undivided Family (HUF), company, or society',
+                        'Minimum two trustees (more recommended for NGOs); settlor and trustees can be individuals or entities',
+                        'Trustees should be adults (18+), sound of mind, and not disqualified under law'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Key Components of a Trust Deed',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    ul: [
+                        'Name and address of trust',
+                        'Details of settlor, trustees, and beneficiaries',
+                        'Object/purpose of the trust (charitable, religious, family, etc.)',
+                        'Powers, duties, and responsibilities of trustees',
+                        'Procedure for appointment/removal of trustees',
+                        'Management of trust property/assets and investment policy',
+                        'Dissolution and winding-up clause',
+                        'Duration of trust (perpetual or limited)',
+                        'Rules for amendments and dispute resolution'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Step-by-Step Trust Registration Process with Incorvo',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    ol: [
+                        'Consultation to determine appropriate type of trust and objects',
+                        'Collection of KYC documents and details of settlor, trustees, and beneficiaries',
+                        'Drafting and legal vetting of customized Trust Deed',
+                        'Preparation of affidavit, address proof, and asset transfer documentation',
+                        'Stamp duty payment and execution of Trust Deed (amount varies by state)',
+                        'Submission of application and Trust Deed to Sub-Registrar/Charity Commissioner',
+                        'Registration of Trust Deed, witnessing by at least two witnesses',
+                        'Collection of registration certificate and certified copy of Trust Deed',
+                        'Application for PAN, 12A, 80G (for tax exemptions), and bank account opening',
+                        'Ongoing compliance, annual filings, and advisory as required'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Documents Required for Trust Registration',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    ul: [
+                        'Draft Trust Deed (signed by settlor and trustees, with witnesses)',
+                        'Passport-size photographs of settlor and all trustees',
+                        'Self-attested ID and address proof (Aadhaar, PAN, passport, voter ID, etc.) for settlor and trustees',
+                        'Proof of registered office address (utility bill, NOC from landlord, or ownership proof)',
+                        'Settlor’s declaration/affidavit (about intention and asset transfer)',
+                        'Trust property details (if immovable assets included)',
+                        'Stamp paper as per state requirements',
+                        'PAN of settlor/trust (if already obtained)'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Legal & Tax Compliance After Trust Registration',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    ul: [
+                        'Apply for PAN card in trust’s name for all financial transactions',
+                        'Open trust bank account using registration certificate and PAN',
+                        'Obtain 12A registration for income tax exemption (charitable trusts)',
+                        'Apply for 80G certificate to enable donors to claim tax deduction',
+                        'Maintain proper books of accounts, receipts, and payments',
+                        'Annual compliance with state public trust authority or Charity Commissioner',
+                        'File income tax returns and statements as required',
+                        'For FCRA, register separately if receiving foreign funds'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'State-Wise Variation in Trust Registration',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    ul: [
+                        'Stamp duty and registration requirements vary across states (Maharashtra, Gujarat, Rajasthan, etc.)',
+                        'Some states have dedicated Charity Commissioner offices for public trusts',
+                        'Consult Incorvo for state-specific procedures and documentation'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Why Choose Incorvo for Trust Registration?',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    ul: [
+                        'Experienced legal professionals and NGO registration experts',
+                        'Tailored Trust Deed drafting and objective setting',
+                        'Digital process, pan-India service, and transparent pricing',
+                        'Support for charitable, religious, and private trusts',
+                        'End-to-end assistance with PAN, 12A, 80G, and FCRA approvals',
+                        'Post-registration compliance guidance, audit, and advisory',
+                        'Dedicated manager for smooth documentation and follow-up'
+                    ]
+                }
+            ]
         },
+        {
+            title: 'Best Practices & Common Mistakes',
+            descrption: [
+                {
+                    subTitle: '',
+                    ul: [
+                        'Clearly define trust objectives, powers, and duties in the Trust Deed',
+                        'Include proper clauses for succession, asset management, and dispute resolution',
+                        'Choose reliable, responsible trustees and maintain their KYC updated',
+                        'Ensure witnesses are present and sign at the time of deed execution',
+                        'File all supporting documents to avoid registrar queries or delays',
+                        'Plan for tax exemption applications (12A, 80G) soon after registration',
+                        'Comply with state-specific stamp duty and registration norms'
+                    ]
+                }
+            ]
+        },
+        {
+            title: 'Sample Scenarios & Solutions',
+            descrption: [
+                {
+                    subTitle: 'Case: Charitable NGO Trust for Education',
+                    p: [
+                        'Incorvo helps a group of founders draft a detailed Trust Deed, register with the Charity Commissioner, and obtain 12A and 80G status for school donations.'
+                    ]
+                },
+                {
+                    subTitle: 'Case: Family Private Trust for Asset Succession',
+                    p: [
+                        'Family settles immovable property in trust for children. Incorvo manages registration, asset transfer, and ensures future succession security.'
+                    ]
+                },
+                {
+                    subTitle: 'Case: Trust Receiving Foreign Funds',
+                    p: [
+                        'An Indian trust needs FCRA registration for foreign donations. Incorvo supports FCRA process, annual filings, and donor compliance.'
+                    ]
+                }
+            ]
+        },
+        {
+            title: 'Extended FAQs – Trust Registration',
+            descrption: [
+                {
+                    subTitle: '',
+                    ul: [
+                        'What is the minimum number of trustees required? – At least two (more advisable for public trusts).',
+                        'Is physical presence required for registration? – Settlor and trustees generally must be present for deed execution; some states may allow video KYC.',
+                        'Can NRIs or foreigners be trustees? – Yes, if they comply with local KYC and other legal norms.',
+                        'What are the costs for trust registration? – Includes stamp duty, registration fee, and professional fees; varies by state and trust type.',
+                        'Can I register a trust for business purposes? – Trusts are primarily for charitable, religious, or family objectives—not for profit-making.',
+                        'How long does the process take? – Typically 1–3 weeks, depending on location and documentation.',
+                        'What if a trustee resigns or passes away? – Trust Deed should specify replacement procedure; changes must be updated with registrar.',
+                        'Is audit mandatory for charitable trusts? – Yes, if gross receipts cross prescribed thresholds or as per state rules.',
+                        'How do I get 12A and 80G status? – Apply after trust registration; Incorvo manages documentation and filing.',
+                        'Can trust property be sold or transferred? – Only as per Trust Deed and applicable law; approval of all trustees and sometimes court may be needed.'
+                    ]
+                }
+            ]
+        }
     ],
     faqs: [
         {
-            q: 'What is the minimum capital required to register a Private Limited Company?',
-            a: 'There is no minimum paid-up capital requirement for registering a Private Limited Company in India.',
+            q: 'Who can be a trustee in an Indian trust?',
+            a: 'Any adult, sound-minded individual, Indian national or NRI, company, or society can be appointed as trustee, subject to trust objectives and law.'
         },
         {
-            q: 'Can a foreigner be a director in a Private Limited Company?',
-            a: 'Yes, foreigners can be directors, but at least one director must be a resident of India, as per Section 149 of the Companies Act, 2013.',
+            q: 'Is trust registration compulsory?',
+            a: 'For public charitable or religious trusts, registration is highly recommended (and often mandatory) for legal status, tax benefits, and credibility. Private/family trusts may function without registration but lack legal standing in many scenarios.'
         },
         {
-            q: 'How long does it take to register a Private Limited Company in India?',
-            a: 'The registration process generally takes between 7-15 business days, depending on the speed of document verification and approvals.',
+            q: 'What is the difference between a society and a trust?',
+            a: 'Trusts are governed by Trusts Act and managed by trustees per Trust Deed; societies are registered under Societies Registration Act and managed by an elected governing body.'
         },
         {
-            q: 'What are the legal standards for Private Limited Companies?',
-            a: 'Compliance Requirements: Private Limited Companies must stick to several compliance requirements under the Companies Act, 2013, including having yearly general meetings, filing annual reports, hiring accountants, and more.',
+            q: 'Can trusts receive foreign donations?',
+            a: 'Yes, with FCRA registration from Ministry of Home Affairs. Incorvo helps eligible trusts secure FCRA approval.'
         },
         {
-            q: 'Do I need a physical office for registration?',
-            a: 'Yes, a registered office in India is mandatory. This office must be in a location where official correspondence and notices from the ROC can be sent.',
+            q: 'Is there a minimum asset required for trust registration?',
+            a: 'No fixed minimum, but a nominal property (cash or immovable asset) is generally settled at the time of deed execution.'
         },
         {
-            q: 'What are the perks of choosing a Private Limited Company structure?',
-            a: 'Advantages of Private Limited Company: Benefits include limited liability protection, ease of getting capital via shares, constant succession, reliability, and agreement with regulatory norms.',
+            q: 'How is a trust different from a Section 8 company?',
+            a: 'Section 8 companies are non-profit companies regulated by Companies Act, require more compliance, and are preferred for larger-scale NGOs; trusts are simpler, more flexible, and suited for localized or family objectives.'
         },
         {
-            q: 'Can a Private Limited Company change to a Public Limited Company?',
-            a: 'Conversion to Public Limited Company: Yes, a Private Limited Company may change to a Public Limited Company.',
+            q: 'Can a trust be amended after registration?',
+            a: 'Trust Deed may be amended per its own clauses and applicable law; major changes often need registrar approval.'
         },
         {
-            q: 'What is the difference between a Private Limited Company and a Limited Liability Partnership (LLP)?',
-            a: 'Difference from LLP: The basic difference between a Private Limited Company and a Limited liability Partnership (LLP) rests in their structure and responsibility features. A Private Limited Company has owners and limited liability protection, whereas an LLP has partners with limited liability but without shares.',
+            q: 'What documents are needed for PAN and 12A/80G?',
+            a: 'Trust registration certificate, Trust Deed, KYC of trustees, PAN, and other prescribed forms.'
         },
         {
-            q: 'How can I change the name of my Private Limited Company?',
-            a: 'Changing Company Name: To change the name of a Private Limited Company, you need to follow the way given by the Ministry of Corporate Affairs in India.',
+            q: 'What is the validity of a registered trust?',
+            a: 'A trust can be perpetual or for a limited period as specified in its Deed. Most charitable trusts are perpetual.'
         },
         {
-            q: 'What are the penalties for non-compliance with legal duties for Private Limited Companies?',
-            a: 'Penalties for Non-Compliance: Punishments for non-compliance with regulatory requirements for Private Limited Companies might change depending on the individual infringement and may include fines or other legal punishments as per the Companies Act, 2013.',
+            q: 'How do I get started with Incorvo for trust registration?',
+            a: 'Contact us for a free consultation, checklist, and customized guidance from drafting to compliance.'
         }
-    ],
-}
+    ]
+};

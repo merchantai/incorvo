@@ -1,206 +1,308 @@
 export default {
     header: {
-        title: 'Private Limited Company Registration',
+        title: 'Secretarial Audit Services by Incorvo',
         list: [
-            'Register your private limited company in 7 business days with our expert assistance',
-            'Our online company registration service includes the following features',
-            'Obtain 2 Digital Signature Certificates (DSC) with 2 years validity',
-            'Secure 2 Director Identification Numbers (DIN)',
-            'Get unique name approval for your private company',
-            'Acquire PAN and TAN for the company',
-            'Open a current account with ICICI Bank',
-            'Drafting the Memorandum of Association and Articles of Association',
-            'Receive the official Company Incorporation Certificate',
-        ],
+            'Comprehensive Secretarial Audit for listed and large unlisted companies as per Companies Act, 2013',
+            'End-to-end audit by qualified Company Secretaries (CS) and compliance experts',
+            'Review of all statutory records, registers, board procedures, and regulatory filings',
+            'Assurance on compliance with Companies Act, SEBI, FEMA, Listing Regulations, and allied laws',
+            'Preparation of Secretarial Audit Report (Form MR-3) with actionable recommendations',
+            'Identification and rectification of non-compliance, gaps, and process weaknesses',
+            'Annual, quarterly, or event-based audit options available for various industries',
+            'Audit for M&A, due diligence, IPO/readiness, and investment due diligence',
+            'Guidance on compliance calendar, best practices, and internal controls',
+            'Confidential, independent, and timely reporting with digital document management'
+        ]
     },
     content: [
         {
-            title: 'Private Limited Company Registration in India',
+            title: 'What is Secretarial Audit?',
             descrption: [
                 {
                     subTitle: '',
                     p: [
-                        'Currently, Private Limited Companies make upto almost 96% of the total companies in India. Till November 20, 2023, there are 25,99,660 private limited companies registered in India. The huge number of company registrations is a testament to the ease and benefits provided by India. Although registering a company in India is not mandatory, company registration offers significant benefits to founders as well as stakeholders. By the end, you will be able to understand the key legal requirements to register a private limited company in India, along with its compliance obligations and much more.'
-                    ],
-                },
-            ],
+                        'A Secretarial Audit is an independent compliance audit conducted by a Practicing Company Secretary (PCS) to verify that a company is adhering to all applicable statutory and regulatory requirements. It is mandated under Section 204 of the Companies Act, 2013 for listed companies and certain other prescribed companies. Secretarial Audit enhances transparency, reduces risk of penalties, and builds stakeholder trust.'
+                    ]
+                }
+            ]
         },
         {
-            title: 'What is a Private Limited Company?',
+            title: 'Who Needs to Conduct Secretarial Audit?',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        'In India, there are several companies that can be registered. A Private Limited Company is one of them. A Private Limited Company bearing the suffix of ‘Pvt. Ltd\'. At the end of its name is a separate legal entity registered under the Companies Act, 2013with the Registrar of Companies (ROC). The main feature of this type of company is that it offers limited liability protection to its shareholders; it means that the liability of the shareholders is only up to the extent of shares held by them, and the personal assets of shareholders (owners) are protected from the obligations of the company. The company can be owned by multiple shareholders and managed by appointed directors. It is separated from the owners of the company, and its legal existence continues even if there are changes in the ownership or management, which provides security and stability to the company.',
-                    ],
-                },
-            ],
+                    ul: [
+                        'All listed companies in India',
+                        'Unlisted public companies with: paid-up capital of ₹50 crore or more, OR turnover of ₹250 crore or more',
+                        'Companies voluntarily seeking compliance assurance (e.g., for funding, M&A, IPO, or corporate governance)',
+                        'Subsidiaries of listed companies or those specified under SEBI/ROC/sectoral regulations'
+                    ]
+                }
+            ]
         },
         {
-            title: 'Why Should You Register a Private Limited Company?',
+            title: 'Key Benefits of Secretarial Audit',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        'There are several compelling reasons why forming a Private Limited Company can be beneficial:',
-                    ],
-                },
-                {
-                    subTitle: '1. Limited Liability Protection',
-                    p: [
-                        'As a private limited company, the liability of its shareholders is restricted to the unpaid amount on their shares. This means that if the company faces financial distress or legal liabilities, the personal assets of the shareholders (directors or members) will not be at risk.',
-                    ],
-                },
-                {
-                    subTitle: '2. Separate Legal Entity',
-                    p: [
-                        'A company is a juristic person in the eyes of the law. The legal entity of the company is distinct from its shareholders and directors. The company is capable of entering into contracts in its own name; it can sue and be sued in its own name. The liability and credibility of the company are separated from its stakeholders.',
-                    ],
-                },
-                {
-                    subTitle: '3. Perpetual Succession',
-                    p: [
-                        'The existence of the company is independent of the existence of its shareholders or directors. Unlike a partnership or sole proprietorship, the private limited company enjoys perpetual succession, which means that the existence of the company is not affected by the death, insolvency, or retirement of any shareholder or director. This perpetual succession guarantees the continuity of the business even if one of the company\'s stakeholders leaves the company.',
-                    ],
-                },
-                {
-                    subTitle: '4. Easy Transferability of Shares',
-                    p: [
-                        'Registering a company in India offers easy transferability of shares, which means that shares of the company can be transferred from one shareholder to another. The leverage smoothens out the transaction in the management of the company and later enhances the flexibility in the business operations of the company.',
-                    ],
-                },
-                {
-                    subTitle: '5. Access to Investments and Funding',
-                    p: [
-                        'Capital can be easily raised in a registered Private Limited Company, as Equity shares can be easily issued by the company to raise funds. Issuing equity shares attracts potential investors and venture capital to invest in the company.',
-                    ],
-                },
-                {
-                    subTitle: '6. Increased Trustworthiness',
-                    p: [
-                        'Registering a Private Limited Company enjoys greater market credibility as compared to other business structures. The greater credibility leads to increased trustworthiness among investors. The advantage is gained by the company due to its registration. Registering a company makes the company legally recognizable and shows that it meets the regulatory standards.',
-                    ],
-                },
-            ],
+                    ul: [
+                        'Ensures compliance with Companies Act, SEBI, FEMA, Listing Regulations, and other applicable laws',
+                        'Early detection and rectification of non-compliance or procedural lapses',
+                        'Boosts confidence of directors, investors, banks, and regulators',
+                        'Reduces risk of penalties, prosecution, and reputational loss',
+                        'Promotes better governance, transparency, and internal controls',
+                        'Essential for due diligence in M&A, funding, or restructuring',
+                        'Helps management focus on core business while Incorvo manages compliance complexity'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Legal Framework and Applicability',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    ul: [
+                        'Section 204 of the Companies Act, 2013 and Rule 9 of Companies (Appointment and Remuneration of Managerial Personnel) Rules, 2014',
+                        'SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015',
+                        'Foreign Exchange Management Act (FEMA) for applicable transactions',
+                        'Securities Contracts (Regulation) Act, 1956, and other allied laws',
+                        'Industry-specific laws (Banking, Insurance, NBFC, etc.) as relevant'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Scope of Secretarial Audit by Incorvo',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    ul: [
+                        'Verification of maintenance of statutory registers and records',
+                        'Review of Board and Committee meetings (frequency, notice, agenda, quorum, minutes)',
+                        'Examination of share capital and transfer records, dividend declarations, and related party transactions',
+                        'Audit of regulatory filings (MCA, SEBI, ROC, RBI, stock exchange, etc.)',
+                        'Assessment of internal policies: Code of Conduct, Insider Trading, Vigil Mechanism',
+                        'Compliance checks on disclosures, corporate governance, and director appointments',
+                        'Review of event-based compliances: share issue, buy-back, mergers, appointment/resignation of KMP',
+                        'Gap analysis and advisory for corrective actions'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Secretarial Audit Process with Incorvo',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    ol: [
+                        'Onboarding and NDA execution to ensure confidentiality',
+                        'Collection of company’s statutory records, filings, registers, and board process documents',
+                        'Desk review by assigned Practicing Company Secretary (PCS)',
+                        'Interviews/meetings with company officials for clarifications',
+                        'In-depth compliance verification against applicable laws and company policies',
+                        'Drafting of audit observations, risk areas, and suggested remedial actions',
+                        'Preparation and issuance of the Secretarial Audit Report (Form MR-3) with management discussion',
+                        'Follow-up on closure of gaps and implementation of recommendations',
+                        'Assistance with explanations to regulators, board, and stakeholders as needed'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Key Documents Required for Secretarial Audit',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    ul: [
+                        'Certificate of Incorporation, MOA & AOA, PAN, TAN',
+                        'Statutory registers: Register of Members, Directors, Charges, KMP, etc.',
+                        'Minutes of all Board, Committee, and General Meetings',
+                        'Share certificates, transfer forms, dividend records',
+                        'Annual Returns (MGT-7), Financial Statements, Board Reports (MGT-9)',
+                        'Filing receipts for ROC, SEBI, RBI, and other regulators',
+                        'Internal policies: Code of Conduct, Whistleblower Policy, etc.',
+                        'Event-based compliance records: appointments, resignations, mergers, share issues, etc.',
+                        'Previous audit and compliance reports (if any)'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Sample Compliance Areas Covered (Table)',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    table: {
+                        thead: {
+                            trow: [
+                                ['Area', 'Description/Scope']
+                            ]
+                        },
+                        tbody: {
+                            trow: [
+                                ['Statutory Registers', 'Verification of maintenance and correctness of all mandatory registers'],
+                                ['Board Process', 'Review of notices, agendas, quorum, minutes, resolutions passed'],
+                                ['Regulatory Filings', 'Timely and accurate filings with ROC, SEBI, RBI, etc.'],
+                                ['Share Capital & Securities', 'Records of allotment, transfer, buy-back, dematerialization'],
+                                ['KMP & Director Appointments', 'Compliance with appointment, resignation, and disclosure norms'],
+                                ['Related Party Transactions', 'Review and approval process for contracts with related entities'],
+                                ['CSR Compliance', 'Adherence to CSR rules, policy, spending, and reporting'],
+                                ['Other Laws', 'FEMA, SEBI, sectoral regulations as applicable']
+                            ]
+                        }
+                    }
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Secretarial Audit Calendar & Reporting',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    ul: [
+                        'Annual audit required for each financial year (report annexed to Board Report and filed with ROC)',
+                        'Quarterly or event-based audit as per company needs or board requirements',
+                        'MR-3 report to be prepared and signed only by a Practicing Company Secretary (PCS)',
+                        'Management explanations and corrective actions are documented and tracked by Incorvo'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Common Non-Compliance Findings in Secretarial Audit',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    ul: [
+                        'Delay in holding or improper documentation of board/AGM/EGM meetings',
+                        'Incorrect or missing statutory registers',
+                        'Non-filing or late filing of annual returns and forms',
+                        'Improper director/KMP appointments or disclosures',
+                        'Non-compliance with insider trading, listing, or FEMA guidelines',
+                        'Failure to document related party transactions or board resolutions',
+                        'Gaps in corporate governance or policy implementation'
+                    ]
+                }
+            ]
         },
+        {
+            title: 'Best Practices and How Incorvo Adds Value',
+            descrption: [
+                {
+                    subTitle: '',
+                    ul: [
+                        'Regular internal compliance checks (not just annual)',
+                        'Centralized digital documentation and register maintenance',
+                        'Timely board and shareholder meetings with proper notice and agenda',
+                        'Prompt filing and tracking of all statutory forms and returns',
+                        'Proactive closure of audit observations and ongoing advisory from Incorvo’s CS team',
+                        'Confidential, unbiased, and practical recommendations—never just a tick-box exercise',
+                        'Support for policy creation, director training, and management briefings'
+                    ]
+                }
+            ]
+        },
+        {
+            title: 'Why Choose Incorvo for Secretarial Audit?',
+            descrption: [
+                {
+                    subTitle: '',
+                    ul: [
+                        'Registered and experienced Practicing Company Secretaries (PCS) for impartial audits',
+                        'Pan-India experience with listed, unlisted, group companies, and sectoral entities',
+                        'Full digital process: secure document sharing, real-time progress tracking, and e-reporting',
+                        'Detailed compliance calendar, follow-up, and gap-closure support',
+                        'Confidentiality and data privacy assured via NDA and secure cloud storage',
+                        'Transparent pricing, milestone billing, and no hidden charges'
+                    ]
+                }
+            ]
+        },
+        {
+            title: 'Sample Findings and Solutions',
+            descrption: [
+                {
+                    subTitle: 'Finding: Delayed Filing of MGT-7 and AOC-4',
+                    p: [
+                        'Solution: Incorvo flagged the delays, coordinated with the management for immediate submission, and put in place a compliance calendar to avoid recurrence.'
+                    ]
+                },
+                {
+                    subTitle: 'Finding: Missing Disclosure of Interest by Directors',
+                    p: [
+                        'Solution: Directors were guided to provide necessary declarations (Form MBP-1), and a register was created and maintained for future compliance.'
+                    ]
+                },
+                {
+                    subTitle: 'Finding: Non-constitution of CSR Committee',
+                    p: [
+                        'Solution: CSR policy and committee were constituted with board approval, and compliance was regularized in the next cycle.'
+                    ]
+                }
+            ]
+        },
+        {
+            title: 'Extended FAQs – Secretarial Audit',
+            descrption: [
+                {
+                    subTitle: '',
+                    ul: [
+                        'Is Secretarial Audit mandatory for all companies? – No, only listed and specified large unlisted public companies must do it by law, but others can do it voluntarily.',
+                        'Who can conduct a Secretarial Audit? – Only a Practicing Company Secretary (PCS) holding a valid COP can issue an MR-3 report.',
+                        'What happens if gaps are found in the audit? – Incorvo provides a gap report with actionable solutions; management is responsible for rectification and follow-up filings.',
+                        'Can Secretarial Audit findings lead to penalties? – If non-compliance is material and not rectified, it can attract ROC/SEBI action and penalties.',
+                        'How long does the Secretarial Audit process take? – Usually 2–4 weeks, depending on company size and record readiness.',
+                        'Will Incorvo help in case of a regulatory inquiry or show-cause notice? – Yes, our CS team assists in response, compliance closure, and liaison with authorities.',
+                        'Can we get a sample MR-3 or compliance calendar from Incorvo? – Absolutely. We provide templates, sample reports, and ongoing advisory to all clients.',
+                        'Does Incorvo assist in creating board/committee policies and registers? – Yes, from policy drafting to register maintenance and training, we offer complete support.',
+                        'Are audit observations confidential? – 100%. All findings, documents, and recommendations are confidential and only shared with company management.',
+                        'Is remote/virtual secretarial audit possible? – Yes, our process is fully digital with secure document uploads and virtual meetings.'
+                    ]
+                }
+            ]
+        }
     ],
     faqs: [
         {
-            q: 'What is the minimum capital required to register a Private Limited Company?',
-            a: 'There is no minimum paid-up capital requirement for registering a Private Limited Company in India.',
+            q: 'Is Secretarial Audit only for listed companies?',
+            a: 'It is mandatory for listed companies and certain large unlisted public companies, but others can opt voluntarily for governance and risk management.'
         },
         {
-            q: 'Can a foreigner be a director in a Private Limited Company?',
-            a: 'Yes, foreigners can be directors, but at least one director must be a resident of India, as per Section 149 of the Companies Act, 2013.',
+            q: 'What is the main outcome of a Secretarial Audit?',
+            a: 'A Secretarial Audit Report (MR-3) by a PCS, outlining compliance status, gaps, risks, and recommended corrective actions.'
         },
         {
-            q: 'How long does it take to register a Private Limited Company in India?',
-            a: 'The registration process generally takes between 7-15 business days, depending on the speed of document verification and approvals.',
+            q: 'What documents are needed for Secretarial Audit?',
+            a: 'Statutory registers, board/committee minutes, annual returns, filings, share capital records, policy documents, and event-based filings.'
         },
         {
-            q: 'What are the legal standards for Private Limited Companies?',
-            a: 'Compliance Requirements: Private Limited Companies must stick to several compliance requirements under the Companies Act, 2013, including having yearly general meetings, filing annual reports, hiring accountants, and more.',
+            q: 'What are common penalties for non-compliance found during audit?',
+            a: 'Late fees, ROC/SEBI fines, prosecution of directors/officers, or reputational risk if not rectified in time.'
         },
         {
-            q: 'Do I need a physical office for registration?',
-            a: 'Yes, a registered office in India is mandatory. This office must be in a location where official correspondence and notices from the ROC can be sent.',
+            q: 'Can Incorvo help in creating compliance calendars and policies?',
+            a: 'Yes, we provide tailored calendars, checklists, and draft policies as part of our ongoing advisory.'
         },
         {
-            q: 'What are the perks of choosing a Private Limited Company structure?',
-            a: 'Advantages of Private Limited Company: Benefits include limited liability protection, ease of getting capital via shares, constant succession, reliability, and agreement with regulatory norms.',
+            q: 'How is data security maintained during audit?',
+            a: 'All data is protected by NDA, encrypted cloud storage, and limited access only to assigned audit team.'
         },
         {
-            q: 'Can a Private Limited Company change to a Public Limited Company?',
-            a: 'Conversion to Public Limited Company: Yes, a Private Limited Company may change to a Public Limited Company.',
+            q: 'Does Incorvo perform event-based or due diligence audits?',
+            a: 'Yes, for M&A, IPO, fundraising, or compliance check, we offer special audit and due diligence packages.'
         },
         {
-            q: 'What is the difference between a Private Limited Company and a Limited Liability Partnership (LLP)?',
-            a: 'Difference from LLP: The basic difference between a Private Limited Company and a Limited liability Partnership (LLP) rests in their structure and responsibility features. A Private Limited Company has owners and limited liability protection, whereas an LLP has partners with limited liability but without shares.',
+            q: 'How do we get started with Incorvo’s Secretarial Audit?',
+            a: 'Contact us for a free assessment, checklist, and engagement plan tailored to your company’s needs.'
         },
         {
-            q: 'How can I change the name of my Private Limited Company?',
-            a: 'Changing Company Name: To change the name of a Private Limited Company, you need to follow the way given by the Ministry of Corporate Affairs in India.',
+            q: 'Can audit be done if previous years’ records are incomplete?',
+            a: 'Partial audit can be done, and we help in regularizing and reconstructing missing documents for future compliance.'
         },
         {
-            q: 'What are the penalties for non-compliance with legal duties for Private Limited Companies?',
-            a: 'Penalties for Non-Compliance: Punishments for non-compliance with regulatory requirements for Private Limited Companies might change depending on the individual infringement and may include fines or other legal punishments as per the Companies Act, 2013.',
+            q: 'Is there post-audit support for compliance closure?',
+            a: 'Absolutely. Incorvo offers full support for closing gaps, filing forms, and training your compliance team.'
         }
-    ],
-}
+    ]
+};

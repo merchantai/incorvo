@@ -1,206 +1,292 @@
 export default {
     header: {
-        title: 'Private Limited Company Registration',
+        title: 'Appointment and Resignation of Directors',
         list: [
-            'Register your private limited company in 7 business days with our expert assistance',
-            'Our online company registration service includes the following features',
-            'Obtain 2 Digital Signature Certificates (DSC) with 2 years validity',
-            'Secure 2 Director Identification Numbers (DIN)',
-            'Get unique name approval for your private company',
-            'Acquire PAN and TAN for the company',
-            'Open a current account with ICICI Bank',
-            'Drafting the Memorandum of Association and Articles of Association',
-            'Receive the official Company Incorporation Certificate',
-        ],
+            'Expert legal support for appointment and resignation of company directors',
+            'Board and shareholder resolution drafting, ROC form filing, and digital compliance',
+            'Applicable for Private Ltd, Public Ltd, OPCs, LLPs, and Section 8 Companies',
+            'Step-by-step advisory on director eligibility, consent, and disqualification rules',
+            'DIN, DSC, and KYC verification and application support',
+            'Preparation of consent letters, resignation letters, and board documentation',
+            'Mandatory e-filing of DIR-12 with Registrar of Companies (ROC)',
+            'End-to-end compliance: registers, minutes, and intimation to stakeholders',
+            'Seamless, digital process with affordable fixed pricing – no hidden fees',
+            'Dedicated Incorvo relationship manager and annual compliance reminders'
+        ]
     },
     content: [
         {
-            title: 'Private Limited Company Registration in India',
+            title: 'Introduction: Director Changes in Companies',
             descrption: [
                 {
                     subTitle: '',
                     p: [
-                        'Currently, Private Limited Companies make upto almost 96% of the total companies in India. Till November 20, 2023, there are 25,99,660 private limited companies registered in India. The huge number of company registrations is a testament to the ease and benefits provided by India. Although registering a company in India is not mandatory, company registration offers significant benefits to founders as well as stakeholders. By the end, you will be able to understand the key legal requirements to register a private limited company in India, along with its compliance obligations and much more.'
-                    ],
-                },
-            ],
+                        'Directors are central to company management and governance. Whether for growth, compliance, restructuring, or retirement, companies regularly need to appoint new directors or process director resignations. Both actions are governed by strict procedures under the Companies Act, 2013, requiring timely documentation, board and member approvals, and ROC filings.',
+                        'Incorvo ensures every director change—appointment or resignation—is compliant, seamless, and documented for legal and operational clarity.'
+                    ]
+                }
+            ]
         },
         {
-            title: 'What is a Private Limited Company?',
+            title: 'Types of Directors & Key Roles',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        'In India, there are several companies that can be registered. A Private Limited Company is one of them. A Private Limited Company bearing the suffix of ‘Pvt. Ltd\'. At the end of its name is a separate legal entity registered under the Companies Act, 2013with the Registrar of Companies (ROC). The main feature of this type of company is that it offers limited liability protection to its shareholders; it means that the liability of the shareholders is only up to the extent of shares held by them, and the personal assets of shareholders (owners) are protected from the obligations of the company. The company can be owned by multiple shareholders and managed by appointed directors. It is separated from the owners of the company, and its legal existence continues even if there are changes in the ownership or management, which provides security and stability to the company.',
-                    ],
-                },
-            ],
+                    ul: [
+                        'Executive Director',
+                        'Non-Executive Director',
+                        'Independent Director',
+                        'Additional Director',
+                        'Alternate Director',
+                        'Nominee Director',
+                        'Managing Director',
+                        'Whole-time Director',
+                        'Resident Director (at least 1 in every Indian company)'
+                    ]
+                }
+            ]
         },
         {
-            title: 'Why Should You Register a Private Limited Company?',
+            title: 'Appointment of Director: Step-by-Step Process',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        'There are several compelling reasons why forming a Private Limited Company can be beneficial:',
-                    ],
-                },
-                {
-                    subTitle: '1. Limited Liability Protection',
-                    p: [
-                        'As a private limited company, the liability of its shareholders is restricted to the unpaid amount on their shares. This means that if the company faces financial distress or legal liabilities, the personal assets of the shareholders (directors or members) will not be at risk.',
-                    ],
-                },
-                {
-                    subTitle: '2. Separate Legal Entity',
-                    p: [
-                        'A company is a juristic person in the eyes of the law. The legal entity of the company is distinct from its shareholders and directors. The company is capable of entering into contracts in its own name; it can sue and be sued in its own name. The liability and credibility of the company are separated from its stakeholders.',
-                    ],
-                },
-                {
-                    subTitle: '3. Perpetual Succession',
-                    p: [
-                        'The existence of the company is independent of the existence of its shareholders or directors. Unlike a partnership or sole proprietorship, the private limited company enjoys perpetual succession, which means that the existence of the company is not affected by the death, insolvency, or retirement of any shareholder or director. This perpetual succession guarantees the continuity of the business even if one of the company\'s stakeholders leaves the company.',
-                    ],
-                },
-                {
-                    subTitle: '4. Easy Transferability of Shares',
-                    p: [
-                        'Registering a company in India offers easy transferability of shares, which means that shares of the company can be transferred from one shareholder to another. The leverage smoothens out the transaction in the management of the company and later enhances the flexibility in the business operations of the company.',
-                    ],
-                },
-                {
-                    subTitle: '5. Access to Investments and Funding',
-                    p: [
-                        'Capital can be easily raised in a registered Private Limited Company, as Equity shares can be easily issued by the company to raise funds. Issuing equity shares attracts potential investors and venture capital to invest in the company.',
-                    ],
-                },
-                {
-                    subTitle: '6. Increased Trustworthiness',
-                    p: [
-                        'Registering a Private Limited Company enjoys greater market credibility as compared to other business structures. The greater credibility leads to increased trustworthiness among investors. The advantage is gained by the company due to its registration. Registering a company makes the company legally recognizable and shows that it meets the regulatory standards.',
-                    ],
-                },
-            ],
+                    table: {
+                        thead: {
+                            trow: [
+                                ['Step', 'Activity', 'Responsible Party']
+                            ]
+                        },
+                        tbody: {
+                            trow: [
+                                ['1', 'Check eligibility (DIN, DSC, age, consent)', 'Company/Applicant'],
+                                ['2', 'Obtain Director Identification Number (DIN) if new', 'Company/Applicant'],
+                                ['3', 'Get digital signature (DSC) for e-filing', 'Director/Company'],
+                                ['4', 'Obtain written consent (Form DIR-2) from incoming director', 'Director'],
+                                ['5', 'Call Board Meeting, draft and pass appointment resolution', 'Board/CS'],
+                                ['6', 'If needed, get shareholder approval via EGM or AGM', 'Members/CS'],
+                                ['7', 'File Form DIR-12 with ROC within 30 days of appointment', 'Company/CS'],
+                                ['8', 'Update registers, minutes, and statutory records', 'CS/Company'],
+                                ['9', 'Disclose new director to bankers, authorities, and stakeholders as needed', 'Company']
+                            ]
+                        }
+                    }
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Resignation of Director: Step-by-Step Process',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    table: {
+                        thead: {
+                            trow: [
+                                ['Step', 'Activity', 'Responsible Party']
+                            ]
+                        },
+                        tbody: {
+                            trow: [
+                                ['1', 'Director submits written resignation (letter + DIR-11 optional)', 'Resigning Director'],
+                                ['2', 'Call Board Meeting, note and accept resignation', 'Board/CS'],
+                                ['3', 'Pass board resolution for acceptance and file with ROC', 'Company/CS'],
+                                ['4', 'File Form DIR-12 with ROC within 30 days', 'Company/CS'],
+                                ['5', 'Director may file DIR-11 (optional/self-protection)', 'Resigning Director'],
+                                ['6', 'Update registers, statutory records, and bank/authority intimation', 'CS/Company'],
+                                ['7', 'Disclose updated board composition in annual filings', 'Company']
+                            ]
+                        }
+                    }
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Key Documents Required (Appointment & Resignation)',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    ul: [
+                        'For Appointment:',
+                        '• Director’s KYC (PAN, Aadhaar/Passport, Address Proof, Photo)',
+                        '• Consent to act as director (DIR-2)',
+                        '• Declaration of non-disqualification (Form DIR-8)',
+                        '• Board/Shareholder resolution',
+                        '• DIN and DSC (if not already available)',
+                        'For Resignation:',
+                        '• Resignation letter (signed, dated)',
+                        '• Board resolution accepting resignation',
+                        '• Proof of dispatch/acceptance of resignation',
+                        '• Form DIR-12 (company) and DIR-11 (director, if filed)',
+                        '• Updated registers/minutes'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'ROC Forms & Due Dates',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    table: {
+                        thead: {
+                            trow: [
+                                ['Form', 'Purpose', 'Who Files', 'Due Date']
+                            ]
+                        },
+                        tbody: {
+                            trow: [
+                                ['DIR-12', 'Intimation of appointment or resignation', 'Company', 'Within 30 days of event'],
+                                ['DIR-2', 'Consent to act as Director', 'Appointee', 'Before appointment'],
+                                ['DIR-8', 'Declaration of non-disqualification', 'Appointee', 'Before appointment'],
+                                ['DIR-11', 'Director’s own intimation of resignation (optional)', 'Resigning Director', 'Within 30 days of resignation'],
+                                ['MBP-1', 'Disclosure of interest', 'Every Director', 'At first board meeting and whenever changed']
+                            ]
+                        }
+                    }
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Common Scenarios: Appointment & Resignation',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    ul: [
+                        'Addition of new directors for business expansion or compliance',
+                        'Resignation/retirement due to personal or professional reasons',
+                        'Appointment of additional, alternate, or nominee directors',
+                        'Resignation in case of conflict or board restructuring',
+                        'Death, disqualification, or removal of a director',
+                        'Change of foreign or NRI directors (special compliance required)'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Why Proper Director Change Compliance Matters',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    ul: [
+                        'Avoids personal and company penalties for non-compliance',
+                        'Ensures legal validity of board decisions',
+                        'Required for banks, regulatory filings, and due diligence',
+                        'Prevents disqualification or deactivation of DINs',
+                        'Ensures updated MCA master data and transparency to stakeholders'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Incorvo’s Stepwise Director Change Service',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    ol: [
+                        'Free eligibility review and consultation on director change process',
+                        'Collection of all KYC, consent, and resignation documents',
+                        'Drafting board and member resolutions, DIR-2, DIR-8, resignation letters',
+                        'Preparation and digital e-filing of DIR-12, DIR-11 (if needed), and other statutory forms',
+                        'Update of company registers, minutes book, and compliance calendar',
+                        'Intimation to bankers, authorities, and internal stakeholders',
+                        'Year-round reminders for DIR-3 KYC and related filings'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Common Mistakes to Avoid',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    ul: [
+                        'Delay in DIR-12 filing after appointment/resignation (risk of penalty)',
+                        'Not obtaining DIN or DSC for new directors',
+                        'Missing board/member approval or not updating registers',
+                        'Failure to update ROC on director changes within 30 days',
+                        'Not issuing proper intimation to stakeholders and authorities',
+                        'Incomplete or unsigned documents (DIR-2, DIR-8, resignation letter)'
+                    ]
+                }
+            ]
         },
+        {
+            title: 'Why Choose Incorvo for Director Changes?',
+            descrption: [
+                {
+                    subTitle: '',
+                    ul: [
+                        'All resolutions, forms, and ROC filings handled by expert CA/CS',
+                        'Seamless digital workflow and affordable transparent pricing',
+                        'Catch-up filings and penalty mitigation for prior defaults',
+                        'Personal relationship manager and reminders for all compliance deadlines',
+                        'Full support for board structuring, director KYC, DIN, and all regulatory updates',
+                        'Advisory for foreign, NRI, or nominee director appointments'
+                    ]
+                }
+            ]
+        },
+        {
+            title: 'Director Appointment & Resignation: Extended FAQs',
+            descrption: [
+                {
+                    subTitle: '',
+                    ul: [
+                        'Is DIR-12 mandatory for both appointment and resignation? – Yes, and must be filed within 30 days of the event.',
+                        'Can a company have only one director? – No, minimum 2 (Pvt Ltd), 3 (Public Ltd), 1 (OPC) are required at all times.',
+                        'Is director physical presence required for appointment? – No, process is fully digital via DSC and e-filing.',
+                        'Can a foreign national be a director? – Yes, with DIN and subject to residency requirements for at least one Indian director.',
+                        'What if resignation leaves the board below the minimum? – Company must appoint a new director promptly to remain compliant.',
+                        'What are the penalties for late DIR-12 filing? – Rs. 100 per day and risk of DIN deactivation or prosecution.',
+                        'Can the company refuse to accept a director’s resignation? – No, once resignation is submitted, it is effective from the date specified or receipt date.',
+                        'Does the outgoing director need to file DIR-11? – Optional, but strongly recommended for self-protection.',
+                        'How soon will MCA master data reflect the director change? – Usually within 1-3 working days after successful DIR-12 approval.',
+                        'Can Incorvo help with regularizing non-compliance or missed filings? – Yes, we specialize in catch-up filings and penalty mitigation.'
+                    ]
+                }
+            ]
+        }
     ],
     faqs: [
         {
-            q: 'What is the minimum capital required to register a Private Limited Company?',
-            a: 'There is no minimum paid-up capital requirement for registering a Private Limited Company in India.',
+            q: 'What is DIR-12, and when is it filed?',
+            a: 'DIR-12 is the e-form filed with ROC to notify any appointment, resignation, or change of directors. Must be filed within 30 days of the event.'
         },
         {
-            q: 'Can a foreigner be a director in a Private Limited Company?',
-            a: 'Yes, foreigners can be directors, but at least one director must be a resident of India, as per Section 149 of the Companies Act, 2013.',
+            q: 'What are the minimum and maximum number of directors in a company?',
+            a: 'Minimum: 2 for Pvt Ltd, 3 for Public Ltd, 1 for OPC. Maximum: 15 (can be increased with shareholder approval).'
         },
         {
-            q: 'How long does it take to register a Private Limited Company in India?',
-            a: 'The registration process generally takes between 7-15 business days, depending on the speed of document verification and approvals.',
+            q: 'Do all directors need DIN and DSC?',
+            a: 'Yes, a valid Director Identification Number (DIN) and Digital Signature Certificate (DSC) are mandatory for e-filing and compliance.'
         },
         {
-            q: 'What are the legal standards for Private Limited Companies?',
-            a: 'Compliance Requirements: Private Limited Companies must stick to several compliance requirements under the Companies Act, 2013, including having yearly general meetings, filing annual reports, hiring accountants, and more.',
+            q: 'Is shareholder approval always needed for director appointment?',
+            a: 'Board appointment is possible for Additional Directors; shareholder approval needed for regularization at AGM/EGM.'
         },
         {
-            q: 'Do I need a physical office for registration?',
-            a: 'Yes, a registered office in India is mandatory. This office must be in a location where official correspondence and notices from the ROC can be sent.',
+            q: 'What if a director resigns and no replacement is appointed?',
+            a: 'Company must always meet minimum director requirement; appoint a replacement promptly to stay compliant.'
         },
         {
-            q: 'What are the perks of choosing a Private Limited Company structure?',
-            a: 'Advantages of Private Limited Company: Benefits include limited liability protection, ease of getting capital via shares, constant succession, reliability, and agreement with regulatory norms.',
+            q: 'Can an NRI or foreign national be appointed as director?',
+            a: 'Yes, subject to Companies Act requirements and at least one Indian resident director on board.'
         },
         {
-            q: 'Can a Private Limited Company change to a Public Limited Company?',
-            a: 'Conversion to Public Limited Company: Yes, a Private Limited Company may change to a Public Limited Company.',
+            q: 'What is DIR-11, and who should file it?',
+            a: 'DIR-11 is a form filed by the resigning director with ROC as personal intimation of resignation (optional but recommended).'
         },
         {
-            q: 'What is the difference between a Private Limited Company and a Limited Liability Partnership (LLP)?',
-            a: 'Difference from LLP: The basic difference between a Private Limited Company and a Limited liability Partnership (LLP) rests in their structure and responsibility features. A Private Limited Company has owners and limited liability protection, whereas an LLP has partners with limited liability but without shares.',
+            q: 'What if DIR-12 is filed late?',
+            a: 'Late filing attracts a penalty of Rs. 100 per day with no upper limit, plus risk of DIN deactivation and other regulatory issues.'
         },
         {
-            q: 'How can I change the name of my Private Limited Company?',
-            a: 'Changing Company Name: To change the name of a Private Limited Company, you need to follow the way given by the Ministry of Corporate Affairs in India.',
+            q: 'Does Incorvo help with complex board restructuring or foreign director onboarding?',
+            a: 'Yes, we provide full advisory for board changes, nominee/foreign director onboarding, and legal compliance.'
         },
         {
-            q: 'What are the penalties for non-compliance with legal duties for Private Limited Companies?',
-            a: 'Penalties for Non-Compliance: Punishments for non-compliance with regulatory requirements for Private Limited Companies might change depending on the individual infringement and may include fines or other legal punishments as per the Companies Act, 2013.',
+            q: 'How do I start the process with Incorvo?',
+            a: 'Contact us for a free checklist and consult. We’ll collect your documents, draft resolutions, and file all forms with ROC digitally.'
         }
-    ],
-}
+    ]
+};

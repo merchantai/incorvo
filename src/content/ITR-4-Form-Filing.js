@@ -1,206 +1,253 @@
 export default {
     header: {
-        title: 'Private Limited Company Registration',
+        title: 'ITR-4 (Sugam) Form Filing Services – Incorvo',
         list: [
-            'Register your private limited company in 7 business days with our expert assistance',
-            'Our online company registration service includes the following features',
-            'Obtain 2 Digital Signature Certificates (DSC) with 2 years validity',
-            'Secure 2 Director Identification Numbers (DIN)',
-            'Get unique name approval for your private company',
-            'Acquire PAN and TAN for the company',
-            'Open a current account with ICICI Bank',
-            'Drafting the Memorandum of Association and Articles of Association',
-            'Receive the official Company Incorporation Certificate',
-        ],
+            'End-to-end assistance for ITR-4 (Sugam) filing under presumptive taxation',
+            'Expert eligibility analysis for individuals, HUFs, and partnership firms (other than LLP)',
+            'Computation of income under Sections 44AD, 44ADA, and 44AE',
+            'Automated capture of income, deductions, TDS/TCS, and advance tax credits',
+            'Guidance for multiple business/professional receipts, assets, and liabilities',
+            'Special support for GST, digital business, and e-commerce sellers',
+            'Quick e-filing, e-verification, and refund tracking',
+            'Support for rectification, notices, and compliance with new IT portal norms',
+            'Transparent pricing, full confidentiality, and data security',
+            'Dedicated Incorvo tax specialist for personalized support'
+        ]
     },
     content: [
         {
-            title: 'Private Limited Company Registration in India',
+            title: 'What is ITR-4 (Sugam) and Who Should File It?',
             descrption: [
                 {
                     subTitle: '',
                     p: [
-                        'Currently, Private Limited Companies make upto almost 96% of the total companies in India. Till November 20, 2023, there are 25,99,660 private limited companies registered in India. The huge number of company registrations is a testament to the ease and benefits provided by India. Although registering a company in India is not mandatory, company registration offers significant benefits to founders as well as stakeholders. By the end, you will be able to understand the key legal requirements to register a private limited company in India, along with its compliance obligations and much more.'
-                    ],
-                },
-            ],
+                        'ITR-4 (Sugam) is the simplified Income Tax Return form for individuals, Hindu Undivided Families (HUFs), and partnership firms (excluding LLPs) opting for the **presumptive taxation scheme** under Section 44AD (business), 44ADA (profession), or 44AE (goods carriage business).',
+                        'It is designed for small business owners, shopkeepers, freelancers, and professionals with straightforward income, allowing them to declare their income at a fixed percentage of turnover without maintaining detailed books of account.'
+                    ]
+                }
+            ]
         },
         {
-            title: 'What is a Private Limited Company?',
+            title: 'Who is Eligible to File ITR-4?',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        'In India, there are several companies that can be registered. A Private Limited Company is one of them. A Private Limited Company bearing the suffix of ‘Pvt. Ltd\'. At the end of its name is a separate legal entity registered under the Companies Act, 2013with the Registrar of Companies (ROC). The main feature of this type of company is that it offers limited liability protection to its shareholders; it means that the liability of the shareholders is only up to the extent of shares held by them, and the personal assets of shareholders (owners) are protected from the obligations of the company. The company can be owned by multiple shareholders and managed by appointed directors. It is separated from the owners of the company, and its legal existence continues even if there are changes in the ownership or management, which provides security and stability to the company.',
-                    ],
-                },
-            ],
+                    ul: [
+                        'Individuals, HUFs, and partnership firms (other than LLPs)',
+                        'Residents of India (not for NRIs/RNORs)',
+                        'Business income under Section 44AD (turnover up to ₹2 crore)',
+                        'Professional income under Section 44ADA (gross receipts up to ₹50 lakh)',
+                        'Income from goods carriage under Section 44AE (not more than 10 vehicles at any time during the year)',
+                        'Income from salary/pension, one house property, and other sources (interest, family pension, etc.)'
+                    ]
+                }
+            ]
         },
         {
-            title: 'Why Should You Register a Private Limited Company?',
+            title: 'Who Should NOT Use ITR-4?',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        'There are several compelling reasons why forming a Private Limited Company can be beneficial:',
-                    ],
-                },
-                {
-                    subTitle: '1. Limited Liability Protection',
-                    p: [
-                        'As a private limited company, the liability of its shareholders is restricted to the unpaid amount on their shares. This means that if the company faces financial distress or legal liabilities, the personal assets of the shareholders (directors or members) will not be at risk.',
-                    ],
-                },
-                {
-                    subTitle: '2. Separate Legal Entity',
-                    p: [
-                        'A company is a juristic person in the eyes of the law. The legal entity of the company is distinct from its shareholders and directors. The company is capable of entering into contracts in its own name; it can sue and be sued in its own name. The liability and credibility of the company are separated from its stakeholders.',
-                    ],
-                },
-                {
-                    subTitle: '3. Perpetual Succession',
-                    p: [
-                        'The existence of the company is independent of the existence of its shareholders or directors. Unlike a partnership or sole proprietorship, the private limited company enjoys perpetual succession, which means that the existence of the company is not affected by the death, insolvency, or retirement of any shareholder or director. This perpetual succession guarantees the continuity of the business even if one of the company\'s stakeholders leaves the company.',
-                    ],
-                },
-                {
-                    subTitle: '4. Easy Transferability of Shares',
-                    p: [
-                        'Registering a company in India offers easy transferability of shares, which means that shares of the company can be transferred from one shareholder to another. The leverage smoothens out the transaction in the management of the company and later enhances the flexibility in the business operations of the company.',
-                    ],
-                },
-                {
-                    subTitle: '5. Access to Investments and Funding',
-                    p: [
-                        'Capital can be easily raised in a registered Private Limited Company, as Equity shares can be easily issued by the company to raise funds. Issuing equity shares attracts potential investors and venture capital to invest in the company.',
-                    ],
-                },
-                {
-                    subTitle: '6. Increased Trustworthiness',
-                    p: [
-                        'Registering a Private Limited Company enjoys greater market credibility as compared to other business structures. The greater credibility leads to increased trustworthiness among investors. The advantage is gained by the company due to its registration. Registering a company makes the company legally recognizable and shows that it meets the regulatory standards.',
-                    ],
-                },
-            ],
+                    ul: [
+                        'Individuals with income from capital gains or more than one house property',
+                        'Those with foreign assets, foreign income, or as director in a company',
+                        'Partners in LLPs (they must use ITR-3)',
+                        'Income from speculative business, commission, brokerage, or agency',
+                        'If turnover/gross receipts exceed the specified limit for presumptive taxation',
+                        'If claiming relief under Double Taxation Avoidance Agreement (DTAA)'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Presumptive Taxation Schemes Covered under ITR-4',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    table: {
+                        thead: {
+                            trow: [
+                                ['Section', 'Eligible Income', 'Presumptive Rate', 'Turnover/Limit']
+                            ]
+                        },
+                        tbody: {
+                            trow: [
+                                ['44AD', 'Business income (except specified businesses)', '8% of turnover (6% if digital receipts)', 'Up to ₹2 crore'],
+                                ['44ADA', 'Professionals (CA, doctor, engineer, etc.)', '50% of gross receipts', 'Up to ₹50 lakh'],
+                                ['44AE', 'Plying, hiring or leasing goods carriages', '₹1,000 per ton per month (for heavy vehicles); ₹7,500 per month (for other vehicles)', 'Max 10 vehicles owned during year']
+                            ]
+                        }
+                    }
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Step-by-Step ITR-4 Filing Process with Incorvo',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    ol: [
+                        'Eligibility assessment for presumptive scheme and ITR-4 applicability',
+                        'Collection of documents and business/professional turnover details',
+                        'Calculation of presumptive income and allowable deductions',
+                        'Cross-check of TDS, TCS, and advance tax paid (with 26AS/AIS)',
+                        'Compilation of salary, house property, and other source incomes (if any)',
+                        'Review and declaration of assets, liabilities, and bank accounts',
+                        'Preparation of ITR-4 form on the e-filing portal',
+                        'Final review and digital e-filing submission',
+                        'E-verification using Aadhaar OTP, EVC, or net banking',
+                        'Support for refund tracking, notices, and post-filing assistance'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Documents Required for ITR-4 Filing',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    ul: [
+                        'PAN, Aadhaar, and contact details',
+                        'Business/professional turnover summary and bank statements',
+                        'Details of owned vehicles (for 44AE)',
+                        'Form 16/16A (salary, TDS), Form 26AS, AIS/TIS',
+                        'Rental income receipts, property tax proofs (for one house property)',
+                        'Interest certificates, dividend statements, and income proofs from other sources',
+                        'Proof of deductions (80C, 80D, etc.) and investments',
+                        'Challan of advance/self-assessment tax paid',
+                        'Details of cash balance and unsecured loans (if applicable)'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Common Mistakes to Avoid in ITR-4 Filing',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    ul: [
+                        'Incorrect selection of ITR form—using ITR-4 when not eligible (e.g., capital gains, multiple house properties, foreign assets, LLP partners)',
+                        'Under-reporting of turnover or receipts',
+                        'Forgetting to declare digital receipts for 6% rate under Section 44AD',
+                        'Not e-verifying return within 30 days of filing',
+                        'Missing out on advance tax liability (Section 44AD/ADA/AE requires 100% advance tax by 15th March)',
+                        'Not maintaining a valid bank account for refund',
+                        'Failure to declare assets, liabilities, or high-value cash balances'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Best Practices for Hassle-Free ITR-4 Filing',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    ul: [
+                        'Maintain proper turnover/receipts records—bank statements, cash book, invoices',
+                        'Segregate digital and non-digital receipts for correct presumptive rate',
+                        'Reconcile TDS/TCS with Form 26AS/AIS before filing',
+                        'Calculate and pay advance tax well before the deadline to avoid interest',
+                        'Use Incorvo’s professional review for eligibility and full deduction claims',
+                        'File ITR-4 before due date and e-verify promptly',
+                        'Keep all proofs for 6 years (IT department may call for details)'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'What Happens After Filing ITR-4?',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    ul: [
+                        'E-verification is mandatory within 30 days (else return is invalid)',
+                        'Return is processed and intimation issued under Section 143(1)',
+                        'Refunds are credited to your pre-validated bank account',
+                        'You can revise/rectify the return if you spot errors',
+                        'Be ready for scrutiny if there is a mismatch or query'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Why Choose Incorvo for ITR-4 Filing?',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    ul: [
+                        'Experts in small business and professional tax returns',
+                        'Real-time eligibility check and deduction optimization',
+                        'Automated data capture from bank, TDS, and GST sources',
+                        'Support for GST returns and compliance, if required',
+                        'Quick, error-free e-filing and refund management',
+                        'End-to-end security and confidentiality of your financial data',
+                        'Transparent, affordable pricing with no hidden charges',
+                        'Dedicated Incorvo tax specialist from start to finish'
+                    ]
+                }
+            ]
         },
+        {
+            title: 'ITR-4 (Sugam) Filing: Extended FAQs',
+            descrption: [
+                {
+                    subTitle: '',
+                    ul: [
+                        'Who can file ITR-4? – Resident individuals, HUFs, and partnership firms (other than LLPs) with eligible business/profession income under Section 44AD, 44ADA, or 44AE.',
+                        'Can NRIs or RNORs file ITR-4? – No, only residents are eligible.',
+                        'Is maintenance of books of account required under ITR-4? – Not required under presumptive scheme, but basic records must be maintained.',
+                        'What is the presumptive income rate for digital receipts? – 6% of gross receipts under Section 44AD if through banking/digital channels.',
+                        'Can I claim further business expenses in ITR-4? – No, presumptive income is after allowable deductions except for Section 80C/80D, etc.',
+                        'What is the due date for ITR-4 filing? – Usually July 31st for individuals and partnership firms (unless audit is applicable).',
+                        'Can I switch to regular scheme from presumptive next year? – Yes, but once opted out, Section 44AD has a 5-year restriction from re-entry.',
+                        'What if actual profit is less than presumptive rate? – You must maintain full books and get tax audit done.',
+                        'Do I need to show assets and liabilities in ITR-4? – Yes, if income exceeds ₹50 lakh, Schedule AL is mandatory.',
+                        'Does Incorvo help with GST and professional tax? – Yes, we offer comprehensive tax compliance services.'
+                    ]
+                }
+            ]
+        }
     ],
     faqs: [
         {
-            q: 'What is the minimum capital required to register a Private Limited Company?',
-            a: 'There is no minimum paid-up capital requirement for registering a Private Limited Company in India.',
+            q: 'Who should file ITR-4?',
+            a: 'Residents (individuals, HUFs, and partnership firms other than LLPs) with eligible business/professional income under presumptive scheme (44AD, 44ADA, 44AE).'
         },
         {
-            q: 'Can a foreigner be a director in a Private Limited Company?',
-            a: 'Yes, foreigners can be directors, but at least one director must be a resident of India, as per Section 149 of the Companies Act, 2013.',
+            q: 'What are the presumptive rates under ITR-4?',
+            a: '44AD: 8% (6% for digital receipts), 44ADA: 50% of gross receipts, 44AE: Fixed per vehicle per month.'
         },
         {
-            q: 'How long does it take to register a Private Limited Company in India?',
-            a: 'The registration process generally takes between 7-15 business days, depending on the speed of document verification and approvals.',
+            q: 'Can I claim normal business expenses under ITR-4?',
+            a: 'No, all expenses (other than deductions under Chapter VI-A) are deemed allowed under presumptive income.'
         },
         {
-            q: 'What are the legal standards for Private Limited Companies?',
-            a: 'Compliance Requirements: Private Limited Companies must stick to several compliance requirements under the Companies Act, 2013, including having yearly general meetings, filing annual reports, hiring accountants, and more.',
+            q: 'What if my turnover exceeds ₹2 crore?',
+            a: 'You are not eligible for ITR-4. File ITR-3 with regular books of account and audit, if applicable.'
         },
         {
-            q: 'Do I need a physical office for registration?',
-            a: 'Yes, a registered office in India is mandatory. This office must be in a location where official correspondence and notices from the ROC can be sent.',
+            q: 'Can I file ITR-4 if I have capital gains?',
+            a: 'No, you must use ITR-2 or ITR-3 in that case.'
         },
         {
-            q: 'What are the perks of choosing a Private Limited Company structure?',
-            a: 'Advantages of Private Limited Company: Benefits include limited liability protection, ease of getting capital via shares, constant succession, reliability, and agreement with regulatory norms.',
+            q: 'Is e-verification mandatory?',
+            a: 'Yes, you must e-verify within 30 days of filing to validate your return.'
         },
         {
-            q: 'Can a Private Limited Company change to a Public Limited Company?',
-            a: 'Conversion to Public Limited Company: Yes, a Private Limited Company may change to a Public Limited Company.',
+            q: 'What happens if I opt out of presumptive scheme?',
+            a: 'For Section 44AD, you cannot re-enter presumptive for 5 years if you opt out after choosing it once.'
         },
         {
-            q: 'What is the difference between a Private Limited Company and a Limited Liability Partnership (LLP)?',
-            a: 'Difference from LLP: The basic difference between a Private Limited Company and a Limited liability Partnership (LLP) rests in their structure and responsibility features. A Private Limited Company has owners and limited liability protection, whereas an LLP has partners with limited liability but without shares.',
+            q: 'Is audit required for presumptive scheme?',
+            a: 'Not required if profit declared as per presumptive rates. If declaring less, audit under Section 44AB is mandatory.'
         },
         {
-            q: 'How can I change the name of my Private Limited Company?',
-            a: 'Changing Company Name: To change the name of a Private Limited Company, you need to follow the way given by the Ministry of Corporate Affairs in India.',
+            q: 'How do I get started with Incorvo?',
+            a: 'Contact our tax team for a free checklist, eligibility review, and secure data collection link.'
         },
         {
-            q: 'What are the penalties for non-compliance with legal duties for Private Limited Companies?',
-            a: 'Penalties for Non-Compliance: Punishments for non-compliance with regulatory requirements for Private Limited Companies might change depending on the individual infringement and may include fines or other legal punishments as per the Companies Act, 2013.',
+            q: 'Does Incorvo help with GST, TDS, and business setup?',
+            a: 'Yes, we offer complete tax and business compliance solutions.'
         }
-    ],
-}
+    ]
+};

@@ -1,206 +1,252 @@
 export default {
     header: {
-        title: 'Private Limited Company Registration',
+        title: 'Digital Signature Certificate (DSC) Registration',
         list: [
-            'Register your private limited company in 7 business days with our expert assistance',
-            'Our online company registration service includes the following features',
-            'Obtain 2 Digital Signature Certificates (DSC) with 2 years validity',
-            'Secure 2 Director Identification Numbers (DIN)',
-            'Get unique name approval for your private company',
-            'Acquire PAN and TAN for the company',
-            'Open a current account with ICICI Bank',
-            'Drafting the Memorandum of Association and Articles of Association',
-            'Receive the official Company Incorporation Certificate',
-        ],
+            'Hassle-free application and issuance of Digital Signature Certificates (DSC) for individuals, businesses, and organizations',
+            'Covers Class 3, DGFT, and Document Signer Certificates (as per latest CCA guidelines)',
+            'Complete KYC verification, application filling, and digital document upload',
+            'Paperless process with e-KYC and video verification',
+            'DSC valid for MCA, Income Tax, GST, EPFO, Trademark, e-Tender, and more',
+            'Quick turnaround – Get your DSC in 1–2 days with expert support',
+            'Renewal, upgrade, and lost DSC revocation services',
+            'Assistance with USB token, Aadhaar eSign, and cloud-based signing solutions',
+            'Affordable, transparent pricing with no hidden fees',
+            'Dedicated Incorvo DSC manager for tracking and reminders'
+        ]
     },
     content: [
         {
-            title: 'Private Limited Company Registration in India',
+            title: 'What is a Digital Signature Certificate (DSC)?',
             descrption: [
                 {
                     subTitle: '',
                     p: [
-                        'Currently, Private Limited Companies make upto almost 96% of the total companies in India. Till November 20, 2023, there are 25,99,660 private limited companies registered in India. The huge number of company registrations is a testament to the ease and benefits provided by India. Although registering a company in India is not mandatory, company registration offers significant benefits to founders as well as stakeholders. By the end, you will be able to understand the key legal requirements to register a private limited company in India, along with its compliance obligations and much more.'
-                    ],
-                },
-            ],
+                        'A Digital Signature Certificate (DSC) is an encrypted electronic credential issued by licensed Certifying Authorities (CAs) in India. It authenticates the identity of the holder and is used to sign digital documents, forms, and filings, making them legally valid and secure under the Information Technology Act, 2000.',
+                        'DSCs are now mandatory for most e-Governance, MCA (company/LLP filings), Income Tax, GST, EPFO, Trademark, e-Tender, and contract signing processes. Incorvo provides quick, compliant DSC issuance and lifecycle support for all user categories.'
+                    ]
+                }
+            ]
         },
         {
-            title: 'What is a Private Limited Company?',
+            title: 'Types of Digital Signature Certificates Issued',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        'In India, there are several companies that can be registered. A Private Limited Company is one of them. A Private Limited Company bearing the suffix of ‘Pvt. Ltd\'. At the end of its name is a separate legal entity registered under the Companies Act, 2013with the Registrar of Companies (ROC). The main feature of this type of company is that it offers limited liability protection to its shareholders; it means that the liability of the shareholders is only up to the extent of shares held by them, and the personal assets of shareholders (owners) are protected from the obligations of the company. The company can be owned by multiple shareholders and managed by appointed directors. It is separated from the owners of the company, and its legal existence continues even if there are changes in the ownership or management, which provides security and stability to the company.',
-                    ],
-                },
-            ],
+                    ul: [
+                        'Class 3 DSC: For individuals, directors, professionals, organizations – used for ROC/MCA, e-Tender, GST, and income tax filings',
+                        'DGFT DSC: For Importers/Exporters for online DGFT (Directorate General of Foreign Trade) transactions',
+                        'Document Signer Certificate: For automated bulk document or invoice signing by organizations',
+                        'Signature/Encryption Combo DSC: For high-security applications (combo of sign and encrypt)'
+                    ]
+                }
+            ]
         },
         {
-            title: 'Why Should You Register a Private Limited Company?',
+            title: 'Who Needs a DSC?',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        'There are several compelling reasons why forming a Private Limited Company can be beneficial:',
-                    ],
-                },
-                {
-                    subTitle: '1. Limited Liability Protection',
-                    p: [
-                        'As a private limited company, the liability of its shareholders is restricted to the unpaid amount on their shares. This means that if the company faces financial distress or legal liabilities, the personal assets of the shareholders (directors or members) will not be at risk.',
-                    ],
-                },
-                {
-                    subTitle: '2. Separate Legal Entity',
-                    p: [
-                        'A company is a juristic person in the eyes of the law. The legal entity of the company is distinct from its shareholders and directors. The company is capable of entering into contracts in its own name; it can sue and be sued in its own name. The liability and credibility of the company are separated from its stakeholders.',
-                    ],
-                },
-                {
-                    subTitle: '3. Perpetual Succession',
-                    p: [
-                        'The existence of the company is independent of the existence of its shareholders or directors. Unlike a partnership or sole proprietorship, the private limited company enjoys perpetual succession, which means that the existence of the company is not affected by the death, insolvency, or retirement of any shareholder or director. This perpetual succession guarantees the continuity of the business even if one of the company\'s stakeholders leaves the company.',
-                    ],
-                },
-                {
-                    subTitle: '4. Easy Transferability of Shares',
-                    p: [
-                        'Registering a company in India offers easy transferability of shares, which means that shares of the company can be transferred from one shareholder to another. The leverage smoothens out the transaction in the management of the company and later enhances the flexibility in the business operations of the company.',
-                    ],
-                },
-                {
-                    subTitle: '5. Access to Investments and Funding',
-                    p: [
-                        'Capital can be easily raised in a registered Private Limited Company, as Equity shares can be easily issued by the company to raise funds. Issuing equity shares attracts potential investors and venture capital to invest in the company.',
-                    ],
-                },
-                {
-                    subTitle: '6. Increased Trustworthiness',
-                    p: [
-                        'Registering a Private Limited Company enjoys greater market credibility as compared to other business structures. The greater credibility leads to increased trustworthiness among investors. The advantage is gained by the company due to its registration. Registering a company makes the company legally recognizable and shows that it meets the regulatory standards.',
-                    ],
-                },
-            ],
+                    ul: [
+                        'Directors and authorized signatories of companies and LLPs (for MCA filings, annual returns, incorporation, etc.)',
+                        'Chartered Accountants, Company Secretaries, and Tax Professionals (for client filings)',
+                        'Individual taxpayers (for e-filing income tax returns and GST)',
+                        'Proprietors and firms for e-Tendering, PF, customs, trademark, and government contracts',
+                        'Importers/Exporters (for DGFT filings)',
+                        'Organizations automating document or invoice signing'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Step-by-Step Process for DSC Registration',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    table: {
+                        thead: {
+                            trow: [
+                                ['Step', 'Activity', 'Form/Document', 'Who Files']
+                            ]
+                        },
+                        tbody: {
+                            trow: [
+                                ['1', 'Select DSC type, validity (1, 2, or 3 years), and applicant category', 'DSC order form', 'Applicant/Incorvo'],
+                                ['2', 'Complete KYC – PAN, Aadhaar, photo, address proof, mobile/email verification', 'KYC documents', 'Applicant'],
+                                ['3', 'Fill DSC application and provide video verification/e-KYC', 'Application Form, video', 'Applicant/Incorvo'],
+                                ['4', 'Submit to licensed Certifying Authority (CA)', 'Digital application', 'Incorvo'],
+                                ['5', 'DSC approval, generation, and installation on USB token (if needed)', 'DSC file/token', 'CA/Incorvo'],
+                                ['6', 'Download and use DSC for e-filing, contracts, or document signing', 'DSC certificate', 'Applicant']
+                            ]
+                        }
+                    }
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Documents Required for DSC Registration',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    ul: [
+                        'PAN Card (mandatory for individuals)',
+                        'Aadhaar Card or Passport (for address and identity proof)',
+                        'Recent passport-sized photograph (digital upload)',
+                        'Mobile number and email ID (for OTP and e-verification)',
+                        'Authorization letter (for company/LLP applicants)',
+                        'Business registration documents (COI, Partnership Deed, GST, etc. – for non-individuals)',
+                        'Self-attested KYC and video verification as per CA norms'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'DSC Forms & Timelines (Table)',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    table: {
+                        thead: {
+                            trow: [
+                                ['Form', 'Purpose', 'Timeline', 'Filed By']
+                            ]
+                        },
+                        tbody: {
+                            trow: [
+                                ['DSC Order/Application', 'Apply for new DSC (all classes)', 'Day 1', 'Applicant/Incorvo'],
+                                ['KYC documents & video', 'Identity verification', 'Day 1–2', 'Applicant'],
+                                ['DSC Issue & Token Installation', 'DSC generation and delivery', '1–2 days', 'CA/Incorvo'],
+                                ['Renewal Application', 'DSC renewal before expiry', 'Before DSC expiry', 'Applicant/Incorvo'],
+                                ['Revocation Request', 'DSC cancellation/loss', 'As needed', 'Applicant/Incorvo']
+                            ]
+                        }
+                    }
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Post-Issuance Compliance & Best Practices',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    ul: [
+                        'Renew DSC before expiry to ensure uninterrupted e-filing',
+                        'Keep DSC USB token and PIN secure—do not share with others',
+                        'Use DSC only for authorized transactions and filings',
+                        'Update mobile/email promptly if changed (for DSC alerts)',
+                        'Revoke DSC immediately in case of loss, compromise, or change of authority',
+                        'Periodically check for DSC validity and renew as per requirements'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Common Mistakes to Avoid',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    ul: [
+                        'Uploading incorrect or incomplete KYC documents',
+                        'Delaying renewal, resulting in e-filing failures or tender rejection',
+                        'Sharing DSC token or PIN with unauthorized persons',
+                        'Using expired or revoked DSC for filings (legally invalid)',
+                        'Ignoring CA instructions for video/e-KYC process',
+                        'Not updating details on change of company name, address, or authorized signatory'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Penalties for Misuse or Non-Compliance',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    ul: [
+                        'Misuse of DSC may attract criminal liability under the IT Act, 2000',
+                        'Using DSC for unauthorized transactions can lead to prosecution and fines',
+                        'Failure to renew DSC before expiry can cause e-filing failure and legal non-compliance',
+                        'Loss or theft of DSC must be reported and revoked to avoid liability'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Why Choose Incorvo for DSC Registration?',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    ul: [
+                        'Covers all classes and types of DSC (Class 3, DGFT, Document Signer, etc.)',
+                        'Digital application, quick e-KYC, and secure video verification',
+                        'Licensed partnership with top Certifying Authorities (CA)',
+                        'End-to-end DSC lifecycle support: issue, renew, revoke, or replace',
+                        'Assistance with bulk DSC, organization DSC, and special use cases',
+                        'Affordable, all-inclusive pricing and real-time status updates',
+                        'Dedicated manager for application tracking, reminders, and support'
+                    ]
+                }
+            ]
         },
+        {
+            title: 'DSC Registration: Extended FAQs',
+            descrption: [
+                {
+                    subTitle: '',
+                    ul: [
+                        'What is the validity of a DSC? – Usually 1, 2, or 3 years as per applicant choice.',
+                        'Can DSC be renewed after expiry? – No, a new DSC must be applied for; renewal before expiry is recommended.',
+                        'How soon can I get a DSC? – Usually within 1–2 working days with complete documents.',
+                        'Can I use one DSC for multiple purposes? – Yes, but some portals (DGFT, MCA) require separate DSCs.',
+                        'Is physical presence required for DSC issuance? – No, e-KYC and video verification make the process paperless.',
+                        'What happens if DSC token is lost? – File a revocation and apply for a new DSC immediately.',
+                        'Does Incorvo help with bulk DSC issuance for teams? – Yes, we support bulk and organizational DSC solutions.',
+                        'Are there additional charges for DSC renewal? – Only the renewal fee; Incorvo charges are transparent.',
+                        'Can Incorvo assist with DSC for foreign nationals? – Yes, with notarized/apostilled KYC and process guidance.',
+                        'How do I start the DSC process with Incorvo? – Contact us for a checklist, consult, and digital onboarding.'
+                    ]
+                }
+            ]
+        }
     ],
     faqs: [
         {
-            q: 'What is the minimum capital required to register a Private Limited Company?',
-            a: 'There is no minimum paid-up capital requirement for registering a Private Limited Company in India.',
+            q: 'Who issues Digital Signature Certificates in India?',
+            a: 'Licensed Certifying Authorities (CAs) approved by the Controller of Certifying Authorities (CCA), Government of India.'
         },
         {
-            q: 'Can a foreigner be a director in a Private Limited Company?',
-            a: 'Yes, foreigners can be directors, but at least one director must be a resident of India, as per Section 149 of the Companies Act, 2013.',
+            q: 'How long is a DSC valid?',
+            a: 'Typically for 1, 2, or 3 years, as per your choice at the time of application.'
         },
         {
-            q: 'How long does it take to register a Private Limited Company in India?',
-            a: 'The registration process generally takes between 7-15 business days, depending on the speed of document verification and approvals.',
+            q: 'What documents are needed for DSC application?',
+            a: 'PAN, Aadhaar/passport, photograph, mobile/email, and business docs for firms/companies.'
         },
         {
-            q: 'What are the legal standards for Private Limited Companies?',
-            a: 'Compliance Requirements: Private Limited Companies must stick to several compliance requirements under the Companies Act, 2013, including having yearly general meetings, filing annual reports, hiring accountants, and more.',
+            q: 'Can I use the same DSC for MCA, GST, and income tax?',
+            a: 'Yes, a Class 3 DSC is widely accepted, but some portals require dedicated DSCs.'
         },
         {
-            q: 'Do I need a physical office for registration?',
-            a: 'Yes, a registered office in India is mandatory. This office must be in a location where official correspondence and notices from the ROC can be sent.',
+            q: 'What if I lose my DSC or USB token?',
+            a: 'Revoke it immediately and apply for a new one to avoid unauthorized use.'
         },
         {
-            q: 'What are the perks of choosing a Private Limited Company structure?',
-            a: 'Advantages of Private Limited Company: Benefits include limited liability protection, ease of getting capital via shares, constant succession, reliability, and agreement with regulatory norms.',
+            q: 'Is in-person verification needed for DSC?',
+            a: 'No, Incorvo offers digital KYC and video verification for 100% paperless processing.'
         },
         {
-            q: 'Can a Private Limited Company change to a Public Limited Company?',
-            a: 'Conversion to Public Limited Company: Yes, a Private Limited Company may change to a Public Limited Company.',
+            q: 'Can I renew my DSC before expiry?',
+            a: 'Yes, renewal before expiry is recommended to avoid e-filing disruptions.'
         },
         {
-            q: 'What is the difference between a Private Limited Company and a Limited Liability Partnership (LLP)?',
-            a: 'Difference from LLP: The basic difference between a Private Limited Company and a Limited liability Partnership (LLP) rests in their structure and responsibility features. A Private Limited Company has owners and limited liability protection, whereas an LLP has partners with limited liability but without shares.',
+            q: 'Can a company apply for bulk DSCs for employees?',
+            a: 'Yes, Incorvo manages bulk and organizational DSC issuance with quick turnaround.'
         },
         {
-            q: 'How can I change the name of my Private Limited Company?',
-            a: 'Changing Company Name: To change the name of a Private Limited Company, you need to follow the way given by the Ministry of Corporate Affairs in India.',
+            q: 'Does Incorvo provide technical support for DSC installation?',
+            a: 'Yes, our support team assists with installation, usage, and troubleshooting.'
         },
         {
-            q: 'What are the penalties for non-compliance with legal duties for Private Limited Companies?',
-            a: 'Penalties for Non-Compliance: Punishments for non-compliance with regulatory requirements for Private Limited Companies might change depending on the individual infringement and may include fines or other legal punishments as per the Companies Act, 2013.',
+            q: 'How do I begin the DSC process with Incorvo?',
+            a: 'Just contact us for a free checklist, consultation, and guided digital onboarding.'
         }
-    ],
-}
+    ]
+};

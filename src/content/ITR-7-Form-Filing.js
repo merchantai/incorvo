@@ -1,206 +1,274 @@
 export default {
     header: {
-        title: 'Private Limited Company Registration',
+        title: 'ITR-7 Form Filing Services – Incorvo',
         list: [
-            'Register your private limited company in 7 business days with our expert assistance',
-            'Our online company registration service includes the following features',
-            'Obtain 2 Digital Signature Certificates (DSC) with 2 years validity',
-            'Secure 2 Director Identification Numbers (DIN)',
-            'Get unique name approval for your private company',
-            'Acquire PAN and TAN for the company',
-            'Open a current account with ICICI Bank',
-            'Drafting the Memorandum of Association and Articles of Association',
-            'Receive the official Company Incorporation Certificate',
-        ],
+            'Expert filing support for ITR-7: charitable trusts, societies, Section 8 companies, political parties, and institutions',
+            'Eligibility analysis for Section 139(4A), 139(4B), 139(4C), and 139(4D) returns',
+            'Full compliance with exemptions under Sections 11, 12, 10(23C), and related provisions',
+            'Specialized handling of foreign donations (FCRA), specified funds, and multiple income heads',
+            'Preparation and review of audited accounts, schedules, and compliance certificates',
+            'Accurate mapping of Schedule ER, EC, VC, AI, and asset/liability reporting',
+            'Automated cross-verification of TDS/TCS, advance/self-assessment tax, and refund eligibility',
+            'Mandatory DSC-based e-filing and e-verification support',
+            'Response management for IT notices, rectifications, and assessment queries',
+            'Dedicated Incorvo CA/CS compliance manager from start to finish'
+        ]
     },
     content: [
         {
-            title: 'Private Limited Company Registration in India',
+            title: 'What is ITR-7 and Who Should File It?',
             descrption: [
                 {
                     subTitle: '',
                     p: [
-                        'Currently, Private Limited Companies make upto almost 96% of the total companies in India. Till November 20, 2023, there are 25,99,660 private limited companies registered in India. The huge number of company registrations is a testament to the ease and benefits provided by India. Although registering a company in India is not mandatory, company registration offers significant benefits to founders as well as stakeholders. By the end, you will be able to understand the key legal requirements to register a private limited company in India, along with its compliance obligations and much more.'
-                    ],
-                },
-            ],
+                        'ITR-7 is the designated Income Tax Return form for **entities required to file returns under Sections 139(4A), 139(4B), 139(4C), or 139(4D)** of the Income Tax Act. It is specifically meant for: charitable and religious trusts, Section 8 (NPO) companies, societies, political parties, research institutions, universities, funds, and other specified institutions.',
+                        'Incorvo delivers meticulous ITR-7 solutions to ensure all income, exemptions, donations, and statutory disclosures are fully compliant and audit-ready.'
+                    ]
+                }
+            ]
         },
         {
-            title: 'What is a Private Limited Company?',
+            title: 'Who is Required to File ITR-7?',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        'In India, there are several companies that can be registered. A Private Limited Company is one of them. A Private Limited Company bearing the suffix of ‘Pvt. Ltd\'. At the end of its name is a separate legal entity registered under the Companies Act, 2013with the Registrar of Companies (ROC). The main feature of this type of company is that it offers limited liability protection to its shareholders; it means that the liability of the shareholders is only up to the extent of shares held by them, and the personal assets of shareholders (owners) are protected from the obligations of the company. The company can be owned by multiple shareholders and managed by appointed directors. It is separated from the owners of the company, and its legal existence continues even if there are changes in the ownership or management, which provides security and stability to the company.',
-                    ],
-                },
-            ],
+                    ul: [
+                        'Charitable or religious trusts/institutions (Section 139(4A))',
+                        'Political parties (Section 139(4B))',
+                        'Scientific research associations, news agencies, trade unions, hospitals, educational institutions, funds, etc. (Section 139(4C))',
+                        'Universities, colleges, and institutions not required to file income/loss return under other provisions (Section 139(4D))',
+                        'Section 8 companies and NPOs seeking tax exemption',
+                        'Any entity claiming exemption under Sections 11, 12, 10(23C), 10(21), etc.'
+                    ]
+                }
+            ]
         },
         {
-            title: 'Why Should You Register a Private Limited Company?',
+            title: 'Who Should NOT Use ITR-7?',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        'There are several compelling reasons why forming a Private Limited Company can be beneficial:',
-                    ],
-                },
-                {
-                    subTitle: '1. Limited Liability Protection',
-                    p: [
-                        'As a private limited company, the liability of its shareholders is restricted to the unpaid amount on their shares. This means that if the company faces financial distress or legal liabilities, the personal assets of the shareholders (directors or members) will not be at risk.',
-                    ],
-                },
-                {
-                    subTitle: '2. Separate Legal Entity',
-                    p: [
-                        'A company is a juristic person in the eyes of the law. The legal entity of the company is distinct from its shareholders and directors. The company is capable of entering into contracts in its own name; it can sue and be sued in its own name. The liability and credibility of the company are separated from its stakeholders.',
-                    ],
-                },
-                {
-                    subTitle: '3. Perpetual Succession',
-                    p: [
-                        'The existence of the company is independent of the existence of its shareholders or directors. Unlike a partnership or sole proprietorship, the private limited company enjoys perpetual succession, which means that the existence of the company is not affected by the death, insolvency, or retirement of any shareholder or director. This perpetual succession guarantees the continuity of the business even if one of the company\'s stakeholders leaves the company.',
-                    ],
-                },
-                {
-                    subTitle: '4. Easy Transferability of Shares',
-                    p: [
-                        'Registering a company in India offers easy transferability of shares, which means that shares of the company can be transferred from one shareholder to another. The leverage smoothens out the transaction in the management of the company and later enhances the flexibility in the business operations of the company.',
-                    ],
-                },
-                {
-                    subTitle: '5. Access to Investments and Funding',
-                    p: [
-                        'Capital can be easily raised in a registered Private Limited Company, as Equity shares can be easily issued by the company to raise funds. Issuing equity shares attracts potential investors and venture capital to invest in the company.',
-                    ],
-                },
-                {
-                    subTitle: '6. Increased Trustworthiness',
-                    p: [
-                        'Registering a Private Limited Company enjoys greater market credibility as compared to other business structures. The greater credibility leads to increased trustworthiness among investors. The advantage is gained by the company due to its registration. Registering a company makes the company legally recognizable and shows that it meets the regulatory standards.',
-                    ],
-                },
-            ],
+                    ul: [
+                        'Individuals, HUFs, partnership firms, LLPs, AOPs, BOIs, or companies not seeking Section 11/10 exemptions (use ITR-1 to ITR-6 as applicable)',
+                        'Entities not registered or recognized under relevant sections for exemption',
+                        'For-profit companies and regular business enterprises'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Applicable Sections for ITR-7 Filing',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    table: {
+                        thead: {
+                            trow: [
+                                ['Section', 'Who Files', 'Nature of Entity']
+                            ]
+                        },
+                        tbody: {
+                            trow: [
+                                ['139(4A)', 'Charitable/Religious Trusts', 'Registered trusts and institutions'],
+                                ['139(4B)', 'Political Parties', 'Political parties eligible for Section 13A exemption'],
+                                ['139(4C)', 'Research/News/Educational Bodies', 'Institutions claiming exemption under various clauses of Section 10'],
+                                ['139(4D)', 'Universities/Educational Institutions', 'Entities not required to file under other provisions']
+                            ]
+                        }
+                    }
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Step-by-Step ITR-7 Filing Process with Incorvo',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    ol: [
+                        'Eligibility check for correct section and exemption status',
+                        'Collection of registration certificates (trust deed, 80G, 12A/12AA, FCRA, Section 8, etc.)',
+                        'Preparation of audited financials: income & expenditure, balance sheet, receipts/payments',
+                        'Compiling donation, grant, and income records (including voluntary contributions, corpus, and foreign funds)',
+                        'Computation of gross income, application for charitable/religious purposes, and calculation of exempt/non-exempt portions',
+                        'Schedule mapping: ER (expenditure), EC (corpus), VC (voluntary contributions), AI (aggregate income), AL (assets/liabilities)',
+                        'Cross-verification of TDS/TCS credits, advance/self-assessment tax paid, and refund status (26AS/AIS)',
+                        'Preparation and upload of ITR-7 (JSON/XML) on the income tax portal',
+                        'Mandatory e-filing and e-verification with DSC (trust, society, NPO, company) or EVC (in permitted cases)',
+                        'Support for rectification, notice responses, and compliance with IT scrutiny or FCRA audit'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Documents Required for ITR-7 Filing',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    ul: [
+                        'PAN card and registration documents (trust deed, society registration, company COI)',
+                        '12A/12AA/80G certificates and renewal orders',
+                        'FCRA registration, if foreign donations are received',
+                        'Audited income & expenditure statement, balance sheet, and receipts & payments account',
+                        'Bank statements, fixed deposit, and investment schedules',
+                        'Details of donations, grants, and voluntary contributions (corpus, specific, general)',
+                        'TDS/TCS certificates, Form 26AS, AIS/TIS',
+                        'Schedule AL (assets/liabilities), Schedule FA (foreign assets), and related registers',
+                        'Details of application of income (program expenses, administrative costs, accumulation)',
+                        'Details of exempt/non-exempt income, business undertakings, and unrelated income',
+                        'Proof of advance/self-assessment tax payment',
+                        'Minutes of managing committee/board meetings (if applicable)',
+                        'Previous year’s ITR and assessment orders (if any)'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Key Compliance Requirements for ITR-7 Filers',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    ul: [
+                        'Trusts, societies, Section 8 companies, etc., must maintain and audit accounts as per the Act and regulatory body norms',
+                        'Application of at least 85% of income for charitable/religious purposes each year (else, apply for accumulation as per law)',
+                        'Filing of FCRA return and reconciliation (if receiving foreign funds)',
+                        'Proper segregation and reporting of corpus, voluntary, and specific grants',
+                        'Mandatory e-filing and e-verification with DSC (for trusts, companies, societies)',
+                        'Reporting of assets, liabilities, and related party transactions (Schedule AL, FA, SP, etc.)',
+                        'Full disclosure of TDS/TCS credits and matching with 26AS/AIS',
+                        'Prompt response to income tax notices and queries for exemption validation'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Common Mistakes to Avoid in ITR-7 Filing',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    ul: [
+                        'Incorrect section selection (139(4A), 4B, 4C, 4D) or wrong exemption code',
+                        'Non-reporting of all donations, corpus funds, or grants',
+                        'Incomplete or inaccurate mapping of Schedule ER, EC, VC, and AI',
+                        'Not reconciling TDS/TCS and tax payments with Form 26AS/AIS',
+                        'Missing disclosure of foreign assets (if FCRA registered or applicable)',
+                        'Filing without valid DSC or late e-verification',
+                        'Not fulfilling 85% application rule, accumulation, or non-permissible business activities',
+                        'Delayed or missed filing, leading to loss of exemption and heavy penalties'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Best Practices for Hassle-Free ITR-7 Filing',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    ul: [
+                        'Keep registration and renewal certificates up to date and handy',
+                        'Maintain separate books for different sources of income (donations, corpus, grants, business, investments, etc.)',
+                        'Ensure at least 85% income application and maintain full documentation of program/charitable spends',
+                        'Review and reconcile all TDS, FCRA, and tax credits before filing',
+                        'Prepare asset and liability schedules meticulously—especially for high-value entities',
+                        'Engage professional CA/CS help for section, exemption, and compliance clarity',
+                        'File early and retain all records for at least 8 years for scrutiny or regulatory audit',
+                        'Use Incorvo’s advisory for FCRA, TDS, GST, and multi-year compliance management'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'What Happens After Filing ITR-7?',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    ul: [
+                        'E-verification with valid DSC/EVC is mandatory within 30 days',
+                        'Return is processed by IT Department, intimation sent under Section 143(1)',
+                        'Refunds (if any) are credited to validated bank account',
+                        'You may receive scrutiny/clarification notices—timely response is critical for continued exemption',
+                        'Rectification, revised return, and compliance submissions can be made as per law',
+                        'All accounts, donation records, and program expense proofs must be retained for future scrutiny or FCRA audit'
+                    ]
+                }
+            ]
         },
+        {
+            title: 'Why Choose Incorvo for ITR-7 Filing?',
+            descrption: [
+                {
+                    subTitle: '',
+                    ul: [
+                        'Dedicated CA/CS compliance managers for trust, society, NPO, and institutional returns',
+                        'Section-specific expertise for all exemption, reporting, and documentation requirements',
+                        'Audit-ready preparation for all financials, schedules, and FCRA reconciliation',
+                        'Digital e-filing and prompt e-verification with robust data security',
+                        'Transparent pricing, all-in-one compliance, and timely reminders',
+                        'Notice, refund, rectification, and post-filing compliance handled start-to-finish'
+                    ]
+                }
+            ]
+        },
+        {
+            title: 'ITR-7 Filing: Extended FAQs',
+            descrption: [
+                {
+                    subTitle: '',
+                    ul: [
+                        'Who should file ITR-7? – All charitable/religious trusts, Section 8 companies, societies, political parties, specified institutions, universities, and research bodies seeking tax exemption.',
+                        'Is e-filing with DSC mandatory? – Yes, for most trusts, companies, societies; some may use EVC if permitted.',
+                        'What is the due date for ITR-7 filing? – Generally October 31st (audit cases); July 31st (non-audit); check annual CBDT notifications.',
+                        'What is the 85% application rule? – Minimum 85% of annual income must be applied to charitable/religious purposes or accumulation applied as per law.',
+                        'Is FCRA reporting required in ITR-7? – Yes, if foreign funds are received; full reconciliation and schedule reporting needed.',
+                        'Can I claim exemption if return is filed late? – No, late filing leads to loss of exemption and penalties.',
+                        'Can Incorvo help with registration/renewal of 12A/80G/FCRA? – Yes, we offer full-cycle advisory and renewal support.',
+                        'How are donations and grants disclosed? – All voluntary contributions (corpus, specific, general) and grants must be scheduled in ER, EC, and VC.',
+                        'What happens after ITR-7 is filed? – IT Department processes, sends intimation, and may issue scrutiny notice; refunds are credited if eligible.',
+                        'Does Incorvo handle post-filing compliance? – Absolutely, from notices to refunds to ongoing annual compliance.'
+                    ]
+                }
+            ]
+        }
     ],
     faqs: [
         {
-            q: 'What is the minimum capital required to register a Private Limited Company?',
-            a: 'There is no minimum paid-up capital requirement for registering a Private Limited Company in India.',
+            q: 'Who is eligible to file ITR-7?',
+            a: 'Entities such as charitable/religious trusts, Section 8 companies, political parties, societies, research bodies, and educational institutions covered under Sections 139(4A)–(4D) of the Income Tax Act.'
         },
         {
-            q: 'Can a foreigner be a director in a Private Limited Company?',
-            a: 'Yes, foreigners can be directors, but at least one director must be a resident of India, as per Section 149 of the Companies Act, 2013.',
+            q: 'Is DSC mandatory for ITR-7 e-filing?',
+            a: 'Yes, except for certain permitted categories which may use EVC. Most trusts, companies, and societies must e-file with DSC.'
         },
         {
-            q: 'How long does it take to register a Private Limited Company in India?',
-            a: 'The registration process generally takes between 7-15 business days, depending on the speed of document verification and approvals.',
+            q: 'What if 85% income is not applied in the year?',
+            a: 'You may apply for accumulation of unspent income as per law (Form 9A/10), else exemption may be denied for the unapplied portion.'
         },
         {
-            q: 'What are the legal standards for Private Limited Companies?',
-            a: 'Compliance Requirements: Private Limited Companies must stick to several compliance requirements under the Companies Act, 2013, including having yearly general meetings, filing annual reports, hiring accountants, and more.',
+            q: 'Can foreign donations be accepted and disclosed?',
+            a: 'Yes, if you have valid FCRA registration and full disclosure in ITR-7 and FCRA annual returns.'
         },
         {
-            q: 'Do I need a physical office for registration?',
-            a: 'Yes, a registered office in India is mandatory. This office must be in a location where official correspondence and notices from the ROC can be sent.',
+            q: 'What is the penalty for late ITR-7 filing?',
+            a: 'Loss of exemption on income, late filing fee, interest, and possible cancellation of registration under 12A/80G/FCRA.'
         },
         {
-            q: 'What are the perks of choosing a Private Limited Company structure?',
-            a: 'Advantages of Private Limited Company: Benefits include limited liability protection, ease of getting capital via shares, constant succession, reliability, and agreement with regulatory norms.',
+            q: 'How does Incorvo ensure data security?',
+            a: 'We use encrypted cloud storage, access controls, signed NDAs, and restrict data access to authorized managers only.'
         },
         {
-            q: 'Can a Private Limited Company change to a Public Limited Company?',
-            a: 'Conversion to Public Limited Company: Yes, a Private Limited Company may change to a Public Limited Company.',
+            q: 'Can I revise ITR-7 after filing?',
+            a: 'Yes, revision is allowed within the prescribed time limits as per the Income Tax Act.'
         },
         {
-            q: 'What is the difference between a Private Limited Company and a Limited Liability Partnership (LLP)?',
-            a: 'Difference from LLP: The basic difference between a Private Limited Company and a Limited liability Partnership (LLP) rests in their structure and responsibility features. A Private Limited Company has owners and limited liability protection, whereas an LLP has partners with limited liability but without shares.',
+            q: 'Does Incorvo help with registration/renewal of 12A/80G/FCRA?',
+            a: 'Yes, our compliance team offers registration, renewal, and advisory services for all major certifications.'
         },
         {
-            q: 'How can I change the name of my Private Limited Company?',
-            a: 'Changing Company Name: To change the name of a Private Limited Company, you need to follow the way given by the Ministry of Corporate Affairs in India.',
+            q: 'How do I get started with Incorvo?',
+            a: 'Contact our not-for-profit and institutional tax team for a tailored checklist, document collection, and secure onboarding.'
         },
         {
-            q: 'What are the penalties for non-compliance with legal duties for Private Limited Companies?',
-            a: 'Penalties for Non-Compliance: Punishments for non-compliance with regulatory requirements for Private Limited Companies might change depending on the individual infringement and may include fines or other legal punishments as per the Companies Act, 2013.',
+            q: 'Can Incorvo help with IT notices, assessment, and post-filing compliance?',
+            a: 'Absolutely! We offer end-to-end support from tax planning and registration to post-filing, refunds, and audit responses.'
         }
-    ],
-}
+    ]
+};

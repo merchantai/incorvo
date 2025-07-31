@@ -1,206 +1,240 @@
 export default {
     header: {
-        title: 'Private Limited Company Registration',
+        title: 'Trademark Objection – Incorvo',
         list: [
-            'Register your private limited company in 7 business days with our expert assistance',
-            'Our online company registration service includes the following features',
-            'Obtain 2 Digital Signature Certificates (DSC) with 2 years validity',
-            'Secure 2 Director Identification Numbers (DIN)',
-            'Get unique name approval for your private company',
-            'Acquire PAN and TAN for the company',
-            'Open a current account with ICICI Bank',
-            'Drafting the Memorandum of Association and Articles of Association',
-            'Receive the official Company Incorporation Certificate',
-        ],
+            'Comprehensive support for replying to trademark objections under Indian Trademark Law',
+            'Expert legal drafting of reply to examination report/objection',
+            'Analysis of objection reasons and strong counter-arguments',
+            'Preparation of affidavits, evidence, and documentation',
+            'Support at all stages—filing, Registry hearing, and follow-up',
+            'Digital process for fast and error-free document handling',
+            'Assistance for individuals, startups, MSMEs, and corporates',
+            'Regular status tracking and updates from IP India portal',
+            'Transparent, milestone-based pricing and legal representation',
+            'Dedicated Incorvo trademark specialist for every client'
+        ]
     },
     content: [
         {
-            title: 'Private Limited Company Registration in India',
+            title: 'What is a Trademark Objection?',
             descrption: [
                 {
                     subTitle: '',
                     p: [
-                        'Currently, Private Limited Companies make upto almost 96% of the total companies in India. Till November 20, 2023, there are 25,99,660 private limited companies registered in India. The huge number of company registrations is a testament to the ease and benefits provided by India. Although registering a company in India is not mandatory, company registration offers significant benefits to founders as well as stakeholders. By the end, you will be able to understand the key legal requirements to register a private limited company in India, along with its compliance obligations and much more.'
-                    ],
-                },
-            ],
+                        'A trademark objection is an initial refusal raised by the Examiner at the Trademark Registry during the examination stage of your trademark application. An objection does not mean your application is rejected, but it requires you to submit a formal reply to address and overcome the reasons cited by the Registrar.',
+                        'Timely and well-drafted responses are crucial to move your application forward to publication and eventual registration.'
+                    ]
+                }
+            ]
         },
         {
-            title: 'What is a Private Limited Company?',
+            title: 'Common Reasons for Trademark Objection',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        'In India, there are several companies that can be registered. A Private Limited Company is one of them. A Private Limited Company bearing the suffix of ‘Pvt. Ltd\'. At the end of its name is a separate legal entity registered under the Companies Act, 2013with the Registrar of Companies (ROC). The main feature of this type of company is that it offers limited liability protection to its shareholders; it means that the liability of the shareholders is only up to the extent of shares held by them, and the personal assets of shareholders (owners) are protected from the obligations of the company. The company can be owned by multiple shareholders and managed by appointed directors. It is separated from the owners of the company, and its legal existence continues even if there are changes in the ownership or management, which provides security and stability to the company.',
-                    ],
-                },
-            ],
+                    ul: [
+                        'Lack of distinctiveness: Mark is generic or descriptive',
+                        'Similarity or likelihood of confusion with existing marks',
+                        'Use of prohibited or deceptive words/symbols',
+                        'Incorrect classification or incomplete description of goods/services',
+                        'Failure to file supporting documents, affidavits, or translations',
+                        'Use of geographical names or surnames as trademark',
+                        'Application made in bad faith or contrary to law/policy'
+                    ]
+                }
+            ]
         },
         {
-            title: 'Why Should You Register a Private Limited Company?',
+            title: 'Types of Trademark Objection Under Law',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        'There are several compelling reasons why forming a Private Limited Company can be beneficial:',
-                    ],
-                },
-                {
-                    subTitle: '1. Limited Liability Protection',
-                    p: [
-                        'As a private limited company, the liability of its shareholders is restricted to the unpaid amount on their shares. This means that if the company faces financial distress or legal liabilities, the personal assets of the shareholders (directors or members) will not be at risk.',
-                    ],
-                },
-                {
-                    subTitle: '2. Separate Legal Entity',
-                    p: [
-                        'A company is a juristic person in the eyes of the law. The legal entity of the company is distinct from its shareholders and directors. The company is capable of entering into contracts in its own name; it can sue and be sued in its own name. The liability and credibility of the company are separated from its stakeholders.',
-                    ],
-                },
-                {
-                    subTitle: '3. Perpetual Succession',
-                    p: [
-                        'The existence of the company is independent of the existence of its shareholders or directors. Unlike a partnership or sole proprietorship, the private limited company enjoys perpetual succession, which means that the existence of the company is not affected by the death, insolvency, or retirement of any shareholder or director. This perpetual succession guarantees the continuity of the business even if one of the company\'s stakeholders leaves the company.',
-                    ],
-                },
-                {
-                    subTitle: '4. Easy Transferability of Shares',
-                    p: [
-                        'Registering a company in India offers easy transferability of shares, which means that shares of the company can be transferred from one shareholder to another. The leverage smoothens out the transaction in the management of the company and later enhances the flexibility in the business operations of the company.',
-                    ],
-                },
-                {
-                    subTitle: '5. Access to Investments and Funding',
-                    p: [
-                        'Capital can be easily raised in a registered Private Limited Company, as Equity shares can be easily issued by the company to raise funds. Issuing equity shares attracts potential investors and venture capital to invest in the company.',
-                    ],
-                },
-                {
-                    subTitle: '6. Increased Trustworthiness',
-                    p: [
-                        'Registering a Private Limited Company enjoys greater market credibility as compared to other business structures. The greater credibility leads to increased trustworthiness among investors. The advantage is gained by the company due to its registration. Registering a company makes the company legally recognizable and shows that it meets the regulatory standards.',
-                    ],
-                },
-            ],
+                    table: {
+                        thead: {
+                            trow: [
+                                ['Section', 'Nature of Objection', 'Typical Scenario']
+                            ]
+                        },
+                        tbody: {
+                            trow: [
+                                ['Section 9', 'Absolute Grounds – lacking distinctiveness, descriptive, generic', '“Best Rice” for rice products'],
+                                ['Section 11', 'Relative Grounds – similar to existing marks, likelihood of confusion', '“TechZone” objected due to “TechSon”'],
+                                ['Section 18', 'Incomplete details, procedural errors', 'Missing applicant information or power of attorney']
+                            ]
+                        }
+                    }
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Step-by-Step Process for Trademark Objection Reply with Incorvo',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    ol: [
+                        'Obtain and review the examination report/objection notice from the Trademark Registry',
+                        'Detailed analysis of grounds for objection (absolute or relative)',
+                        'Assessment of existing marks and potential for confusion',
+                        'Drafting of legal reply (reply to examination report) with supporting arguments, case law, and evidence',
+                        'Preparation and notarization of affidavits, usage documents, brochures, website screenshots, invoices, etc.',
+                        'Filing reply online via IP India/trademark portal within prescribed deadline (typically 30 days)',
+                        'Follow-up with Registry and attend hearing (if called by Registrar)',
+                        'Respond to any further queries, submit additional evidence as required',
+                        'Track application status till “Accepted & Advertised” in Trademark Journal'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Documents Required for Replying to Trademark Objection',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    ul: [
+                        'Power of Attorney (POA) to Incorvo or your attorney/agent',
+                        'Copy of examination report/objection notice',
+                        'Affidavit of usage (with evidence such as invoices, ads, website)',
+                        'Brochures, catalogues, product photographs',
+                        'Company incorporation or partnership deed (if business entity)',
+                        'Copy of earlier trademark registration (if cited)',
+                        'Any supporting evidence to establish prior use or distinctiveness'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Timeline and Consequences',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    ul: [
+                        'Trademark objection reply must be filed within 30 days of receipt of examination report',
+                        'Delay can result in “abandoned” status, requiring re-filing with new fee',
+                        'If reply is accepted, application proceeds to publication in Trademark Journal',
+                        'If not accepted, opportunity for personal hearing with the Registrar',
+                        'Failure to defend can lead to refusal or loss of priority date'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Why Choose Incorvo for Trademark Objection Reply?',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    ul: [
+                        'Expert IPR lawyers and trademark agents with 10+ years’ experience',
+                        'Strong, legally sound drafting with reference to judicial precedents',
+                        'Digital, pan-India support and fast turnaround (2–3 days typical for reply)',
+                        'Assistance with evidence collation, affidavit, and documentation',
+                        'Representation at Registry hearings and follow-up',
+                        'Regular status updates and reminders for deadlines',
+                        'Transparent pricing with no hidden charges'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Best Practices & Common Mistakes',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    ul: [
+                        'Respond well before the deadline to avoid abandonment',
+                        'Address each ground for objection clearly, with legal arguments and documentary evidence',
+                        'Avoid vague or generic replies—always cite facts and usage evidence',
+                        'Don’t ignore Registry hearing notices; missing them can jeopardize the application',
+                        'Consult trademark professionals for drafting replies, especially for complex objections',
+                        'Monitor application status regularly on IP India portal',
+                        'Maintain record of all submissions and acknowledgements'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Sample Scenarios & Solutions',
             descrption: [
                 {
-                    subTitle: '',
+                    subTitle: 'Case: Objection Due to Similar Existing Mark (Section 11)',
                     p: [
-                        '',
-                    ],
+                        'Incorvo analyzes the Registry database, distinguishes your mark, drafts a reply referencing usage, differences, and consumer perception, and supports with evidence for a favorable outcome.'
+                    ]
                 },
-            ],
+                {
+                    subTitle: 'Case: Objection for Lack of Distinctiveness (Section 9)',
+                    p: [
+                        'Our team helps prove acquired distinctiveness through sales records, media coverage, and long-term brand use, drafting a robust affidavit and reply.'
+                    ]
+                },
+                {
+                    subTitle: 'Case: Missed Deadline for Objection Reply',
+                    p: [
+                        'We guide clients on possibilities for revival or advise on fresh filing with improved application and distinctiveness strategy.'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Extended FAQs – Trademark Objection',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
-        },
+                    ul: [
+                        'Can a trademark objection be appealed? – Yes, through Registry hearing and further appeal to Intellectual Property Appellate Board (IPAB) or High Court.',
+                        'What if objection is due to similarity with a well-known mark? – Reply with evidence of differences and, if possible, secure a NOC from the prior owner.',
+                        'How often do trademarks get objected? – Approximately 40–60% of new applications may face objection, depending on the class and distinctiveness.',
+                        'Does objection mean final rejection? – No, it’s an opportunity to defend; many objections are successfully overcome.',
+                        'Is affidavit of usage mandatory? – Strongly recommended to prove prior use or brand recognition.',
+                        'Can I file objection reply myself? – Legally possible, but professional drafting is highly advisable for complex objections.',
+                        'What is the cost of filing a trademark objection reply? – Incorvo offers transparent pricing; government fee is not required, but professional fee applies.',
+                        'How to check status after filing reply? – Use the IP India online portal or Incorvo’s tracking updates.',
+                        'What happens after objection is cleared? – Application is advertised in the Trademark Journal for public opposition before registration.',
+                        'Can objection be raised after registration? – No, but registered trademarks may face rectification or cancellation proceedings if challenged later.'
+                    ]
+                }
+            ]
+        }
     ],
     faqs: [
         {
-            q: 'What is the minimum capital required to register a Private Limited Company?',
-            a: 'There is no minimum paid-up capital requirement for registering a Private Limited Company in India.',
+            q: 'How much time do I have to reply to a trademark objection?',
+            a: 'You must reply within 30 days from the issue date of the examination report; delay can lead to abandonment of your application.'
         },
         {
-            q: 'Can a foreigner be a director in a Private Limited Company?',
-            a: 'Yes, foreigners can be directors, but at least one director must be a resident of India, as per Section 149 of the Companies Act, 2013.',
+            q: 'Can I overcome all types of trademark objections?',
+            a: 'Many objections can be successfully overcome with strong legal arguments and evidence, but not all—some may require rebranding or revised filing.'
         },
         {
-            q: 'How long does it take to register a Private Limited Company in India?',
-            a: 'The registration process generally takes between 7-15 business days, depending on the speed of document verification and approvals.',
+            q: 'What if I ignore the trademark objection?',
+            a: 'Your application will be marked “abandoned,” and you will lose the original priority/filing date.'
         },
         {
-            q: 'What are the legal standards for Private Limited Companies?',
-            a: 'Compliance Requirements: Private Limited Companies must stick to several compliance requirements under the Companies Act, 2013, including having yearly general meetings, filing annual reports, hiring accountants, and more.',
+            q: 'Is hearing always required after filing a reply?',
+            a: 'No, many cases are decided based on the reply alone. Hearing is required only if Registrar seeks further clarification.'
         },
         {
-            q: 'Do I need a physical office for registration?',
-            a: 'Yes, a registered office in India is mandatory. This office must be in a location where official correspondence and notices from the ROC can be sent.',
+            q: 'Does trademark objection affect my business operations?',
+            a: 'You can continue to use the mark, but registration is put on hold until the objection is resolved.'
         },
         {
-            q: 'What are the perks of choosing a Private Limited Company structure?',
-            a: 'Advantages of Private Limited Company: Benefits include limited liability protection, ease of getting capital via shares, constant succession, reliability, and agreement with regulatory norms.',
+            q: 'What documents are best for proving usage/distinctiveness?',
+            a: 'Invoices, advertising material, packaging, website screenshots, and media coverage help establish long-term usage and market presence.'
         },
         {
-            q: 'Can a Private Limited Company change to a Public Limited Company?',
-            a: 'Conversion to Public Limited Company: Yes, a Private Limited Company may change to a Public Limited Company.',
+            q: 'Can Incorvo represent me at Registry hearings?',
+            a: 'Yes, our attorneys represent clients for Registry hearings and further appeals if needed.'
         },
         {
-            q: 'What is the difference between a Private Limited Company and a Limited Liability Partnership (LLP)?',
-            a: 'Difference from LLP: The basic difference between a Private Limited Company and a Limited liability Partnership (LLP) rests in their structure and responsibility features. A Private Limited Company has owners and limited liability protection, whereas an LLP has partners with limited liability but without shares.',
+            q: 'How does Incorvo track the status of my objection?',
+            a: 'We monitor the IP India portal and provide proactive updates, reminders, and next-step guidance.'
         },
         {
-            q: 'How can I change the name of my Private Limited Company?',
-            a: 'Changing Company Name: To change the name of a Private Limited Company, you need to follow the way given by the Ministry of Corporate Affairs in India.',
+            q: 'Can I file a new application if objection is not overcome?',
+            a: 'Yes, you may refile the mark with suitable changes, class, or improved distinctiveness strategy.'
         },
         {
-            q: 'What are the penalties for non-compliance with legal duties for Private Limited Companies?',
-            a: 'Penalties for Non-Compliance: Punishments for non-compliance with regulatory requirements for Private Limited Companies might change depending on the individual infringement and may include fines or other legal punishments as per the Companies Act, 2013.',
+            q: 'How do I get started with Incorvo for trademark objection?',
+            a: 'Contact us for a free evaluation of your examination report and a stepwise objection handling plan.'
         }
-    ],
-}
+    ]
+};

@@ -1,206 +1,288 @@
 export default {
     header: {
-        title: 'Private Limited Company Registration',
+        title: 'Patent Registration Services – Incorvo',
         list: [
-            'Register your private limited company in 7 business days with our expert assistance',
-            'Our online company registration service includes the following features',
-            'Obtain 2 Digital Signature Certificates (DSC) with 2 years validity',
-            'Secure 2 Director Identification Numbers (DIN)',
-            'Get unique name approval for your private company',
-            'Acquire PAN and TAN for the company',
-            'Open a current account with ICICI Bank',
-            'Drafting the Memorandum of Association and Articles of Association',
-            'Receive the official Company Incorporation Certificate',
-        ],
+            'Expert end-to-end support for patent registration in India and internationally',
+            'Consultation on patentability, prior art search, and strategy',
+            'Drafting and filing of provisional and complete patent applications',
+            'Assistance with individual, startup, and corporate inventor filings',
+            'Support for technology, product, and process patents',
+            'Filing with the Indian Patent Office and global protection via PCT',
+            'Liaison with patent examiners and handling of FER (First Examination Report)',
+            'Advisory for patent prosecution, opposition, and litigation support',
+            'Renewals, assignments, and post-grant compliance management',
+            'Transparent pricing, digital workflow, and confidential handling by Incorvo IP experts'
+        ]
     },
     content: [
         {
-            title: 'Private Limited Company Registration in India',
+            title: 'What is a Patent?',
             descrption: [
                 {
                     subTitle: '',
                     p: [
-                        'Currently, Private Limited Companies make upto almost 96% of the total companies in India. Till November 20, 2023, there are 25,99,660 private limited companies registered in India. The huge number of company registrations is a testament to the ease and benefits provided by India. Although registering a company in India is not mandatory, company registration offers significant benefits to founders as well as stakeholders. By the end, you will be able to understand the key legal requirements to register a private limited company in India, along with its compliance obligations and much more.'
-                    ],
-                },
-            ],
+                        'A patent is an exclusive legal right granted by the government to an inventor for a novel invention, whether it is a product, process, machine, or technology, that is new, involves an inventive step, and is capable of industrial application. A patent gives the inventor the right to exclude others from making, using, selling, or importing the invention for a specified period (usually 20 years from filing), in exchange for public disclosure of the invention.'
+                    ]
+                }
+            ]
         },
         {
-            title: 'What is a Private Limited Company?',
+            title: 'Who Should Apply for Patent Registration?',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        'In India, there are several companies that can be registered. A Private Limited Company is one of them. A Private Limited Company bearing the suffix of ‘Pvt. Ltd\'. At the end of its name is a separate legal entity registered under the Companies Act, 2013with the Registrar of Companies (ROC). The main feature of this type of company is that it offers limited liability protection to its shareholders; it means that the liability of the shareholders is only up to the extent of shares held by them, and the personal assets of shareholders (owners) are protected from the obligations of the company. The company can be owned by multiple shareholders and managed by appointed directors. It is separated from the owners of the company, and its legal existence continues even if there are changes in the ownership or management, which provides security and stability to the company.',
-                    ],
-                },
-            ],
+                    ul: [
+                        'Inventors, researchers, scientists, and R&D professionals with unique products or processes',
+                        'Startups and technology companies protecting innovative technology or products',
+                        'Universities, research institutes, and student innovators',
+                        'Corporates seeking to protect IP and build intangible business assets',
+                        'Individuals or businesses aiming to monetize or license inventions'
+                    ]
+                }
+            ]
         },
         {
-            title: 'Why Should You Register a Private Limited Company?',
+            title: 'Types of Patents in India',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        'There are several compelling reasons why forming a Private Limited Company can be beneficial:',
-                    ],
-                },
-                {
-                    subTitle: '1. Limited Liability Protection',
-                    p: [
-                        'As a private limited company, the liability of its shareholders is restricted to the unpaid amount on their shares. This means that if the company faces financial distress or legal liabilities, the personal assets of the shareholders (directors or members) will not be at risk.',
-                    ],
-                },
-                {
-                    subTitle: '2. Separate Legal Entity',
-                    p: [
-                        'A company is a juristic person in the eyes of the law. The legal entity of the company is distinct from its shareholders and directors. The company is capable of entering into contracts in its own name; it can sue and be sued in its own name. The liability and credibility of the company are separated from its stakeholders.',
-                    ],
-                },
-                {
-                    subTitle: '3. Perpetual Succession',
-                    p: [
-                        'The existence of the company is independent of the existence of its shareholders or directors. Unlike a partnership or sole proprietorship, the private limited company enjoys perpetual succession, which means that the existence of the company is not affected by the death, insolvency, or retirement of any shareholder or director. This perpetual succession guarantees the continuity of the business even if one of the company\'s stakeholders leaves the company.',
-                    ],
-                },
-                {
-                    subTitle: '4. Easy Transferability of Shares',
-                    p: [
-                        'Registering a company in India offers easy transferability of shares, which means that shares of the company can be transferred from one shareholder to another. The leverage smoothens out the transaction in the management of the company and later enhances the flexibility in the business operations of the company.',
-                    ],
-                },
-                {
-                    subTitle: '5. Access to Investments and Funding',
-                    p: [
-                        'Capital can be easily raised in a registered Private Limited Company, as Equity shares can be easily issued by the company to raise funds. Issuing equity shares attracts potential investors and venture capital to invest in the company.',
-                    ],
-                },
-                {
-                    subTitle: '6. Increased Trustworthiness',
-                    p: [
-                        'Registering a Private Limited Company enjoys greater market credibility as compared to other business structures. The greater credibility leads to increased trustworthiness among investors. The advantage is gained by the company due to its registration. Registering a company makes the company legally recognizable and shows that it meets the regulatory standards.',
-                    ],
-                },
-            ],
+                    table: {
+                        thead: {
+                            trow: [
+                                ['Type', 'Description', 'Example']
+                            ]
+                        },
+                        tbody: {
+                            trow: [
+                                [
+                                    'Product Patent',
+                                    'Protects a new product or composition of matter',
+                                    'New drug molecule, engineered material, electronic device'
+                                ],
+                                [
+                                    'Process Patent',
+                                    'Protects a new method or process of manufacturing/doing something',
+                                    'Novel method for producing a chemical, unique manufacturing process'
+                                ],
+                                [
+                                    'Design Patent',
+                                    'Protects ornamental or aesthetic features (covered under Design Act, not Patent Act)',
+                                    'Shape of a smartphone, decorative article design'
+                                ]
+                            ]
+                        }
+                    }
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Advantages of Patent Registration with Incorvo',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    ul: [
+                        'Exclusive rights to exploit, manufacture, use, and license the invention',
+                        'Legal protection against infringement and copying',
+                        'Commercial leverage for funding, licensing, and business expansion',
+                        'Builds intellectual property portfolio and brand credibility',
+                        'Eligibility for government grants, tax incentives, and startup recognition',
+                        'Potential for global protection via PCT (Patent Cooperation Treaty)'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Eligibility Criteria for Patent Registration',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    ul: [
+                        'The invention must be novel (not publicly disclosed anywhere in the world)',
+                        'Must involve an inventive step (not obvious to a person skilled in the field)',
+                        'Capable of industrial application (practical utility and reproducibility)',
+                        'Not falling under non-patentable subject matter (e.g., abstract ideas, natural discoveries, business methods, mathematical formulas)',
+                        'Complete, enabling disclosure in the application'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Step-by-Step Patent Registration Process with Incorvo',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    ol: [
+                        'Initial consultation and invention disclosure with Incorvo IP expert',
+                        'Prior art/patent search to check novelty and existing patents',
+                        'Drafting of provisional or complete specification (with claims, drawings, abstract)',
+                        'Filing of provisional (optional, for early priority) or complete patent application with Indian Patent Office',
+                        'Publication of application (after 18 months or on early request)',
+                        'Request for examination (within 48 months of filing)',
+                        'Examination by Patent Office and issuance of FER (First Examination Report)',
+                        'Response to FER and hearings (if required); amendments as needed',
+                        'Grant of patent and publication in Patent Journal',
+                        'Post-grant management: renewal fees, enforcement, licensing, and international filings'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Documents Required for Patent Registration',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    ul: [
+                        'Application form (Form 1) with inventor and applicant details',
+                        'Provisional or complete specification (Form 2) including claims, drawings, and abstract',
+                        'Statement and undertaking (Form 3) on foreign applications',
+                        'Declaration of inventorship (Form 5)',
+                        'Power of Attorney (if filed through agent/attorney)',
+                        'Assignment deed (if applicant is different from inventor)',
+                        'Priority documents (if claiming priority from an earlier application)',
+                        'Fee payment receipts',
+                        'Address proof and identity of applicant/inventor'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Timeline for Patent Registration in India',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    ul: [
+                        'Provisional patent filing grants “patent pending” status immediately',
+                        'Publication of application after 18 months (can be expedited)',
+                        'Examination report usually issued within 12–36 months from examination request',
+                        'Average grant timeline: 2–5 years (faster with expedited process for startups/women inventors)'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Post-Registration & Compliance for Patents',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    ul: [
+                        'Payment of renewal fees every year to keep patent in force (from 3rd year onwards)',
+                        'Recordal of assignments, licenses, or change in ownership',
+                        'Responding to opposition or infringement notices',
+                        'Enforcement and litigation support as required',
+                        'Filing for international patents within 12 months if global protection needed'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Common Mistakes to Avoid in Patent Registration',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    ul: [
+                        'Public disclosure or sale before filing, losing novelty',
+                        'Incomplete or vague specification and claims',
+                        'Missing deadlines for examination request or renewal fees',
+                        'Ignoring foreign filing deadlines (if global protection required)',
+                        'Overlooking non-patentable subject matter and exclusions'
+                    ]
+                }
+            ]
         },
+        {
+            title: 'Best Practices for Successful Patent Registration',
+            descrption: [
+                {
+                    subTitle: '',
+                    ul: [
+                        'Conduct a professional prior art search before investing in filing',
+                        'Draft claims with expert legal and technical support (like Incorvo)',
+                        'File a provisional application early to secure priority if R&D is ongoing',
+                        'Maintain strict confidentiality until filing is complete',
+                        'Track all deadlines and renewal dates with a compliance calendar',
+                        'Explore licensing and monetization opportunities for granted patents',
+                        'Consider PCT filing for global protection if targeting international markets'
+                    ]
+                }
+            ]
+        },
+        {
+            title: 'Why Choose Incorvo for Patent Registration?',
+            descrption: [
+                {
+                    subTitle: '',
+                    ul: [
+                        'Experienced patent attorneys and technical drafters for all domains',
+                        'Complete digital workflow: from invention disclosure to grant',
+                        'Transparent, fixed-fee pricing and milestone-based billing',
+                        'Support for individual inventors, startups, and corporates',
+                        'Assistance with opposition, appeals, and litigation',
+                        'Post-grant support for renewals, assignments, and global filings'
+                    ]
+                }
+            ]
+        },
+        {
+            title: 'Patent Registration: Extended FAQs',
+            descrption: [
+                {
+                    subTitle: '',
+                    ul: [
+                        'Who is eligible for patent protection? – The true and first inventor or their assignee, whether individual, company, or institute.',
+                        'Is a prototype required before filing a patent? – No, a complete enabling disclosure is sufficient; working model not mandatory.',
+                        'What is the difference between provisional and complete patent application? – Provisional secures early date but lacks claims; complete contains detailed claims for examination and grant.',
+                        'Can software be patented in India? – Only if embedded in novel hardware or produces a technical effect; pure algorithms are not patentable.',
+                        'How long is a patent valid? – 20 years from filing date, subject to annual renewals.',
+                        'Is patent registration valid worldwide? – No, patents are territorial; apply in each country or via PCT for multi-country protection.',
+                        'What if I miss the renewal fee? – Patent will lapse; restoration possible within prescribed period.',
+                        'Can I file a patent before public disclosure? – Yes, filing should precede any disclosure, publication, or sale.',
+                        'How can Incorvo help? – From prior art search to grant, FER response, global filings, and renewals, Incorvo handles every step.',
+                        'How do I get started? – Contact Incorvo for a free patentability consultation and stepwise onboarding.'
+                    ]
+                }
+            ]
+        }
     ],
     faqs: [
         {
-            q: 'What is the minimum capital required to register a Private Limited Company?',
-            a: 'There is no minimum paid-up capital requirement for registering a Private Limited Company in India.',
+            q: 'What inventions are not patentable in India?',
+            a: 'Abstract ideas, scientific principles, business methods, computer programs per se, plant/animal varieties, and traditional knowledge are not patentable.'
         },
         {
-            q: 'Can a foreigner be a director in a Private Limited Company?',
-            a: 'Yes, foreigners can be directors, but at least one director must be a resident of India, as per Section 149 of the Companies Act, 2013.',
+            q: 'How long does it take to get a patent granted?',
+            a: 'Typically 2–5 years, but can be faster with expedited examination for startups, women inventors, or select cases.'
         },
         {
-            q: 'How long does it take to register a Private Limited Company in India?',
-            a: 'The registration process generally takes between 7-15 business days, depending on the speed of document verification and approvals.',
+            q: 'Is it necessary to file a provisional patent?',
+            a: 'Not mandatory, but advisable for early protection while R&D continues.'
         },
         {
-            q: 'What are the legal standards for Private Limited Companies?',
-            a: 'Compliance Requirements: Private Limited Companies must stick to several compliance requirements under the Companies Act, 2013, including having yearly general meetings, filing annual reports, hiring accountants, and more.',
+            q: 'Can I license or sell my patent?',
+            a: 'Yes, patents are valuable assets that can be licensed, assigned, or sold for commercial gains.'
         },
         {
-            q: 'Do I need a physical office for registration?',
-            a: 'Yes, a registered office in India is mandatory. This office must be in a location where official correspondence and notices from the ROC can be sent.',
+            q: 'What is the official government fee for patent filing?',
+            a: 'Depends on applicant type (individual, startup, corporate) and number of pages/claims. Incorvo provides a detailed cost breakdown upfront.'
         },
         {
-            q: 'What are the perks of choosing a Private Limited Company structure?',
-            a: 'Advantages of Private Limited Company: Benefits include limited liability protection, ease of getting capital via shares, constant succession, reliability, and agreement with regulatory norms.',
+            q: 'Does Incorvo help with PCT/international patent filings?',
+            a: 'Yes, Incorvo supports PCT as well as country-specific filings for global protection.'
         },
         {
-            q: 'Can a Private Limited Company change to a Public Limited Company?',
-            a: 'Conversion to Public Limited Company: Yes, a Private Limited Company may change to a Public Limited Company.',
+            q: 'Can a foreigner file a patent in India?',
+            a: 'Yes, subject to reciprocity and through authorized Indian patent agents.'
         },
         {
-            q: 'What is the difference between a Private Limited Company and a Limited Liability Partnership (LLP)?',
-            a: 'Difference from LLP: The basic difference between a Private Limited Company and a Limited liability Partnership (LLP) rests in their structure and responsibility features. A Private Limited Company has owners and limited liability protection, whereas an LLP has partners with limited liability but without shares.',
+            q: 'Is my idea safe with Incorvo?',
+            a: 'Absolutely! Incorvo signs strict NDAs and uses secure workflows for all IP matters.'
         },
         {
-            q: 'How can I change the name of my Private Limited Company?',
-            a: 'Changing Company Name: To change the name of a Private Limited Company, you need to follow the way given by the Ministry of Corporate Affairs in India.',
+            q: 'What happens if my patent is opposed or infringed?',
+            a: 'Incorvo provides legal assistance for oppositions, appeals, and infringement lawsuits.'
         },
         {
-            q: 'What are the penalties for non-compliance with legal duties for Private Limited Companies?',
-            a: 'Penalties for Non-Compliance: Punishments for non-compliance with regulatory requirements for Private Limited Companies might change depending on the individual infringement and may include fines or other legal punishments as per the Companies Act, 2013.',
+            q: 'How do I start patent registration?',
+            a: 'Contact Incorvo for a free patentability assessment and step-by-step guidance.'
         }
-    ],
-}
+    ]
+};

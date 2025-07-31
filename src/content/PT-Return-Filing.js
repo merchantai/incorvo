@@ -1,206 +1,229 @@
 export default {
     header: {
-        title: 'Private Limited Company Registration',
+        title: 'Professional Tax Return Filing Services – Incorvo',
         list: [
-            'Register your private limited company in 7 business days with our expert assistance',
-            'Our online company registration service includes the following features',
-            'Obtain 2 Digital Signature Certificates (DSC) with 2 years validity',
-            'Secure 2 Director Identification Numbers (DIN)',
-            'Get unique name approval for your private company',
-            'Acquire PAN and TAN for the company',
-            'Open a current account with ICICI Bank',
-            'Drafting the Memorandum of Association and Articles of Association',
-            'Receive the official Company Incorporation Certificate',
-        ],
+            'End-to-end PT (Professional Tax) return filing and compliance for businesses and professionals',
+            'Expert guidance for monthly, quarterly, and annual PT returns in all applicable states',
+            'Automated calculation and digital documentation of employee deductions',
+            'Preparation and timely filing of PT returns as per state-specific schedules',
+            'Assistance in PT challan payments and e-receipt maintenance',
+            'Support for PT certificate renewals, amendments, and surrender',
+            'Management of employee data, new joiners, and exits for PT compliance',
+            'Dedicated compliance manager for queries and state-wise updates',
+            'Reminders for return deadlines, payment due dates, and renewal filings',
+            'Confidential handling of all payroll and PT documentation'
+        ]
     },
     content: [
         {
-            title: 'Private Limited Company Registration in India',
+            title: 'What is Professional Tax Return Filing?',
             descrption: [
                 {
                     subTitle: '',
                     p: [
-                        'Currently, Private Limited Companies make upto almost 96% of the total companies in India. Till November 20, 2023, there are 25,99,660 private limited companies registered in India. The huge number of company registrations is a testament to the ease and benefits provided by India. Although registering a company in India is not mandatory, company registration offers significant benefits to founders as well as stakeholders. By the end, you will be able to understand the key legal requirements to register a private limited company in India, along with its compliance obligations and much more.'
-                    ],
-                },
-            ],
+                        'Professional Tax (PT) return filing is a statutory obligation for all employers and professionals registered under the PT Act in applicable states of India. It involves reporting PT deducted from employee salaries, remitting the dues, and filing returns within prescribed due dates. Incorvo ensures timely and accurate PT returns, helping you avoid penalties and maintain regulatory compliance.'
+                    ]
+                }
+            ]
         },
         {
-            title: 'What is a Private Limited Company?',
+            title: 'Who Must File PT Returns?',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        'In India, there are several companies that can be registered. A Private Limited Company is one of them. A Private Limited Company bearing the suffix of ‘Pvt. Ltd\'. At the end of its name is a separate legal entity registered under the Companies Act, 2013with the Registrar of Companies (ROC). The main feature of this type of company is that it offers limited liability protection to its shareholders; it means that the liability of the shareholders is only up to the extent of shares held by them, and the personal assets of shareholders (owners) are protected from the obligations of the company. The company can be owned by multiple shareholders and managed by appointed directors. It is separated from the owners of the company, and its legal existence continues even if there are changes in the ownership or management, which provides security and stability to the company.',
-                    ],
-                },
-            ],
+                    ul: [
+                        'Employers (companies, LLPs, proprietors, partnerships) with salaried staff in PT-levying states',
+                        'Self-employed professionals registered under state PT laws (doctors, CAs, architects, consultants, etc.)',
+                        'Businesses with multi-state operations requiring state-wise PT return filings',
+                        'Entities with PT Enrollment and Registration Certificates as required by law'
+                    ]
+                }
+            ]
         },
         {
-            title: 'Why Should You Register a Private Limited Company?',
+            title: 'Incorvo’s PT Return Filing Service – Key Features',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        'There are several compelling reasons why forming a Private Limited Company can be beneficial:',
-                    ],
-                },
-                {
-                    subTitle: '1. Limited Liability Protection',
-                    p: [
-                        'As a private limited company, the liability of its shareholders is restricted to the unpaid amount on their shares. This means that if the company faces financial distress or legal liabilities, the personal assets of the shareholders (directors or members) will not be at risk.',
-                    ],
-                },
-                {
-                    subTitle: '2. Separate Legal Entity',
-                    p: [
-                        'A company is a juristic person in the eyes of the law. The legal entity of the company is distinct from its shareholders and directors. The company is capable of entering into contracts in its own name; it can sue and be sued in its own name. The liability and credibility of the company are separated from its stakeholders.',
-                    ],
-                },
-                {
-                    subTitle: '3. Perpetual Succession',
-                    p: [
-                        'The existence of the company is independent of the existence of its shareholders or directors. Unlike a partnership or sole proprietorship, the private limited company enjoys perpetual succession, which means that the existence of the company is not affected by the death, insolvency, or retirement of any shareholder or director. This perpetual succession guarantees the continuity of the business even if one of the company\'s stakeholders leaves the company.',
-                    ],
-                },
-                {
-                    subTitle: '4. Easy Transferability of Shares',
-                    p: [
-                        'Registering a company in India offers easy transferability of shares, which means that shares of the company can be transferred from one shareholder to another. The leverage smoothens out the transaction in the management of the company and later enhances the flexibility in the business operations of the company.',
-                    ],
-                },
-                {
-                    subTitle: '5. Access to Investments and Funding',
-                    p: [
-                        'Capital can be easily raised in a registered Private Limited Company, as Equity shares can be easily issued by the company to raise funds. Issuing equity shares attracts potential investors and venture capital to invest in the company.',
-                    ],
-                },
-                {
-                    subTitle: '6. Increased Trustworthiness',
-                    p: [
-                        'Registering a Private Limited Company enjoys greater market credibility as compared to other business structures. The greater credibility leads to increased trustworthiness among investors. The advantage is gained by the company due to its registration. Registering a company makes the company legally recognizable and shows that it meets the regulatory standards.',
-                    ],
-                },
-            ],
+                    ul: [
+                        'Monthly/quarterly/annual PT return preparation and filing as per each state’s rules',
+                        'Accurate PT calculation as per applicable salary slabs and exemptions',
+                        'Challan preparation, online payment, and e-receipt archive',
+                        'Updating and managing employee data for PT compliance (new joinees, exits, salary changes)',
+                        'Handling PT amendments, renewal, surrender, and audit queries',
+                        'Dedicated compliance manager for state-wise support',
+                        'Automated compliance calendar and deadline reminders'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Professional Tax Return Filing Process with Incorvo',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    ol: [
+                        'Client onboarding and review of PT registration and employee master data',
+                        'Monthly/quarterly payroll processing and PT deduction computation',
+                        'Preparation of PT challan and return form as per state law',
+                        'Online or offline filing of PT return with payment to state treasury',
+                        'Archival of filed return, challan, and payment proof for future reference',
+                        'Updates for employee changes (joiners, exits, salary revisions)',
+                        'Ongoing compliance checks and reminders for due dates',
+                        'Handling of state audits, PT notices, and regularization of any compliance gaps'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'State-wise PT Return Schedules & Due Dates (Illustrative Table)',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    table: {
+                        thead: {
+                            trow: [
+                                ['State', 'Return Period', 'Due Date', 'Payment Mode']
+                            ]
+                        },
+                        tbody: {
+                            trow: [
+                                ['Maharashtra', 'Monthly', 'Last day of the month', 'Online'],
+                                ['Karnataka', 'Monthly/Annual', '20th of the month/April 30', 'Online/Offline'],
+                                ['West Bengal', 'Monthly/Annual', '21st of the month/Annual by April 30', 'Online'],
+                                ['Tamil Nadu', 'Half-yearly', 'April 30, October 31', 'Online/Offline'],
+                                ['Gujarat', 'Monthly/Quarterly/Annual', '15th of following month/quarter/year', 'Online'],
+                                ['Telangana', 'Monthly/Annual', '10th of the month/April 30', 'Online/Offline']
+                            ]
+                        }
+                    }
+                }
+            ]
         },
         {
-            title: '',
+            title: 'What If PT Returns Are Not Filed on Time?',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    ul: [
+                        'Late payment or filing attracts penalties and interest as per state PT Act',
+                        'Repeat defaults may lead to prosecution or business license issues',
+                        'Employees may face tax credit mismatches and HR complaints',
+                        'Authorities may initiate audits or send show-cause notices',
+                        'Incorvo’s automated calendar, reminders, and compliance checks help you avoid all such risks'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Common Pitfalls in PT Return Filing',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    ul: [
+                        'Missing monthly or annual PT filing deadlines',
+                        'Incorrect deduction due to outdated salary data',
+                        'Failure to update new joiners/exits in return',
+                        'Non-archival of challan/return for future audits',
+                        'Missing multi-state compliance for pan-India businesses',
+                        'Incorrect payment mode or state treasury details'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Best Practices for PT Compliance & Return Filing',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    ul: [
+                        'Update employee records and payroll every month',
+                        'Cross-check PT deduction and salary slab for each employee',
+                        'Automate reminders for state-wise PT return deadlines',
+                        'Archive all PT return filings and payment challans',
+                        'Review exemption notifications and PT slab changes regularly',
+                        'Engage a compliance partner (like Incorvo) for hassle-free filing'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Why Choose Incorvo for PT Return Filing?',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    ul: [
+                        'Expert pan-India experience with all major PT states and formats',
+                        'End-to-end digital workflow: zero paperwork, maximum accuracy',
+                        'Dedicated compliance manager for your business',
+                        'Integration with payroll and HRMS for seamless data flow',
+                        'Transparent pricing and milestone-based engagement',
+                        'Support for audits, notices, amendments, and renewals'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'PT Return Filing: Extended FAQs',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
-        },
+                    ul: [
+                        'Is PT return filing mandatory for all registered businesses? – Yes, if your state PT Act applies and you have a PT Registration/Enrollment Certificate.',
+                        'Do I file returns even if there are no employees? – Yes, a NIL return may be required if no salary is paid or employees fall below slab.',
+                        'How do I pay PT online? – Through state PT portal, bank challan, or treasury payment as per state rules.',
+                        'Can I correct a PT return after filing? – Amendments can be made as per state procedures; Incorvo assists in all such corrections.',
+                        'How long should PT returns and challans be archived? – At least 7 years for audit/reference.',
+                        'Can Incorvo handle multi-state PT returns for my business? – Absolutely. We manage state-wise compliance for pan-India entities.',
+                        'What documents are needed for PT return filing? – Employee salary details, PT registration, previous returns, challans, and payment receipts.',
+                        'What is the penalty for late PT filing? – Varies by state, typically includes daily penalties, interest, and fines.',
+                        'Does Incorvo help with PT audits and notices? – Yes, our experts manage audits, response to notices, and regularization of lapses.',
+                        'How do I get started? – Contact Incorvo for a compliance check and customized PT return workflow.'
+                    ]
+                }
+            ]
+        }
     ],
     faqs: [
         {
-            q: 'What is the minimum capital required to register a Private Limited Company?',
-            a: 'There is no minimum paid-up capital requirement for registering a Private Limited Company in India.',
+            q: 'Is PT return filing required if all employees are below the PT slab?',
+            a: 'Most states require a NIL return to be filed even if no tax is deducted. Always check state-specific rules.'
         },
         {
-            q: 'Can a foreigner be a director in a Private Limited Company?',
-            a: 'Yes, foreigners can be directors, but at least one director must be a resident of India, as per Section 149 of the Companies Act, 2013.',
+            q: 'What happens if I miss the PT return deadline?',
+            a: 'Late filing leads to penalties, interest, and possible compliance notices. Incorvo’s reminders help you avoid such issues.'
         },
         {
-            q: 'How long does it take to register a Private Limited Company in India?',
-            a: 'The registration process generally takes between 7-15 business days, depending on the speed of document verification and approvals.',
+            q: 'Will I have a dedicated compliance manager for PT returns?',
+            a: 'Yes. Incorvo assigns a compliance expert for all your PT filing and query needs.'
         },
         {
-            q: 'What are the legal standards for Private Limited Companies?',
-            a: 'Compliance Requirements: Private Limited Companies must stick to several compliance requirements under the Companies Act, 2013, including having yearly general meetings, filing annual reports, hiring accountants, and more.',
+            q: 'Can PT returns be filed online in all states?',
+            a: 'Most states offer online PT return filing, though some still permit offline or manual filing. Incorvo supports both modes.'
         },
         {
-            q: 'Do I need a physical office for registration?',
-            a: 'Yes, a registered office in India is mandatory. This office must be in a location where official correspondence and notices from the ROC can be sent.',
+            q: 'How do I manage PT compliance for offices in multiple states?',
+            a: 'Incorvo handles state-wise registration, return filing, payment, and compliance for pan-India businesses.'
         },
         {
-            q: 'What are the perks of choosing a Private Limited Company structure?',
-            a: 'Advantages of Private Limited Company: Benefits include limited liability protection, ease of getting capital via shares, constant succession, reliability, and agreement with regulatory norms.',
+            q: 'What is the penalty for wrong or missed PT deduction?',
+            a: 'Penalties vary by state and can include daily fines, interest, and business compliance risks.'
         },
         {
-            q: 'Can a Private Limited Company change to a Public Limited Company?',
-            a: 'Conversion to Public Limited Company: Yes, a Private Limited Company may change to a Public Limited Company.',
+            q: 'Does Incorvo assist in PT certificate amendment or surrender?',
+            a: 'Yes, from amendment to surrender, renewal, and transfer, Incorvo provides end-to-end support.'
         },
         {
-            q: 'What is the difference between a Private Limited Company and a Limited Liability Partnership (LLP)?',
-            a: 'Difference from LLP: The basic difference between a Private Limited Company and a Limited liability Partnership (LLP) rests in their structure and responsibility features. A Private Limited Company has owners and limited liability protection, whereas an LLP has partners with limited liability but without shares.',
+            q: 'How do I start PT return filing with Incorvo?',
+            a: 'Contact us for a document checklist, compliance workflow, and onboarding support tailored to your state(s) and business.'
         },
         {
-            q: 'How can I change the name of my Private Limited Company?',
-            a: 'Changing Company Name: To change the name of a Private Limited Company, you need to follow the way given by the Ministry of Corporate Affairs in India.',
+            q: 'How long does PT return filing take each period?',
+            a: 'With proper data, most returns are filed within 1–3 working days after salary processing and deduction.'
         },
         {
-            q: 'What are the penalties for non-compliance with legal duties for Private Limited Companies?',
-            a: 'Penalties for Non-Compliance: Punishments for non-compliance with regulatory requirements for Private Limited Companies might change depending on the individual infringement and may include fines or other legal punishments as per the Companies Act, 2013.',
+            q: 'Does Incorvo integrate PT return filing with payroll?',
+            a: 'Yes, we sync PT deduction and filing workflows with your payroll and HR systems for seamless compliance.'
         }
-    ],
-}
+    ]
+};

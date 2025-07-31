@@ -1,206 +1,267 @@
 export default {
     header: {
-        title: 'Private Limited Company Registration',
+        title: 'Annual Filing for LLP (Limited Liability Partnership)',
         list: [
-            'Register your private limited company in 7 business days with our expert assistance',
-            'Our online company registration service includes the following features',
-            'Obtain 2 Digital Signature Certificates (DSC) with 2 years validity',
-            'Secure 2 Director Identification Numbers (DIN)',
-            'Get unique name approval for your private company',
-            'Acquire PAN and TAN for the company',
-            'Open a current account with ICICI Bank',
-            'Drafting the Memorandum of Association and Articles of Association',
-            'Receive the official Company Incorporation Certificate',
-        ],
+            'Complete annual ROC compliance for LLPs handled by Incorvo professionals',
+            'Filing of LLP Form 8 (Statement of Account & Solvency) and Form 11 (Annual Return)',
+            'Expert CA/CS review and digital e-filing of all statutory documents',
+            'Compliance for newly incorporated and ongoing LLPs, regardless of business turnover',
+            'Preparation of partners’ disclosures, board resolutions, and all mandatory registers',
+            'Income Tax Return (ITR-5) filing and audit support as per IT Act',
+            'Digital onboarding, compliance calendar, and alerts for every client',
+            'Penalty mitigation and catch-up filings for previous years or defaults',
+            'Transparent, affordable annual packages – no hidden charges',
+            'Dedicated compliance manager and advisory for all LLP-related queries'
+        ]
     },
     content: [
         {
-            title: 'Private Limited Company Registration in India',
+            title: 'What is Annual Filing for LLP?',
             descrption: [
                 {
                     subTitle: '',
                     p: [
-                        'Currently, Private Limited Companies make upto almost 96% of the total companies in India. Till November 20, 2023, there are 25,99,660 private limited companies registered in India. The huge number of company registrations is a testament to the ease and benefits provided by India. Although registering a company in India is not mandatory, company registration offers significant benefits to founders as well as stakeholders. By the end, you will be able to understand the key legal requirements to register a private limited company in India, along with its compliance obligations and much more.'
-                    ],
-                },
-            ],
+                        'Every Limited Liability Partnership (LLP) registered in India must comply with annual ROC and tax filing requirements, irrespective of revenue or business activity. These compliances are mandatory under the LLP Act, 2008 and Income Tax Act, 1961. Annual filing maintains your LLP’s legal standing, avoids penalties, and preserves credibility with banks, customers, and regulatory authorities.',
+                        'Incorvo delivers a seamless compliance experience—managing all filings, documentation, and advisory so your LLP stays fully compliant and penalty-free.'
+                    ]
+                }
+            ]
         },
         {
-            title: 'What is a Private Limited Company?',
+            title: 'LLP Annual Filing Compliance Calendar (Table)',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        'In India, there are several companies that can be registered. A Private Limited Company is one of them. A Private Limited Company bearing the suffix of ‘Pvt. Ltd\'. At the end of its name is a separate legal entity registered under the Companies Act, 2013with the Registrar of Companies (ROC). The main feature of this type of company is that it offers limited liability protection to its shareholders; it means that the liability of the shareholders is only up to the extent of shares held by them, and the personal assets of shareholders (owners) are protected from the obligations of the company. The company can be owned by multiple shareholders and managed by appointed directors. It is separated from the owners of the company, and its legal existence continues even if there are changes in the ownership or management, which provides security and stability to the company.',
-                    ],
-                },
-            ],
+                    table: {
+                        thead: {
+                            trow: [
+                                ['Compliance Activity', 'Form / Document', 'Due Date', 'Responsible Party']
+                            ]
+                        },
+                        tbody: {
+                            trow: [
+                                ['Filing of Annual Return', 'Form 11', '30th May (every year)', 'Partners/Designated Partner/CS'],
+                                ['Statement of Account & Solvency', 'Form 8', '30th October (every year)', 'Partners/CA/CS'],
+                                ['Income Tax Return', 'ITR-5', '31st July (non-audit) / 31st Oct (audit case)', 'CA/Partners'],
+                                ['Audit of Accounts (if applicable)', 'Audited Financials', 'Before ITR due date', 'CA'],
+                                ['KYC of Partners (if applicable)', 'DIR-3 KYC', 'By 30th September', 'Partner/CS']
+                            ]
+                        }
+                    }
+                }
+            ]
         },
         {
-            title: 'Why Should You Register a Private Limited Company?',
+            title: 'Key Statutory Registers & Documents',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        'There are several compelling reasons why forming a Private Limited Company can be beneficial:',
-                    ],
-                },
-                {
-                    subTitle: '1. Limited Liability Protection',
-                    p: [
-                        'As a private limited company, the liability of its shareholders is restricted to the unpaid amount on their shares. This means that if the company faces financial distress or legal liabilities, the personal assets of the shareholders (directors or members) will not be at risk.',
-                    ],
-                },
-                {
-                    subTitle: '2. Separate Legal Entity',
-                    p: [
-                        'A company is a juristic person in the eyes of the law. The legal entity of the company is distinct from its shareholders and directors. The company is capable of entering into contracts in its own name; it can sue and be sued in its own name. The liability and credibility of the company are separated from its stakeholders.',
-                    ],
-                },
-                {
-                    subTitle: '3. Perpetual Succession',
-                    p: [
-                        'The existence of the company is independent of the existence of its shareholders or directors. Unlike a partnership or sole proprietorship, the private limited company enjoys perpetual succession, which means that the existence of the company is not affected by the death, insolvency, or retirement of any shareholder or director. This perpetual succession guarantees the continuity of the business even if one of the company\'s stakeholders leaves the company.',
-                    ],
-                },
-                {
-                    subTitle: '4. Easy Transferability of Shares',
-                    p: [
-                        'Registering a company in India offers easy transferability of shares, which means that shares of the company can be transferred from one shareholder to another. The leverage smoothens out the transaction in the management of the company and later enhances the flexibility in the business operations of the company.',
-                    ],
-                },
-                {
-                    subTitle: '5. Access to Investments and Funding',
-                    p: [
-                        'Capital can be easily raised in a registered Private Limited Company, as Equity shares can be easily issued by the company to raise funds. Issuing equity shares attracts potential investors and venture capital to invest in the company.',
-                    ],
-                },
-                {
-                    subTitle: '6. Increased Trustworthiness',
-                    p: [
-                        'Registering a Private Limited Company enjoys greater market credibility as compared to other business structures. The greater credibility leads to increased trustworthiness among investors. The advantage is gained by the company due to its registration. Registering a company makes the company legally recognizable and shows that it meets the regulatory standards.',
-                    ],
-                },
-            ],
+                    ul: [
+                        'Register of Partners',
+                        'Statement of Account & Solvency (Form 8)',
+                        'Annual Return (Form 11)',
+                        'Minutes Book (of meetings/resolutions, if any)',
+                        'PAN, LLP Agreement, and all prior ROC acknowledgments',
+                        'Bank statements, invoices, challans for IT/GST',
+                        'Audit report (if turnover > Rs. 40 lakh or contribution > Rs. 25 lakh)',
+                        'Income Tax computation and working papers'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Mandatory ROC Filings for LLP (Table)',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    table: {
+                        thead: {
+                            trow: [
+                                ['Form', 'Purpose', 'Who Files', 'Due Date']
+                            ]
+                        },
+                        tbody: {
+                            trow: [
+                                ['Form 11', 'Annual Return of LLP (summary of management & partners)', 'Designated Partner/CS', '30th May'],
+                                ['Form 8', 'Statement of Account & Solvency (financials and solvency declaration)', 'Designated Partner/CA/CS', '30th October'],
+                                ['ITR-5', 'Income Tax Return of LLP', 'CA/Partners', '31st July/31st Oct']
+                            ]
+                        }
+                    }
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Who Needs to File Annual Returns for LLP?',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    ul: [
+                        'All LLPs registered in India (active or inactive), regardless of turnover',
+                        'LLPs incorporated during the year (from the date of incorporation)',
+                        'Designated Partners responsible for timely compliance (personal liability for default)',
+                        'LLPs with NIL business or bank transactions must still file mandatory forms'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Late Filing & Penalties for LLPs',
             descrption: [
                 {
                     subTitle: '',
                     p: [
-                        '',
-                    ],
-                },
-            ],
+                        'Delayed filings of Form 8 or Form 11 attract a penalty of Rs. 100 per day, per form, with no maximum limit—quickly resulting in heavy late fees. Prolonged non-compliance may lead to prosecution, inability to close LLP, and director/partner disqualification. Incorvo’s compliance calendar and reminders ensure zero late fees and penalty risk for clients.'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'LLP Audit Requirements',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    ul: [
+                        'LLP must get accounts audited by a Chartered Accountant if:',
+                        'Turnover exceeds Rs. 40 lakh in any financial year, OR',
+                        'Capital contribution exceeds Rs. 25 lakh',
+                        'Audit is not mandatory for smaller LLPs below these limits, but all must file Form 8 & 11'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Why is Annual Compliance Critical for LLP?',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    ul: [
+                        'Maintains active legal status and credibility with ROC/MCA',
+                        'Avoids late fees, prosecution, and partner disqualification',
+                        'Prevents accidental LLP strike-off by ROC',
+                        'Required for loans, tenders, or third-party contracts',
+                        'Ensures legal protection for partners and business assets'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Incorvo’s LLP Annual Filing – Step-by-Step Workflow',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    ol: [
+                        'Compliance onboarding and review of prior ROC/Tax filings',
+                        'Secure collection of financials, partner KYC, and LLP agreement',
+                        'Drafting and preparation of Form 8, Form 11, and ITR-5',
+                        'Board resolution, if needed, for financial statement approval',
+                        'Digital e-filing of ROC forms with DSC and payment of government fees',
+                        'CA audit (if applicable), and filing of ITR-5 (with tax computation)',
+                        'Issuance of compliance report, calendar, and document repository to client'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Common LLP Compliance Mistakes to Avoid',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    ul: [
+                        'Missing Form 11 or Form 8 deadlines',
+                        'Incorrect/Incomplete details in ROC forms',
+                        'Non-maintenance of partners’ register and minutes',
+                        'Not updating ROC with partner/registered address changes',
+                        'Overlooking audit requirements if turnover or capital crosses limit',
+                        'Assuming NIL business means no need for compliance'
+                    ]
+                }
+            ]
         },
+        {
+            title: 'Benefits of Incorvo’s LLP Compliance Package',
+            descrption: [
+                {
+                    subTitle: '',
+                    ul: [
+                        'All filings (ROC, ITR, GST) managed in one place',
+                        'Personal compliance manager for reminders and document collection',
+                        'All board resolutions, registers, and e-filings drafted by experts',
+                        'Year-round support by CA/CS for all LLP queries',
+                        'Catch-up compliance and penalty mitigation for late years',
+                        'Affordable fixed fee—no surprise charges'
+                    ]
+                }
+            ]
+        },
+        {
+            title: 'Annual Filing FAQs for LLPs',
+            descrption: [
+                {
+                    subTitle: '',
+                    ul: [
+                        'Is annual filing mandatory for all LLPs? – Yes, even for NIL turnover or dormant LLPs.',
+                        'Which forms are compulsory for ROC annual filing? – Form 11 and Form 8 are both mandatory for all LLPs.',
+                        'What are the due dates for annual ROC filings? – Form 11: 30th May; Form 8: 30th October each year.',
+                        'Is audit required for every LLP? – Only if turnover exceeds Rs. 40 lakh or capital > Rs. 25 lakh.',
+                        'What are the penalties for late filing of Form 8 or 11? – Rs. 100 per day, per form, no maximum cap.',
+                        'Can Incorvo help with previous years’ catch-up compliance? – Yes, we offer catch-up filings and penalty mitigation.',
+                        'Does Incorvo provide compliance calendar and reminders? – Yes, all clients get a personalized calendar and alerts.',
+                        'Can Incorvo handle GST, TDS, and Income Tax returns for LLPs? – Absolutely. We offer a full suite of ROC and tax services.'
+                    ]
+                }
+            ]
+        },
+        {
+            title: 'Why Choose Incorvo for LLP Annual Compliance?',
+            descrption: [
+                {
+                    subTitle: '',
+                    ul: [
+                        'All ROC, ITR, and GST filings handled by expert CA/CS',
+                        'Dedicated compliance manager for every LLP client',
+                        'Digital workflow—no office visits needed',
+                        'Catch-up compliance and penalty mitigation for defaults',
+                        'Free compliance review and checklist',
+                        'Affordable annual compliance packages, no hidden fees',
+                        'End-to-end support for all LLP changes: partner addition, address change, closure, etc.'
+                    ]
+                }
+            ]
+        }
     ],
     faqs: [
         {
-            q: 'What is the minimum capital required to register a Private Limited Company?',
-            a: 'There is no minimum paid-up capital requirement for registering a Private Limited Company in India.',
+            q: 'Is annual filing mandatory for all LLPs in India?',
+            a: 'Yes. Every LLP, whether active, inactive, or with NIL business, must file Form 8, Form 11, and ITR-5 every year.'
         },
         {
-            q: 'Can a foreigner be a director in a Private Limited Company?',
-            a: 'Yes, foreigners can be directors, but at least one director must be a resident of India, as per Section 149 of the Companies Act, 2013.',
+            q: 'What are the ROC annual filing forms for LLP?',
+            a: 'Form 11 (Annual Return) by 30th May and Form 8 (Statement of Account & Solvency) by 30th October are mandatory.'
         },
         {
-            q: 'How long does it take to register a Private Limited Company in India?',
-            a: 'The registration process generally takes between 7-15 business days, depending on the speed of document verification and approvals.',
+            q: 'What is the penalty for late annual filing of LLP forms?',
+            a: 'A penalty of Rs. 100 per day, per form, applies from the due date until filing—no upper limit.'
         },
         {
-            q: 'What are the legal standards for Private Limited Companies?',
-            a: 'Compliance Requirements: Private Limited Companies must stick to several compliance requirements under the Companies Act, 2013, including having yearly general meetings, filing annual reports, hiring accountants, and more.',
+            q: 'Is audit compulsory for every LLP?',
+            a: 'No, only LLPs with turnover above Rs. 40 lakh or capital above Rs. 25 lakh require audit; others are exempt.'
         },
         {
-            q: 'Do I need a physical office for registration?',
-            a: 'Yes, a registered office in India is mandatory. This office must be in a location where official correspondence and notices from the ROC can be sent.',
+            q: 'What if LLP has not done any business during the year?',
+            a: 'Still mandatory to file Form 8, Form 11, and ITR-5 to keep the LLP active and compliant.'
         },
         {
-            q: 'What are the perks of choosing a Private Limited Company structure?',
-            a: 'Advantages of Private Limited Company: Benefits include limited liability protection, ease of getting capital via shares, constant succession, reliability, and agreement with regulatory norms.',
+            q: 'Can Incorvo help with catch-up compliance for previous years?',
+            a: 'Yes, we specialize in regularizing LLPs with defaults and reducing penalty risks.'
         },
         {
-            q: 'Can a Private Limited Company change to a Public Limited Company?',
-            a: 'Conversion to Public Limited Company: Yes, a Private Limited Company may change to a Public Limited Company.',
+            q: 'Does Incorvo provide compliance calendar and reminders?',
+            a: 'Absolutely. Every LLP client receives a custom compliance calendar and due date alerts.'
         },
         {
-            q: 'What is the difference between a Private Limited Company and a Limited Liability Partnership (LLP)?',
-            a: 'Difference from LLP: The basic difference between a Private Limited Company and a Limited liability Partnership (LLP) rests in their structure and responsibility features. A Private Limited Company has owners and limited liability protection, whereas an LLP has partners with limited liability but without shares.',
-        },
-        {
-            q: 'How can I change the name of my Private Limited Company?',
-            a: 'Changing Company Name: To change the name of a Private Limited Company, you need to follow the way given by the Ministry of Corporate Affairs in India.',
-        },
-        {
-            q: 'What are the penalties for non-compliance with legal duties for Private Limited Companies?',
-            a: 'Penalties for Non-Compliance: Punishments for non-compliance with regulatory requirements for Private Limited Companies might change depending on the individual infringement and may include fines or other legal punishments as per the Companies Act, 2013.',
+            q: 'How do I get started with Incorvo’s annual LLP compliance service?',
+            a: 'Contact us for a free review and checklist. We collect your documents, prepare filings, and keep your LLP 100% compliant.'
         }
-    ],
-}
+    ]
+};

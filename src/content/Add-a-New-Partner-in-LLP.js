@@ -1,206 +1,227 @@
 export default {
     header: {
-        title: 'Private Limited Company Registration',
+        title: 'Add a New Partner in LLP – Incorvo Expert Services',
         list: [
-            'Register your private limited company in 7 business days with our expert assistance',
-            'Our online company registration service includes the following features',
-            'Obtain 2 Digital Signature Certificates (DSC) with 2 years validity',
-            'Secure 2 Director Identification Numbers (DIN)',
-            'Get unique name approval for your private company',
-            'Acquire PAN and TAN for the company',
-            'Open a current account with ICICI Bank',
-            'Drafting the Memorandum of Association and Articles of Association',
-            'Receive the official Company Incorporation Certificate',
-        ],
+            'Seamless addition of new partners in your Limited Liability Partnership (LLP) with Incorvo',
+            'Complete online support for legal documentation and MCA filing',
+            'Advisory on eligibility, rights, obligations, and partner exit options',
+            'Preparation and amendment of LLP Agreement as per new shareholding',
+            'Digital DSC, PAN, and DIN application support if needed',
+            'Drafting of resolution, forms, and consent letters',
+            'End-to-end MCA e-filing: DIR-3, DIR-12, Form 3 & Form 4',
+            'Statutory compliance: ROC intimation, partner KYC, regulatory updates',
+            'Free consultation on capital contribution and profit-sharing',
+            'Dedicated Incorvo compliance manager for every engagement',
+            'Affordable, transparent pricing — no hidden charges'
+        ]
     },
     content: [
         {
-            title: 'Private Limited Company Registration in India',
+            title: 'Introduction: Adding a New Partner to Your LLP',
             descrption: [
                 {
                     subTitle: '',
                     p: [
-                        'Currently, Private Limited Companies make upto almost 96% of the total companies in India. Till November 20, 2023, there are 25,99,660 private limited companies registered in India. The huge number of company registrations is a testament to the ease and benefits provided by India. Although registering a company in India is not mandatory, company registration offers significant benefits to founders as well as stakeholders. By the end, you will be able to understand the key legal requirements to register a private limited company in India, along with its compliance obligations and much more.'
-                    ],
-                },
-            ],
+                        'A Limited Liability Partnership (LLP) allows for easy expansion by admitting new partners to support growth, skill requirements, or succession planning. However, adding a new partner involves legal formalities, internal documentation, regulatory filings, and sometimes changes to capital or profit-sharing arrangements. Incorvo ensures the entire process is smooth, compliant, and completed as quickly as possible.'
+                    ]
+                }
+            ]
         },
         {
-            title: 'What is a Private Limited Company?',
+            title: 'Who Can Be Added as a Partner in LLP?',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        'In India, there are several companies that can be registered. A Private Limited Company is one of them. A Private Limited Company bearing the suffix of ‘Pvt. Ltd\'. At the end of its name is a separate legal entity registered under the Companies Act, 2013with the Registrar of Companies (ROC). The main feature of this type of company is that it offers limited liability protection to its shareholders; it means that the liability of the shareholders is only up to the extent of shares held by them, and the personal assets of shareholders (owners) are protected from the obligations of the company. The company can be owned by multiple shareholders and managed by appointed directors. It is separated from the owners of the company, and its legal existence continues even if there are changes in the ownership or management, which provides security and stability to the company.',
-                    ],
-                },
-            ],
+                    ul: [
+                        'Any individual (Indian or foreign national, NRI, OCI)',
+                        'A body corporate (company, LLP, foreign company, LLP incorporated outside India)',
+                        'Minors (through guardians for profit, not management)',
+                        'No restriction on residency, but at least one Designated Partner must be a resident of India'
+                    ]
+                }
+            ]
         },
         {
-            title: 'Why Should You Register a Private Limited Company?',
+            title: 'Why Add a New Partner?',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        'There are several compelling reasons why forming a Private Limited Company can be beneficial:',
-                    ],
-                },
-                {
-                    subTitle: '1. Limited Liability Protection',
-                    p: [
-                        'As a private limited company, the liability of its shareholders is restricted to the unpaid amount on their shares. This means that if the company faces financial distress or legal liabilities, the personal assets of the shareholders (directors or members) will not be at risk.',
-                    ],
-                },
-                {
-                    subTitle: '2. Separate Legal Entity',
-                    p: [
-                        'A company is a juristic person in the eyes of the law. The legal entity of the company is distinct from its shareholders and directors. The company is capable of entering into contracts in its own name; it can sue and be sued in its own name. The liability and credibility of the company are separated from its stakeholders.',
-                    ],
-                },
-                {
-                    subTitle: '3. Perpetual Succession',
-                    p: [
-                        'The existence of the company is independent of the existence of its shareholders or directors. Unlike a partnership or sole proprietorship, the private limited company enjoys perpetual succession, which means that the existence of the company is not affected by the death, insolvency, or retirement of any shareholder or director. This perpetual succession guarantees the continuity of the business even if one of the company\'s stakeholders leaves the company.',
-                    ],
-                },
-                {
-                    subTitle: '4. Easy Transferability of Shares',
-                    p: [
-                        'Registering a company in India offers easy transferability of shares, which means that shares of the company can be transferred from one shareholder to another. The leverage smoothens out the transaction in the management of the company and later enhances the flexibility in the business operations of the company.',
-                    ],
-                },
-                {
-                    subTitle: '5. Access to Investments and Funding',
-                    p: [
-                        'Capital can be easily raised in a registered Private Limited Company, as Equity shares can be easily issued by the company to raise funds. Issuing equity shares attracts potential investors and venture capital to invest in the company.',
-                    ],
-                },
-                {
-                    subTitle: '6. Increased Trustworthiness',
-                    p: [
-                        'Registering a Private Limited Company enjoys greater market credibility as compared to other business structures. The greater credibility leads to increased trustworthiness among investors. The advantage is gained by the company due to its registration. Registering a company makes the company legally recognizable and shows that it meets the regulatory standards.',
-                    ],
-                },
-            ],
+                    ul: [
+                        'To bring new capital or investment into the LLP',
+                        'For adding technical, financial, or industry expertise',
+                        'Succession planning or internal restructuring',
+                        'To divide responsibilities among more partners',
+                        'For regulatory compliance (e.g., minimum Designated Partners)'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Step-by-Step Process to Add a New Partner in LLP (Table)',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    table: {
+                        thead: {
+                            trow: [
+                                ['Step', 'Activity', 'Responsibility']
+                            ]
+                        },
+                        tbody: {
+                            trow: [
+                                ['1', 'Obtain Consent & KYC from incoming partner', 'LLP/Applicant'],
+                                ['2', 'Apply for Digital Signature Certificate (DSC), if not available', 'Incorvo/Partner'],
+                                ['3', 'Apply/Check for DIN (Designated Partner ID) if required', 'Incorvo'],
+                                ['4', 'Draft board resolution/decision to add partner', 'LLP/Legal Team'],
+                                ['5', 'Prepare amendment to LLP Agreement', 'Incorvo/Legal'],
+                                ['6', 'File Form 4 (change in partners) with MCA', 'Incorvo/Compliance'],
+                                ['7', 'File amended LLP Agreement via Form 3', 'Incorvo/Compliance'],
+                                ['8', 'Update partner capital, profit sharing, and internal records', 'LLP/Accounts'],
+                                ['9', 'ROC verification and approval', 'Registrar of Companies'],
+                                ['10', 'Provide updated LLP documents to banks, authorities, vendors, as needed', 'LLP/Admin']
+                            ]
+                        }
+                    }
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Key Documents Required',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    ul: [
+                        'Consent letter and KYC of incoming partner',
+                        'Proof of identity and address (PAN/Aadhaar/Passport/Utility Bill)',
+                        'Photograph and digital signature of new partner',
+                        'Existing and amended LLP Agreement',
+                        'Board resolution/consent by existing partners',
+                        'Updated list of partners and capital contribution'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Compliance & Legal Points',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    ul: [
+                        'Mandatory filing of Form 4 within 30 days of admission of new partner',
+                        'Amended LLP Agreement to be filed with Form 3',
+                        'Non-filing can result in heavy ROC penalties',
+                        'Change in designated partner requires DIR-3/DIR-12 as well',
+                        'Updated LLP master data will reflect new partners on MCA portal',
+                        'Intimation to banks, vendors, and regulatory bodies recommended'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Capital Contribution & Profit-Sharing Adjustments',
             descrption: [
                 {
                     subTitle: '',
                     p: [
-                        '',
-                    ],
-                },
-            ],
+                        'The incoming partner may bring additional capital, or the LLP may adjust its profit-sharing ratio to accommodate the new entry. All such changes must be recorded in the amended LLP Agreement and notified to ROC. Incorvo assists in structuring capital and share calculations for tax efficiency and future flexibility.'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Why Choose Incorvo for Adding a Partner?',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    ul: [
+                        'Expert guidance on compliance, partner rights, and exit mechanisms',
+                        'Hassle-free digital process for partner addition and documentation',
+                        'Dedicated support for capital/profit adjustments and statutory filings',
+                        'Proactive reminders for compliance deadlines to avoid late penalties',
+                        'Best-practice templates for resolutions, partner consent, and agreements',
+                        'Assistance in updating bank, GST, and other third-party records post-change'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Scenario Example: Partner Addition in Real Business',
             descrption: [
                 {
                     subTitle: '',
                     p: [
-                        '',
-                    ],
-                },
-            ],
+                        'An LLP in the consulting industry wanted to admit a new technical partner to lead a new business vertical. Incorvo managed the legal documentation, updated the profit-sharing ratio, handled all ROC filings, and assisted with KYC and capital infusion—all within 10 working days. The LLP expanded services smoothly and remained 100% compliant.'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'FAQs on Adding a Partner in LLP',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
-        },
+                    ul: [
+                        'How long does it take to add a new partner in LLP with Incorvo? – Usually 7–10 business days from document collection to MCA update.',
+                        'Is there a minimum or maximum number of partners in LLP? – Minimum two partners required; no maximum as per LLP Act.',
+                        'Do all partners need to be present physically for addition? – No, the process can be completed online with digital signatures.',
+                        'Can capital/profit share be changed for all partners? – Yes, the LLP Agreement can be amended to reflect new ratios.',
+                        'What if the new partner is a foreign national? – Yes, with required documents and KYC; FDI and FEMA rules apply for capital contribution.',
+                        'Are ROC filings mandatory for adding a partner? – Yes. Form 4 and Form 3 filings are compulsory, with penalties for delay.',
+                        'Do we need to update GST, bank, and other registrations after a new partner? – Yes, advisable to update all relevant authorities.',
+                        'Can a partner be removed or resign after joining? – Yes, via resignation letter, Form 13, and amending the LLP Agreement.'
+                    ]
+                }
+            ]
+        }
     ],
     faqs: [
         {
-            q: 'What is the minimum capital required to register a Private Limited Company?',
-            a: 'There is no minimum paid-up capital requirement for registering a Private Limited Company in India.',
+            q: 'Who can be admitted as a partner in an LLP?',
+            a: 'Any individual (Indian or foreign), or a body corporate, can become a partner, subject to compliance with KYC and other LLP Act provisions.'
         },
         {
-            q: 'Can a foreigner be a director in a Private Limited Company?',
-            a: 'Yes, foreigners can be directors, but at least one director must be a resident of India, as per Section 149 of the Companies Act, 2013.',
+            q: 'What forms are required for adding a new partner in LLP?',
+            a: 'Form 4 (for change in partners/designated partners) and Form 3 (for change in LLP Agreement) are mandatory to be filed on the MCA portal.'
         },
         {
-            q: 'How long does it take to register a Private Limited Company in India?',
-            a: 'The registration process generally takes between 7-15 business days, depending on the speed of document verification and approvals.',
+            q: 'How soon after admitting a partner must the filings be done?',
+            a: 'The LLP must file Form 4 and amended Form 3 within 30 days of the effective date of partner admission to avoid penalties.'
         },
         {
-            q: 'What are the legal standards for Private Limited Companies?',
-            a: 'Compliance Requirements: Private Limited Companies must stick to several compliance requirements under the Companies Act, 2013, including having yearly general meetings, filing annual reports, hiring accountants, and more.',
+            q: 'Can a partner be admitted without capital contribution?',
+            a: 'Yes, a partner can be admitted for skill/expertise without capital, but this must be stated in the LLP Agreement and ROC filings.'
         },
         {
-            q: 'Do I need a physical office for registration?',
-            a: 'Yes, a registered office in India is mandatory. This office must be in a location where official correspondence and notices from the ROC can be sent.',
+            q: 'What are the penalties for late filing of forms with ROC?',
+            a: 'Late filings can attract penalties of Rs. 100 per day (no maximum cap), so timely compliance is critical.'
         },
         {
-            q: 'What are the perks of choosing a Private Limited Company structure?',
-            a: 'Advantages of Private Limited Company: Benefits include limited liability protection, ease of getting capital via shares, constant succession, reliability, and agreement with regulatory norms.',
+            q: 'Does the new partner have to obtain DSC and DIN?',
+            a: 'Yes, if admitted as a designated partner, they must have a valid DSC and DIN before appointment.'
         },
         {
-            q: 'Can a Private Limited Company change to a Public Limited Company?',
-            a: 'Conversion to Public Limited Company: Yes, a Private Limited Company may change to a Public Limited Company.',
+            q: 'Do we need to notify banks and GST after partner change?',
+            a: 'Yes, updating bank, GST, and other relevant registrations is advised for legal and operational clarity.'
         },
         {
-            q: 'What is the difference between a Private Limited Company and a Limited Liability Partnership (LLP)?',
-            a: 'Difference from LLP: The basic difference between a Private Limited Company and a Limited liability Partnership (LLP) rests in their structure and responsibility features. A Private Limited Company has owners and limited liability protection, whereas an LLP has partners with limited liability but without shares.',
+            q: 'Can Incorvo help with all legal drafting and e-filing?',
+            a: 'Absolutely! Incorvo handles end-to-end drafting, digital signing, compliance filings, and post-change support.'
         },
         {
-            q: 'How can I change the name of my Private Limited Company?',
-            a: 'Changing Company Name: To change the name of a Private Limited Company, you need to follow the way given by the Ministry of Corporate Affairs in India.',
+            q: 'Can existing profit-sharing or management be changed with new partner addition?',
+            a: 'Yes, the LLP Agreement can be amended to alter profit share, rights, and duties of any or all partners.'
         },
         {
-            q: 'What are the penalties for non-compliance with legal duties for Private Limited Companies?',
-            a: 'Penalties for Non-Compliance: Punishments for non-compliance with regulatory requirements for Private Limited Companies might change depending on the individual infringement and may include fines or other legal punishments as per the Companies Act, 2013.',
+            q: 'What is the cost of adding a partner with Incorvo?',
+            a: 'Incorvo offers fixed, affordable packages that cover all drafting, e-filing, and compliance—no hidden charges.'
+        },
+        {
+            q: 'Can an NRI or foreign partner be admitted online?',
+            a: 'Yes, provided all documents are KYC-compliant and FDI guidelines (if capital is contributed) are followed.'
+        },
+        {
+            q: 'How do I get started with Incorvo for partner addition?',
+            a: 'Contact Incorvo for a free consult. Our experts will guide you, share the checklist, and manage the process end-to-end.'
         }
-    ],
-}
+    ]
+};

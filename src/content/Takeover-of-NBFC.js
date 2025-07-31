@@ -1,206 +1,265 @@
 export default {
     header: {
-        title: 'Private Limited Company Registration',
+        title: 'Takeover of NBFC (Non-Banking Financial Company) – Incorvo',
         list: [
-            'Register your private limited company in 7 business days with our expert assistance',
-            'Our online company registration service includes the following features',
-            'Obtain 2 Digital Signature Certificates (DSC) with 2 years validity',
-            'Secure 2 Director Identification Numbers (DIN)',
-            'Get unique name approval for your private company',
-            'Acquire PAN and TAN for the company',
-            'Open a current account with ICICI Bank',
-            'Drafting the Memorandum of Association and Articles of Association',
-            'Receive the official Company Incorporation Certificate',
-        ],
+            'Complete advisory and legal support for takeover of registered NBFCs in India',
+            'Guidance on RBI compliance, due diligence, and approval process',
+            'For entrepreneurs, investors, PE/VC funds, corporates, and strategic buyers',
+            'Thorough legal, financial, and operational due diligence included',
+            'Drafting and review of Share Purchase Agreements, Shareholder Agreements, and related contracts',
+            'Stepwise handholding for public notice, RBI application, and business transition',
+            'Transparent milestone-based pricing and expert RBI liaison',
+            'Support for change in management, directors, and control as per RBI norms',
+            'Assistance with post-takeover compliance, KYC, and business structuring',
+            'Personalized relationship manager and digital documentation throughout the process'
+        ]
     },
     content: [
         {
-            title: 'Private Limited Company Registration in India',
+            title: 'What is NBFC Takeover?',
             descrption: [
                 {
                     subTitle: '',
                     p: [
-                        'Currently, Private Limited Companies make upto almost 96% of the total companies in India. Till November 20, 2023, there are 25,99,660 private limited companies registered in India. The huge number of company registrations is a testament to the ease and benefits provided by India. Although registering a company in India is not mandatory, company registration offers significant benefits to founders as well as stakeholders. By the end, you will be able to understand the key legal requirements to register a private limited company in India, along with its compliance obligations and much more.'
-                    ],
-                },
-            ],
+                        'A takeover of an NBFC involves the acquisition of a controlling stake (51% or more) in an existing RBI-registered Non-Banking Financial Company by new promoters, investors, corporates, or strategic acquirers. This process is strictly regulated by the Reserve Bank of India (RBI) to ensure transparency, financial stability, and protection of public interest.',
+                        'Takeovers can be friendly (negotiated purchase) or hostile, and may involve change of management, directors, or control of business operations.'
+                    ]
+                }
+            ]
         },
         {
-            title: 'What is a Private Limited Company?',
+            title: 'Why Takeover an NBFC?',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        'In India, there are several companies that can be registered. A Private Limited Company is one of them. A Private Limited Company bearing the suffix of ‘Pvt. Ltd\'. At the end of its name is a separate legal entity registered under the Companies Act, 2013with the Registrar of Companies (ROC). The main feature of this type of company is that it offers limited liability protection to its shareholders; it means that the liability of the shareholders is only up to the extent of shares held by them, and the personal assets of shareholders (owners) are protected from the obligations of the company. The company can be owned by multiple shareholders and managed by appointed directors. It is separated from the owners of the company, and its legal existence continues even if there are changes in the ownership or management, which provides security and stability to the company.',
-                    ],
-                },
-            ],
+                    ul: [
+                        'Immediate entry into the Indian financial services sector without waiting for a fresh NBFC license',
+                        'Access to existing customer base, assets, networks, and operational set-up',
+                        'Speed up launch of new lending, investment, or fintech businesses',
+                        'Leverage NBFC for specialized financing (microfinance, gold loans, vehicle finance, etc.)',
+                        'Ideal route for foreign investors, PE/VC, and strategic partners to enter regulated space',
+                        'Enhance market presence and regulatory recognition'
+                    ]
+                }
+            ]
         },
         {
-            title: 'Why Should You Register a Private Limited Company?',
+            title: 'Regulatory Framework – RBI Guidelines for NBFC Takeover',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        'There are several compelling reasons why forming a Private Limited Company can be beneficial:',
-                    ],
-                },
-                {
-                    subTitle: '1. Limited Liability Protection',
-                    p: [
-                        'As a private limited company, the liability of its shareholders is restricted to the unpaid amount on their shares. This means that if the company faces financial distress or legal liabilities, the personal assets of the shareholders (directors or members) will not be at risk.',
-                    ],
-                },
-                {
-                    subTitle: '2. Separate Legal Entity',
-                    p: [
-                        'A company is a juristic person in the eyes of the law. The legal entity of the company is distinct from its shareholders and directors. The company is capable of entering into contracts in its own name; it can sue and be sued in its own name. The liability and credibility of the company are separated from its stakeholders.',
-                    ],
-                },
-                {
-                    subTitle: '3. Perpetual Succession',
-                    p: [
-                        'The existence of the company is independent of the existence of its shareholders or directors. Unlike a partnership or sole proprietorship, the private limited company enjoys perpetual succession, which means that the existence of the company is not affected by the death, insolvency, or retirement of any shareholder or director. This perpetual succession guarantees the continuity of the business even if one of the company\'s stakeholders leaves the company.',
-                    ],
-                },
-                {
-                    subTitle: '4. Easy Transferability of Shares',
-                    p: [
-                        'Registering a company in India offers easy transferability of shares, which means that shares of the company can be transferred from one shareholder to another. The leverage smoothens out the transaction in the management of the company and later enhances the flexibility in the business operations of the company.',
-                    ],
-                },
-                {
-                    subTitle: '5. Access to Investments and Funding',
-                    p: [
-                        'Capital can be easily raised in a registered Private Limited Company, as Equity shares can be easily issued by the company to raise funds. Issuing equity shares attracts potential investors and venture capital to invest in the company.',
-                    ],
-                },
-                {
-                    subTitle: '6. Increased Trustworthiness',
-                    p: [
-                        'Registering a Private Limited Company enjoys greater market credibility as compared to other business structures. The greater credibility leads to increased trustworthiness among investors. The advantage is gained by the company due to its registration. Registering a company makes the company legally recognizable and shows that it meets the regulatory standards.',
-                    ],
-                },
-            ],
+                    ul: [
+                        'Any acquisition or transfer of control of NBFC requires prior written approval from RBI under Master Directions for NBFCs',
+                        '“Control” means the right to appoint majority directors or influence key policy decisions',
+                        'Public notice in newspapers (at least 30 days in advance) is mandatory before transfer of management/control',
+                        'No-objection/clearance required from RBI for change in shareholding exceeding 26% (except in certain cases like inheritance)',
+                        'Both transferor and transferee (buyer and seller) must meet RBI “fit and proper” criteria',
+                        'New directors and key managerial personnel (KMP) must be vetted and approved by RBI'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Step-by-Step NBFC Takeover Process with Incorvo',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    ol: [
+                        'Initial due diligence: business, legal, and financial review of the target NBFC',
+                        'Negotiation of takeover terms and signing of Memorandum of Understanding (MoU) or Letter of Intent (LoI)',
+                        'Execution of Share Purchase Agreement (SPA) with detailed conditions precedent',
+                        'Public notice in at least two newspapers (one English, one vernacular) as per RBI requirements',
+                        'Application to RBI for approval of change in control/shareholding, with supporting documents',
+                        'RBI scrutiny: review of acquirer profile, fit and proper status, business plan, financials, and compliance record',
+                        'Approval from RBI; execution of share transfer, board changes, and filing with MCA/ROC',
+                        'Post-takeover filings: KYC update, change of signatories, business transition, and regulatory reporting',
+                        'Continuous compliance and post-takeover monitoring as per RBI and Companies Act'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Documents Required for NBFC Takeover',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    ul: [
+                        'Certificate of Incorporation, PAN, and NBFC Registration Certificate (target NBFC)',
+                        'Memorandum and Articles of Association (MOA/AOA)',
+                        'Latest audited financial statements and board/AGM resolutions',
+                        'Shareholding structure and details of shareholders (before and after takeover)',
+                        'KYC documents of acquirers, directors, and proposed new management',
+                        'RBI fit and proper declaration, personal and financial profile of acquirers',
+                        'Draft public notice and evidence of publication',
+                        'Share Purchase Agreement (SPA), Letter of Intent (LOI), and all transactional documents',
+                        'Business plan and sources of funds for acquisition',
+                        'Undertaking for compliance with all RBI Master Directions'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Table: Friendly vs Hostile NBFC Takeover',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    table: {
+                        thead: {
+                            trow: [
+                                ['Criteria', 'Friendly Takeover', 'Hostile Takeover']
+                            ]
+                        },
+                        tbody: {
+                            trow: [
+                                ['Negotiation', 'Mutually agreed terms between buyer and seller', 'Without consent of current management; rare in NBFCs'],
+                                ['Board/Promoter Consent', 'Yes, usually with board and shareholder approval', 'No (may involve legal battles)'],
+                                ['RBI Approval', 'Mandatory', 'Mandatory'],
+                                ['Speed', 'Faster – less litigation', 'Slower – possible delays due to disputes'],
+                                ['Public Image', 'Generally positive', 'May create negative perception'],
+                                ['Suitability', 'Preferred for small/medium NBFCs and regulated entities', 'Rare and complex due to RBI oversight']
+                            ]
+                        }
+                    }
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Post-Takeover Compliance Checklist',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    ul: [
+                        'Update board of directors and key managerial personnel (KMP) with ROC/MCA',
+                        'Intimate RBI of completed takeover and file post-transaction compliance certificates',
+                        'Update all statutory registrations: PAN, GST, Professional Tax, etc.',
+                        'Revise bank account signatories, KYC, and authorized representatives',
+                        'Review and update internal policies (AML, KYC, lending, data security, etc.)',
+                        'Disclose change of management to lenders, rating agencies, and major stakeholders',
+                        'File updated shareholding pattern and beneficial ownership declarations',
+                        'Maintain regular RBI/NBFC compliance: returns, audits, and inspections'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Why Choose Incorvo for NBFC Takeover?',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    ul: [
+                        'Expert advisory by seasoned CA, CS, ex-RBI, and NBFC specialists',
+                        'End-to-end due diligence, transaction structuring, and SPA drafting',
+                        'Direct liaison with RBI for timely approval and resolution of queries',
+                        'Strong experience in takeover, merger, and restructuring of financial entities',
+                        'Document checklist, milestone tracker, and digital record management',
+                        'Transparent pricing, with no hidden charges',
+                        'Post-takeover compliance management and advisory for business continuity',
+                        'Dedicated relationship manager and priority support'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Sample Scenarios & Solutions',
             descrption: [
                 {
-                    subTitle: '',
+                    subTitle: 'Case: Fintech Startup Acquiring an Existing NBFC',
                     p: [
-                        '',
-                    ],
+                        'Incorvo conducts a thorough due diligence, drafts all legal agreements, manages RBI and MCA filings, and ensures smooth transition for the acquirer’s digital lending rollout.'
+                    ]
                 },
-            ],
+                {
+                    subTitle: 'Case: PE Fund or Foreign Investor Takeover',
+                    p: [
+                        'Our team prepares investment and compliance structuring for FDI-compliant takeovers, RBI filings, and change of management.'
+                    ]
+                },
+                {
+                    subTitle: 'Case: Small NBFC Looking for Strategic Sale',
+                    p: [
+                        'Incorvo helps with valuation, prepares data room for acquirers, manages negotiation, and handles full legal and compliance process for the seller.'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Best Practices and Common Pitfalls',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    ul: [
+                        'Conduct comprehensive due diligence—legal, financial, regulatory—before deal closure',
+                        'Clearly define SPA conditions and representations to avoid disputes',
+                        'Publish public notice in correct newspapers with sufficient notice period',
+                        'Ensure all new directors/KMPs meet RBI’s fit and proper criteria',
+                        'Do not proceed with share transfer without written RBI approval',
+                        'Set up a compliance calendar for post-takeover regulatory filings',
+                        'Engage professional advisors for negotiation, valuation, and legal drafting'
+                    ]
+                }
+            ]
         },
+        {
+            title: 'Extended FAQs – NBFC Takeover',
+            descrption: [
+                {
+                    subTitle: '',
+                    ul: [
+                        'Is RBI approval always required for NBFC takeover? – Yes, for transfer of control/majority shareholding.',
+                        'Can foreign investors take over an NBFC? – Yes, but subject to FDI policy and sectoral caps.',
+                        'What is the typical timeline for NBFC takeover? – 3–6 months, depending on RBI approval and deal complexity.',
+                        'What is “fit and proper” criteria for NBFC management? – RBI checks for financial standing, integrity, and background of new owners/directors.',
+                        'Can a shell or dormant NBFC be acquired? – Yes, but thorough due diligence is critical to avoid hidden liabilities.',
+                        'Are there restrictions on post-takeover business changes? – Material changes may require fresh RBI intimation/approval.',
+                        'What happens if takeover is completed without RBI approval? – Transaction is void; penalties and regulatory action apply.',
+                        'Is takeover better than fresh NBFC registration? – For speed, yes, but cost and due diligence are crucial factors.',
+                        'Does Incorvo support both buy-side and sell-side? – Absolutely, we handle advisory for both acquirers and sellers.',
+                        'How is takeover different from NBFC merger or amalgamation? – Takeover is change of ownership; merger involves legal combination of two entities under court/RBI process.'
+                    ]
+                }
+            ]
+        }
     ],
     faqs: [
         {
-            q: 'What is the minimum capital required to register a Private Limited Company?',
-            a: 'There is no minimum paid-up capital requirement for registering a Private Limited Company in India.',
+            q: 'Who can acquire an NBFC in India?',
+            a: 'Any individual, company, LLP, PE/VC fund, or foreign investor (subject to FDI rules) meeting RBI fit and proper norms.'
         },
         {
-            q: 'Can a foreigner be a director in a Private Limited Company?',
-            a: 'Yes, foreigners can be directors, but at least one director must be a resident of India, as per Section 149 of the Companies Act, 2013.',
+            q: 'What is the minimum shareholding required for a takeover?',
+            a: 'Typically, acquiring more than 51% (majority control) triggers RBI approval requirements.'
         },
         {
-            q: 'How long does it take to register a Private Limited Company in India?',
-            a: 'The registration process generally takes between 7-15 business days, depending on the speed of document verification and approvals.',
+            q: 'Are all types of NBFCs eligible for takeover?',
+            a: 'Yes, but specific compliance and approval requirements may apply for different NBFC categories (loan company, asset finance, etc.).'
         },
         {
-            q: 'What are the legal standards for Private Limited Companies?',
-            a: 'Compliance Requirements: Private Limited Companies must stick to several compliance requirements under the Companies Act, 2013, including having yearly general meetings, filing annual reports, hiring accountants, and more.',
+            q: 'What is the penalty for not complying with RBI takeover regulations?',
+            a: 'Transactions without approval can be declared null and void; heavy fines and regulatory action may follow.'
         },
         {
-            q: 'Do I need a physical office for registration?',
-            a: 'Yes, a registered office in India is mandatory. This office must be in a location where official correspondence and notices from the ROC can be sent.',
+            q: 'Can an NBFC takeover happen without change in management?',
+            a: 'No, any change in control or significant management change needs RBI approval.'
         },
         {
-            q: 'What are the perks of choosing a Private Limited Company structure?',
-            a: 'Advantages of Private Limited Company: Benefits include limited liability protection, ease of getting capital via shares, constant succession, reliability, and agreement with regulatory norms.',
+            q: 'How does Incorvo help in the NBFC takeover process?',
+            a: 'We provide end-to-end support from due diligence and deal negotiation to RBI application, documentation, and post-takeover compliance.'
         },
         {
-            q: 'Can a Private Limited Company change to a Public Limited Company?',
-            a: 'Conversion to Public Limited Company: Yes, a Private Limited Company may change to a Public Limited Company.',
+            q: 'Do I need to appoint new directors/KMP after takeover?',
+            a: 'New management/directors require RBI vetting and approval; Incorvo facilitates the entire process.'
         },
         {
-            q: 'What is the difference between a Private Limited Company and a Limited Liability Partnership (LLP)?',
-            a: 'Difference from LLP: The basic difference between a Private Limited Company and a Limited liability Partnership (LLP) rests in their structure and responsibility features. A Private Limited Company has owners and limited liability protection, whereas an LLP has partners with limited liability but without shares.',
+            q: 'How to get started with Incorvo for NBFC takeover?',
+            a: 'Contact us for a free initial consultation, checklist, and a tailored proposal for your takeover project.'
         },
         {
-            q: 'How can I change the name of my Private Limited Company?',
-            a: 'Changing Company Name: To change the name of a Private Limited Company, you need to follow the way given by the Ministry of Corporate Affairs in India.',
+            q: 'Is stamp duty payable on NBFC share transfer?',
+            a: 'Yes, as per applicable state law and consideration involved in share transfer.'
         },
         {
-            q: 'What are the penalties for non-compliance with legal duties for Private Limited Companies?',
-            a: 'Penalties for Non-Compliance: Punishments for non-compliance with regulatory requirements for Private Limited Companies might change depending on the individual infringement and may include fines or other legal punishments as per the Companies Act, 2013.',
+            q: 'Does Incorvo offer post-takeover compliance support?',
+            a: 'Absolutely! We handle all RBI filings, reporting, and operational transition needs after the deal is closed.'
         }
-    ],
-}
+    ]
+};

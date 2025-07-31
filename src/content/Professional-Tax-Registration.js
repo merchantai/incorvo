@@ -1,206 +1,265 @@
 export default {
     header: {
-        title: 'Private Limited Company Registration',
+        title: 'Professional Tax Registration – Incorvo',
         list: [
-            'Register your private limited company in 7 business days with our expert assistance',
-            'Our online company registration service includes the following features',
-            'Obtain 2 Digital Signature Certificates (DSC) with 2 years validity',
-            'Secure 2 Director Identification Numbers (DIN)',
-            'Get unique name approval for your private company',
-            'Acquire PAN and TAN for the company',
-            'Open a current account with ICICI Bank',
-            'Drafting the Memorandum of Association and Articles of Association',
-            'Receive the official Company Incorporation Certificate',
-        ],
+            'Expert advisory and complete assistance for Professional Tax (PT) Registration across India',
+            'Step-by-step support for employers, businesses, and professionals',
+            'Preparation and digital filing of PT registration application as per state laws',
+            'Guidance for documentation, employer/employee enrolment, and renewals',
+            'Calculation, payment, and filing of monthly/annual PT returns',
+            'PT compliance calendar with reminders for payment and filings',
+            'Support for PT certificate amendment, surrender, and transfer',
+            'Dedicated Incorvo compliance manager for state-wise queries',
+            'Value-added support for payroll, compliance audits, and multi-state registration',
+            'Transparent, affordable pricing and personalized engagement'
+        ]
     },
     content: [
         {
-            title: 'Private Limited Company Registration in India',
+            title: 'What is Professional Tax?',
             descrption: [
                 {
                     subTitle: '',
                     p: [
-                        'Currently, Private Limited Companies make upto almost 96% of the total companies in India. Till November 20, 2023, there are 25,99,660 private limited companies registered in India. The huge number of company registrations is a testament to the ease and benefits provided by India. Although registering a company in India is not mandatory, company registration offers significant benefits to founders as well as stakeholders. By the end, you will be able to understand the key legal requirements to register a private limited company in India, along with its compliance obligations and much more.'
-                    ],
-                },
-            ],
+                        'Professional Tax (PT) is a state-level tax levied on income earned by way of profession, trade, calling, or employment. Employers are responsible for deducting PT from employee salaries and remitting it to the respective state government. Freelancers, professionals, and business owners may also be liable, depending on state rules. Incorvo streamlines PT registration and compliance to help you stay penalty-free and legally compliant.'
+                    ]
+                }
+            ]
         },
         {
-            title: 'What is a Private Limited Company?',
+            title: 'Who Needs to Register for Professional Tax?',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        'In India, there are several companies that can be registered. A Private Limited Company is one of them. A Private Limited Company bearing the suffix of ‘Pvt. Ltd\'. At the end of its name is a separate legal entity registered under the Companies Act, 2013with the Registrar of Companies (ROC). The main feature of this type of company is that it offers limited liability protection to its shareholders; it means that the liability of the shareholders is only up to the extent of shares held by them, and the personal assets of shareholders (owners) are protected from the obligations of the company. The company can be owned by multiple shareholders and managed by appointed directors. It is separated from the owners of the company, and its legal existence continues even if there are changes in the ownership or management, which provides security and stability to the company.',
-                    ],
-                },
-            ],
+                    ul: [
+                        'All employers (companies, LLPs, partnerships, proprietors) with salaried employees in PT-applicable states',
+                        'Self-employed professionals (CA, CS, doctors, architects, consultants, etc.)',
+                        'Freelancers and business owners engaged in trade or profession',
+                        'Entities with branches or offices in multiple states with different PT rules'
+                    ]
+                }
+            ]
         },
         {
-            title: 'Why Should You Register a Private Limited Company?',
+            title: 'States Where Professional Tax is Applicable',
             descrption: [
                 {
                     subTitle: '',
                     p: [
-                        'There are several compelling reasons why forming a Private Limited Company can be beneficial:',
-                    ],
-                },
-                {
-                    subTitle: '1. Limited Liability Protection',
-                    p: [
-                        'As a private limited company, the liability of its shareholders is restricted to the unpaid amount on their shares. This means that if the company faces financial distress or legal liabilities, the personal assets of the shareholders (directors or members) will not be at risk.',
-                    ],
-                },
-                {
-                    subTitle: '2. Separate Legal Entity',
-                    p: [
-                        'A company is a juristic person in the eyes of the law. The legal entity of the company is distinct from its shareholders and directors. The company is capable of entering into contracts in its own name; it can sue and be sued in its own name. The liability and credibility of the company are separated from its stakeholders.',
-                    ],
-                },
-                {
-                    subTitle: '3. Perpetual Succession',
-                    p: [
-                        'The existence of the company is independent of the existence of its shareholders or directors. Unlike a partnership or sole proprietorship, the private limited company enjoys perpetual succession, which means that the existence of the company is not affected by the death, insolvency, or retirement of any shareholder or director. This perpetual succession guarantees the continuity of the business even if one of the company\'s stakeholders leaves the company.',
-                    ],
-                },
-                {
-                    subTitle: '4. Easy Transferability of Shares',
-                    p: [
-                        'Registering a company in India offers easy transferability of shares, which means that shares of the company can be transferred from one shareholder to another. The leverage smoothens out the transaction in the management of the company and later enhances the flexibility in the business operations of the company.',
-                    ],
-                },
-                {
-                    subTitle: '5. Access to Investments and Funding',
-                    p: [
-                        'Capital can be easily raised in a registered Private Limited Company, as Equity shares can be easily issued by the company to raise funds. Issuing equity shares attracts potential investors and venture capital to invest in the company.',
-                    ],
-                },
-                {
-                    subTitle: '6. Increased Trustworthiness',
-                    p: [
-                        'Registering a Private Limited Company enjoys greater market credibility as compared to other business structures. The greater credibility leads to increased trustworthiness among investors. The advantage is gained by the company due to its registration. Registering a company makes the company legally recognizable and shows that it meets the regulatory standards.',
-                    ],
-                },
-            ],
+                        'Professional Tax is not a central tax—it is imposed by individual states and union territories, each with its own rates, slabs, and compliance rules. States with PT include Maharashtra, Karnataka, West Bengal, Tamil Nadu, Gujarat, Andhra Pradesh, Telangana, Madhya Pradesh, Assam, Kerala, Odisha, and others.'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Key Features of Incorvo PT Registration Service',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    ul: [
+                        'Comprehensive guidance for employer and professional PT registration',
+                        'State-wise documentation checklist and form preparation',
+                        'Online application filing and liaison with state PT authorities',
+                        'Support for employee enrolment and monthly deduction setup',
+                        'Automated PT calculation and payroll integration',
+                        'Preparation and filing of monthly/annual PT returns',
+                        'Reminders for PT payment deadlines and renewal filings',
+                        'Assistance in PT certificate amendment, cancellation, and transfer',
+                        'Expert representation for PT audits and notices',
+                        'Dedicated PT compliance manager for personalized support'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Documents Required for Professional Tax Registration',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    ul: [
+                        'PAN card of business/entity',
+                        'Certificate of Incorporation/Partnership Deed/LLP Agreement',
+                        'Address proof of business (utility bill, lease deed, etc.)',
+                        'ID and address proof of proprietor/partners/directors',
+                        'Employee details: name, designation, salary, joining date, etc.',
+                        'Cancelled cheque or bank account proof',
+                        'Proof of business activity (trade license, GST certificate, etc.)',
+                        'Photographs of proprietor/partners/directors',
+                        'Board resolution or POA (if applicable)',
+                        'Any additional state-specific forms/documents'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Step-by-Step Professional Tax Registration Process with Incorvo',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    ol: [
+                        'Free consultation and eligibility check with Incorvo’s PT experts',
+                        'Collection of required documents and details for each location/entity',
+                        'Preparation and submission of PT registration application to state authority',
+                        'Follow-up for document scrutiny, clarifications, and additional submissions',
+                        'Receipt of PT Registration Certificate/Enrollment Number',
+                        'Setup of monthly/annual PT deduction and compliance calendar',
+                        'Onboarding for PT return filing and ongoing compliance support'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Professional Tax Rates, Slabs & Payment Schedule (Illustrative Table)',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    table: {
+                        thead: {
+                            trow: [
+                                ['State', 'Salary Slab/Category', 'Monthly PT Amount', 'Annual PT Amount']
+                            ]
+                        },
+                        tbody: {
+                            trow: [
+                                ['Maharashtra', 'Above ₹10,000', '₹200 (Feb ₹300)', '₹2,500'],
+                                ['Karnataka', 'Above ₹15,000', '₹200', '₹2,400'],
+                                ['West Bengal', 'Above ₹40,000', '₹200', '₹2,400'],
+                                ['Tamil Nadu', 'Above ₹12,500', '₹208', '₹2,500'],
+                                ['Gujarat', 'Varies (see state chart)', 'Up to ₹200', 'Up to ₹2,500'],
+                                ['Andhra Pradesh', 'Above ₹15,000', '₹200', '₹2,400'],
+                                ['Telangana', 'Above ₹15,000', '₹200', '₹2,400'],
+                                ['Kerala', 'Above ₹20,834', '₹208', '₹2,500']
+                            ]
+                        }
+                    }
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Employer’s Duties & Compliance Calendar',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    ul: [
+                        'Deduct PT from salaries as per applicable slab each month',
+                        'Remit collected PT to the state government by the due date (generally 10th/15th of each month)',
+                        'File monthly or annual PT returns as per state rules',
+                        'Maintain employee register and PT deduction records',
+                        'Display PT registration certificate at business premises',
+                        'Renew PT registration/enrolment as required by state laws',
+                        'Respond to any PT authority notices or audits promptly'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Consequences of Non-Compliance with Professional Tax',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    ul: [
+                        'Late payment attracts interest and penalties as per state law',
+                        'Failure to deduct or remit PT can result in fines on employer',
+                        'Business license renewal and statutory clearances may be affected',
+                        'Repeated non-compliance may lead to prosecution or business closure notices',
+                        'Incorvo’s calendar, reminders, and expert checks ensure you stay compliant and penalty-free'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Best Practices for Professional Tax Compliance',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    ul: [
+                        'Maintain updated employee records with salary details',
+                        'Cross-check monthly deductions and remittances for accuracy',
+                        'Integrate PT compliance with payroll software for automation',
+                        'Archive all PT filings, challans, and payment receipts',
+                        'Keep track of state-level updates, rates, and exemption notifications',
+                        'Regularly review compliance calendar and renewals'
+                    ]
+                }
+            ]
         },
+        {
+            title: 'Why Choose Incorvo for PT Registration & Compliance?',
+            descrption: [
+                {
+                    subTitle: '',
+                    ul: [
+                        'Expert PT advisors with pan-India, multi-state registration experience',
+                        'Digital, paperless workflow and documentation support',
+                        'Personalized compliance calendar with reminders',
+                        'Transparent pricing, milestone-based billing, and no hidden fees',
+                        'Assistance for certificate amendment, surrender, and transfers',
+                        'Support for payroll, HR, and audit integration'
+                    ]
+                }
+            ]
+        },
+        {
+            title: 'Professional Tax Registration: Extended FAQs',
+            descrption: [
+                {
+                    subTitle: '',
+                    ul: [
+                        'Is PT registration mandatory for all employers? – Yes, in states where PT is applicable and if you have employees above the salary threshold.',
+                        'Do all states in India levy PT? – No, PT is state-specific. Some states/UTs do not levy PT.',
+                        'How do I determine the applicable PT slab? – Based on employee monthly salary and state-wise PT chart.',
+                        'Can I register for PT in multiple states? – Yes, Incorvo handles pan-India, multi-location registration and compliance.',
+                        'What documents are required for PT? – PAN, business proof, address proof, employee list, and state-specific forms.',
+                        'What is the PT payment and return filing frequency? – Monthly or annual, as per state law and salary structure.',
+                        'Are there any PT exemptions? – Yes, senior citizens, certain disabled persons, and select categories may be exempt in some states.',
+                        'Can Incorvo help with PT certificate amendment or surrender? – Yes, from registration to amendment, renewal, and surrender, we offer complete support.',
+                        'What if my business gets a PT audit or notice? – Our compliance team will handle PT audits, responses, and representation.',
+                        'How do I start? – Contact Incorvo for a free eligibility check, document list, and compliance roadmap.'
+                    ]
+                }
+            ]
+        }
     ],
     faqs: [
         {
-            q: 'What is the minimum capital required to register a Private Limited Company?',
-            a: 'There is no minimum paid-up capital requirement for registering a Private Limited Company in India.',
+            q: 'Is Professional Tax applicable to my business?',
+            a: 'If your business operates in a PT-levying state and you employ salaried staff above the minimum threshold, PT registration and compliance are mandatory.'
         },
         {
-            q: 'Can a foreigner be a director in a Private Limited Company?',
-            a: 'Yes, foreigners can be directors, but at least one director must be a resident of India, as per Section 149 of the Companies Act, 2013.',
+            q: 'Do professionals like doctors, CAs, and architects need PT registration?',
+            a: 'Yes, self-employed professionals must register and pay PT as per the state-specific rules.'
         },
         {
-            q: 'How long does it take to register a Private Limited Company in India?',
-            a: 'The registration process generally takes between 7-15 business days, depending on the speed of document verification and approvals.',
+            q: 'Can startups or freelancers be exempt from Professional Tax?',
+            a: 'Some states provide exemption to new businesses for an initial period, or to certain categories like senior citizens or disabled. Incorvo will check applicable exemptions for you.'
         },
         {
-            q: 'What are the legal standards for Private Limited Companies?',
-            a: 'Compliance Requirements: Private Limited Companies must stick to several compliance requirements under the Companies Act, 2013, including having yearly general meetings, filing annual reports, hiring accountants, and more.',
+            q: 'Will I have a dedicated compliance manager for PT?',
+            a: 'Yes, every Incorvo client gets a dedicated compliance manager for queries and support.'
         },
         {
-            q: 'Do I need a physical office for registration?',
-            a: 'Yes, a registered office in India is mandatory. This office must be in a location where official correspondence and notices from the ROC can be sent.',
+            q: 'What happens if I miss a PT payment or return deadline?',
+            a: 'Late payment results in interest and penalties. Incorvo sends timely reminders and assists in compliance to avoid such risks.'
         },
         {
-            q: 'What are the perks of choosing a Private Limited Company structure?',
-            a: 'Advantages of Private Limited Company: Benefits include limited liability protection, ease of getting capital via shares, constant succession, reliability, and agreement with regulatory norms.',
+            q: 'Can Incorvo help with PT registration amendment, transfer, or surrender?',
+            a: 'Absolutely! We provide end-to-end support from registration to all future amendments, renewals, and surrenders.'
         },
         {
-            q: 'Can a Private Limited Company change to a Public Limited Company?',
-            a: 'Conversion to Public Limited Company: Yes, a Private Limited Company may change to a Public Limited Company.',
+            q: 'Is PT registration a one-time process?',
+            a: 'Registration is one-time but requires ongoing compliance—returns, payment, and periodic renewals as per state law.'
         },
         {
-            q: 'What is the difference between a Private Limited Company and a Limited Liability Partnership (LLP)?',
-            a: 'Difference from LLP: The basic difference between a Private Limited Company and a Limited liability Partnership (LLP) rests in their structure and responsibility features. A Private Limited Company has owners and limited liability protection, whereas an LLP has partners with limited liability but without shares.',
+            q: 'What’s the process to get started?',
+            a: 'Contact Incorvo, share your business and employee details, and our PT compliance team will guide you through every step.'
         },
         {
-            q: 'How can I change the name of my Private Limited Company?',
-            a: 'Changing Company Name: To change the name of a Private Limited Company, you need to follow the way given by the Ministry of Corporate Affairs in India.',
+            q: 'How does Incorvo ensure my business stays compliant?',
+            a: 'Through compliance calendars, automated reminders, expert checks, and regular support for all filings and payments.'
         },
         {
-            q: 'What are the penalties for non-compliance with legal duties for Private Limited Companies?',
-            a: 'Penalties for Non-Compliance: Punishments for non-compliance with regulatory requirements for Private Limited Companies might change depending on the individual infringement and may include fines or other legal punishments as per the Companies Act, 2013.',
+            q: 'Does Incorvo support payroll integration with PT compliance?',
+            a: 'Yes, we can sync PT deductions and filings with your existing payroll/HR systems for seamless compliance.'
         }
-    ],
-}
+    ]
+};

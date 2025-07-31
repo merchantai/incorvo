@@ -1,206 +1,294 @@
 export default {
     header: {
-        title: 'Private Limited Company Registration',
+        title: 'Trademark Registration – Incorvo',
         list: [
-            'Register your private limited company in 7 business days with our expert assistance',
-            'Our online company registration service includes the following features',
-            'Obtain 2 Digital Signature Certificates (DSC) with 2 years validity',
-            'Secure 2 Director Identification Numbers (DIN)',
-            'Get unique name approval for your private company',
-            'Acquire PAN and TAN for the company',
-            'Open a current account with ICICI Bank',
-            'Drafting the Memorandum of Association and Articles of Association',
-            'Receive the official Company Incorporation Certificate',
-        ],
+            'Comprehensive trademark registration services for businesses, startups, and individuals across India',
+            'Expert advisory for new applications, brand searches, and strategy',
+            'Digital process – online search, filing, documentation, and Registry updates',
+            'Assistance with word marks, logos, slogans, domain names, and more',
+            'Preparation and e-filing of Form TM-A with IP India',
+            'Regular updates and legal support from filing to certificate issuance',
+            'Help with objections, oppositions, renewals, and enforcement',
+            'Personalized Incorvo relationship manager for every client',
+            'Transparent, affordable, milestone-based pricing',
+            'Post-registration support for trademark licensing, assignment, and dispute resolution'
+        ]
     },
     content: [
         {
-            title: 'Private Limited Company Registration in India',
+            title: 'What is a Trademark?',
             descrption: [
                 {
                     subTitle: '',
                     p: [
-                        'Currently, Private Limited Companies make upto almost 96% of the total companies in India. Till November 20, 2023, there are 25,99,660 private limited companies registered in India. The huge number of company registrations is a testament to the ease and benefits provided by India. Although registering a company in India is not mandatory, company registration offers significant benefits to founders as well as stakeholders. By the end, you will be able to understand the key legal requirements to register a private limited company in India, along with its compliance obligations and much more.'
-                    ],
-                },
-            ],
+                        'A trademark is a distinctive sign, word, logo, symbol, slogan, or combination that identifies and differentiates the goods or services of one business from those of others. Trademarks are vital brand assets that provide legal protection and commercial advantage to their owners.',
+                        'Trademark registration gives exclusive rights to use the mark for specified goods/services and prevents unauthorized use by third parties.'
+                    ]
+                }
+            ]
         },
         {
-            title: 'What is a Private Limited Company?',
+            title: 'Benefits of Trademark Registration',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        'In India, there are several companies that can be registered. A Private Limited Company is one of them. A Private Limited Company bearing the suffix of ‘Pvt. Ltd\'. At the end of its name is a separate legal entity registered under the Companies Act, 2013with the Registrar of Companies (ROC). The main feature of this type of company is that it offers limited liability protection to its shareholders; it means that the liability of the shareholders is only up to the extent of shares held by them, and the personal assets of shareholders (owners) are protected from the obligations of the company. The company can be owned by multiple shareholders and managed by appointed directors. It is separated from the owners of the company, and its legal existence continues even if there are changes in the ownership or management, which provides security and stability to the company.',
-                    ],
-                },
-            ],
+                    ul: [
+                        'Exclusive legal rights to use the mark across India for registered goods/services',
+                        'Protection against brand infringement, misuse, and counterfeiting',
+                        'Builds trust, brand recognition, and consumer loyalty',
+                        'Valuable intangible asset that can be licensed, franchised, or sold',
+                        'Essential for e-commerce, Amazon, Flipkart, and domain name protection',
+                        'Can use ® symbol upon registration and TM symbol after application',
+                        'Basis for international trademark applications under Madrid Protocol',
+                        'Strengthens business valuation and attracts investors',
+                        'Acts as evidence in court in case of IP disputes'
+                    ]
+                }
+            ]
         },
         {
-            title: 'Why Should You Register a Private Limited Company?',
+            title: 'Who Can Apply for Trademark Registration?',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        'There are several compelling reasons why forming a Private Limited Company can be beneficial:',
-                    ],
-                },
-                {
-                    subTitle: '1. Limited Liability Protection',
-                    p: [
-                        'As a private limited company, the liability of its shareholders is restricted to the unpaid amount on their shares. This means that if the company faces financial distress or legal liabilities, the personal assets of the shareholders (directors or members) will not be at risk.',
-                    ],
-                },
-                {
-                    subTitle: '2. Separate Legal Entity',
-                    p: [
-                        'A company is a juristic person in the eyes of the law. The legal entity of the company is distinct from its shareholders and directors. The company is capable of entering into contracts in its own name; it can sue and be sued in its own name. The liability and credibility of the company are separated from its stakeholders.',
-                    ],
-                },
-                {
-                    subTitle: '3. Perpetual Succession',
-                    p: [
-                        'The existence of the company is independent of the existence of its shareholders or directors. Unlike a partnership or sole proprietorship, the private limited company enjoys perpetual succession, which means that the existence of the company is not affected by the death, insolvency, or retirement of any shareholder or director. This perpetual succession guarantees the continuity of the business even if one of the company\'s stakeholders leaves the company.',
-                    ],
-                },
-                {
-                    subTitle: '4. Easy Transferability of Shares',
-                    p: [
-                        'Registering a company in India offers easy transferability of shares, which means that shares of the company can be transferred from one shareholder to another. The leverage smoothens out the transaction in the management of the company and later enhances the flexibility in the business operations of the company.',
-                    ],
-                },
-                {
-                    subTitle: '5. Access to Investments and Funding',
-                    p: [
-                        'Capital can be easily raised in a registered Private Limited Company, as Equity shares can be easily issued by the company to raise funds. Issuing equity shares attracts potential investors and venture capital to invest in the company.',
-                    ],
-                },
-                {
-                    subTitle: '6. Increased Trustworthiness',
-                    p: [
-                        'Registering a Private Limited Company enjoys greater market credibility as compared to other business structures. The greater credibility leads to increased trustworthiness among investors. The advantage is gained by the company due to its registration. Registering a company makes the company legally recognizable and shows that it meets the regulatory standards.',
-                    ],
-                },
-            ],
+                    ul: [
+                        'Individual entrepreneurs, startups, and sole proprietors',
+                        'Private limited companies, LLPs, partnerships, and firms',
+                        'Trusts, societies, NGOs, and Section 8 companies',
+                        'Foreign applicants (with agent/Indian address for service)',
+                        'Joint applicants and group companies for common brands'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Trademarkable Elements',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    table: {
+                        thead: {
+                            trow: [
+                                ['Element', 'Examples']
+                            ]
+                        },
+                        tbody: {
+                            trow: [
+                                ['Word Mark', 'Incorvo, Google, Reliance'],
+                                ['Logo', 'Apple logo, Nike Swoosh'],
+                                ['Tagline/Slogan', '“Just Do It”, “The Ultimate Driving Machine”'],
+                                ['Device Mark', 'Stylized designs, emblems'],
+                                ['Sound Mark', 'Yahoo! yodel, ICICI tune'],
+                                ['Shape Mark', 'Coca-Cola bottle shape'],
+                                ['Colour/Combination', 'Cadbury purple, Louboutin red sole'],
+                                ['Domain Name', 'www.incorvo.com as a protected mark']
+                            ]
+                        }
+                    }
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Trademark Registration Process with Incorvo',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    ol: [
+                        'Trademark search to check for similar/identical existing marks (Indian & global database)',
+                        'Consultation to finalize mark, class of goods/services (as per NICE classification)',
+                        'Preparation and e-filing of Form TM-A on IP India portal',
+                        'Receipt of application number and instant use of TM symbol',
+                        'Examination by Registrar – issue of examination report (within 30–60 days typically)',
+                        'Handling objections (if any) – legal reply, evidence, and Registry hearing support',
+                        'Advertisement in Trademark Journal for public opposition (4 months window)',
+                        'Dealing with opposition, if raised by third parties',
+                        'If no opposition (or if successfully defended), registration certificate issued',
+                        '10 years validity from filing date, renewable every 10 years',
+                        'Post-registration support: enforcement, renewal, assignment, licensing'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Documents Required for Trademark Registration',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    ul: [
+                        'Applicant’s PAN and Aadhaar (for individual/sole prop)',
+                        'Certificate of incorporation, partnership deed, or registration certificate (for company/LLP/firm/trust)',
+                        'Logo/image of trademark in JPEG (if device/logo mark)',
+                        'Proof of use (invoices, ads, domain, etc.—optional for proposed-to-be-used marks)',
+                        'Signed Power of Attorney (Form TM-48) to Incorvo',
+                        'Authorization letter for agent/attorney',
+                        'Address proof of applicant (utility bill, rent agreement, etc.)'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Trademark Classes (NICE Classification)',
             descrption: [
                 {
                     subTitle: '',
                     p: [
-                        '',
-                    ],
-                },
-            ],
+                        'Trademarks are registered as per the NICE international classification—45 classes covering all goods and services. Choosing the correct class is crucial for full legal protection.',
+                        'Common examples: Class 9 (software, electronics), Class 25 (clothing), Class 35 (business, advertising), Class 41 (education, entertainment), Class 42 (technology services), etc.',
+                        'Incorvo guides applicants to select the most suitable classes for maximum brand protection.'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Legal Framework for Trademark Registration',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    ul: [
+                        'Trade Marks Act, 1999 and Trade Marks Rules, 2017',
+                        'Madrid Protocol for international registration',
+                        'Sections 9–11: Distinctiveness, deceptiveness, similarity to existing marks',
+                        'Section 18: Application procedure',
+                        'Section 23: Registration and issuance of certificate',
+                        'Section 25: Renewal every 10 years',
+                        'Section 47/57: Rectification or cancellation proceedings'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Trademark Registration Timeline',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    ul: [
+                        'Application filing and receipt of TM number: Same day',
+                        'Examination by Registry: 1–2 months (typically)',
+                        'Reply to objection (if any): Within 30 days of report',
+                        'Journal publication: 4 months for opposition',
+                        'Final certificate issuance: 6–18 months (if no opposition or if defended)'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Why Choose Incorvo for Trademark Registration?',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    ul: [
+                        'Experienced IPR attorneys and trademark agents',
+                        'Complete digital process and pan-India service',
+                        'End-to-end support from brand search to registration',
+                        'Handling of objections, oppositions, rectification, and renewal',
+                        'Personalized strategy for single/multi-class, logo, and international filings',
+                        'Transparent pricing and status updates at every stage',
+                        'Secure, confidential handling of your brand documents'
+                    ]
+                }
+            ]
         },
+        {
+            title: 'Best Practices & Common Mistakes',
+            descrption: [
+                {
+                    subTitle: '',
+                    ul: [
+                        'Always conduct a thorough trademark search before filing',
+                        'Choose a distinctive, non-descriptive, non-generic mark',
+                        'File for all classes relevant to your business expansion',
+                        'Respond promptly to Registry objections and notices',
+                        'Renew marks on time to prevent lapse',
+                        'Keep evidence of trademark use for enforcement and disputes',
+                        'Avoid marks similar to well-known or existing brands'
+                    ]
+                }
+            ]
+        },
+        {
+            title: 'Sample Scenarios & Solutions',
+            descrption: [
+                {
+                    subTitle: 'Startup Launching a New App',
+                    p: [
+                        'Incorvo helps file a wordmark in Class 9 and logo in Class 42, ensuring brand protection across digital and tech domains.'
+                    ]
+                },
+                {
+                    subTitle: 'Family Business Expanding into Apparel',
+                    p: [
+                        'We guide clients to file in Class 25 and Class 35, advising on logo and tagline protection for future e-commerce and franchising.'
+                    ]
+                },
+                {
+                    subTitle: 'Objection Due to Similar Existing Mark',
+                    p: [
+                        'Incorvo’s legal team drafts a strong reply, files usage affidavits, and represents the client at hearings to secure the brand’s approval.'
+                    ]
+                }
+            ]
+        },
+        {
+            title: 'Extended FAQs – Trademark Registration',
+            descrption: [
+                {
+                    subTitle: '',
+                    ul: [
+                        'How long does it take to register a trademark in India? – 6–18 months typically, including examination and opposition period.',
+                        'Can I use TM symbol immediately? – Yes, after application filing you can use the ™ symbol.',
+                        'What if my trademark is objected or opposed? – Incorvo assists in drafting replies, evidence, and representing you at Registry hearings.',
+                        'Can I file trademark in more than one class? – Yes, multi-class applications are possible; Incorvo advises the best class selection.',
+                        'How long is a registered trademark valid? – 10 years, renewable every 10 years indefinitely.',
+                        'Can foreign entities register a trademark in India? – Yes, with local address for service or authorized agent.',
+                        'What if two people apply for similar marks? – Registry examines on first-to-file and likelihood of confusion; objections or opposition may arise.',
+                        'Is trademark registration mandatory? – No, but highly recommended for legal protection, exclusivity, and enforcement.',
+                        'What documents are required for company vs. individual? – Companies need incorporation certificate and board resolution; individuals need PAN, Aadhaar, etc.',
+                        'What is the government fee for trademark registration? – Varies by applicant type and number of classes; Incorvo provides a full cost breakdown.'
+                    ]
+                }
+            ]
+        }
     ],
     faqs: [
         {
-            q: 'What is the minimum capital required to register a Private Limited Company?',
-            a: 'There is no minimum paid-up capital requirement for registering a Private Limited Company in India.',
+            q: 'Can I file a trademark application myself?',
+            a: 'Yes, but professional assistance is highly recommended to avoid mistakes, ensure correct class selection, and handle objections or oppositions.'
         },
         {
-            q: 'Can a foreigner be a director in a Private Limited Company?',
-            a: 'Yes, foreigners can be directors, but at least one director must be a resident of India, as per Section 149 of the Companies Act, 2013.',
+            q: 'What is the difference between TM and ® symbols?',
+            a: '™ can be used after filing the application; ® only after registration is granted by the Trademark Registry.'
         },
         {
-            q: 'How long does it take to register a Private Limited Company in India?',
-            a: 'The registration process generally takes between 7-15 business days, depending on the speed of document verification and approvals.',
+            q: 'What happens if I miss renewal?',
+            a: 'There is a 6-month grace period; after that, the mark may be removed and new application is required.'
         },
         {
-            q: 'What are the legal standards for Private Limited Companies?',
-            a: 'Compliance Requirements: Private Limited Companies must stick to several compliance requirements under the Companies Act, 2013, including having yearly general meetings, filing annual reports, hiring accountants, and more.',
+            q: 'Does registration in India protect my mark internationally?',
+            a: 'No, but it forms a basis for Madrid Protocol international filings through WIPO.'
         },
         {
-            q: 'Do I need a physical office for registration?',
-            a: 'Yes, a registered office in India is mandatory. This office must be in a location where official correspondence and notices from the ROC can be sent.',
+            q: 'Can Incorvo help with objections and oppositions?',
+            a: 'Absolutely! Our legal team handles all aspects, including hearings and reply drafting.'
         },
         {
-            q: 'What are the perks of choosing a Private Limited Company structure?',
-            a: 'Advantages of Private Limited Company: Benefits include limited liability protection, ease of getting capital via shares, constant succession, reliability, and agreement with regulatory norms.',
+            q: 'Is logo registration different from wordmark?',
+            a: 'Yes, you can register both wordmark and device/logo for full protection. We recommend dual filing.'
         },
         {
-            q: 'Can a Private Limited Company change to a Public Limited Company?',
-            a: 'Conversion to Public Limited Company: Yes, a Private Limited Company may change to a Public Limited Company.',
+            q: 'Do I need proof of use for a new brand?',
+            a: 'Not mandatory for proposed-to-be-used marks, but strong evidence helps in case of objections or oppositions.'
         },
         {
-            q: 'What is the difference between a Private Limited Company and a Limited Liability Partnership (LLP)?',
-            a: 'Difference from LLP: The basic difference between a Private Limited Company and a Limited liability Partnership (LLP) rests in their structure and responsibility features. A Private Limited Company has owners and limited liability protection, whereas an LLP has partners with limited liability but without shares.',
+            q: 'How do I track my application?',
+            a: 'Incorvo provides proactive updates, and you can check status anytime on the IP India website.'
         },
         {
-            q: 'How can I change the name of my Private Limited Company?',
-            a: 'Changing Company Name: To change the name of a Private Limited Company, you need to follow the way given by the Ministry of Corporate Affairs in India.',
+            q: 'What are common reasons for trademark rejection?',
+            a: 'Similarity to existing marks, descriptive or generic names, incomplete documentation, or non-distinctiveness.'
         },
         {
-            q: 'What are the penalties for non-compliance with legal duties for Private Limited Companies?',
-            a: 'Penalties for Non-Compliance: Punishments for non-compliance with regulatory requirements for Private Limited Companies might change depending on the individual infringement and may include fines or other legal punishments as per the Companies Act, 2013.',
+            q: 'How do I get started with Incorvo for trademark registration?',
+            a: 'Contact us for a free consultation, trademark search, and end-to-end registration guidance.'
         }
-    ],
-}
+    ]
+};

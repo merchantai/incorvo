@@ -1,206 +1,249 @@
 export default {
     header: {
-        title: 'Private Limited Company Registration',
+        title: 'Accounts Receivable (AR) Services by Incorvo',
         list: [
-            'Register your private limited company in 7 business days with our expert assistance',
-            'Our online company registration service includes the following features',
-            'Obtain 2 Digital Signature Certificates (DSC) with 2 years validity',
-            'Secure 2 Director Identification Numbers (DIN)',
-            'Get unique name approval for your private company',
-            'Acquire PAN and TAN for the company',
-            'Open a current account with ICICI Bank',
-            'Drafting the Memorandum of Association and Articles of Association',
-            'Receive the official Company Incorporation Certificate',
-        ],
+            'Accelerate your cash flow and collections with Incorvo’s Accounts Receivable (AR) outsourcing',
+            'Automated invoicing, payment reminders, and customer ledger management',
+            'Reduce DSO (Days Sales Outstanding) and bad debt risk',
+            'Expert follow-up on overdue invoices and unapplied receipts',
+            'Digital invoicing and e-payment options for faster collections',
+            'Digital reconciliation: payment matching, unapplied receipts, credit notes',
+            'Industry-specific AR workflows: e-commerce, SaaS, export, and services',
+            'Multi-channel customer support for payment queries and disputes',
+            'Compliance with GST, e-invoicing, and TDS on collections',
+            'Customised reports for sales, collections, and customer ageing',
+            'Integration with all major ERPs and accounting software',
+            'Weekly, monthly, and on-demand AR performance updates',
+            'Professional support for cash application, collections calls, and legal follow-up',
+            'Affordable, transparent pricing with no setup or hidden fees'
+        ]
     },
     content: [
         {
-            title: 'Private Limited Company Registration in India',
+            title: 'What Are Accounts Receivable (AR) Services?',
             descrption: [
                 {
                     subTitle: '',
                     p: [
-                        'Currently, Private Limited Companies make upto almost 96% of the total companies in India. Till November 20, 2023, there are 25,99,660 private limited companies registered in India. The huge number of company registrations is a testament to the ease and benefits provided by India. Although registering a company in India is not mandatory, company registration offers significant benefits to founders as well as stakeholders. By the end, you will be able to understand the key legal requirements to register a private limited company in India, along with its compliance obligations and much more.'
-                    ],
-                },
-            ],
+                        'Accounts Receivable (AR) covers all processes from invoicing customers to ensuring collections are timely and complete. Good AR management directly impacts your business cash flow, working capital, and growth prospects. Incorvo’s AR services provide automation, reporting, and expert follow-up—so your business gets paid faster and more predictably.'
+                    ]
+                }
+            ]
         },
         {
-            title: 'What is a Private Limited Company?',
+            title: 'Why Outsource AR to Incorvo?',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        'In India, there are several companies that can be registered. A Private Limited Company is one of them. A Private Limited Company bearing the suffix of ‘Pvt. Ltd\'. At the end of its name is a separate legal entity registered under the Companies Act, 2013with the Registrar of Companies (ROC). The main feature of this type of company is that it offers limited liability protection to its shareholders; it means that the liability of the shareholders is only up to the extent of shares held by them, and the personal assets of shareholders (owners) are protected from the obligations of the company. The company can be owned by multiple shareholders and managed by appointed directors. It is separated from the owners of the company, and its legal existence continues even if there are changes in the ownership or management, which provides security and stability to the company.',
-                    ],
-                },
-            ],
+                    ul: [
+                        'Reduce DSO (Days Sales Outstanding) and improve liquidity',
+                        'Avoid manual errors, missed invoices, or unapplied receipts',
+                        'Ensure customers pay on time — with gentle reminders and professional follow-up',
+                        'Free up your team to focus on core business activities',
+                        'Easier cash flow projections and fund planning',
+                        'Handle disputes and short payments with systemized processes',
+                        'Strengthen customer relationships with professional communication',
+                        'Audit-ready digital records for every transaction'
+                    ]
+                }
+            ]
         },
         {
-            title: 'Why Should You Register a Private Limited Company?',
+            title: 'End-to-End AR Process Workflow (Table)',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        'There are several compelling reasons why forming a Private Limited Company can be beneficial:',
-                    ],
-                },
-                {
-                    subTitle: '1. Limited Liability Protection',
-                    p: [
-                        'As a private limited company, the liability of its shareholders is restricted to the unpaid amount on their shares. This means that if the company faces financial distress or legal liabilities, the personal assets of the shareholders (directors or members) will not be at risk.',
-                    ],
-                },
-                {
-                    subTitle: '2. Separate Legal Entity',
-                    p: [
-                        'A company is a juristic person in the eyes of the law. The legal entity of the company is distinct from its shareholders and directors. The company is capable of entering into contracts in its own name; it can sue and be sued in its own name. The liability and credibility of the company are separated from its stakeholders.',
-                    ],
-                },
-                {
-                    subTitle: '3. Perpetual Succession',
-                    p: [
-                        'The existence of the company is independent of the existence of its shareholders or directors. Unlike a partnership or sole proprietorship, the private limited company enjoys perpetual succession, which means that the existence of the company is not affected by the death, insolvency, or retirement of any shareholder or director. This perpetual succession guarantees the continuity of the business even if one of the company\'s stakeholders leaves the company.',
-                    ],
-                },
-                {
-                    subTitle: '4. Easy Transferability of Shares',
-                    p: [
-                        'Registering a company in India offers easy transferability of shares, which means that shares of the company can be transferred from one shareholder to another. The leverage smoothens out the transaction in the management of the company and later enhances the flexibility in the business operations of the company.',
-                    ],
-                },
-                {
-                    subTitle: '5. Access to Investments and Funding',
-                    p: [
-                        'Capital can be easily raised in a registered Private Limited Company, as Equity shares can be easily issued by the company to raise funds. Issuing equity shares attracts potential investors and venture capital to invest in the company.',
-                    ],
-                },
-                {
-                    subTitle: '6. Increased Trustworthiness',
-                    p: [
-                        'Registering a Private Limited Company enjoys greater market credibility as compared to other business structures. The greater credibility leads to increased trustworthiness among investors. The advantage is gained by the company due to its registration. Registering a company makes the company legally recognizable and shows that it meets the regulatory standards.',
-                    ],
-                },
-            ],
+                    table: {
+                        thead: {
+                            trow: [
+                                ['Step', 'Description', 'Responsibility']
+                            ]
+                        },
+                        tbody: {
+                            trow: [
+                                ['1', 'Customer Onboarding & Credit Check', 'AR Team'],
+                                ['2', 'Sales Order/Contract Validation', 'AR Specialist'],
+                                ['3', 'Invoice Generation & Dispatch (email/portal/post)', 'AR Processor'],
+                                ['4', 'Payment Reminder Scheduling (SMS/email/call)', 'AR Support'],
+                                ['5', 'Receipt Collection & Cash Application', 'AR/Accounts'],
+                                ['6', 'Dispute Identification & Resolution', 'AR + Sales'],
+                                ['7', 'Unapplied Payments/Credit Notes', 'AR Reconciliation'],
+                                ['8', 'AR Ageing Analysis & Escalations', 'AR Manager'],
+                                ['9', 'Legal/External Collection (if required)', 'AR + Legal'],
+                                ['10', 'Monthly Reporting & Performance Review', 'AR/Finance']
+                            ]
+                        }
+                    }
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Technology & Integration',
             descrption: [
                 {
                     subTitle: '',
                     p: [
-                        '',
-                    ],
-                },
-            ],
+                        'Incorvo AR integrates with Tally, Zoho Books, SAP, Oracle, QuickBooks, Xero, and custom ERPs. We offer e-invoicing, automated reminders, digital ledgers, and dashboard reporting. Bulk data import/export and custom API integrations available.'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'KPIs & SLAs: What We Guarantee',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    table: {
+                        thead: {
+                            trow: [
+                                ['Metric / SLA', 'Industry Standard', 'Incorvo Commitment']
+                            ]
+                        },
+                        tbody: {
+                            trow: [
+                                ['Invoice Dispatch TAT', '24–48 hours', '< 24 hours (business days)'],
+                                ['Payment Posting TAT', '48 hours', '< 24 hours'],
+                                ['Dispute Resolution SLA', '7 days', '< 3 days (standard cases)'],
+                                ['Unapplied Cash > 15 days', '< 5%', '< 1%'],
+                                ['Weekly AR Ageing Reports', 'Monthly', 'Weekly or On Demand'],
+                                ['DSO Improvement', '10% YoY', 'Up to 20% reduction in first 6 months'],
+                                ['Customer Query Response', '48 hours', '< 12 hours']
+                            ]
+                        }
+                    }
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Who Should Use Incorvo AR Services?',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    ul: [
+                        'Growth companies with expanding customer base',
+                        'Businesses facing delays or disputes in collections',
+                        'Enterprises wanting to reduce DSO and boost liquidity',
+                        'Firms with limited in-house AR resources',
+                        'Companies needing regular AR analytics, MIS, and audit support',
+                        'Startups looking for cash flow predictability',
+                        'Exporters needing support for follow-ups across time zones'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Custom Solutions by Industry',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    ul: [
+                        'E-commerce: Multi-channel order-to-cash, COD tracking, payment gateway reconciliation',
+                        'Retail: Loyalty/bulk sales AR, customer incentive management, returns reconciliation',
+                        'Manufacturing: Dealer/distributor follow-up, credit limit monitoring, advance receipt tracking',
+                        'SaaS/IT: Subscription billing, auto-renewal reminders, failed payment management',
+                        'NGO/Education: Grant/donor receivables, fee reminders, fund tracking'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Case Example: How Incorvo Boosted Collections for a B2B Client',
             descrption: [
                 {
                     subTitle: '',
                     p: [
-                        '',
-                    ],
-                },
-            ],
+                        'A mid-sized distributor was struggling with high outstanding dues and slow collections. Incorvo implemented automated reminders, customer ledger reconciliation, and monthly AR ageing calls. Within 4 months, DSO dropped by 18 days, and collections increased by 30%. The client also saved 25% on AR admin costs.'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Security, Compliance, and Audit Readiness',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    ul: [
+                        'All data is stored on secure, encrypted cloud infrastructure',
+                        'Digital audit trail for every invoice, payment, and customer communication',
+                        'Role-based access and NDAs for every staff member',
+                        'GST and e-invoicing validation for every sale and receipt',
+                        'Year-end AR ageing, ledger, and confirmation support for audits'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Onboarding & Support',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
-        },
+                    ul: [
+                        'Free AR process review and transition planning',
+                        'Quick setup: AR services can start within 5–7 days',
+                        'Training and onboarding for your team and key customers',
+                        'Custom process mapping and workflow creation',
+                        'Ongoing support by phone, email, and dedicated dashboard'
+                    ]
+                }
+            ]
+        }
     ],
     faqs: [
         {
-            q: 'What is the minimum capital required to register a Private Limited Company?',
-            a: 'There is no minimum paid-up capital requirement for registering a Private Limited Company in India.',
+            q: 'How does Incorvo ensure faster collections?',
+            a: 'We combine automated reminders, human follow-up, and analytics-driven escalation to make sure invoices get paid on time. Our AR teams track all outstanding dues and proactively contact customers before due dates.'
         },
         {
-            q: 'Can a foreigner be a director in a Private Limited Company?',
-            a: 'Yes, foreigners can be directors, but at least one director must be a resident of India, as per Section 149 of the Companies Act, 2013.',
+            q: 'Will my team and customers get real-time access to AR data?',
+            a: 'Yes! You get dashboards, reports, and online ledger access. Customers can view statements, pay online, and raise queries easily.'
         },
         {
-            q: 'How long does it take to register a Private Limited Company in India?',
-            a: 'The registration process generally takes between 7-15 business days, depending on the speed of document verification and approvals.',
+            q: 'Can Incorvo handle GST, TDS, and e-invoicing compliance?',
+            a: 'Absolutely. Every invoice is checked for GST, TDS, and e-invoicing requirements before dispatch. We support digital signatures and track compliance status for every customer.'
         },
         {
-            q: 'What are the legal standards for Private Limited Companies?',
-            a: 'Compliance Requirements: Private Limited Companies must stick to several compliance requirements under the Companies Act, 2013, including having yearly general meetings, filing annual reports, hiring accountants, and more.',
+            q: 'How do you deal with customer disputes or short payments?',
+            a: 'Our AR support team investigates every dispute, coordinates with your sales/account team, documents outcomes, and follows up for timely resolution.'
         },
         {
-            q: 'Do I need a physical office for registration?',
-            a: 'Yes, a registered office in India is mandatory. This office must be in a location where official correspondence and notices from the ROC can be sent.',
+            q: 'Is Incorvo’s AR service secure and audit-ready?',
+            a: 'Yes. All data and documents are kept on encrypted servers, with role-based access and complete audit logs maintained for 7+ years.'
         },
         {
-            q: 'What are the perks of choosing a Private Limited Company structure?',
-            a: 'Advantages of Private Limited Company: Benefits include limited liability protection, ease of getting capital via shares, constant succession, reliability, and agreement with regulatory norms.',
+            q: 'How are unapplied payments, advances, or credits managed?',
+            a: 'We regularly review unapplied receipts, issue credit notes, and match payments to invoices for clean ledgers and correct MIS.'
         },
         {
-            q: 'Can a Private Limited Company change to a Public Limited Company?',
-            a: 'Conversion to Public Limited Company: Yes, a Private Limited Company may change to a Public Limited Company.',
+            q: 'Can Incorvo call or email customers on our behalf?',
+            a: 'Yes! Our trained AR agents make polite, professional payment reminders and email follow-ups using your brand tone.'
         },
         {
-            q: 'What is the difference between a Private Limited Company and a Limited Liability Partnership (LLP)?',
-            a: 'Difference from LLP: The basic difference between a Private Limited Company and a Limited liability Partnership (LLP) rests in their structure and responsibility features. A Private Limited Company has owners and limited liability protection, whereas an LLP has partners with limited liability but without shares.',
+            q: 'Do you provide regular AR analytics, cash forecasts, and DSO tracking?',
+            a: 'Yes. You get weekly/monthly AR dashboards, custom MIS, and DSO/ageing trends for better business planning.'
         },
         {
-            q: 'How can I change the name of my Private Limited Company?',
-            a: 'Changing Company Name: To change the name of a Private Limited Company, you need to follow the way given by the Ministry of Corporate Affairs in India.',
+            q: 'What is the typical onboarding time for AR services?',
+            a: 'AR onboarding is possible in 5–7 business days. Our team transitions your processes, data, and trains staff for a smooth handover.'
         },
         {
-            q: 'What are the penalties for non-compliance with legal duties for Private Limited Companies?',
-            a: 'Penalties for Non-Compliance: Punishments for non-compliance with regulatory requirements for Private Limited Companies might change depending on the individual infringement and may include fines or other legal punishments as per the Companies Act, 2013.',
+            q: 'Can you integrate with my current ERP or custom system?',
+            a: 'We support integration with all major ERPs and custom APIs, including Tally, Zoho, SAP, Oracle, QuickBooks, and more.'
+        },
+        {
+            q: 'Do you help with year-end AR closing and audit confirmations?',
+            a: 'Absolutely. Year-end closing, ledger reconciliation, and audit support are included in our AR service packages.'
+        },
+        {
+            q: 'How does Incorvo price AR services?',
+            a: 'We offer affordable monthly retainers, with pricing based on invoice volume and process complexity. No setup or hidden fees.'
+        },
+        {
+            q: 'What industries does Incorvo serve for AR outsourcing?',
+            a: 'We serve B2B and B2C businesses in e-commerce, retail, manufacturing, services, SaaS, NGOs, education, and more.'
+        },
+        {
+            q: 'How can I start with Incorvo’s AR services?',
+            a: 'Contact us for a free consultation. We’ll review your AR process, prepare a transition plan, and go live within days.'
         }
-    ],
-}
+    ]
+};

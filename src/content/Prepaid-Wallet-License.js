@@ -1,206 +1,312 @@
 export default {
     header: {
-        title: 'Private Limited Company Registration',
+        title: 'Prepaid Wallet License Registration – Incorvo',
         list: [
-            'Register your private limited company in 7 business days with our expert assistance',
-            'Our online company registration service includes the following features',
-            'Obtain 2 Digital Signature Certificates (DSC) with 2 years validity',
-            'Secure 2 Director Identification Numbers (DIN)',
-            'Get unique name approval for your private company',
-            'Acquire PAN and TAN for the company',
-            'Open a current account with ICICI Bank',
-            'Drafting the Memorandum of Association and Articles of Association',
-            'Receive the official Company Incorporation Certificate',
-        ],
+            'Expert advisory for RBI Prepaid Payment Instruments (PPI) License',
+            'Eligibility assessment, business plan drafting, and compliance strategy',
+            'Full documentation and application preparation as per RBI guidelines',
+            'Assistance with KYC, AML, cyber security, and IT system compliance',
+            'Submission of license application to RBI and response to clarifications',
+            'Support for all wallet types: closed, semi-closed, and open',
+            'Post-license audit, compliance, and reporting advisory',
+            'Value-added support for integration, merchant onboarding, and innovation',
+            'Personalized project manager and digital documentation workflow',
+            'Transparent pricing and milestone-based engagement from start to go-live'
+        ]
     },
     content: [
         {
-            title: 'Private Limited Company Registration in India',
+            title: 'What is a Prepaid Wallet?',
             descrption: [
                 {
                     subTitle: '',
                     p: [
-                        'Currently, Private Limited Companies make upto almost 96% of the total companies in India. Till November 20, 2023, there are 25,99,660 private limited companies registered in India. The huge number of company registrations is a testament to the ease and benefits provided by India. Although registering a company in India is not mandatory, company registration offers significant benefits to founders as well as stakeholders. By the end, you will be able to understand the key legal requirements to register a private limited company in India, along with its compliance obligations and much more.'
-                    ],
-                },
-            ],
+                        'A Prepaid Wallet—also known as a Prepaid Payment Instrument (PPI)—is an electronic payment solution that allows customers to load money and make purchases, bill payments, transfers, and more without the need for cash or cards. In India, PPIs are regulated by the Reserve Bank of India (RBI) and require a Prepaid Wallet License for legal operation.'
+                    ]
+                }
+            ]
         },
         {
-            title: 'What is a Private Limited Company?',
+            title: 'Types of Prepaid Wallets',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        'In India, there are several companies that can be registered. A Private Limited Company is one of them. A Private Limited Company bearing the suffix of ‘Pvt. Ltd\'. At the end of its name is a separate legal entity registered under the Companies Act, 2013with the Registrar of Companies (ROC). The main feature of this type of company is that it offers limited liability protection to its shareholders; it means that the liability of the shareholders is only up to the extent of shares held by them, and the personal assets of shareholders (owners) are protected from the obligations of the company. The company can be owned by multiple shareholders and managed by appointed directors. It is separated from the owners of the company, and its legal existence continues even if there are changes in the ownership or management, which provides security and stability to the company.',
-                    ],
-                },
-            ],
+                    table: {
+                        thead: {
+                            trow: [
+                                ['Type', 'Description', 'Usage']
+                            ]
+                        },
+                        tbody: {
+                            trow: [
+                                [
+                                    'Closed Wallet',
+                                    'Issued by a company for its own goods/services only. Cannot be used at third-party merchants.',
+                                    'E-commerce apps, food delivery wallets, travel portals'
+                                ],
+                                [
+                                    'Semi-Closed Wallet',
+                                    'Issued for purchases at a group of clearly identified merchants/partners; not for cash withdrawal or full P2P.',
+                                    'Paytm, PhonePe, Ola Money, Mobikwik, Amazon Pay (for select merchants)'
+                                ],
+                                [
+                                    'Open Wallet',
+                                    'Issued only by banks and can be used for purchase, withdrawal, and funds transfer at any merchant/outlet.',
+                                    'Bank-linked wallets, card-based digital wallets'
+                                ]
+                            ]
+                        }
+                    }
+                }
+            ]
         },
         {
-            title: 'Why Should You Register a Private Limited Company?',
+            title: 'Who Needs a Prepaid Wallet License?',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        'There are several compelling reasons why forming a Private Limited Company can be beneficial:',
-                    ],
-                },
-                {
-                    subTitle: '1. Limited Liability Protection',
-                    p: [
-                        'As a private limited company, the liability of its shareholders is restricted to the unpaid amount on their shares. This means that if the company faces financial distress or legal liabilities, the personal assets of the shareholders (directors or members) will not be at risk.',
-                    ],
-                },
-                {
-                    subTitle: '2. Separate Legal Entity',
-                    p: [
-                        'A company is a juristic person in the eyes of the law. The legal entity of the company is distinct from its shareholders and directors. The company is capable of entering into contracts in its own name; it can sue and be sued in its own name. The liability and credibility of the company are separated from its stakeholders.',
-                    ],
-                },
-                {
-                    subTitle: '3. Perpetual Succession',
-                    p: [
-                        'The existence of the company is independent of the existence of its shareholders or directors. Unlike a partnership or sole proprietorship, the private limited company enjoys perpetual succession, which means that the existence of the company is not affected by the death, insolvency, or retirement of any shareholder or director. This perpetual succession guarantees the continuity of the business even if one of the company\'s stakeholders leaves the company.',
-                    ],
-                },
-                {
-                    subTitle: '4. Easy Transferability of Shares',
-                    p: [
-                        'Registering a company in India offers easy transferability of shares, which means that shares of the company can be transferred from one shareholder to another. The leverage smoothens out the transaction in the management of the company and later enhances the flexibility in the business operations of the company.',
-                    ],
-                },
-                {
-                    subTitle: '5. Access to Investments and Funding',
-                    p: [
-                        'Capital can be easily raised in a registered Private Limited Company, as Equity shares can be easily issued by the company to raise funds. Issuing equity shares attracts potential investors and venture capital to invest in the company.',
-                    ],
-                },
-                {
-                    subTitle: '6. Increased Trustworthiness',
-                    p: [
-                        'Registering a Private Limited Company enjoys greater market credibility as compared to other business structures. The greater credibility leads to increased trustworthiness among investors. The advantage is gained by the company due to its registration. Registering a company makes the company legally recognizable and shows that it meets the regulatory standards.',
-                    ],
-                },
-            ],
+                    ul: [
+                        'Fintech startups building payment or loyalty wallet products',
+                        'E-commerce platforms wishing to issue customer or merchant wallets',
+                        'Mobile app developers integrating digital wallets for in-app payments',
+                        'NBFCs, large retailers, and service aggregators wanting customer or vendor wallets',
+                        'Corporates aiming to issue gift cards, cashbacks, or loyalty solutions'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'RBI Eligibility Criteria for Prepaid Wallet License',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    ul: [
+                        'Applicant must be a company registered under the Companies Act, 2013',
+                        'Minimum paid-up capital of ₹5 crore (net worth to be maintained at ₹5 crore at all times)',
+                        'Fit-and-proper status of promoters/directors with clean financial and regulatory record',
+                        'Robust IT, cyber security, and data privacy infrastructure',
+                        'Comprehensive business plan, product architecture, and compliance framework',
+                        'No wilful default, fraud, or regulatory violation history'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Step-by-Step Prepaid Wallet License Process with Incorvo',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    ol: [
+                        'Preliminary consultation and eligibility assessment by Incorvo team',
+                        'Business plan, financial projections, and compliance policy drafting',
+                        'Collection and review of promoter, director, and company documents',
+                        'Preparation of KYC, AML, risk, and grievance redressal policy documents',
+                        'Technology and cyber security system documentation',
+                        'Application submission to RBI with all annexures',
+                        'RBI review, clarifications, and additional document support',
+                        'In-principle approval from RBI (valid for 6-12 months to demonstrate go-live readiness)',
+                        'Tech integration, merchant onboarding, and pilot go-live',
+                        'Final license grant after successful system audit and compliance verification',
+                        'Ongoing annual filings, audit, and compliance with RBI guidelines'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Key Documents Required for PPI Application',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    ul: [
+                        'Incorporation Certificate, MOA, AOA of company',
+                        'Board resolution for PPI license application and compliance officer appointment',
+                        'KYC documents, PAN, and address proofs of all promoters/directors',
+                        'Audited financial statements and net worth certificate',
+                        'Detailed business plan, projected financials, and product use-cases',
+                        'KYC/AML, customer grievance, privacy, and risk management policy documents',
+                        'IT system architecture, PCI-DSS/cyber security documentation',
+                        'Details of proposed wallet product and intended user segments',
+                        'Merchant onboarding, transaction monitoring, and settlement processes',
+                        'Any additional information as required by RBI during processing'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Regulatory & Compliance Requirements',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    ul: [
+                        'KYC/AML compliance for all wallet users (tiered as per wallet limits)',
+                        'Fund settlement via escrow account with a scheduled commercial bank',
+                        'Transaction and data security – PCI-DSS, encryption, cyber security audits',
+                        'Periodic submission of transaction and compliance reports to RBI',
+                        'Strict adherence to wallet limits (balance, transaction, loading, and withdrawal)',
+                        'Customer grievance redressal system and escalation protocols',
+                        'Annual and event-based audits, vulnerability assessment, and incident reporting'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Comparison: Closed vs Semi-Closed vs Open Wallet',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    table: {
+                        thead: {
+                            trow: [
+                                ['Feature', 'Closed Wallet', 'Semi-Closed Wallet', 'Open Wallet']
+                            ]
+                        },
+                        tbody: {
+                            trow: [
+                                [
+                                    'Who can issue',
+                                    'Any company (no RBI approval needed)',
+                                    'Company with RBI PPI license',
+                                    'Only banks (with RBI approval)'
+                                ],
+                                [
+                                    'Where can be used',
+                                    'Own business/brand only',
+                                    'Multiple partner merchants',
+                                    'Any merchant/ATM'
+                                ],
+                                [
+                                    'Cash withdrawal',
+                                    'No',
+                                    'No',
+                                    'Yes'
+                                ],
+                                [
+                                    'Fund transfer (P2P)',
+                                    'No',
+                                    'Limited (as per guidelines)',
+                                    'Yes'
+                                ],
+                                [
+                                    'KYC required',
+                                    'Basic for registration',
+                                    'Mandatory for higher limits',
+                                    'Full banking KYC'
+                                ]
+                            ]
+                        }
+                    }
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Common Pitfalls & Mistakes in PPI Licensing',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    ul: [
+                        'Inadequate net worth or capital at the time of application',
+                        'Non-compliant or incomplete policy documentation',
+                        'Weak KYC, AML, or transaction monitoring framework',
+                        'Delayed or insufficient responses to RBI clarifications',
+                        'Non-adherence to cyber security or PCI-DSS requirements',
+                        'Ignoring customer grievance, audit, or incident response obligations'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Best Practices for Prepaid Wallet Setup & Operations',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    ul: [
+                        'Engage experienced legal, compliance, and tech advisors (like Incorvo)',
+                        'Draft clear and robust policies for KYC, AML, risk, and customer service',
+                        'Integrate PCI-DSS-compliant payment and IT systems',
+                        'Plan for regular compliance audits and technology upgrades',
+                        'Educate customers and merchants about wallet limits and KYC needs',
+                        'Maintain transparent reporting and prompt communication with RBI'
+                    ]
+                }
+            ]
         },
+        {
+            title: 'Why Choose Incorvo for Prepaid Wallet Licensing?',
+            descrption: [
+                {
+                    subTitle: '',
+                    ul: [
+                        'Proven expertise in RBI licensing, fintech, and payment compliance',
+                        'Step-by-step support from eligibility to post-license operations',
+                        'Custom policy templates, audit checklists, and documentation packs',
+                        'Tech and integration advisory for seamless wallet launch',
+                        'Dedicated account manager for project coordination',
+                        'Transparent pricing and milestone-driven approach'
+                    ]
+                }
+            ]
+        },
+        {
+            title: 'Prepaid Wallet License: Extended FAQs',
+            descrption: [
+                {
+                    subTitle: '',
+                    ul: [
+                        'What is the minimum net worth for a PPI license? – ₹5 crore at all times.',
+                        'Who can issue open wallets? – Only banks with RBI approval.',
+                        'How long does RBI approval take? – 6–12 months, subject to completeness and compliance.',
+                        'Can an e-commerce company issue a wallet for its customers? – Yes, closed wallets (no RBI approval needed); semi-closed requires PPI license.',
+                        'What KYC is required for wallet users? – Tiered KYC as per transaction and balance limits, full KYC for higher limits.',
+                        'Are annual audits mandatory? – Yes, for cyber security, data protection, and compliance.',
+                        'What if my company fails to meet compliance after approval? – RBI may suspend or cancel the license, and penalties may apply.',
+                        'Does Incorvo help with tech, integration, and pilot go-live? – Absolutely, including compliance audits and launch checklists.',
+                        'Can wallet balances be withdrawn as cash? – Only open wallets (by banks) allow withdrawal.',
+                        'How do I get started? – Book a free consultation with Incorvo’s PPI team for eligibility, checklist, and roadmap.'
+                    ]
+                }
+            ]
+        }
     ],
     faqs: [
         {
-            q: 'What is the minimum capital required to register a Private Limited Company?',
-            a: 'There is no minimum paid-up capital requirement for registering a Private Limited Company in India.',
+            q: 'Is RBI license mandatory for all digital wallet businesses?',
+            a: 'Yes, except for closed wallets usable only for your own goods/services. Semi-closed and open wallets require RBI PPI license.'
         },
         {
-            q: 'Can a foreigner be a director in a Private Limited Company?',
-            a: 'Yes, foreigners can be directors, but at least one director must be a resident of India, as per Section 149 of the Companies Act, 2013.',
+            q: 'Can a fintech startup apply for a PPI license?',
+            a: 'Yes, if incorporated as a company, with minimum ₹5 crore paid-up capital and a robust compliance framework.'
         },
         {
-            q: 'How long does it take to register a Private Limited Company in India?',
-            a: 'The registration process generally takes between 7-15 business days, depending on the speed of document verification and approvals.',
+            q: 'What are wallet balance and transaction limits?',
+            a: 'Limits are set by RBI and depend on KYC status. Full KYC wallets can have higher limits than minimum KYC wallets.'
         },
         {
-            q: 'What are the legal standards for Private Limited Companies?',
-            a: 'Compliance Requirements: Private Limited Companies must stick to several compliance requirements under the Companies Act, 2013, including having yearly general meetings, filing annual reports, hiring accountants, and more.',
+            q: 'Will Incorvo support my wallet through annual audits and filings?',
+            a: 'Yes, our service covers end-to-end compliance, audit, and ongoing reporting.'
         },
         {
-            q: 'Do I need a physical office for registration?',
-            a: 'Yes, a registered office in India is mandatory. This office must be in a location where official correspondence and notices from the ROC can be sent.',
+            q: 'Does Incorvo help with merchant onboarding and technology?',
+            a: 'Absolutely. We provide advisory and documentation for onboarding, integration, and tech setup.'
         },
         {
-            q: 'What are the perks of choosing a Private Limited Company structure?',
-            a: 'Advantages of Private Limited Company: Benefits include limited liability protection, ease of getting capital via shares, constant succession, reliability, and agreement with regulatory norms.',
+            q: 'What is the penalty for non-compliance with PPI guidelines?',
+            a: 'Penalties may include suspension/cancellation of license, fines, and regulatory action by RBI.'
         },
         {
-            q: 'Can a Private Limited Company change to a Public Limited Company?',
-            a: 'Conversion to Public Limited Company: Yes, a Private Limited Company may change to a Public Limited Company.',
+            q: 'How are customer complaints handled for wallets?',
+            a: 'A customer grievance redressal system with escalation is mandatory. Incorvo assists in setting up compliant processes.'
         },
         {
-            q: 'What is the difference between a Private Limited Company and a Limited Liability Partnership (LLP)?',
-            a: 'Difference from LLP: The basic difference between a Private Limited Company and a Limited liability Partnership (LLP) rests in their structure and responsibility features. A Private Limited Company has owners and limited liability protection, whereas an LLP has partners with limited liability but without shares.',
+            q: 'How long does the PPI license process take?',
+            a: 'Typically 6–12 months, depending on document readiness and RBI queries.'
         },
         {
-            q: 'How can I change the name of my Private Limited Company?',
-            a: 'Changing Company Name: To change the name of a Private Limited Company, you need to follow the way given by the Ministry of Corporate Affairs in India.',
+            q: 'How do I get a quote or start the process with Incorvo?',
+            a: 'Contact us for a free consultation, eligibility check, and a stepwise roadmap tailored to your wallet business.'
         },
         {
-            q: 'What are the penalties for non-compliance with legal duties for Private Limited Companies?',
-            a: 'Penalties for Non-Compliance: Punishments for non-compliance with regulatory requirements for Private Limited Companies might change depending on the individual infringement and may include fines or other legal punishments as per the Companies Act, 2013.',
+            q: 'Can foreign companies apply for a PPI license in India?',
+            a: 'Only through a registered Indian subsidiary, and subject to FDI guidelines and RBI approval.'
         }
-    ],
-}
+    ]
+};

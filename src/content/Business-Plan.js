@@ -1,206 +1,229 @@
 export default {
     header: {
-        title: 'Private Limited Company Registration',
+        title: 'Business Plan Services',
         list: [
-            'Register your private limited company in 7 business days with our expert assistance',
-            'Our online company registration service includes the following features',
-            'Obtain 2 Digital Signature Certificates (DSC) with 2 years validity',
-            'Secure 2 Director Identification Numbers (DIN)',
-            'Get unique name approval for your private company',
-            'Acquire PAN and TAN for the company',
-            'Open a current account with ICICI Bank',
-            'Drafting the Memorandum of Association and Articles of Association',
-            'Receive the official Company Incorporation Certificate',
-        ],
+            'Custom business plan creation for startups, SMEs, and established businesses',
+            'Comprehensive market research, competitor analysis, and opportunity mapping',
+            'Financial projections, cash flow analysis, and investor pitch-ready documents',
+            'Strategic guidance for fundraising, loan applications, and business expansion',
+            'Sector-specific plans: tech, manufacturing, retail, healthcare, services, and more',
+            'Professional presentation decks and documentation for banks and investors',
+            'Industry-compliant, bankable, and government grant-ready business plans',
+            'Support for regulatory, FDI, and Startup India requirements',
+            'Digital delivery and unlimited expert revisions',
+            'Dedicated Incorvo advisor for each project from kickoff to final handover'
+        ]
     },
     content: [
         {
-            title: 'Private Limited Company Registration in India',
+            title: 'What is a Business Plan & Why is it Essential?',
             descrption: [
                 {
                     subTitle: '',
                     p: [
-                        'Currently, Private Limited Companies make upto almost 96% of the total companies in India. Till November 20, 2023, there are 25,99,660 private limited companies registered in India. The huge number of company registrations is a testament to the ease and benefits provided by India. Although registering a company in India is not mandatory, company registration offers significant benefits to founders as well as stakeholders. By the end, you will be able to understand the key legal requirements to register a private limited company in India, along with its compliance obligations and much more.'
-                    ],
-                },
-            ],
+                        'A business plan is a comprehensive written roadmap for your venture—detailing vision, strategy, structure, market analysis, funding, revenue models, and operational plans. It is not just for fundraising or bank loans; a robust business plan guides founders and managers through all stages of growth.',
+                        'Banks, investors, and grant agencies demand business plans for funding decisions. Startups need it for angel/VC capital, established firms use it for expansion, and SMEs need it to stay competitive. Incorvo creates plans that are both practical and presentation-ready—designed for your audience and your execution team.'
+                    ]
+                }
+            ]
         },
         {
-            title: 'What is a Private Limited Company?',
+            title: 'Key Types of Business Plans Offered by Incorvo',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        'In India, there are several companies that can be registered. A Private Limited Company is one of them. A Private Limited Company bearing the suffix of ‘Pvt. Ltd\'. At the end of its name is a separate legal entity registered under the Companies Act, 2013with the Registrar of Companies (ROC). The main feature of this type of company is that it offers limited liability protection to its shareholders; it means that the liability of the shareholders is only up to the extent of shares held by them, and the personal assets of shareholders (owners) are protected from the obligations of the company. The company can be owned by multiple shareholders and managed by appointed directors. It is separated from the owners of the company, and its legal existence continues even if there are changes in the ownership or management, which provides security and stability to the company.',
-                    ],
-                },
-            ],
+                    ul: [
+                        'Startup/Seed Funding Plans (for angel/VC investors)',
+                        'Bank Loan Business Plans',
+                        'Government/Grant-Ready Business Plans (Startup India, MSME, SIDBI, etc.)',
+                        'Expansion Plans for existing businesses',
+                        'Franchise or Multi-location Business Plans',
+                        'Pitch Decks for investor presentations',
+                        'Internal Strategic Plans for management or board'
+                    ]
+                }
+            ]
         },
         {
-            title: 'Why Should You Register a Private Limited Company?',
+            title: 'Business Plan Structure & Checklist (Table)',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        'There are several compelling reasons why forming a Private Limited Company can be beneficial:',
-                    ],
-                },
-                {
-                    subTitle: '1. Limited Liability Protection',
-                    p: [
-                        'As a private limited company, the liability of its shareholders is restricted to the unpaid amount on their shares. This means that if the company faces financial distress or legal liabilities, the personal assets of the shareholders (directors or members) will not be at risk.',
-                    ],
-                },
-                {
-                    subTitle: '2. Separate Legal Entity',
-                    p: [
-                        'A company is a juristic person in the eyes of the law. The legal entity of the company is distinct from its shareholders and directors. The company is capable of entering into contracts in its own name; it can sue and be sued in its own name. The liability and credibility of the company are separated from its stakeholders.',
-                    ],
-                },
-                {
-                    subTitle: '3. Perpetual Succession',
-                    p: [
-                        'The existence of the company is independent of the existence of its shareholders or directors. Unlike a partnership or sole proprietorship, the private limited company enjoys perpetual succession, which means that the existence of the company is not affected by the death, insolvency, or retirement of any shareholder or director. This perpetual succession guarantees the continuity of the business even if one of the company\'s stakeholders leaves the company.',
-                    ],
-                },
-                {
-                    subTitle: '4. Easy Transferability of Shares',
-                    p: [
-                        'Registering a company in India offers easy transferability of shares, which means that shares of the company can be transferred from one shareholder to another. The leverage smoothens out the transaction in the management of the company and later enhances the flexibility in the business operations of the company.',
-                    ],
-                },
-                {
-                    subTitle: '5. Access to Investments and Funding',
-                    p: [
-                        'Capital can be easily raised in a registered Private Limited Company, as Equity shares can be easily issued by the company to raise funds. Issuing equity shares attracts potential investors and venture capital to invest in the company.',
-                    ],
-                },
-                {
-                    subTitle: '6. Increased Trustworthiness',
-                    p: [
-                        'Registering a Private Limited Company enjoys greater market credibility as compared to other business structures. The greater credibility leads to increased trustworthiness among investors. The advantage is gained by the company due to its registration. Registering a company makes the company legally recognizable and shows that it meets the regulatory standards.',
-                    ],
-                },
-            ],
+                    table: {
+                        thead: {
+                            trow: [
+                                ['Section', 'Contents']
+                            ]
+                        },
+                        tbody: {
+                            trow: [
+                                ['Executive Summary', 'Business overview, vision, summary of key points'],
+                                ['Company Description', 'Legal entity, promoters, mission, milestones'],
+                                ['Industry & Market Analysis', 'Sector trends, target market, opportunity, competition'],
+                                ['Customer Analysis', 'Target segment, customer needs, market size'],
+                                ['SWOT Analysis', 'Strengths, Weaknesses, Opportunities, Threats'],
+                                ['Product/Service Offering', 'Features, USPs, technical specs, value proposition'],
+                                ['Go-to-Market Strategy', 'Sales, marketing, distribution, customer acquisition'],
+                                ['Operations Plan', 'Location, facilities, technology, supply chain, team'],
+                                ['Organization Structure', 'Founders, management, staffing, HR policies'],
+                                ['Financial Plan', '3–5 year projections, P&L, balance sheet, cash flow, funding requirement'],
+                                ['Risk Assessment', 'Regulatory, operational, financial, and market risks'],
+                                ['Appendices', 'Supporting documents, research data, resumes, statutory licenses']
+                            ]
+                        }
+                    }
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Incorvo’s Business Plan Process – Step-by-Step',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    ol: [
+                        'Initial consultation: Understand your business, goals, sector, and funding needs',
+                        'Collection of inputs and required documents from founder/team',
+                        'Market research and competitor benchmarking by Incorvo analysts',
+                        'Drafting of business plan document and financial model by sector experts',
+                        'Review and feedback loop with client for changes/additions',
+                        'Preparation of investor or bank-ready pitch deck if needed',
+                        'Final delivery of business plan (editable + PDF formats) and financial projections',
+                        'Unlimited revision window for 2 weeks post final handover'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Documents & Information Needed to Start Your Business Plan',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    ul: [
+                        'Founder and management bios/CVs',
+                        'Business idea/concept note or pitch',
+                        'Current financials (if any) and revenue model',
+                        'Market/industry of operation and target audience',
+                        'List of products/services and pricing (proposed or existing)',
+                        'Competition details (names, strengths/weaknesses, if known)',
+                        'Fundraising targets or bank loan requirement (if applicable)',
+                        'Licenses or registrations obtained/required',
+                        'Photos, logos, product images, or prototypes',
+                        'Any prior business plan drafts or investor feedback (if available)'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Why a Professionally Written Business Plan Matters',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    ul: [
+                        'Maximizes chances of securing funding or loan approvals',
+                        'Clarifies vision and operating roadmap for management and team',
+                        'Helps identify market risks and strategies to mitigate them',
+                        'Improves credibility with investors, banks, partners, and grant agencies',
+                        'Saves time and reduces back-and-forth during due diligence',
+                        'Makes expansion or scaling up easier with a clear operational plan',
+                        'Enables pivoting and scenario planning as the market evolves'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Sector Focus & Industry Expertise',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    ul: [
+                        'Technology & SaaS',
+                        'Manufacturing & Engineering',
+                        'Retail & E-Commerce',
+                        'Healthcare & Pharma',
+                        'Fintech & Financial Services',
+                        'Hospitality & F&B',
+                        'Education & EdTech',
+                        'Logistics & Supply Chain',
+                        'Agritech, Energy, and more'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Value-Add Services with Incorvo Business Plan',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    ul: [
+                        'Professional pitch deck design and investor brief creation',
+                        'Business model canvas and revenue model mapping',
+                        'Financial sensitivity and break-even analysis',
+                        'Grant application assistance for government schemes',
+                        'Mentorship and business advisory by industry leaders',
+                        'Compliance and regulatory advisory for startups and MSMEs',
+                        'Branding, website, and digital strategy support as add-ons'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Common Mistakes to Avoid in Business Planning',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
-        },
-        {
-            title: '',
-            descrption: [
-                {
-                    subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
-        },
+                    ul: [
+                        'Copy-pasting generic templates without customization',
+                        'Unrealistic financial projections or missing revenue logic',
+                        'Ignoring market research and competitor benchmarking',
+                        'Lack of operational details (team, supply chain, timelines)',
+                        'Omitting key risks or mitigation strategies',
+                        'Failure to update the plan as business/market changes',
+                        'Not preparing an investor pitch version with concise highlights'
+                    ]
+                }
+            ]
+        }
     ],
     faqs: [
         {
-            q: 'What is the minimum capital required to register a Private Limited Company?',
-            a: 'There is no minimum paid-up capital requirement for registering a Private Limited Company in India.',
+            q: 'Who should get a business plan written by Incorvo?',
+            a: 'Startups, founders seeking investment or loans, established businesses planning expansion, SMEs applying for grants or tenders, and anyone seeking a clear roadmap for their venture.'
         },
         {
-            q: 'Can a foreigner be a director in a Private Limited Company?',
-            a: 'Yes, foreigners can be directors, but at least one director must be a resident of India, as per Section 149 of the Companies Act, 2013.',
+            q: 'How much time does it take to deliver a business plan?',
+            a: 'A standard business plan takes 7–10 working days post data collection. Fast-track and pitch deck-only options available.'
         },
         {
-            q: 'How long does it take to register a Private Limited Company in India?',
-            a: 'The registration process generally takes between 7-15 business days, depending on the speed of document verification and approvals.',
+            q: 'Will Incorvo assist with financial modeling and projections?',
+            a: 'Absolutely! Every plan includes detailed financial modeling—projections, P&L, cash flow, break-even, and funding needs.'
         },
         {
-            q: 'What are the legal standards for Private Limited Companies?',
-            a: 'Compliance Requirements: Private Limited Companies must stick to several compliance requirements under the Companies Act, 2013, including having yearly general meetings, filing annual reports, hiring accountants, and more.',
+            q: 'Can I use my business plan for multiple purposes (loan, investment, grants)?',
+            a: 'Yes. We can tailor your plan or provide versions for banks, investors, and government bodies as required.'
         },
         {
-            q: 'Do I need a physical office for registration?',
-            a: 'Yes, a registered office in India is mandatory. This office must be in a location where official correspondence and notices from the ROC can be sent.',
+            q: 'Does Incorvo offer pitch deck design as well?',
+            a: 'Yes, we create professionally designed pitch decks as add-ons or as part of the full business plan package.'
         },
         {
-            q: 'What are the perks of choosing a Private Limited Company structure?',
-            a: 'Advantages of Private Limited Company: Benefits include limited liability protection, ease of getting capital via shares, constant succession, reliability, and agreement with regulatory norms.',
+            q: 'What if I need to update or revise my business plan later?',
+            a: 'You receive editable files and free revisions for 2 weeks. We offer update packages for future changes as well.'
         },
         {
-            q: 'Can a Private Limited Company change to a Public Limited Company?',
-            a: 'Conversion to Public Limited Company: Yes, a Private Limited Company may change to a Public Limited Company.',
+            q: 'How does Incorvo ensure confidentiality of my business idea?',
+            a: 'All client information is protected under strict NDAs and handled with top-tier data security protocols.'
         },
         {
-            q: 'What is the difference between a Private Limited Company and a Limited Liability Partnership (LLP)?',
-            a: 'Difference from LLP: The basic difference between a Private Limited Company and a Limited liability Partnership (LLP) rests in their structure and responsibility features. A Private Limited Company has owners and limited liability protection, whereas an LLP has partners with limited liability but without shares.',
+            q: 'Can Incorvo help with grant applications or Startup India recognition?',
+            a: 'Yes, we provide complete assistance for grant/Startup India documentation and compliance.'
         },
         {
-            q: 'How can I change the name of my Private Limited Company?',
-            a: 'Changing Company Name: To change the name of a Private Limited Company, you need to follow the way given by the Ministry of Corporate Affairs in India.',
+            q: 'Do I need to have all the information ready before starting?',
+            a: 'No, we guide you through a structured questionnaire and consultation to extract all needed inputs.'
         },
         {
-            q: 'What are the penalties for non-compliance with legal duties for Private Limited Companies?',
-            a: 'Penalties for Non-Compliance: Punishments for non-compliance with regulatory requirements for Private Limited Companies might change depending on the individual infringement and may include fines or other legal punishments as per the Companies Act, 2013.',
+            q: 'How do I get started with Incorvo’s business plan service?',
+            a: 'Contact us for a free consultation. We’ll assess your needs, provide a quote, and assign a dedicated advisor.'
         }
-    ],
-}
+    ]
+};

@@ -1,206 +1,228 @@
 export default {
     header: {
-        title: 'Private Limited Company Registration',
+        title: 'Annual Compliance for One Person Company (OPC)',
         list: [
-            'Register your private limited company in 7 business days with our expert assistance',
-            'Our online company registration service includes the following features',
-            'Obtain 2 Digital Signature Certificates (DSC) with 2 years validity',
-            'Secure 2 Director Identification Numbers (DIN)',
-            'Get unique name approval for your private company',
-            'Acquire PAN and TAN for the company',
-            'Open a current account with ICICI Bank',
-            'Drafting the Memorandum of Association and Articles of Association',
-            'Receive the official Company Incorporation Certificate',
-        ],
+            'End-to-end annual compliance management for OPCs by Incorvo professionals',
+            'ROC filing of financial statements, annual returns, and director disclosures',
+            'Statutory registers and minutes book maintenance as per Companies Act, 2013',
+            'Preparation and filing of MGT-7A (Annual Return) and AOC-4 (Financial Statement)',
+            'Expert review of board meeting minutes, resolutions, and related party disclosures',
+            'Income tax return (ITR) filing, TDS, GST, and audit support included',
+            'Compliance calendar with due date reminders and penalty alerts',
+            'Affordable fixed packages – no hidden fees or last-minute charges',
+            'Dedicated relationship manager for queries, updates, and documentation',
+            'Advisory on OPC conversion, director changes, and additional registrations'
+        ]
     },
     content: [
         {
-            title: 'Private Limited Company Registration in India',
+            title: 'What is Annual Compliance for One Person Company (OPC)?',
             descrption: [
                 {
                     subTitle: '',
                     p: [
-                        'Currently, Private Limited Companies make upto almost 96% of the total companies in India. Till November 20, 2023, there are 25,99,660 private limited companies registered in India. The huge number of company registrations is a testament to the ease and benefits provided by India. Although registering a company in India is not mandatory, company registration offers significant benefits to founders as well as stakeholders. By the end, you will be able to understand the key legal requirements to register a private limited company in India, along with its compliance obligations and much more.'
-                    ],
-                },
-            ],
+                        'A One Person Company (OPC) is a popular structure for solo entrepreneurs in India, providing limited liability and easier compliance compared to Private Limited Companies. However, every OPC must meet a set of annual compliance requirements under the Companies Act, 2013. This includes regular ROC filings, maintenance of records, financial reporting, and tax returns. Non-compliance can result in hefty penalties and even disqualification of the sole director.',
+                        'Incorvo offers a seamless, technology-driven annual compliance solution so OPC owners can focus on their business—while we handle all statutory duties, filings, and documentation end-to-end.'
+                    ]
+                }
+            ]
         },
         {
-            title: 'What is a Private Limited Company?',
+            title: 'Annual Compliance Checklist for OPC (Table)',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        'In India, there are several companies that can be registered. A Private Limited Company is one of them. A Private Limited Company bearing the suffix of ‘Pvt. Ltd\'. At the end of its name is a separate legal entity registered under the Companies Act, 2013with the Registrar of Companies (ROC). The main feature of this type of company is that it offers limited liability protection to its shareholders; it means that the liability of the shareholders is only up to the extent of shares held by them, and the personal assets of shareholders (owners) are protected from the obligations of the company. The company can be owned by multiple shareholders and managed by appointed directors. It is separated from the owners of the company, and its legal existence continues even if there are changes in the ownership or management, which provides security and stability to the company.',
-                    ],
-                },
-            ],
+                    table: {
+                        thead: {
+                            trow: [
+                                ['Compliance Activity', 'Form / Register', 'Frequency', 'Responsible Party']
+                            ]
+                        },
+                        tbody: {
+                            trow: [
+                                ['Preparation of Financial Statements', 'Balance Sheet, P&L', 'Annual', 'Company/CA'],
+                                ['Board Meeting Minutes', 'Minutes Book', 'Minimum Twice a Year', 'Director'],
+                                ['Filing of Annual Return', 'Form MGT-7A', 'Annual (within 60 days of AGM)', 'Company Secretary/Director'],
+                                ['Filing of Financial Statement', 'Form AOC-4', 'Annual (within 180 days of FY end)', 'Company Secretary/Director'],
+                                ['Director Disclosure', 'DIR-8, MBP-1', 'Annual or as needed', 'Director'],
+                                ['Statutory Register Maintenance', 'Registers of Members, Charges, etc.', 'Continuous', 'Company Secretary/Director'],
+                                ['Income Tax Return', 'ITR-6', 'Annual (by July 31/Aug 30)', 'Company/CA'],
+                                ['GST Return (if registered)', 'GSTR-1, GSTR-3B', 'Monthly/Quarterly', 'Company/CA'],
+                                ['TDS Return (if applicable)', '24Q/26Q', 'Quarterly', 'Company/CA']
+                            ]
+                        }
+                    }
+                }
+            ]
         },
         {
-            title: 'Why Should You Register a Private Limited Company?',
+            title: 'Key Documents Required for Annual Compliance',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        'There are several compelling reasons why forming a Private Limited Company can be beneficial:',
-                    ],
-                },
-                {
-                    subTitle: '1. Limited Liability Protection',
-                    p: [
-                        'As a private limited company, the liability of its shareholders is restricted to the unpaid amount on their shares. This means that if the company faces financial distress or legal liabilities, the personal assets of the shareholders (directors or members) will not be at risk.',
-                    ],
-                },
-                {
-                    subTitle: '2. Separate Legal Entity',
-                    p: [
-                        'A company is a juristic person in the eyes of the law. The legal entity of the company is distinct from its shareholders and directors. The company is capable of entering into contracts in its own name; it can sue and be sued in its own name. The liability and credibility of the company are separated from its stakeholders.',
-                    ],
-                },
-                {
-                    subTitle: '3. Perpetual Succession',
-                    p: [
-                        'The existence of the company is independent of the existence of its shareholders or directors. Unlike a partnership or sole proprietorship, the private limited company enjoys perpetual succession, which means that the existence of the company is not affected by the death, insolvency, or retirement of any shareholder or director. This perpetual succession guarantees the continuity of the business even if one of the company\'s stakeholders leaves the company.',
-                    ],
-                },
-                {
-                    subTitle: '4. Easy Transferability of Shares',
-                    p: [
-                        'Registering a company in India offers easy transferability of shares, which means that shares of the company can be transferred from one shareholder to another. The leverage smoothens out the transaction in the management of the company and later enhances the flexibility in the business operations of the company.',
-                    ],
-                },
-                {
-                    subTitle: '5. Access to Investments and Funding',
-                    p: [
-                        'Capital can be easily raised in a registered Private Limited Company, as Equity shares can be easily issued by the company to raise funds. Issuing equity shares attracts potential investors and venture capital to invest in the company.',
-                    ],
-                },
-                {
-                    subTitle: '6. Increased Trustworthiness',
-                    p: [
-                        'Registering a Private Limited Company enjoys greater market credibility as compared to other business structures. The greater credibility leads to increased trustworthiness among investors. The advantage is gained by the company due to its registration. Registering a company makes the company legally recognizable and shows that it meets the regulatory standards.',
-                    ],
-                },
-            ],
+                    ul: [
+                        'Audited financial statements (Balance Sheet, P&L, Cash Flow, Notes)',
+                        'Copy of Board Resolutions and Minutes Book',
+                        'Director’s KYC documents',
+                        'Signed Form MGT-7A (Annual Return)',
+                        'Signed Form AOC-4 (Financial Statement)',
+                        'Director disclosures (MBP-1, DIR-8, DIR-3 KYC if applicable)',
+                        'Proof of registered office address (if changed)',
+                        'Bank statements, invoices, TDS, and GST challans',
+                        'Income tax computation and workings'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Why is OPC Annual Compliance Important?',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    ul: [
+                        'Maintains active and compliant company status with MCA and ROC',
+                        'Avoids penalties, late fees, and director disqualification',
+                        'Ensures smooth business operations—no legal bottlenecks',
+                        'Boosts credibility with banks, vendors, and investors',
+                        'Required for government tenders, loans, and future business expansion',
+                        'Prevents accidental company strike-off or blacklisting'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Benefits of Incorvo’s OPC Compliance Package',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    ul: [
+                        'All filings (ROC, Income Tax, GST, TDS) managed in one place',
+                        'Regular compliance calendar and alerts for all due dates',
+                        'Drafting of board resolutions, annual returns, and statutory registers',
+                        'Year-round CA/CS guidance for queries and regulatory changes',
+                        'No missed deadlines – zero late fees or penalties',
+                        'Help with DIR-3 KYC, director changes, and additional registrations',
+                        'Affordable fixed fee – clarity on cost from day one'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Common Challenges Faced by OPCs',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    ul: [
+                        'Missed deadlines for annual ROC filings',
+                        'Not holding minimum board meetings (twice a year)',
+                        'Incomplete director KYC or failure to disclose interests',
+                        'Errors in preparation or e-filing of financial statements',
+                        'Lack of updated statutory registers',
+                        'Overlooking GST/TDS compliance if newly registered for indirect tax'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Late Filing and Penalties for OPCs',
             descrption: [
                 {
                     subTitle: '',
                     p: [
-                        '',
-                    ],
-                },
-            ],
+                        'Non-compliance or late filing of annual returns and financial statements leads to heavy penalties: Rs. 100 per day per form (no maximum cap). Directors may be held personally liable for non-compliance, and repeated defaults can result in disqualification, company strike-off, or prosecution under the Companies Act.'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'How Incorvo’s OPC Compliance Works (Step-by-Step)',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    ol: [
+                        'Onboarding & Compliance Review: Incorvo assigns a compliance manager and reviews previous filings, registers, and documentation.',
+                        'Document Collection: Secure upload of annual financials, KYC, resolutions, and tax records.',
+                        'Drafting & Approvals: Preparation of MGT-7A, AOC-4, board resolutions, and director disclosures for your approval.',
+                        'ROC E-filing: Online submission of all statutory forms with MCA using digital signatures.',
+                        'ITR, GST, and TDS Filing: Timely e-filing with income tax and GST departments (if applicable).',
+                        'Compliance Calendar & Support: Receive regular alerts, advisory, and support for all compliance tasks and upcoming deadlines.'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'OPC Annual Compliance – Important FAQs',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    ul: [
+                        'Is annual ROC compliance mandatory for all OPCs? – Yes, irrespective of turnover or profits.',
+                        'How many board meetings must an OPC hold every year? – At least two, with a gap of not less than 90 days between them.',
+                        'Do OPCs need to get accounts audited? – Yes, all OPCs require annual statutory audit by a practicing Chartered Accountant.',
+                        'Is GST or TDS filing required for every OPC? – Only if registered for GST or liable to deduct TDS.',
+                        'What happens if OPC misses compliance deadlines? – Heavy late fees, loss of good standing, and possible disqualification of director.',
+                        'Can Incorvo handle compliance for previous years if there are defaults? – Yes, we offer catch-up compliance and penalty mitigation.'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Why Choose Incorvo for OPC Compliance?',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
-        },
+                    ul: [
+                        'Expert CA/CS guidance for every compliance requirement',
+                        'All documentation, drafting, and e-filing handled by professionals',
+                        'Digital workflow: No need to visit any office or submit physical files',
+                        'Affordable annual packages, no surprise charges',
+                        'Free initial compliance review and checklist for every client',
+                        'Proactive reminders to ensure you never miss a due date'
+                    ]
+                }
+            ]
+        }
     ],
     faqs: [
         {
-            q: 'What is the minimum capital required to register a Private Limited Company?',
-            a: 'There is no minimum paid-up capital requirement for registering a Private Limited Company in India.',
+            q: 'Is annual compliance mandatory for all One Person Companies?',
+            a: 'Yes. Every OPC registered under the Companies Act must file annual returns and financial statements with the ROC, regardless of revenue or activity.'
         },
         {
-            q: 'Can a foreigner be a director in a Private Limited Company?',
-            a: 'Yes, foreigners can be directors, but at least one director must be a resident of India, as per Section 149 of the Companies Act, 2013.',
+            q: 'What forms are required for annual compliance of OPC?',
+            a: 'Key forms are MGT-7A (Annual Return), AOC-4 (Financial Statement), and ITR-6 (Income Tax Return). GST, TDS, and KYC forms may also be needed as applicable.'
         },
         {
-            q: 'How long does it take to register a Private Limited Company in India?',
-            a: 'The registration process generally takes between 7-15 business days, depending on the speed of document verification and approvals.',
+            q: 'When is the due date for OPC annual filings?',
+            a: 'AOC-4 must be filed within 180 days from financial year end. MGT-7A must be filed within 60 days of AGM or adoption of accounts. ITR is due by July 31/August 30.'
         },
         {
-            q: 'What are the legal standards for Private Limited Companies?',
-            a: 'Compliance Requirements: Private Limited Companies must stick to several compliance requirements under the Companies Act, 2013, including having yearly general meetings, filing annual reports, hiring accountants, and more.',
+            q: 'What are the penalties for non-compliance?',
+            a: 'Penalty is Rs. 100 per day for each delayed filing. Directors may also face disqualification and prosecution for repeated non-compliance.'
         },
         {
-            q: 'Do I need a physical office for registration?',
-            a: 'Yes, a registered office in India is mandatory. This office must be in a location where official correspondence and notices from the ROC can be sent.',
+            q: 'Do OPCs need to appoint an auditor?',
+            a: 'Yes, all OPCs must have a statutory auditor and get accounts audited every year, even if there is no revenue.'
         },
         {
-            q: 'What are the perks of choosing a Private Limited Company structure?',
-            a: 'Advantages of Private Limited Company: Benefits include limited liability protection, ease of getting capital via shares, constant succession, reliability, and agreement with regulatory norms.',
+            q: 'How can I avoid missing compliance deadlines?',
+            a: 'With Incorvo, you receive a compliance calendar and reminders for every due date, plus full filing support to avoid late fees.'
         },
         {
-            q: 'Can a Private Limited Company change to a Public Limited Company?',
-            a: 'Conversion to Public Limited Company: Yes, a Private Limited Company may change to a Public Limited Company.',
+            q: 'Can Incorvo manage GST and TDS compliance too?',
+            a: 'Yes, our team provides comprehensive GST, TDS, and income tax filing services along with ROC compliance.'
         },
         {
-            q: 'What is the difference between a Private Limited Company and a Limited Liability Partnership (LLP)?',
-            a: 'Difference from LLP: The basic difference between a Private Limited Company and a Limited liability Partnership (LLP) rests in their structure and responsibility features. A Private Limited Company has owners and limited liability protection, whereas an LLP has partners with limited liability but without shares.',
+            q: 'Is there a limit on turnover for OPCs to continue as OPC?',
+            a: 'If paid-up capital exceeds Rs. 50 lakh or turnover crosses Rs. 2 crore, OPC must convert to Private Limited Company as per Companies Act.'
         },
         {
-            q: 'How can I change the name of my Private Limited Company?',
-            a: 'Changing Company Name: To change the name of a Private Limited Company, you need to follow the way given by the Ministry of Corporate Affairs in India.',
+            q: 'Can Incorvo help with catch-up compliance if I missed previous filings?',
+            a: 'Absolutely. We specialize in bringing OPCs back into compliance, mitigating penalties wherever possible.'
         },
         {
-            q: 'What are the penalties for non-compliance with legal duties for Private Limited Companies?',
-            a: 'Penalties for Non-Compliance: Punishments for non-compliance with regulatory requirements for Private Limited Companies might change depending on the individual infringement and may include fines or other legal punishments as per the Companies Act, 2013.',
+            q: 'How do I get started with Incorvo’s OPC annual compliance package?',
+            a: 'Contact us for a free checklist and consult. We’ll onboard you, collect documents, and take care of all filings from start to finish.'
         }
-    ],
-}
+    ]
+};

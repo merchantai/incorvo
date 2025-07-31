@@ -1,206 +1,315 @@
 export default {
     header: {
-        title: 'Private Limited Company Registration',
+        title: 'One Person Company (OPC) Registration – Incorvo',
         list: [
-            'Register your private limited company in 7 business days with our expert assistance',
-            'Our online company registration service includes the following features',
-            'Obtain 2 Digital Signature Certificates (DSC) with 2 years validity',
-            'Secure 2 Director Identification Numbers (DIN)',
-            'Get unique name approval for your private company',
-            'Acquire PAN and TAN for the company',
-            'Open a current account with ICICI Bank',
-            'Drafting the Memorandum of Association and Articles of Association',
-            'Receive the official Company Incorporation Certificate',
-        ],
+            'Seamless end-to-end OPC registration by Incorvo in just 7 business days',
+            'Ideal for solo entrepreneurs seeking limited liability and legal recognition',
+            'Guidance on digital documentation, DSC & DIN application, and name approval',
+            'Drafting of Memorandum (MOA) and Articles of Association (AOA)',
+            'Full support for MCA e-filing, ROC application, and compliance checks',
+            'Post-incorporation assistance: PAN, TAN, bank account, and GST registration',
+            'Advisory on conversion, nominee appointment, and annual compliance',
+            'Affordable, transparent pricing with dedicated onboarding manager',
+            'Ongoing support for annual filing, legal, and tax matters',
+            'Confidential, secure digital workflow for all documentation'
+        ]
     },
     content: [
         {
-            title: 'Private Limited Company Registration in India',
+            title: 'What is a One Person Company (OPC)?',
             descrption: [
                 {
                     subTitle: '',
                     p: [
-                        'Currently, Private Limited Companies make upto almost 96% of the total companies in India. Till November 20, 2023, there are 25,99,660 private limited companies registered in India. The huge number of company registrations is a testament to the ease and benefits provided by India. Although registering a company in India is not mandatory, company registration offers significant benefits to founders as well as stakeholders. By the end, you will be able to understand the key legal requirements to register a private limited company in India, along with its compliance obligations and much more.'
-                    ],
-                },
-            ],
+                        'A One Person Company (OPC) is a unique business structure introduced under the Companies Act, 2013, enabling a single individual to incorporate a private limited company with limited liability. OPC provides legal status and perpetual succession, making it a preferred choice for solo founders, freelancers, and consultants. It combines the flexibility of a proprietorship with the legal advantages of a company.'
+                    ]
+                }
+            ]
         },
         {
-            title: 'What is a Private Limited Company?',
+            title: 'Who Should Register an OPC?',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        'In India, there are several companies that can be registered. A Private Limited Company is one of them. A Private Limited Company bearing the suffix of ‘Pvt. Ltd\'. At the end of its name is a separate legal entity registered under the Companies Act, 2013with the Registrar of Companies (ROC). The main feature of this type of company is that it offers limited liability protection to its shareholders; it means that the liability of the shareholders is only up to the extent of shares held by them, and the personal assets of shareholders (owners) are protected from the obligations of the company. The company can be owned by multiple shareholders and managed by appointed directors. It is separated from the owners of the company, and its legal existence continues even if there are changes in the ownership or management, which provides security and stability to the company.',
-                    ],
-                },
-            ],
+                    ul: [
+                        'Solo entrepreneurs, freelancers, and consultants seeking limited liability',
+                        'Proprietors aiming for legal recognition and access to credit',
+                        'Small business owners wanting a corporate identity',
+                        'Founders wishing to avoid the complexities of partnership or multiple shareholders',
+                        'Professionals (doctors, architects, designers) starting their own venture'
+                    ]
+                }
+            ]
         },
         {
-            title: 'Why Should You Register a Private Limited Company?',
+            title: 'Benefits of OPC Registration with Incorvo',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        'There are several compelling reasons why forming a Private Limited Company can be beneficial:',
-                    ],
-                },
-                {
-                    subTitle: '1. Limited Liability Protection',
-                    p: [
-                        'As a private limited company, the liability of its shareholders is restricted to the unpaid amount on their shares. This means that if the company faces financial distress or legal liabilities, the personal assets of the shareholders (directors or members) will not be at risk.',
-                    ],
-                },
-                {
-                    subTitle: '2. Separate Legal Entity',
-                    p: [
-                        'A company is a juristic person in the eyes of the law. The legal entity of the company is distinct from its shareholders and directors. The company is capable of entering into contracts in its own name; it can sue and be sued in its own name. The liability and credibility of the company are separated from its stakeholders.',
-                    ],
-                },
-                {
-                    subTitle: '3. Perpetual Succession',
-                    p: [
-                        'The existence of the company is independent of the existence of its shareholders or directors. Unlike a partnership or sole proprietorship, the private limited company enjoys perpetual succession, which means that the existence of the company is not affected by the death, insolvency, or retirement of any shareholder or director. This perpetual succession guarantees the continuity of the business even if one of the company\'s stakeholders leaves the company.',
-                    ],
-                },
-                {
-                    subTitle: '4. Easy Transferability of Shares',
-                    p: [
-                        'Registering a company in India offers easy transferability of shares, which means that shares of the company can be transferred from one shareholder to another. The leverage smoothens out the transaction in the management of the company and later enhances the flexibility in the business operations of the company.',
-                    ],
-                },
-                {
-                    subTitle: '5. Access to Investments and Funding',
-                    p: [
-                        'Capital can be easily raised in a registered Private Limited Company, as Equity shares can be easily issued by the company to raise funds. Issuing equity shares attracts potential investors and venture capital to invest in the company.',
-                    ],
-                },
-                {
-                    subTitle: '6. Increased Trustworthiness',
-                    p: [
-                        'Registering a Private Limited Company enjoys greater market credibility as compared to other business structures. The greater credibility leads to increased trustworthiness among investors. The advantage is gained by the company due to its registration. Registering a company makes the company legally recognizable and shows that it meets the regulatory standards.',
-                    ],
-                },
-            ],
+                    ul: [
+                        'Limited liability protection for the sole member',
+                        'Legal recognition, enabling easier access to funding and contracts',
+                        'Separate legal entity, distinct from the owner',
+                        'Perpetual succession—even if the owner changes or nominates a successor',
+                        'Quick registration and digital process through Incorvo',
+                        'Eligibility for government tenders, startup benefits, and tax advantages'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Eligibility Criteria for OPC Registration',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    ul: [
+                        'Only a natural person who is an Indian citizen and resident in India (stayed ≥120 days in previous FY) can form an OPC',
+                        'Cannot incorporate or be a nominee in more than one OPC',
+                        'Minimum authorized capital: ₹1 lakh (no minimum paid-up capital requirement)',
+                        'Must appoint a nominee (also an Indian citizen/resident) during registration',
+                        'Business activities must not include Non-Banking Financial activities or investment in securities'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Step-by-Step OPC Registration Process with Incorvo',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    ol: [
+                        'Free consultation and eligibility check with Incorvo experts',
+                        'Application for Digital Signature Certificate (DSC) for the applicant',
+                        'Filing for Director Identification Number (DIN)',
+                        'Name reservation via SPICe+ (MCA portal) – unique company name approval',
+                        'Drafting of Memorandum (MOA) and Articles of Association (AOA) including nomination details',
+                        'E-filing of incorporation documents (SPICe+, AGILE PRO, e-MOA, e-AOA) with ROC',
+                        'Payment of government fees and stamp duty',
+                        'Certificate of Incorporation (COI) issued by Registrar of Companies',
+                        'PAN, TAN application, and opening of OPC current bank account',
+                        'Post-registration support: GST, MSME registration, and compliance handover'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Documents Required for OPC Registration',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    ul: [
+                        'PAN Card and Aadhaar Card of the applicant',
+                        'Passport (if foreign national) and other ID/address proofs (Voter ID, Driving License)',
+                        'Passport-size photographs',
+                        'Registered office proof: recent utility bill, rent agreement, and NOC from owner',
+                        'Nominee’s PAN, Aadhaar, and consent form (INC-3)',
+                        'Draft MOA & AOA (prepared by Incorvo)',
+                        'Bank statement/utility bill for address verification (not older than 2 months)'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Key Features of One Person Company',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    ul: [
+                        'Single-member ownership with corporate status',
+                        'Limited liability to safeguard personal assets',
+                        'Mandatory nominee appointment for business continuity',
+                        'No minimum paid-up capital mandated',
+                        'Easy conversion to Private Limited or Public Limited Company',
+                        'Taxed as a private company (benefiting from slab rates and deductions)',
+                        'Annual ROC filing, board meetings, and statutory compliance required'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Annual Compliance & Post-Incorporation Requirements',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    ul: [
+                        'At least two board meetings each year (gap ≤6 months)',
+                        'Maintenance of statutory registers and records',
+                        'Preparation and filing of annual financial statements and board’s report',
+                        'Annual ROC filings: AOC-4 (financials) and MGT-7A (annual return)',
+                        'Appointment of a statutory auditor within 30 days of incorporation',
+                        'IT returns, GST returns, and other tax compliance as applicable',
+                        'Intimation to ROC on changes in nominee or registered office'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Comparison: OPC vs Sole Proprietorship vs Private Limited Company',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    table: {
+                        thead: {
+                            trow: [
+                                ['Criteria', 'OPC', 'Sole Proprietorship', 'Private Limited Company']
+                            ]
+                        },
+                        tbody: {
+                            trow: [
+                                [
+                                    'Legal Status',
+                                    'Separate Legal Entity',
+                                    'Not a Separate Entity',
+                                    'Separate Legal Entity'
+                                ],
+                                [
+                                    'Number of Owners',
+                                    '1 (plus nominee)',
+                                    '1',
+                                    '2-200'
+                                ],
+                                [
+                                    'Liability',
+                                    'Limited',
+                                    'Unlimited',
+                                    'Limited'
+                                ],
+                                [
+                                    'Perpetual Succession',
+                                    'Yes',
+                                    'No',
+                                    'Yes'
+                                ],
+                                [
+                                    'Transferability',
+                                    'Nominee-based',
+                                    'Not Transferable',
+                                    'Easy via shares'
+                                ],
+                                [
+                                    'Statutory Audit',
+                                    'Mandatory',
+                                    'Not Mandatory',
+                                    'Mandatory'
+                                ],
+                                [
+                                    'Compliance Cost',
+                                    'Moderate',
+                                    'Low',
+                                    'High'
+                                ]
+                            ]
+                        }
+                    }
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Common Mistakes to Avoid in OPC Registration',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    ul: [
+                        'Selecting a nominee who is already associated with another OPC',
+                        'Incorrect or incomplete documentation at the time of filing',
+                        'Delays in appointing a statutory auditor or filing annual returns',
+                        'Ignoring conversion/exit options when crossing turnover or paid-up capital limits',
+                        'Failure to maintain statutory records or compliance calendar'
+                    ]
+                }
+            ]
         },
+        {
+            title: 'Best Practices for Hassle-Free OPC Operations',
+            descrption: [
+                {
+                    subTitle: '',
+                    ul: [
+                        'Consult CA/CS (like Incorvo) for compliance and audit readiness',
+                        'Nominate a trustworthy individual and keep their consent updated',
+                        'Maintain regular books of accounts and statutory registers',
+                        'Track ROC, tax, and annual filing deadlines in a compliance calendar',
+                        'Plan for conversion to Pvt Ltd if your business is scaling up'
+                    ]
+                }
+            ]
+        },
+        {
+            title: 'Why Choose Incorvo for OPC Registration?',
+            descrption: [
+                {
+                    subTitle: '',
+                    ul: [
+                        'Personalized support for eligibility, documentation, and e-filing',
+                        'Fast turnaround with digital workflow and expert review',
+                        'Transparent, milestone-based pricing and no hidden costs',
+                        'Free compliance calendar and reminders for annual filings',
+                        'Expert team for GST, MSME, conversion, and tax advisory'
+                    ]
+                }
+            ]
+        },
+        {
+            title: 'OPC Registration: Extended FAQs',
+            descrption: [
+                {
+                    subTitle: '',
+                    ul: [
+                        'Who can become a nominee in OPC? – Any natural Indian citizen resident in India; cannot be a nominee in more than one OPC.',
+                        'Is OPC suitable for startups? – Yes, especially for solo founders seeking legal status and funding.',
+                        'Can an OPC convert into a Private Limited Company? – Yes, upon crossing turnover or paid-up capital limits or voluntarily.',
+                        'What is the maximum turnover for OPC before conversion is required? – ₹2 crore paid-up share capital or ₹20 crore turnover in preceding 3 years.',
+                        'Can NRIs register an OPC in India? – No, only Indian resident citizens can incorporate or be a nominee.',
+                        'What are the annual compliance requirements? – Board meetings, statutory audit, annual filing of AOC-4 and MGT-7A, and tax filings.',
+                        'Can an OPC have more than one director? – Yes, but only one shareholder/member is allowed.',
+                        'What is the government fee for OPC registration? – Varies by state and capital; Incorvo gives a detailed quote upfront.',
+                        'What are the tax benefits for OPCs? – OPCs are taxed as private companies, eligible for deductions and lower slab rates.',
+                        'How do I get started? – Contact Incorvo for a free eligibility check and step-by-step onboarding.'
+                    ]
+                }
+            ]
+        }
     ],
     faqs: [
         {
-            q: 'What is the minimum capital required to register a Private Limited Company?',
-            a: 'There is no minimum paid-up capital requirement for registering a Private Limited Company in India.',
+            q: 'What is the main benefit of OPC registration?',
+            a: 'It offers limited liability and separate legal status to a single entrepreneur, making business safer and more credible.'
         },
         {
-            q: 'Can a foreigner be a director in a Private Limited Company?',
-            a: 'Yes, foreigners can be directors, but at least one director must be a resident of India, as per Section 149 of the Companies Act, 2013.',
+            q: 'Who can register an OPC in India?',
+            a: 'Any natural person who is an Indian citizen and resident in India can register an OPC, provided they are not already part of another OPC.'
         },
         {
-            q: 'How long does it take to register a Private Limited Company in India?',
-            a: 'The registration process generally takes between 7-15 business days, depending on the speed of document verification and approvals.',
+            q: 'Is a nominee mandatory for OPC?',
+            a: 'Yes, a nominee is required to ensure business continuity in case of incapacity or death of the sole member.'
         },
         {
-            q: 'What are the legal standards for Private Limited Companies?',
-            a: 'Compliance Requirements: Private Limited Companies must stick to several compliance requirements under the Companies Act, 2013, including having yearly general meetings, filing annual reports, hiring accountants, and more.',
+            q: 'What documents are required for OPC registration?',
+            a: 'PAN, Aadhaar, address proof, photographs, office proof, nominee consent, and MOA/AOA drafts.'
         },
         {
-            q: 'Do I need a physical office for registration?',
-            a: 'Yes, a registered office in India is mandatory. This office must be in a location where official correspondence and notices from the ROC can be sent.',
+            q: 'Can an OPC raise funding from investors?',
+            a: 'While OPC cannot have equity investors, it can convert into a Private Limited Company for investment and scale.'
         },
         {
-            q: 'What are the perks of choosing a Private Limited Company structure?',
-            a: 'Advantages of Private Limited Company: Benefits include limited liability protection, ease of getting capital via shares, constant succession, reliability, and agreement with regulatory norms.',
+            q: 'What is the minimum capital requirement for OPC?',
+            a: 'Minimum authorized capital is ₹1 lakh, but no minimum paid-up capital is mandated.'
         },
         {
-            q: 'Can a Private Limited Company change to a Public Limited Company?',
-            a: 'Conversion to Public Limited Company: Yes, a Private Limited Company may change to a Public Limited Company.',
+            q: 'What are the annual compliance requirements for OPC?',
+            a: 'Annual filing of financials and returns, board meetings, audit, tax compliance, and maintenance of records.'
         },
         {
-            q: 'What is the difference between a Private Limited Company and a Limited Liability Partnership (LLP)?',
-            a: 'Difference from LLP: The basic difference between a Private Limited Company and a Limited liability Partnership (LLP) rests in their structure and responsibility features. A Private Limited Company has owners and limited liability protection, whereas an LLP has partners with limited liability but without shares.',
+            q: 'Can OPC be converted to a Private Limited or Public Company?',
+            a: 'Yes, upon meeting specific turnover or paid-up capital limits or on a voluntary basis.'
         },
         {
-            q: 'How can I change the name of my Private Limited Company?',
-            a: 'Changing Company Name: To change the name of a Private Limited Company, you need to follow the way given by the Ministry of Corporate Affairs in India.',
+            q: 'Does Incorvo help with GST, MSME, and other registrations?',
+            a: 'Yes, Incorvo provides full support for all statutory, tax, and government registrations.'
         },
         {
-            q: 'What are the penalties for non-compliance with legal duties for Private Limited Companies?',
-            a: 'Penalties for Non-Compliance: Punishments for non-compliance with regulatory requirements for Private Limited Companies might change depending on the individual infringement and may include fines or other legal punishments as per the Companies Act, 2013.',
+            q: 'How long does OPC registration take?',
+            a: 'Typically 7–10 business days, depending on document readiness and government processing.'
         }
-    ],
-}
+    ]
+};

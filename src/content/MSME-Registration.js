@@ -1,206 +1,262 @@
 export default {
     header: {
-        title: 'Private Limited Company Registration',
+        title: 'MSME Registration – Incorvo',
         list: [
-            'Register your private limited company in 7 business days with our expert assistance',
-            'Our online company registration service includes the following features',
-            'Obtain 2 Digital Signature Certificates (DSC) with 2 years validity',
-            'Secure 2 Director Identification Numbers (DIN)',
-            'Get unique name approval for your private company',
-            'Acquire PAN and TAN for the company',
-            'Open a current account with ICICI Bank',
-            'Drafting the Memorandum of Association and Articles of Association',
-            'Receive the official Company Incorporation Certificate',
-        ],
+            'Hassle-free MSME/Udyam Registration services for Micro, Small, and Medium Enterprises across India',
+            'Expert advisory on eligibility, documentation, and benefits',
+            'Complete digital process – application, verification, and certificate delivery',
+            'Guidance on new Udyam Registration portal (replacing Udyog Aadhaar)',
+            'Support for manufacturing, service, and trading businesses',
+            'Help with MSME classification, NIC codes, and investment/turnover criteria',
+            'Advice on leveraging MSME benefits: loans, subsidies, government tenders, and more',
+            'Post-registration support for compliance, renewal, and scheme application',
+            'Transparent and affordable pricing, no hidden charges',
+            'Personalized Incorvo relationship manager for your MSME journey'
+        ]
     },
     content: [
         {
-            title: 'Private Limited Company Registration in India',
+            title: 'What is MSME Registration?',
             descrption: [
                 {
                     subTitle: '',
                     p: [
-                        'Currently, Private Limited Companies make upto almost 96% of the total companies in India. Till November 20, 2023, there are 25,99,660 private limited companies registered in India. The huge number of company registrations is a testament to the ease and benefits provided by India. Although registering a company in India is not mandatory, company registration offers significant benefits to founders as well as stakeholders. By the end, you will be able to understand the key legal requirements to register a private limited company in India, along with its compliance obligations and much more.'
-                    ],
-                },
-            ],
+                        'MSME Registration (now called Udyam Registration) is a government recognition process for Micro, Small, and Medium Enterprises in India. It provides official proof of MSME status, allowing access to various financial, regulatory, and business benefits under the MSMED Act, 2006 and new Udyam norms.',
+                        'MSME registration is voluntary but highly recommended for enterprises seeking easier finance, subsidies, priority in government procurement, and protection under delayed payment laws.'
+                    ]
+                }
+            ]
         },
         {
-            title: 'What is a Private Limited Company?',
+            title: 'Classification of MSMEs as per Udyam (2020 onwards)',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        'In India, there are several companies that can be registered. A Private Limited Company is one of them. A Private Limited Company bearing the suffix of ‘Pvt. Ltd\'. At the end of its name is a separate legal entity registered under the Companies Act, 2013with the Registrar of Companies (ROC). The main feature of this type of company is that it offers limited liability protection to its shareholders; it means that the liability of the shareholders is only up to the extent of shares held by them, and the personal assets of shareholders (owners) are protected from the obligations of the company. The company can be owned by multiple shareholders and managed by appointed directors. It is separated from the owners of the company, and its legal existence continues even if there are changes in the ownership or management, which provides security and stability to the company.',
-                    ],
-                },
-            ],
+                    table: {
+                        thead: {
+                            trow: [
+                                ['Enterprise Type', 'Investment in Plant & Machinery/Equipment', 'Annual Turnover']
+                            ]
+                        },
+                        tbody: {
+                            trow: [
+                                ['Micro', 'Up to ₹1 crore', 'Up to ₹5 crore'],
+                                ['Small', 'Up to ₹10 crore', 'Up to ₹50 crore'],
+                                ['Medium', 'Up to ₹50 crore', 'Up to ₹250 crore']
+                            ]
+                        }
+                    }
+                }
+            ]
         },
         {
-            title: 'Why Should You Register a Private Limited Company?',
+            title: 'Benefits of MSME Registration',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        'There are several compelling reasons why forming a Private Limited Company can be beneficial:',
-                    ],
-                },
-                {
-                    subTitle: '1. Limited Liability Protection',
-                    p: [
-                        'As a private limited company, the liability of its shareholders is restricted to the unpaid amount on their shares. This means that if the company faces financial distress or legal liabilities, the personal assets of the shareholders (directors or members) will not be at risk.',
-                    ],
-                },
-                {
-                    subTitle: '2. Separate Legal Entity',
-                    p: [
-                        'A company is a juristic person in the eyes of the law. The legal entity of the company is distinct from its shareholders and directors. The company is capable of entering into contracts in its own name; it can sue and be sued in its own name. The liability and credibility of the company are separated from its stakeholders.',
-                    ],
-                },
-                {
-                    subTitle: '3. Perpetual Succession',
-                    p: [
-                        'The existence of the company is independent of the existence of its shareholders or directors. Unlike a partnership or sole proprietorship, the private limited company enjoys perpetual succession, which means that the existence of the company is not affected by the death, insolvency, or retirement of any shareholder or director. This perpetual succession guarantees the continuity of the business even if one of the company\'s stakeholders leaves the company.',
-                    ],
-                },
-                {
-                    subTitle: '4. Easy Transferability of Shares',
-                    p: [
-                        'Registering a company in India offers easy transferability of shares, which means that shares of the company can be transferred from one shareholder to another. The leverage smoothens out the transaction in the management of the company and later enhances the flexibility in the business operations of the company.',
-                    ],
-                },
-                {
-                    subTitle: '5. Access to Investments and Funding',
-                    p: [
-                        'Capital can be easily raised in a registered Private Limited Company, as Equity shares can be easily issued by the company to raise funds. Issuing equity shares attracts potential investors and venture capital to invest in the company.',
-                    ],
-                },
-                {
-                    subTitle: '6. Increased Trustworthiness',
-                    p: [
-                        'Registering a Private Limited Company enjoys greater market credibility as compared to other business structures. The greater credibility leads to increased trustworthiness among investors. The advantage is gained by the company due to its registration. Registering a company makes the company legally recognizable and shows that it meets the regulatory standards.',
-                    ],
-                },
-            ],
+                    ul: [
+                        'Priority sector lending and collateral-free loans from banks/NBFCs',
+                        'Lower interest rates under government schemes',
+                        'Subsidy for ISO certification, patent/trademark, and technology upgrade',
+                        'Faster approvals and clearances from government departments',
+                        'Participation preference in government tenders and procurement',
+                        'Protection against delayed payments under MSMED Act',
+                        'Exemption/rebate in electricity and stamp duty charges (varies by state)',
+                        'Access to government support for market development and export promotion',
+                        'Eligibility for credit guarantee, CLSS, and CGTMSE schemes',
+                        'Ease in getting licenses, approvals, and registrations'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Who is Eligible for MSME/Udyam Registration?',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    ul: [
+                        'Proprietorships, partnership firms, LLPs, private limited/public limited companies',
+                        'Hindu Undivided Families (HUF), societies, trusts, and co-operative societies',
+                        'Startups, new and existing businesses in manufacturing and service sectors',
+                        'Traders (from 2021, retail and wholesale trade also included for priority sector lending)'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Step-by-Step MSME/Udyam Registration Process with Incorvo',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    ol: [
+                        'Initial consultation and eligibility check',
+                        'Collection of basic information: Aadhaar, PAN, GSTIN (if available), business details',
+                        'Selection of appropriate NIC codes (business activity codes)',
+                        'Filing online Udyam Registration application (government portal)',
+                        'E-verification and submission of documents',
+                        'Government processing and instant allotment of Udyam Registration Number',
+                        'Download and delivery of official MSME certificate (e-certificate)',
+                        'Guidance on post-registration compliance and benefits utilization'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Documents Required for MSME Registration',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    ul: [
+                        'Aadhaar card of business owner (mandatory for all entities)',
+                        'PAN card of business (and proprietor/partners/directors as applicable)',
+                        'Business address proof (utility bill, rent agreement, etc.)',
+                        'Bank account details (cancelled cheque, statement, etc.)',
+                        'GSTIN (if available/applicable)',
+                        'Business registration documents: partnership deed, incorporation certificate, society/trust deed (as applicable)',
+                        'NIC code of activity, employee and investment details',
+                        'Copy of previous Udyog Aadhaar (for migration, if applicable)'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Government Schemes & Support for MSMEs',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    ul: [
+                        'Credit Guarantee Fund Trust for Micro and Small Enterprises (CGTMSE)',
+                        'Prime Minister’s Employment Generation Programme (PMEGP)',
+                        'Technology Upgradation Fund Scheme (TUFS)',
+                        'Interest Subsidy Scheme for MSMEs',
+                        'Market Development Assistance (MDA) and cluster schemes',
+                        'Support for International Patent/Trademark Filing',
+                        'Procurement and E-Marketplace (GeM) onboarding',
+                        'CLSS for MSME housing loans',
+                        'Export Promotion Capital Goods (EPCG) scheme'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'MSME Registration – Best Practices & Common Mistakes',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    ul: [
+                        'Use correct Aadhaar and PAN details—mismatch leads to rejection',
+                        'Choose the right NIC codes for all activities (manufacturing/services/trading)',
+                        'Update details promptly on Udyam portal in case of business changes',
+                        'Avoid duplicate registrations—one registration per PAN is allowed',
+                        'Regularly check for new schemes and benefits for MSMEs',
+                        'Keep MSME certificate handy for loan, tender, and compliance needs',
+                        'Consult Incorvo for complex cases, migration from Udyog Aadhaar, or renewal issues'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Why Choose Incorvo for MSME/Udyam Registration?',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    ul: [
+                        'Expert advisory for all MSME segments and business types',
+                        'Quick, 100% digital application and documentation process',
+                        'Personalized support on NIC code, eligibility, and certificate download',
+                        'Guidance on availing government schemes and compliance post-registration',
+                        'Transparent, milestone-based fees, no hidden charges',
+                        'Dedicated relationship manager and prompt certificate delivery',
+                        'Support for amendments, certificate renewal, and migration from Udyog Aadhaar',
+                        'Post-registration handholding for bank loans, tenders, and subsidies'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Sample Scenarios & Solutions',
+            descrption: [
+                {
+                    subTitle: 'Case: Startup Manufacturing Plant Seeking MSME Benefits',
+                    p: [
+                        'Incorvo helps a new manufacturing startup register as an MSME, guiding on appropriate classification, quick certificate delivery, and access to capital subsidy and technology upgradation schemes.'
+                    ]
+                },
+                {
+                    subTitle: 'Case: Service Firm Migrating from Udyog Aadhaar to Udyam',
+                    p: [
+                        'A design consultancy transitions to Udyam Registration with Incorvo’s help, updating PAN, GST, and business details to ensure seamless scheme eligibility.'
+                    ]
+                },
+                {
+                    subTitle: 'Case: Retail Trader Accessing Priority Lending',
+                    p: [
+                        'A retail trader secures MSME status via Incorvo, enabling collateral-free loan approval and participation in state tenders.'
+                    ]
+                }
+            ]
+        },
+        {
+            title: 'Extended FAQs – MSME Registration',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
-        },
+                    ul: [
+                        'Is MSME/Udyam Registration mandatory? – No, but it is essential to access various government benefits and schemes.',
+                        'How long does it take to get MSME/Udyam certificate? – Usually instant to 1 business day after online submission.',
+                        'Can I register for multiple businesses under one MSME? – No, one Udyam Registration per PAN is allowed, but it can cover multiple activities.',
+                        'Are traders eligible for MSME benefits? – Yes, as per latest government notifications.',
+                        'What is the cost for MSME registration? – Government registration is free; Incorvo charges a transparent professional fee for advisory and support.',
+                        'Do I need to renew my MSME registration? – No renewal is required; update details if business changes.',
+                        'Is GST mandatory for MSME registration? – Not always, but GSTIN is required for businesses above threshold or registered under GST.',
+                        'What happens if investment or turnover exceeds MSME limit? – Update details on Udyam portal; classification will auto-update based on new data.',
+                        'Can NRIs/foreigners register MSMEs in India? – Yes, if business is registered in India and meets eligibility.',
+                        'Does MSME registration provide tax benefits? – No direct tax benefits, but facilitates loans, subsidies, and scheme access.'
+                    ]
+                }
+            ]
+        }
     ],
     faqs: [
         {
-            q: 'What is the minimum capital required to register a Private Limited Company?',
-            a: 'There is no minimum paid-up capital requirement for registering a Private Limited Company in India.',
+            q: 'What is Udyam Registration? Is it the same as MSME?',
+            a: 'Yes. Udyam Registration is the new name for MSME registration, mandatory from July 2020 for all new and existing enterprises.'
         },
         {
-            q: 'Can a foreigner be a director in a Private Limited Company?',
-            a: 'Yes, foreigners can be directors, but at least one director must be a resident of India, as per Section 149 of the Companies Act, 2013.',
+            q: 'Can I use MSME certificate for bank loans?',
+            a: 'Absolutely! MSME certificate is accepted by all banks and NBFCs for collateral-free loans and government-backed credit schemes.'
         },
         {
-            q: 'How long does it take to register a Private Limited Company in India?',
-            a: 'The registration process generally takes between 7-15 business days, depending on the speed of document verification and approvals.',
+            q: 'What are the consequences of giving false information during registration?',
+            a: 'Supplying incorrect details may lead to cancellation of registration, denial of benefits, and legal action.'
         },
         {
-            q: 'What are the legal standards for Private Limited Companies?',
-            a: 'Compliance Requirements: Private Limited Companies must stick to several compliance requirements under the Companies Act, 2013, including having yearly general meetings, filing annual reports, hiring accountants, and more.',
+            q: 'Can existing Udyog Aadhaar holders migrate to Udyam?',
+            a: 'Yes, migration is mandatory. Incorvo assists in smooth transition and data update.'
         },
         {
-            q: 'Do I need a physical office for registration?',
-            a: 'Yes, a registered office in India is mandatory. This office must be in a location where official correspondence and notices from the ROC can be sent.',
+            q: 'Is physical document submission required for MSME registration?',
+            a: 'No, the entire process is online and paperless via the Udyam portal.'
         },
         {
-            q: 'What are the perks of choosing a Private Limited Company structure?',
-            a: 'Advantages of Private Limited Company: Benefits include limited liability protection, ease of getting capital via shares, constant succession, reliability, and agreement with regulatory norms.',
+            q: 'How does Incorvo support post-registration?',
+            a: 'We assist with bank loan applications, scheme enrolment, compliance queries, and certificate amendments as needed.'
         },
         {
-            q: 'Can a Private Limited Company change to a Public Limited Company?',
-            a: 'Conversion to Public Limited Company: Yes, a Private Limited Company may change to a Public Limited Company.',
+            q: 'Are NGOs or societies eligible for MSME registration?',
+            a: 'Yes, if they are engaged in eligible economic activities.'
         },
         {
-            q: 'What is the difference between a Private Limited Company and a Limited Liability Partnership (LLP)?',
-            a: 'Difference from LLP: The basic difference between a Private Limited Company and a Limited liability Partnership (LLP) rests in their structure and responsibility features. A Private Limited Company has owners and limited liability protection, whereas an LLP has partners with limited liability but without shares.',
+            q: 'What if I need to change details on my MSME certificate?',
+            a: 'Contact Incorvo for amendments. Most changes can be made online with supporting documents.'
         },
         {
-            q: 'How can I change the name of my Private Limited Company?',
-            a: 'Changing Company Name: To change the name of a Private Limited Company, you need to follow the way given by the Ministry of Corporate Affairs in India.',
+            q: 'Can I cancel my MSME/Udyam registration?',
+            a: 'Yes, application for cancellation can be made if business closes or ceases eligible activity.'
         },
         {
-            q: 'What are the penalties for non-compliance with legal duties for Private Limited Companies?',
-            a: 'Penalties for Non-Compliance: Punishments for non-compliance with regulatory requirements for Private Limited Companies might change depending on the individual infringement and may include fines or other legal punishments as per the Companies Act, 2013.',
+            q: 'How do I get started with Incorvo for MSME registration?',
+            a: 'Book a free consultation, get a customized checklist, and enjoy a smooth, guided MSME registration process!'
         }
-    ],
-}
+    ]
+};

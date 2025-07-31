@@ -1,206 +1,266 @@
 export default {
     header: {
-        title: 'Private Limited Company Registration',
+        title: 'Trademark Renewal – Incorvo',
         list: [
-            'Register your private limited company in 7 business days with our expert assistance',
-            'Our online company registration service includes the following features',
-            'Obtain 2 Digital Signature Certificates (DSC) with 2 years validity',
-            'Secure 2 Director Identification Numbers (DIN)',
-            'Get unique name approval for your private company',
-            'Acquire PAN and TAN for the company',
-            'Open a current account with ICICI Bank',
-            'Drafting the Memorandum of Association and Articles of Association',
-            'Receive the official Company Incorporation Certificate',
-        ],
+            'End-to-end support for timely renewal of registered trademarks across India',
+            'Legal guidance for renewal with or without changes in particulars',
+            'Expert advisory for restoration of lapsed trademarks',
+            'Drafting and filing of Form TM-R and supporting documents',
+            'Digital process—online renewal filing and status updates',
+            'Proactive reminder service for due dates and renewals',
+            'Support for renewal of wordmarks, logos, and all trademark classes',
+            'Legal vetting for changes in ownership, address, or class during renewal',
+            'Transparent and affordable pricing, milestone-based payments',
+            'Dedicated Incorvo relationship manager for every client'
+        ]
     },
     content: [
         {
-            title: 'Private Limited Company Registration in India',
+            title: 'What is Trademark Renewal?',
             descrption: [
                 {
                     subTitle: '',
                     p: [
-                        'Currently, Private Limited Companies make upto almost 96% of the total companies in India. Till November 20, 2023, there are 25,99,660 private limited companies registered in India. The huge number of company registrations is a testament to the ease and benefits provided by India. Although registering a company in India is not mandatory, company registration offers significant benefits to founders as well as stakeholders. By the end, you will be able to understand the key legal requirements to register a private limited company in India, along with its compliance obligations and much more.'
-                    ],
-                },
-            ],
+                        'Trademark renewal is the process of extending the legal protection of a registered trademark for another 10 years from its expiry date. Trademark rights in India last for 10 years and can be renewed indefinitely by filing a renewal application and paying the prescribed government fee.',
+                        'Timely renewal is crucial to maintain exclusive rights and prevent removal of your mark from the Register. Incorvo offers seamless, digital renewal management to protect your valuable brand assets.'
+                    ]
+                }
+            ]
         },
         {
-            title: 'What is a Private Limited Company?',
+            title: 'Benefits of Timely Trademark Renewal',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        'In India, there are several companies that can be registered. A Private Limited Company is one of them. A Private Limited Company bearing the suffix of ‘Pvt. Ltd\'. At the end of its name is a separate legal entity registered under the Companies Act, 2013with the Registrar of Companies (ROC). The main feature of this type of company is that it offers limited liability protection to its shareholders; it means that the liability of the shareholders is only up to the extent of shares held by them, and the personal assets of shareholders (owners) are protected from the obligations of the company. The company can be owned by multiple shareholders and managed by appointed directors. It is separated from the owners of the company, and its legal existence continues even if there are changes in the ownership or management, which provides security and stability to the company.',
-                    ],
-                },
-            ],
+                    ul: [
+                        'Continuous, uninterrupted brand protection and exclusivity',
+                        'Prevents loss of rights or risk of removal from the Register',
+                        'Maintains goodwill, brand value, and legal enforceability',
+                        'Eligible for further licensing, franchising, and brand expansion',
+                        'Reduces risk of infringement, passing off, or unauthorized use',
+                        'Eases renewal of domain names, packaging, and contracts linked to the mark'
+                    ]
+                }
+            ]
         },
         {
-            title: 'Why Should You Register a Private Limited Company?',
+            title: 'Trademark Renewal Timeline & Deadlines',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        'There are several compelling reasons why forming a Private Limited Company can be beneficial:',
-                    ],
-                },
-                {
-                    subTitle: '1. Limited Liability Protection',
-                    p: [
-                        'As a private limited company, the liability of its shareholders is restricted to the unpaid amount on their shares. This means that if the company faces financial distress or legal liabilities, the personal assets of the shareholders (directors or members) will not be at risk.',
-                    ],
-                },
-                {
-                    subTitle: '2. Separate Legal Entity',
-                    p: [
-                        'A company is a juristic person in the eyes of the law. The legal entity of the company is distinct from its shareholders and directors. The company is capable of entering into contracts in its own name; it can sue and be sued in its own name. The liability and credibility of the company are separated from its stakeholders.',
-                    ],
-                },
-                {
-                    subTitle: '3. Perpetual Succession',
-                    p: [
-                        'The existence of the company is independent of the existence of its shareholders or directors. Unlike a partnership or sole proprietorship, the private limited company enjoys perpetual succession, which means that the existence of the company is not affected by the death, insolvency, or retirement of any shareholder or director. This perpetual succession guarantees the continuity of the business even if one of the company\'s stakeholders leaves the company.',
-                    ],
-                },
-                {
-                    subTitle: '4. Easy Transferability of Shares',
-                    p: [
-                        'Registering a company in India offers easy transferability of shares, which means that shares of the company can be transferred from one shareholder to another. The leverage smoothens out the transaction in the management of the company and later enhances the flexibility in the business operations of the company.',
-                    ],
-                },
-                {
-                    subTitle: '5. Access to Investments and Funding',
-                    p: [
-                        'Capital can be easily raised in a registered Private Limited Company, as Equity shares can be easily issued by the company to raise funds. Issuing equity shares attracts potential investors and venture capital to invest in the company.',
-                    ],
-                },
-                {
-                    subTitle: '6. Increased Trustworthiness',
-                    p: [
-                        'Registering a Private Limited Company enjoys greater market credibility as compared to other business structures. The greater credibility leads to increased trustworthiness among investors. The advantage is gained by the company due to its registration. Registering a company makes the company legally recognizable and shows that it meets the regulatory standards.',
-                    ],
-                },
-            ],
+                    table: {
+                        thead: {
+                            trow: [
+                                ['Event', 'Timeframe', 'Action Required']
+                            ]
+                        },
+                        tbody: {
+                            trow: [
+                                ['Renewal Window', '12 months before expiry', 'File TM-R for timely renewal'],
+                                ['Grace Period', 'Up to 6 months after expiry', 'Late renewal with surcharge'],
+                                ['Restoration', 'After 6 months but within 1 year of expiry', 'File for restoration (with penalty)']
+                            ]
+                        }
+                    }
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Who Can Apply for Trademark Renewal?',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    ul: [
+                        'Registered owner of the trademark (individual, company, LLP, trust, etc.)',
+                        'Authorized agent or attorney (on submission of Power of Attorney)',
+                        'Legal heirs or successors in case of ownership transfer',
+                        'Assignee/Transferee if trademark has been assigned and updated on record'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Step-by-Step Trademark Renewal Process with Incorvo',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    ol: [
+                        'Proactive reminder and client notification before due date',
+                        'Collection of required documents (TM certificate, ID, Power of Attorney)',
+                        'Legal vetting to confirm current ownership and class details',
+                        'Preparation and e-filing of Form TM-R on IP India portal',
+                        'Payment of renewal fee (standard or late renewal as applicable)',
+                        'Receipt of renewal acknowledgement from the Registry',
+                        'Follow-up for issuance of updated Registration Certificate',
+                        'Assistance with any change in name, address, or assignment during renewal',
+                        'Post-renewal advisory: enforcement, licensing, and portfolio management'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Documents Required for Trademark Renewal',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    ul: [
+                        'Copy of current trademark registration certificate',
+                        'Proof of identity and address of the owner',
+                        'Power of Attorney (Form TM-48) if using agent/attorney',
+                        'Details of any changes (ownership, address, class) since last registration',
+                        'Board resolution (for companies) or partnership authorization (for firms)',
+                        'Payment receipt for government renewal fee'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Legal Framework for Trademark Renewal',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    ul: [
+                        'Trade Marks Act, 1999 and Trade Marks Rules, 2017',
+                        'Section 25: Renewal and restoration procedures',
+                        'Section 23: Legal rights post-renewal remain as for original registration',
+                        'Registry may remove mark from register for non-renewal after due process',
+                        'Restoration permitted within 1 year from expiry with payment of penalty'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'What If Renewal Is Missed? (Restoration Process)',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    ul: [
+                        'Mark can be renewed late (with surcharge) up to 6 months after expiry',
+                        'After 6 months and before 1 year, file application for restoration along with fees and reasons for delay',
+                        'Registrar reviews application; if satisfied, mark is restored and renewed',
+                        'Failure to restore within 1 year leads to permanent removal from Register; fresh application is then required'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Why Choose Incorvo for Trademark Renewal?',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    ul: [
+                        'Proactive renewal reminders and deadline tracking',
+                        'Expert vetting of mark particulars and legal status',
+                        'Support for all renewal scenarios—change of ownership, address, or classes',
+                        'Fast, digital documentation and e-filing for pan-India clients',
+                        'Affordable, transparent pricing with no hidden costs',
+                        'Ongoing post-renewal support: licensing, enforcement, brand expansion',
+                        'Dedicated relationship manager for end-to-end service'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Best Practices & Common Mistakes',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    ul: [
+                        'Set up early reminders—renewal window opens 12 months before expiry',
+                        'Verify and update ownership or address details before filing renewal',
+                        'Don’t wait until the grace period—avoid surcharges and risks of removal',
+                        'Use authorized agents and maintain all acknowledgement receipts',
+                        'Renew all variants and classes if the brand has evolved',
+                        'Retain original registration certificates and all renewal receipts for records',
+                        'Consult professionals for restoration or disputes during renewal'
+                    ]
+                }
+            ]
         },
+        {
+            title: 'Sample Scenarios & Solutions',
+            descrption: [
+                {
+                    subTitle: 'Case: Timely Renewal by Brand Owner',
+                    p: [
+                        'Incorvo reminds the client 6 months before expiry, verifies all particulars, and renews the mark on time—ensuring seamless, uninterrupted protection.'
+                    ]
+                },
+                {
+                    subTitle: 'Case: Late Renewal with Surcharge',
+                    p: [
+                        'A business misses the renewal deadline but acts within the 6-month grace period. Incorvo files TM-R with surcharge, ensuring the brand remains protected.'
+                    ]
+                },
+                {
+                    subTitle: 'Case: Restoration After 1-Year Delay',
+                    p: [
+                        'Client misses both renewal and grace period. Incorvo assists with restoration application, supporting reasons for delay and follow-up with Registry for approval.'
+                    ]
+                }
+            ]
+        },
+        {
+            title: 'Extended FAQs – Trademark Renewal',
+            descrption: [
+                {
+                    subTitle: '',
+                    ul: [
+                        'How often do I need to renew my trademark? – Every 10 years from the date of registration.',
+                        'What if I don’t renew my trademark on time? – You can renew late (with surcharge) within 6 months; after that, restoration is possible within 1 year.',
+                        'Can I make changes during renewal? – Yes, changes to ownership, address, or class can be incorporated with proper documentation.',
+                        'How much does trademark renewal cost? – Government fee and Incorvo’s transparent service charge; varies by number of classes and changes requested.',
+                        'What happens if restoration is denied? – Trademark is removed; fresh registration is needed, losing the original priority date.',
+                        'Will I get a new certificate after renewal? – Yes, the Registry issues an updated certificate reflecting continued protection.',
+                        'Is renewal needed for unregistered (™) marks? – No, only for registered (®) trademarks.',
+                        'Can I renew a mark that is under dispute? – Possible, but outcome may depend on Registry/court orders.',
+                        'Do I need to show proof of use for renewal? – Generally not for standard renewal, but may be required for restoration or in case of disputes.',
+                        'Can Incorvo help with multi-class, logo, or international renewal? – Absolutely! We support all types, including Madrid Protocol renewals via Indian application.'
+                    ]
+                }
+            ]
+        }
     ],
     faqs: [
         {
-            q: 'What is the minimum capital required to register a Private Limited Company?',
-            a: 'There is no minimum paid-up capital requirement for registering a Private Limited Company in India.',
+            q: 'When should I apply for trademark renewal?',
+            a: 'You should apply anytime within 12 months before expiry and up to 6 months after, to avoid risk of removal and surcharges.'
         },
         {
-            q: 'Can a foreigner be a director in a Private Limited Company?',
-            a: 'Yes, foreigners can be directors, but at least one director must be a resident of India, as per Section 149 of the Companies Act, 2013.',
+            q: 'Can I renew my trademark online?',
+            a: 'Yes, Incorvo provides 100% digital renewal filing and document management for your convenience.'
         },
         {
-            q: 'How long does it take to register a Private Limited Company in India?',
-            a: 'The registration process generally takes between 7-15 business days, depending on the speed of document verification and approvals.',
+            q: 'What happens if my trademark expires and I do nothing?',
+            a: 'Your trademark is liable to be removed from the Register, and you lose all exclusive rights and legal protection.'
         },
         {
-            q: 'What are the legal standards for Private Limited Companies?',
-            a: 'Compliance Requirements: Private Limited Companies must stick to several compliance requirements under the Companies Act, 2013, including having yearly general meetings, filing annual reports, hiring accountants, and more.',
+            q: 'Is the renewal process different for wordmark and logo?',
+            a: 'No, process is similar; ensure you renew all registered variants for full protection.'
         },
         {
-            q: 'Do I need a physical office for registration?',
-            a: 'Yes, a registered office in India is mandatory. This office must be in a location where official correspondence and notices from the ROC can be sent.',
+            q: 'How will I know if my renewal is successful?',
+            a: 'Registry issues an acknowledgement and then an updated registration certificate; Incorvo provides all updates and records.'
         },
         {
-            q: 'What are the perks of choosing a Private Limited Company structure?',
-            a: 'Advantages of Private Limited Company: Benefits include limited liability protection, ease of getting capital via shares, constant succession, reliability, and agreement with regulatory norms.',
+            q: 'Can Incorvo handle renewal for trademarks registered by other agents?',
+            a: 'Yes, we can renew any Indian trademark with required documentation and authorization.'
         },
         {
-            q: 'Can a Private Limited Company change to a Public Limited Company?',
-            a: 'Conversion to Public Limited Company: Yes, a Private Limited Company may change to a Public Limited Company.',
+            q: 'Do I have to submit proof of use during renewal?',
+            a: 'Not for regular renewal, but evidence may be requested in case of restoration or disputes.'
         },
         {
-            q: 'What is the difference between a Private Limited Company and a Limited Liability Partnership (LLP)?',
-            a: 'Difference from LLP: The basic difference between a Private Limited Company and a Limited liability Partnership (LLP) rests in their structure and responsibility features. A Private Limited Company has owners and limited liability protection, whereas an LLP has partners with limited liability but without shares.',
+            q: 'Is renewal mandatory for international (Madrid Protocol) marks?',
+            a: 'Yes, renewals for Indian base applications are required for continued international protection.'
         },
         {
-            q: 'How can I change the name of my Private Limited Company?',
-            a: 'Changing Company Name: To change the name of a Private Limited Company, you need to follow the way given by the Ministry of Corporate Affairs in India.',
+            q: 'Can I combine renewal with change in ownership or address?',
+            a: 'Yes, submit supporting documents and Incorvo will update all records during renewal.'
         },
         {
-            q: 'What are the penalties for non-compliance with legal duties for Private Limited Companies?',
-            a: 'Penalties for Non-Compliance: Punishments for non-compliance with regulatory requirements for Private Limited Companies might change depending on the individual infringement and may include fines or other legal punishments as per the Companies Act, 2013.',
+            q: 'How do I get started with Incorvo for trademark renewal?',
+            a: 'Contact us for a free review of your trademark status, renewal reminder, and complete end-to-end support.'
         }
-    ],
-}
+    ]
+};

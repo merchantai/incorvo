@@ -1,206 +1,369 @@
 export default {
     header: {
-        title: 'Private Limited Company Registration',
+        title: 'FSSAI Registration & License',
         list: [
-            'Register your private limited company in 7 business days with our expert assistance',
-            'Our online company registration service includes the following features',
-            'Obtain 2 Digital Signature Certificates (DSC) with 2 years validity',
-            'Secure 2 Director Identification Numbers (DIN)',
-            'Get unique name approval for your private company',
-            'Acquire PAN and TAN for the company',
-            'Open a current account with ICICI Bank',
-            'Drafting the Memorandum of Association and Articles of Association',
-            'Receive the official Company Incorporation Certificate',
-        ],
+            'Expert FSSAI registration and licensing for all types of food businesses in India',
+            'Covers FSSAI Basic, State, and Central licenses – new, renewal, and modification',
+            'Eligibility check and category mapping for your food business',
+            'Documentation and digital application support via FSSAI portal',
+            'Drafting of food safety management plan and product/category declarations',
+            'End-to-end advisory for manufacturers, traders, retailers, transporters, and e-commerce FBOs',
+            'Renewal reminders, change applications, and post-license compliance',
+            'Support for labeling, hygiene, packaging, and record-keeping standards',
+            'Dedicated Incorvo FSSAI manager for tracking, clarifications, and inspection support',
+            'Transparent pricing, real-time status updates, and bundled compliance packages',
+            'Fast-track processing for urgent business launches and time-sensitive applications',
+            'Training programs for food handlers and compliance officers',
+            'Annual compliance audit and health certificate management',
+            'Export documentation support and international food safety certifications'
+        ]
     },
     content: [
         {
-            title: 'Private Limited Company Registration in India',
+            title: 'What is FSSAI Registration & License?',
             descrption: [
                 {
                     subTitle: '',
                     p: [
-                        'Currently, Private Limited Companies make upto almost 96% of the total companies in India. Till November 20, 2023, there are 25,99,660 private limited companies registered in India. The huge number of company registrations is a testament to the ease and benefits provided by India. Although registering a company in India is not mandatory, company registration offers significant benefits to founders as well as stakeholders. By the end, you will be able to understand the key legal requirements to register a private limited company in India, along with its compliance obligations and much more.'
-                    ],
-                },
-            ],
+                        'FSSAI (Food Safety and Standards Authority of India) is the apex body regulating food safety, standards, and hygiene in India. Established under the Food Safety and Standards Act, 2006, FSSAI ensures that food products consumed by citizens meet the highest safety and quality standards.',
+                        'Any business involved in food manufacturing, processing, storage, distribution, transportation, import, export, or retail must obtain FSSAI registration or license before starting operations. This includes traditional businesses as well as modern digital platforms and cloud kitchens.',
+                        'Depending on business size, turnover, and activity, FSSAI mandates either Basic Registration, State License, or Central License. The classification ensures appropriate oversight while maintaining ease of doing business for smaller enterprises.',
+                        'Non-compliance attracts heavy penalties ranging from monetary fines to business closure and even criminal prosecution in cases of public health hazards. Incorvo ensures you are always on the right side of food law with proactive compliance management.'
+                    ]
+                }
+            ]
         },
         {
-            title: 'What is a Private Limited Company?',
+            title: 'Who Needs FSSAI Registration or License?',
             descrption: [
                 {
-                    subTitle: '',
-                    p: [
-                        'In India, there are several companies that can be registered. A Private Limited Company is one of them. A Private Limited Company bearing the suffix of ‘Pvt. Ltd\'. At the end of its name is a separate legal entity registered under the Companies Act, 2013with the Registrar of Companies (ROC). The main feature of this type of company is that it offers limited liability protection to its shareholders; it means that the liability of the shareholders is only up to the extent of shares held by them, and the personal assets of shareholders (owners) are protected from the obligations of the company. The company can be owned by multiple shareholders and managed by appointed directors. It is separated from the owners of the company, and its legal existence continues even if there are changes in the ownership or management, which provides security and stability to the company.',
-                    ],
+                    subTitle: 'Manufacturing and Processing Units',
+                    ul: [
+                        'Food manufacturers, processors, packers, and co-packers',
+                        'Beverage manufacturers including soft drinks, juices, and energy drinks',
+                        'Bakery units, confectionery manufacturers, and sweet makers',
+                        'Spice grinders, flour mills, and cereal processing units',
+                        'Dairy processing units, cheese makers, and ice cream manufacturers'
+                    ]
                 },
-            ],
+                {
+                    subTitle: 'Trading and Distribution',
+                    ul: [
+                        'Food traders, wholesalers, distributors, and commission agents',
+                        'Food transporters and logistics companies handling edible products',
+                        'Cold storage facilities and warehousing units',
+                        'Food importers, exporters, and clearing agents',
+                        'Retail chain stores, supermarkets, and grocery outlets'
+                    ]
+                },
+                {
+                    subTitle: 'Food Service and Hospitality',
+                    ul: [
+                        'Restaurants, cloud kitchens, food trucks, and mobile vendors',
+                        'Hotels, resorts, guest houses, and accommodation facilities',
+                        'Caterers, event management companies, and bulk food suppliers',
+                        'Canteens, mess facilities, and institutional food providers',
+                        'Hawkers, street vendors, and small-scale food businesses'
+                    ]
+                },
+                {
+                    subTitle: 'Digital and E-commerce',
+                    ul: [
+                        'Online food aggregators and delivery platforms',
+                        'E-commerce marketplaces selling food products',
+                        'Direct-to-consumer food brands and subscription services',
+                        'Food startups and innovative food technology companies'
+                    ]
+                }
+            ]
         },
         {
-            title: 'Why Should You Register a Private Limited Company?',
+            title: 'Types of FSSAI Registration & Licenses',
             descrption: [
                 {
-                    subTitle: '',
-                    p: [
-                        'There are several compelling reasons why forming a Private Limited Company can be beneficial:',
-                    ],
+                    subTitle: 'FSSAI Basic Registration',
+                    ul: [
+                        'For small food businesses with annual turnover below Rs. 12 lakhs',
+                        'Issued by local municipal corporations or panchayats',
+                        'Suitable for petty retailers, hawkers, and home-based food businesses',
+                        'Simplified application process with minimal documentation',
+                        'Lower government fees and faster processing time'
+                    ]
                 },
                 {
-                    subTitle: '1. Limited Liability Protection',
-                    p: [
-                        'As a private limited company, the liability of its shareholders is restricted to the unpaid amount on their shares. This means that if the company faces financial distress or legal liabilities, the personal assets of the shareholders (directors or members) will not be at risk.',
-                    ],
+                    subTitle: 'FSSAI State License',
+                    ul: [
+                        'For businesses with turnover between Rs. 12 lakhs and Rs. 20 crore',
+                        'For businesses operating within a single state boundary',
+                        'Issued by state food safety departments',
+                        'Requires detailed documentation and premises inspection',
+                        'Suitable for medium-scale manufacturers and multi-location retailers'
+                    ]
                 },
                 {
-                    subTitle: '2. Separate Legal Entity',
-                    p: [
-                        'A company is a juristic person in the eyes of the law. The legal entity of the company is distinct from its shareholders and directors. The company is capable of entering into contracts in its own name; it can sue and be sued in its own name. The liability and credibility of the company are separated from its stakeholders.',
-                    ],
-                },
-                {
-                    subTitle: '3. Perpetual Succession',
-                    p: [
-                        'The existence of the company is independent of the existence of its shareholders or directors. Unlike a partnership or sole proprietorship, the private limited company enjoys perpetual succession, which means that the existence of the company is not affected by the death, insolvency, or retirement of any shareholder or director. This perpetual succession guarantees the continuity of the business even if one of the company\'s stakeholders leaves the company.',
-                    ],
-                },
-                {
-                    subTitle: '4. Easy Transferability of Shares',
-                    p: [
-                        'Registering a company in India offers easy transferability of shares, which means that shares of the company can be transferred from one shareholder to another. The leverage smoothens out the transaction in the management of the company and later enhances the flexibility in the business operations of the company.',
-                    ],
-                },
-                {
-                    subTitle: '5. Access to Investments and Funding',
-                    p: [
-                        'Capital can be easily raised in a registered Private Limited Company, as Equity shares can be easily issued by the company to raise funds. Issuing equity shares attracts potential investors and venture capital to invest in the company.',
-                    ],
-                },
-                {
-                    subTitle: '6. Increased Trustworthiness',
-                    p: [
-                        'Registering a Private Limited Company enjoys greater market credibility as compared to other business structures. The greater credibility leads to increased trustworthiness among investors. The advantage is gained by the company due to its registration. Registering a company makes the company legally recognizable and shows that it meets the regulatory standards.',
-                    ],
-                },
-            ],
+                    subTitle: 'FSSAI Central License',
+                    ul: [
+                        'For large food businesses with turnover above Rs. 20 crore',
+                        'For businesses operating across multiple states',
+                        'Mandatory for importers, exporters, and international food businesses',
+                        'Required for 100% Export Oriented Units (EOUs) and Special Economic Zones',
+                        'For businesses operating at airports, ports, and border areas',
+                        'Involves comprehensive inspection and audit processes'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Eligibility Criteria for FSSAI Registration & License',
             descrption: [
                 {
-                    subTitle: '',
-                    p: [
-                        '',
-                    ],
+                    subTitle: 'Business Entity Requirements',
+                    ul: [
+                        'Proprietorship, partnership firm, private/public company, LLP, trust, society, or cooperative',
+                        'Valid business registration with appropriate authorities',
+                        'Clear ownership structure and authorized signatory identification',
+                        'Compliance with local municipal and state regulations'
+                    ]
                 },
-            ],
+                {
+                    subTitle: 'Infrastructure and Operational Standards',
+                    ul: [
+                        'Adequate premises with proper ventilation, lighting, and water supply',
+                        'Hygienic food handling and storage facilities',
+                        'Proper waste management and drainage systems',
+                        'Equipment and machinery suitable for intended food operations',
+                        'Trained personnel with health certificates and food safety knowledge'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Step-by-Step Process for FSSAI Registration & License',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    table: {
+                        thead: {
+                            trow: [
+                                ['Step', 'Activity Details', 'Form/Portal', 'Timeline', 'Responsibility']
+                            ]
+                        },
+                        tbody: {
+                            trow: [
+                                ['1', 'Business assessment and license type selection', 'Consultation/Analysis', '1-2 days', 'FBO/Incorvo'],
+                                ['2', 'Document compilation and verification', 'Digital documentation', '2-3 days', 'FBO/Incorvo'],
+                                ['3', 'Online application submission (Form A/B/C)', 'FSSAI Portal', '1 day', 'Incorvo'],
+                                ['4', 'Government fee payment and acknowledgment', 'Payment gateway', 'Same day', 'FBO/Incorvo'],
+                                ['5', 'Application scrutiny and query resolution', 'FSSAI backend', '3-7 days', 'FSSAI/Incorvo'],
+                                ['6', 'Premises inspection scheduling and conduct', 'Field inspection', '7-15 days', 'FSSAI/FBO'],
+                                ['7', 'Compliance verification and final approval', 'Internal review', '3-5 days', 'FSSAI'],
+                                ['8', 'Digital certificate generation and delivery', 'FSSAI portal', '1-2 days', 'FSSAI'],
+                                ['9', 'License display and operational compliance', 'Physical implementation', 'Ongoing', 'FBO']
+                            ]
+                        }
+                    }
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Documents Required for FSSAI Registration & License',
             descrption: [
                 {
-                    subTitle: '',
-                    p: [
-                        '',
-                    ],
+                    subTitle: 'Personal and Business Identity',
+                    ul: [
+                        'Passport-size photograph of applicant/authorized person',
+                        'Government-issued identity proof (Aadhaar, PAN, Passport, Driving License)',
+                        'Business address proof (electricity bill, rent agreement, property documents)',
+                        'Company incorporation certificate, partnership deed, or proprietorship declaration'
+                    ]
                 },
-            ],
+                {
+                    subTitle: 'Operational Documentation',
+                    ul: [
+                        'Comprehensive list of food products with categories and sub-categories',
+                        'Food Safety Management System (FSMS) plan and standard operating procedures',
+                        'Layout plan of premises with equipment and machinery details',
+                        'Water analysis report from government-approved laboratory',
+                        'No Objection Certificate from local municipal authority or fire department'
+                    ]
+                },
+                {
+                    subTitle: 'Specialized Requirements',
+                    ul: [
+                        'Medical fitness certificates of food handlers and key personnel',
+                        'Import Export Code (IEC) for businesses involved in international trade',
+                        'Board resolution or partnership authorization for license application',
+                        'Previous FSSAI license copy (for renewal or modification cases)',
+                        'Product testing reports and quality control certifications'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Government Fees and Processing Time',
             descrption: [
                 {
-                    subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    subTitle: 'Fee Structure',
+                    table: {
+                        thead: {
+                            trow: [
+                                ['License Type', '1 Year', '2 Years', '3 Years', '5 Years', 'Processing Time']
+                            ]
+                        },
+                        tbody: {
+                            trow: [
+                                ['Basic Registration', 'Rs. 100', 'Rs. 200', 'Rs. 300', 'Rs. 500', '7-15 days'],
+                                ['State License', 'Rs. 2,500', 'Rs. 5,000', 'Rs. 7,500', 'Rs. 12,500', '15-30 days'],
+                                ['Central License', 'Rs. 7,500', 'Rs. 15,000', 'Rs. 22,500', 'Rs. 37,500', '30-60 days']
+                            ]
+                        }
+                    }
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Renewal, Modification & Cancellation of FSSAI License',
             descrption: [
                 {
-                    subTitle: '',
-                    p: [
-                        '',
-                    ],
+                    subTitle: 'Renewal Process',
+                    ul: [
+                        'Application must be submitted at least 30 days before license expiry',
+                        'Updated financial documents and turnover certificates required',
+                        'Fresh inspection may be conducted for State and Central licenses',
+                        'Late renewal attracts penalty charges and potential business disruption'
+                    ]
                 },
-            ],
+                {
+                    subTitle: 'Modification Scenarios',
+                    ul: [
+                        'Change in business address or additional premises',
+                        'Addition or deletion of food product categories',
+                        'Change in business structure, partnership, or ownership',
+                        'Modification in manufacturing processes or capacity enhancement'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Post-License Compliance and Ongoing Obligations',
             descrption: [
                 {
-                    subTitle: '',
-                    p: [
-                        '',
-                    ],
+                    subTitle: 'Display and Documentation',
+                    ul: [
+                        'Prominent display of FSSAI license number at all business premises',
+                        'Printing of license number on all product packaging and labels',
+                        'Maintenance of daily production, sales, and inventory records',
+                        'Regular updating of employee health records and training certificates'
+                    ]
                 },
-            ],
+                {
+                    subTitle: 'Quality and Safety Standards',
+                    ul: [
+                        'Adherence to prescribed food safety and hygiene protocols',
+                        'Regular internal audits and quality control testing',
+                        'Prompt response to FSSAI notices, recalls, and compliance directives',
+                        'Annual compliance reporting and self-assessment documentation'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Penalties and Legal Consequences',
             descrption: [
                 {
-                    subTitle: '',
-                    p: [
-                        '',
-                    ],
+                    subTitle: 'Administrative Penalties',
+                    ul: [
+                        'Operating without license: Fine up to Rs. 5 lakh plus business closure',
+                        'Non-renewal or expired license: Daily penalty and operational suspension',
+                        'Incorrect labeling or misleading information: Fine up to Rs. 3 lakh',
+                        'Failure to maintain records: Warning notice and penalty charges'
+                    ]
                 },
-            ],
+                {
+                    subTitle: 'Criminal Offenses',
+                    ul: [
+                        'Sale of unsafe or contaminated food: Imprisonment up to 7 years',
+                        'Repeat violations: Enhanced penalties and permanent business ban',
+                        'Public health hazard: Criminal prosecution and civil liability',
+                        'Obstruction of inspection: Additional charges and legal action'
+                    ]
+                }
+            ]
         },
+        {
+            title: 'Why Choose Incorvo for FSSAI Compliance?',
+            descrption: [
+                {
+                    subTitle: 'Expert Services',
+                    ul: [
+                        'Comprehensive eligibility assessment and license category mapping',
+                        'Complete documentation support with digital application management',
+                        'Professional drafting of food safety management plans and SOPs',
+                        'Inspection preparation and officer coordination for smooth approval',
+                        'Post-license compliance monitoring and renewal management'
+                    ]
+                },
+                {
+                    subTitle: 'Value-Added Benefits',
+                    ul: [
+                        'Dedicated relationship manager for personalized service',
+                        'Real-time application tracking and status updates',
+                        'Training programs for staff and management on food safety',
+                        'Advisory services for labeling, packaging, and marketing compliance',
+                        'Emergency support for regulatory queries and crisis management'
+                    ]
+                }
+            ]
+        }
     ],
     faqs: [
         {
-            q: 'What is the minimum capital required to register a Private Limited Company?',
-            a: 'There is no minimum paid-up capital requirement for registering a Private Limited Company in India.',
+            q: 'What is FSSAI and why is it mandatory for food businesses?',
+            a: 'FSSAI is India\'s food safety regulator ensuring public health through standardized food practices. Registration is legally mandatory for all food businesses to operate in India.'
         },
         {
-            q: 'Can a foreigner be a director in a Private Limited Company?',
-            a: 'Yes, foreigners can be directors, but at least one director must be a resident of India, as per Section 149 of the Companies Act, 2013.',
+            q: 'How do I determine which FSSAI license category I need?',
+            a: 'License category depends on annual turnover, business type, and operational area. Incorvo provides free eligibility assessment to identify the correct license type.'
         },
         {
-            q: 'How long does it take to register a Private Limited Company in India?',
-            a: 'The registration process generally takes between 7-15 business days, depending on the speed of document verification and approvals.',
+            q: 'Can I start my food business before getting FSSAI registration?',
+            a: 'No, FSSAI registration is mandatory before commencing any food business operations. Operating without license attracts severe penalties and legal action.'
         },
         {
-            q: 'What are the legal standards for Private Limited Companies?',
-            a: 'Compliance Requirements: Private Limited Companies must stick to several compliance requirements under the Companies Act, 2013, including having yearly general meetings, filing annual reports, hiring accountants, and more.',
+            q: 'What is the typical processing time for FSSAI license approval?',
+            a: 'Basic registration takes 7-15 days, State license 15-30 days, and Central license 30-60 days, depending on documentation and inspection requirements.'
         },
         {
-            q: 'Do I need a physical office for registration?',
-            a: 'Yes, a registered office in India is mandatory. This office must be in a location where official correspondence and notices from the ROC can be sent.',
+            q: 'Do home-based food businesses need FSSAI registration?',
+            a: 'Yes, even small-scale home-based food businesses must obtain FSSAI Basic Registration before selling products online or offline.'
         },
         {
-            q: 'What are the perks of choosing a Private Limited Company structure?',
-            a: 'Advantages of Private Limited Company: Benefits include limited liability protection, ease of getting capital via shares, constant succession, reliability, and agreement with regulatory norms.',
+            q: 'Is premises inspection mandatory for all FSSAI license types?',
+            a: 'Inspection is typically required for State and Central licenses. Basic registration may require inspection based on local authority discretion.'
         },
         {
-            q: 'Can a Private Limited Company change to a Public Limited Company?',
-            a: 'Conversion to Public Limited Company: Yes, a Private Limited Company may change to a Public Limited Company.',
+            q: 'Can FSSAI license be transferred to new owners?',
+            a: 'FSSAI licenses are non-transferable. New owners must apply for fresh registration after canceling the existing license.'
         },
         {
-            q: 'What is the difference between a Private Limited Company and a Limited Liability Partnership (LLP)?',
-            a: 'Difference from LLP: The basic difference between a Private Limited Company and a Limited liability Partnership (LLP) rests in their structure and responsibility features. A Private Limited Company has owners and limited liability protection, whereas an LLP has partners with limited liability but without shares.',
+            q: 'What happens if I miss the FSSAI license renewal deadline?',
+            a: 'Late renewal attracts penalty charges and may require fresh application. Business operations must cease until license is renewed.'
         },
         {
-            q: 'How can I change the name of my Private Limited Company?',
-            a: 'Changing Company Name: To change the name of a Private Limited Company, you need to follow the way given by the Ministry of Corporate Affairs in India.',
+            q: 'Does Incorvo provide ongoing compliance support after license approval?',
+            a: 'Yes, we offer comprehensive post-license services including renewals, modifications, compliance audits, and regulatory advisory.'
         },
         {
-            q: 'What are the penalties for non-compliance with legal duties for Private Limited Companies?',
-            a: 'Penalties for Non-Compliance: Punishments for non-compliance with regulatory requirements for Private Limited Companies might change depending on the individual infringement and may include fines or other legal punishments as per the Companies Act, 2013.',
+            q: 'How can I start the FSSAI registration process with Incorvo?',
+            a: 'Contact our expert team for free consultation, eligibility check, and complete end-to-end application management with guaranteed approval.'
+        },
+        {
+            q: 'What are the consequences of FSSAI license rejection?',
+            a: 'Incorvo analyzes rejection reasons, rectifies deficiencies, and resubmits applications with additional documentation and compliance measures.'
+        },
+        {
+            q: 'Can I add new food products to my existing FSSAI license?',
+            a: 'Yes, product addition requires license modification through FSSAI portal with updated documentation and possible additional fees.'
         }
-    ],
-}
+    ]
+};

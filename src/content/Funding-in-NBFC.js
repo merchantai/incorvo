@@ -1,206 +1,270 @@
 export default {
     header: {
-        title: 'Private Limited Company Registration',
+        title: 'Funding in NBFC – Incorvo',
         list: [
-            'Register your private limited company in 7 business days with our expert assistance',
-            'Our online company registration service includes the following features',
-            'Obtain 2 Digital Signature Certificates (DSC) with 2 years validity',
-            'Secure 2 Director Identification Numbers (DIN)',
-            'Get unique name approval for your private company',
-            'Acquire PAN and TAN for the company',
-            'Open a current account with ICICI Bank',
-            'Drafting the Memorandum of Association and Articles of Association',
-            'Receive the official Company Incorporation Certificate',
-        ],
+            'Expert advisory and end-to-end support for raising funds in NBFCs (Non-Banking Financial Companies)',
+            'Strategic planning for equity, debt, and hybrid funding for all categories of NBFCs',
+            'Legal and regulatory due diligence for both domestic and foreign investment',
+            'Drafting and vetting of shareholder agreements, debenture documents, and board resolutions',
+            'Guidance on compliance with RBI norms, Companies Act, and FDI policy',
+            'Assistance with fundraising from VCs, PEs, banks, HNIs, and financial institutions',
+            'Support for secured/unsecured debentures, subordinated debt, and external commercial borrowings (ECBs)',
+            'Documentation, KYC, and ROC/RBI filings for all funding transactions',
+            'Digital process management, milestone-based pricing, and confidentiality assured',
+            'Dedicated Incorvo relationship manager for your NBFC’s capital raising journey'
+        ]
     },
     content: [
         {
-            title: 'Private Limited Company Registration in India',
+            title: 'What is NBFC Funding?',
             descrption: [
                 {
                     subTitle: '',
                     p: [
-                        'Currently, Private Limited Companies make upto almost 96% of the total companies in India. Till November 20, 2023, there are 25,99,660 private limited companies registered in India. The huge number of company registrations is a testament to the ease and benefits provided by India. Although registering a company in India is not mandatory, company registration offers significant benefits to founders as well as stakeholders. By the end, you will be able to understand the key legal requirements to register a private limited company in India, along with its compliance obligations and much more.'
-                    ],
-                },
-            ],
+                        'Funding in NBFC refers to raising capital for Non-Banking Financial Companies to support their lending, investment, or other financial activities. NBFCs rely on a mix of equity, debt, and hybrid instruments to build a robust balance sheet and ensure business growth and regulatory compliance.',
+                        'Raising funds for an NBFC is a highly regulated process involving RBI approvals, adherence to prescribed capital adequacy, and compliance with foreign and domestic investment guidelines.'
+                    ]
+                }
+            ]
         },
         {
-            title: 'What is a Private Limited Company?',
+            title: 'Types of Funding for NBFCs',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        'In India, there are several companies that can be registered. A Private Limited Company is one of them. A Private Limited Company bearing the suffix of ‘Pvt. Ltd\'. At the end of its name is a separate legal entity registered under the Companies Act, 2013with the Registrar of Companies (ROC). The main feature of this type of company is that it offers limited liability protection to its shareholders; it means that the liability of the shareholders is only up to the extent of shares held by them, and the personal assets of shareholders (owners) are protected from the obligations of the company. The company can be owned by multiple shareholders and managed by appointed directors. It is separated from the owners of the company, and its legal existence continues even if there are changes in the ownership or management, which provides security and stability to the company.',
-                    ],
-                },
-            ],
+                    table: {
+                        thead: {
+                            trow: [
+                                ['Funding Type', 'Source', 'Key Features']
+                            ]
+                        },
+                        tbody: {
+                            trow: [
+                                ['Equity Funding', 'Promoters, Private Equity, Venture Capital, Angel Investors', 'Dilutes ownership; improves capital adequacy; often comes with strategic inputs'],
+                                ['Debt Funding', 'Banks, NBFCs, Financial Institutions, Bonds, Debentures', 'No dilution; periodic repayments and interest; may require security/collateral'],
+                                ['Subordinated Debt', 'Promoters, Banks, FIs', 'Counts as Tier II capital; helps meet RBI’s capital adequacy norms'],
+                                ['External Commercial Borrowings (ECBs)', 'Foreign lenders', 'RBI approval needed; governed by ECB policy; foreign currency risk'],
+                                ['Hybrid Instruments', 'Convertible Debentures, Preference Shares', 'Mix of debt and equity characteristics; tailored to investor needs']
+                            ]
+                        }
+                    }
+                }
+            ]
         },
         {
-            title: 'Why Should You Register a Private Limited Company?',
+            title: 'Eligibility & Preconditions for NBFC Funding',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        'There are several compelling reasons why forming a Private Limited Company can be beneficial:',
-                    ],
-                },
-                {
-                    subTitle: '1. Limited Liability Protection',
-                    p: [
-                        'As a private limited company, the liability of its shareholders is restricted to the unpaid amount on their shares. This means that if the company faces financial distress or legal liabilities, the personal assets of the shareholders (directors or members) will not be at risk.',
-                    ],
-                },
-                {
-                    subTitle: '2. Separate Legal Entity',
-                    p: [
-                        'A company is a juristic person in the eyes of the law. The legal entity of the company is distinct from its shareholders and directors. The company is capable of entering into contracts in its own name; it can sue and be sued in its own name. The liability and credibility of the company are separated from its stakeholders.',
-                    ],
-                },
-                {
-                    subTitle: '3. Perpetual Succession',
-                    p: [
-                        'The existence of the company is independent of the existence of its shareholders or directors. Unlike a partnership or sole proprietorship, the private limited company enjoys perpetual succession, which means that the existence of the company is not affected by the death, insolvency, or retirement of any shareholder or director. This perpetual succession guarantees the continuity of the business even if one of the company\'s stakeholders leaves the company.',
-                    ],
-                },
-                {
-                    subTitle: '4. Easy Transferability of Shares',
-                    p: [
-                        'Registering a company in India offers easy transferability of shares, which means that shares of the company can be transferred from one shareholder to another. The leverage smoothens out the transaction in the management of the company and later enhances the flexibility in the business operations of the company.',
-                    ],
-                },
-                {
-                    subTitle: '5. Access to Investments and Funding',
-                    p: [
-                        'Capital can be easily raised in a registered Private Limited Company, as Equity shares can be easily issued by the company to raise funds. Issuing equity shares attracts potential investors and venture capital to invest in the company.',
-                    ],
-                },
-                {
-                    subTitle: '6. Increased Trustworthiness',
-                    p: [
-                        'Registering a Private Limited Company enjoys greater market credibility as compared to other business structures. The greater credibility leads to increased trustworthiness among investors. The advantage is gained by the company due to its registration. Registering a company makes the company legally recognizable and shows that it meets the regulatory standards.',
-                    ],
-                },
-            ],
+                    ul: [
+                        'NBFC must be registered with RBI and compliant with minimum net owned funds (NOF) norms',
+                        'Updated KYC, ROC, RBI, and annual compliances',
+                        'No ongoing regulatory, criminal, or major tax litigations',
+                        'Adequate internal policies for credit, risk, and anti-money laundering',
+                        'For FDI/ECBs, ensure sectoral caps and RBI automatic/approval route compliance'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Step-by-Step NBFC Funding Process with Incorvo',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    ol: [
+                        'Initial consultation to assess funding requirement and structuring options',
+                        'Preparation of business plan, financial projections, and investor pitch deck',
+                        'Due diligence on company, promoters, and financial statements',
+                        'Identification and approach to suitable investors/lenders',
+                        'Negotiation of commercial terms and execution of term sheet',
+                        'Drafting and vetting of shareholder agreements, debenture trust deeds, or loan documents',
+                        'Board and shareholder approvals (if required)',
+                        'Filing of relevant forms with ROC, RBI, and compliance authorities',
+                        'Receipt of funds and compliance with post-funding reporting',
+                        'Ongoing monitoring and compliance support (annual returns, KYC, RBI returns, etc.)'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Documents Required for NBFC Funding',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    ul: [
+                        'Certificate of Incorporation and NBFC RBI Registration Certificate',
+                        'Memorandum and Articles of Association (MOA/AOA)',
+                        'Latest audited financial statements and interim accounts',
+                        'List of directors, KMPs, and shareholding pattern',
+                        'KYC documents for company and promoters',
+                        'Business plan, projections, and use of funds statement',
+                        'Board and shareholder resolutions for fundraising',
+                        'Copy of existing loan/debt agreements (if any)',
+                        'RBI and ROC filings and compliance records',
+                        'Foreign investment/FEMA approvals (if applicable)'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'RBI and Legal Compliance for NBFC Funding',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    ul: [
+                        'RBI Master Directions for NBFCs: Compliance with capital adequacy, leverage ratio, and exposure norms',
+                        'Section 42 of RBI Act and relevant Companies Act provisions',
+                        'Foreign Direct Investment (FDI) as per automatic or approval route and sectoral caps',
+                        'ECB policy and approval process for foreign debt',
+                        'Adherence to KYC/AML and Prevention of Money Laundering Act (PMLA) requirements',
+                        'Timely filing of post-funding returns with RBI and ROC'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Funding Instruments – Features at a Glance',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    table: {
+                        thead: {
+                            trow: [
+                                ['Instrument', 'Pros', 'Cons']
+                            ]
+                        },
+                        tbody: {
+                            trow: [
+                                ['Equity', 'No repayment; improves capital; attracts strategic partners', 'Dilution of control, profit sharing'],
+                                ['Secured Loan', 'Fixed repayment; no dilution', 'Security/collateral needed; higher scrutiny'],
+                                ['Debenture', 'Can be listed/unlisted; tax efficient; flexible tenure', 'Interest outgo; requires trust deed/charges'],
+                                ['ECB', 'Access to global capital; may be lower cost', 'Forex risk; detailed RBI compliance'],
+                                ['Hybrid', 'Customizable to business need', 'Complex documentation, regulatory clarity needed']
+                            ]
+                        }
+                    }
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Why Choose Incorvo for NBFC Funding?',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    ul: [
+                        'Specialized NBFC compliance and funding experts',
+                        'Legal, financial, and strategic advisory under one roof',
+                        'Assistance with both domestic and international funding routes',
+                        'Drafting, negotiation, and vetting of all funding documentation',
+                        'RBI, ROC, and Companies Act compliance at every step',
+                        'Full confidentiality and data security for your transaction',
+                        'Milestone-based, transparent pricing for peace of mind',
+                        'Ongoing support for future funding rounds and compliance'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Best Practices & Common Mistakes',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
+                    ul: [
+                        'Prepare thorough business plan and projections before approaching investors',
+                        'Regularly update all KYC, ROC, and RBI compliance records',
+                        'Negotiate term sheets carefully—focus on valuation, covenants, and exit rights',
+                        'Ensure correct classification of funding (equity, debt, hybrid) for compliance',
+                        'Do not bypass RBI approval/notification if required for FDI or ECB',
+                        'Engage expert advisors for documentation and regulatory filings',
+                        'Maintain clear records of all communications, filings, and receipts'
+                    ]
+                }
+            ]
         },
         {
-            title: '',
+            title: 'Sample Scenarios & Solutions',
+            descrption: [
+                {
+                    subTitle: 'Case: NBFC Raising Capital via NCDs',
+                    p: [
+                        'Incorvo assists a mid-sized NBFC to issue secured Non-Convertible Debentures (NCDs), drafts the trust deed, and files required returns with ROC and RBI, ensuring full compliance.'
+                    ]
+                },
+                {
+                    subTitle: 'Case: FDI Infusion in NBFC',
+                    p: [
+                        'A foreign VC invests in an Indian NBFC. Incorvo vets FDI policy compliance, handles RBI filings, and manages share allotment to the overseas entity.'
+                    ]
+                },
+                {
+                    subTitle: 'Case: Restoration of Net Owned Funds',
+                    p: [
+                        'NBFC with reduced NOF seeks subordinated debt from promoters. Incorvo structures the funding, files with RBI, and updates ROC records.'
+                    ]
+                }
+            ]
+        },
+        {
+            title: 'Extended FAQs – Funding in NBFC',
             descrption: [
                 {
                     subTitle: '',
-                    p: [
-                        '',
-                    ],
-                },
-            ],
-        },
+                    ul: [
+                        'Is prior RBI approval needed for all NBFC funding? – No; equity from residents and domestic debt may not need approval, but FDI and ECBs often do.',
+                        'What is the minimum capital required for NBFC funding? – Varies by NBFC type; typically ₹2 crore NOF for most NBFCs.',
+                        'Can NBFCs issue preference shares or debentures? – Yes, subject to Companies Act and RBI guidelines.',
+                        'What is the maximum FDI allowed in NBFCs? – 100% FDI under automatic route for most NBFC activities, subject to minimum capitalization and regulatory conditions.',
+                        'How is funding classified as equity or debt? – Depends on instrument structure, tenure, repayment, and regulatory guidelines.',
+                        'Can promoters infuse subordinated debt? – Yes, counts as Tier II capital subject to limits and disclosure.',
+                        'What is the typical time frame for raising NBFC funds? – 4–12 weeks, depending on complexity and regulatory approval needs.',
+                        'Are NCDs issued by NBFCs secured or unsecured? – Both options exist; secured NCDs require creation of charge and trust deed.',
+                        'Can NBFCs accept public deposits? – Only if registered as deposit-taking NBFC and after meeting RBI’s specific norms.',
+                        'Does Incorvo assist with post-funding compliance? – Absolutely, including RBI, ROC, KYC updates, and annual returns.'
+                    ]
+                }
+            ]
+        }
     ],
     faqs: [
         {
-            q: 'What is the minimum capital required to register a Private Limited Company?',
-            a: 'There is no minimum paid-up capital requirement for registering a Private Limited Company in India.',
+            q: 'What are the primary sources of NBFC funding?',
+            a: 'Equity from promoters/VCs, debt from banks/FIs, debentures, subordinated debt, and foreign funding (FDI/ECB) are the main sources.'
         },
         {
-            q: 'Can a foreigner be a director in a Private Limited Company?',
-            a: 'Yes, foreigners can be directors, but at least one director must be a resident of India, as per Section 149 of the Companies Act, 2013.',
+            q: 'Is NBFC funding regulated by RBI?',
+            a: 'Yes. All major NBFC funding activities and instruments must comply with RBI Master Directions, FDI policy, and relevant notifications.'
         },
         {
-            q: 'How long does it take to register a Private Limited Company in India?',
-            a: 'The registration process generally takes between 7-15 business days, depending on the speed of document verification and approvals.',
+            q: 'What documents are required for foreign investment in NBFCs?',
+            a: 'RBI approval, FIRC, KYC of overseas investor, share allotment details, board and shareholder resolutions, and filings with ROC.'
         },
         {
-            q: 'What are the legal standards for Private Limited Companies?',
-            a: 'Compliance Requirements: Private Limited Companies must stick to several compliance requirements under the Companies Act, 2013, including having yearly general meetings, filing annual reports, hiring accountants, and more.',
+            q: 'Can an NBFC raise multiple types of funding simultaneously?',
+            a: 'Yes, but ensure each transaction is compliant and all necessary approvals are secured.'
         },
         {
-            q: 'Do I need a physical office for registration?',
-            a: 'Yes, a registered office in India is mandatory. This office must be in a location where official correspondence and notices from the ROC can be sent.',
+            q: 'Does raising debt affect the NBFC’s classification?',
+            a: 'Excessive leverage may affect capital adequacy or regulatory classification. Consult experts for correct structuring.'
         },
         {
-            q: 'What are the perks of choosing a Private Limited Company structure?',
-            a: 'Advantages of Private Limited Company: Benefits include limited liability protection, ease of getting capital via shares, constant succession, reliability, and agreement with regulatory norms.',
+            q: 'What happens if NBFC fails post-funding compliance?',
+            a: 'May result in RBI penalties, cancellation of NBFC license, or legal proceedings. Timely filings are critical.'
         },
         {
-            q: 'Can a Private Limited Company change to a Public Limited Company?',
-            a: 'Conversion to Public Limited Company: Yes, a Private Limited Company may change to a Public Limited Company.',
+            q: 'Can Incorvo help with RBI and ROC filings?',
+            a: 'Yes. Incorvo manages the entire process—from initial consultation to post-funding filings and ongoing compliance.'
         },
         {
-            q: 'What is the difference between a Private Limited Company and a Limited Liability Partnership (LLP)?',
-            a: 'Difference from LLP: The basic difference between a Private Limited Company and a Limited liability Partnership (LLP) rests in their structure and responsibility features. A Private Limited Company has owners and limited liability protection, whereas an LLP has partners with limited liability but without shares.',
+            q: 'How do I start the NBFC funding process with Incorvo?',
+            a: 'Contact us for a free assessment, document checklist, and personalized strategy session.'
         },
         {
-            q: 'How can I change the name of my Private Limited Company?',
-            a: 'Changing Company Name: To change the name of a Private Limited Company, you need to follow the way given by the Ministry of Corporate Affairs in India.',
+            q: 'Are NBFC funding transactions confidential?',
+            a: 'Yes. Incorvo maintains strict confidentiality for all client documents and funding transactions.'
         },
         {
-            q: 'What are the penalties for non-compliance with legal duties for Private Limited Companies?',
-            a: 'Penalties for Non-Compliance: Punishments for non-compliance with regulatory requirements for Private Limited Companies might change depending on the individual infringement and may include fines or other legal punishments as per the Companies Act, 2013.',
+            q: 'Does Incorvo support ongoing fundraising and compliance rounds?',
+            a: 'Absolutely! We offer retainer and long-term compliance packages for growing NBFCs.'
         }
-    ],
-}
+    ]
+};
