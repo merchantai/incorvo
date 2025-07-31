@@ -226,10 +226,7 @@ import {
       <h3 class="about-sub-title">Who We Are?</h3>
       <h2 class="about-title">About Incorvo Legal Services</h2>
       <p class="about-text">
-        We are a team of experienced professionals including Chartered Accountants, Company Secretaries, Legal Advisors, and Compliance Experts. Our goal is to make business setup and regulatory processes simple, transparent, and efficient.
-      </p>
-      <p class="about-text">
-        We are a team of experienced professionals including Chartered Accountants, Company Secretaries, Legal Advisors, and Compliance Experts. Our goal is to make business setup and regulatory processes simple, transparent, and efficient.
+        Founded with the vision to simplify business legalities, Incorvo Legal Services was built for entrepreneurs who want to focus on growth—not paperwork. Whether you're launching a startup, scaling operations, or navigating regulatory hurdles, we’re here to guide, protect, and empower.
       </p>
       <div class="about-icon-container">
         <div class="about-icon">
