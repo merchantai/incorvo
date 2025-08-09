@@ -71,6 +71,26 @@ export default [
                         label: 'Digital Signature Certificate',
                         url: '/registrations/Digital-Signature-Certificate',
                     },
+                        {
+                          label: 'SEDEX Registration SMETA Autid',
+                          url: '/registrations/sedex-registration-smeta-autid',
+
+                        },
+                        {
+                          label: 'HCCP',
+                          url: '/registrations/hccp',
+
+                        },
+                        {
+                          label: 'GMP',
+                          url: '/registrations/gmp',
+
+                        },
+                        {
+                          label: 'ISO Lead Auditor Training',
+                          url: '/registrations/iso-lead-auditor-training',
+
+                        },
                 ]
             }
         ]
@@ -193,10 +213,6 @@ export default [
                     {
                         label: 'Annual Filing for LLP',
                         url: '/tax-compliance/Annual-Filing-for-LLP',
-                    },
-                    {
-                        label: 'Nidhi Company Compliance',
-                        url: '/tax-compliance/Nidhi-Company-Compliance',
                     },
                     {
                         label: 'Section 8 Company Compliance',

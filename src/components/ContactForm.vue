@@ -1,6 +1,6 @@
 <template>
   <div class="contact-form-container">
-    <h3 class="contact-title">Expert Consultation</h3>
+    <h3 class="contact-title">{{ props.title }}</h3>
     <form 
       :action="scriptURL"
       method="POST"
@@ -45,6 +45,11 @@
   const phoneNumber = ref('');
   const scriptURL = import.meta.env.VITE_INC_GOOGLE_SHEET_KEY;
   const selectedCountry = ref({});
+
+  const props = defineProps({ title: {
+    default: 'Expert Consultation',
+    type: String
+  }})
 
   function onCountrySelected(country) {
     selectedCountry.value = country;

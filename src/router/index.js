@@ -4,6 +4,7 @@ import PagesView from '@/views/PagesView.vue'
 import AboutUs from '@/views/AboutUs.vue'
 import PrivacyPolicy from '@/views/PrivacyPolicy.vue'
 import DisclaimerPolicy from '@/views/DisclaimerPolicy.vue'
+import ContactUs from '@/views/ContactUs.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -81,6 +82,26 @@ const router = createRouter({
     {
       path: '/registrations/Digital-Signature-Certificate',
       name: 'Digital-Signature-Certificate',
+      component: PagesView,
+    },
+    {
+      path: '/registrations/sedex-registration-smeta-autid',
+      name: 'sedex-registration-smeta-autid',
+      component: PagesView,
+    },
+    {
+      path: '/registrations/hccp',
+      name: 'hccp',
+      component: PagesView,
+    },
+    {
+      path: '/registrations/gmp',
+      name: 'gmp',
+      component: PagesView,
+    },
+    {
+      path: '/registrations/iso-lead-auditor-training',
+      name: 'iso-lead-auditor-training',
       component: PagesView,
     },
     {
@@ -191,11 +212,6 @@ const router = createRouter({
     {
       path: '/tax-compliance/Annual-Filing-for-LLP',
       name: 'Annual-Filing-for-LLP',
-      component: PagesView,
-    },
-    {
-      path: '/tax-compliance/Nidhi-Company-Compliance',
-      name: 'Nidhi-Company-Compliance',
       component: PagesView,
     },
     {
@@ -522,6 +538,11 @@ const router = createRouter({
       path: '/disclaimer-policy',
       name: 'disclaimer-policy',
       component: DisclaimerPolicy,
+    },
+    {
+      path: '/contact-us',
+      name: 'contact-us',
+      component: ContactUs,
     }
   ],
   scrollBehavior() {

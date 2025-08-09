@@ -14,6 +14,7 @@
             <RouterLink to='/about-us' class="link">About Us</RouterLink>
             <RouterLink to='/privacy-policy' class="link">Privacy Ploicy</RouterLink>
             <RouterLink to='/disclaimer-policy' class="link">Disclaimer</RouterLink>
+            <RouterLink to='/contact-us' class="link">Contact Us</RouterLink>
         </div>
         <div class="social-container">
             <a href="https://www.facebook.com/profile.php?id=61577770211178" target="_blank" class="social-link">
